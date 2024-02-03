@@ -33,7 +33,7 @@ while(1):
             print(distressMsg)
             # result["lat"] = "12.923311"
             # result["lon"] = "77.497898"
-            result["distresMessage"] = distressMsg
+            result["distressMessage"] = distressMsg
             childRef = ref.child(str(curTime))
             childRef.set(result)
         # print(data)
