@@ -4,21 +4,21 @@
     <title>Clever Coins</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="landingstyles.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/styles.css') }}" />
   </head>
   <body>
     <header id="header">
       <div class="header-content-div">
-        <a href="#">
+        <a href="./index.html">
           <img
-            src="./images/logocc.jpg"
+            src="./images/logocc.png"
             alt="Company Logo"
             id="header-img"
         /></a>
         <nav id="nav-bar">
           <a href="#about" class="nav-link">About</a>
           <a href="#our-service" class="nav-link">Our services</a>
-          <a href="./signup.html" class="nav-link">Sign in</a>
+          <a href="./signup.html" class="nav-link">Sign up</a>
           <a href="./login.html" class="nav-link">Log in</a>
         </nav>
       </div>
@@ -35,7 +35,7 @@
             Unlock financial freedom with our personalized savings solutions tailored to your goals, to achieve financial milestones         
           </h2>
           <button class="btn" onclick="window.location.href = './signup.html';">
-            Sign in for free
+            Sign up for free
           </button>
         </div>
       </section>
@@ -48,7 +48,7 @@
             </h2>
 
               <button class="btn" onclick="window.location.href = './signup.html';">
-                Sign in for free
+                Sign up for free
               </button>           
           </div>
           <div class="eye-grabber-img">
