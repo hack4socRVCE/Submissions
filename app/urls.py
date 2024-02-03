@@ -7,4 +7,5 @@ urlpatterns = [
     path('upload-pdf', views.upload_pdf, name='upload_pdf'),
     path('paraphrase', views.paraphrase_route, name='paraphrase'),
     path('summarise', views.summarise_route, name='summarise'),
+    path('esign',views.esign,name='esign'),
 ]

@@ -1,0 +1,15 @@
+#signature-pad {
+    border: 2px solid #007bff;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#canvas {
+    background-color: #ffffff;
+}
+
+.btn {
+    margin-top: 10px;
+}

@@ -1,7 +1,7 @@
 import os
 from io import BytesIO
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.views.decorators.csrf import csrf_exempt
 from xhtml2pdf import pisa
 from pdfminer.high_level import extract_text
@@ -14,6 +14,9 @@ load_dotenv()
 
 def index(request):
     return render(request, 'index.html')
+
+def esign(request):
+        return render(request,'esignature.html')
 
 @csrf_exempt
 def generate_pdf(request):
