@@ -65,20 +65,20 @@
       <div class="card-content">
         <!-- <img src="./draw_sign.svg"/> -->
         <img src="{% static '/images/draw_sign.svg' %}">
-        <h2><a href="{% url 'upload_pdf_main' %}">Draw eSign</a></h2>
-        <button class="circle-btn btn">
-          <i class="arrow right"></i>
-        </button>
+        <h2>Draw eSign</h2>
+            <a href="{% url 'upload_pdf_main' %}" class="circle-btn btn" role="button">
+                <i class="arrow right"></i>
+              </a>
       </div>
     </div>
     <div class="card">
       <div class="card-content">
         <!-- <img src="./edit_pdf.svg"/> -->
         <img src="{% static '/images/edit_pdf.svg' %}">
-        <h2><a href="{% url 'index' %}">Magic PDF Generator</a></h2>
-        <button class="circle-btn btn">
-          <i class="arrow right"></i>
-        </button>
+        <h2>Magic PDF Generator</h2>
+        <a href="{% url 'index' %}" class="circle-btn btn" role="button">
+            <i class="arrow right"></i>
+          </a>
       </div>
     </div>
   </div>

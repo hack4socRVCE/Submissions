@@ -41,6 +41,9 @@ def signtype(request):
 def upload_pdf_main(request):
     return render(request,'upload_pdf.html')
 
+def my_drive(request):
+    return render(request,'my_drive.html')
+
 @csrf_exempt
 def generate_pdf(request):
     if request.method == 'POST':
