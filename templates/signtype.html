@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PinacleDocs - Select eSignature Type</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.5/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{% static '/css/styles_signtype.css' %}">
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+  }
+  .navbar .logo {
+    font-size: 24px;
+    background: linear-gradient(to right, #4f4f4f 0%, #1a1a1a 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+  }
+  .navbar .profile-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+  .circle-btn {
+      width: 50px; /* Adjust size as necessary */
+      height: 50px; /* Adjust size as necessary */
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #cccccc; /* Adjust border color as necessary */
+      background-color: white; /* Adjust background color as necessary */
+    }
+    .circle-btn .arrow {
+      border: solid #555; /* Adjust arrow color as necessary */
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+</style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">PiNACLEdocs</div>
+    <div class="profile-picture" style="background-image: url('your-profile-image-url.jpg');"></div>
+  </div>
+<div class="container">
+  <h1>Select eSignature Type</h1>
+  <div class="card-container">
+    <div class="card">
+      <div class="card-content">
+        <!-- <img src="./draw_sign.svg"/> -->
+        <img src="{% static '/images/draw_sign.svg' %}">
+        <h2>Draw eSign</h2>
+        <button class="circle-btn btn">
+          <i class="arrow right"></i>
+        </button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <!-- <img src="./edit_pdf.svg"/> -->
+        <img src="{% static '/images/edit_pdf.svg' %}">
+        <h2>Magic PDF Generator</h2>
+        <button class="circle-btn btn">
+          <i class="arrow right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="{% static '/js/script_signtype' %}"></script>
+</body>
+</html>

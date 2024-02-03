@@ -8,4 +8,10 @@ urlpatterns = [
     path('paraphrase', views.paraphrase_route, name='paraphrase'),
     path('summarise', views.summarise_route, name='summarise'),
     path('esign',views.esign,name='esign'),
+    path('home',views.home,name='home'),
+    path('signtype',views.signtype,name='signtype'),
+    path('login',views.login,name='login'),
+    path('register',views.register,name='register'),
+    path('forgot_password',views.forgot_password,name='forgot_password'),
+    path('upload_pdf',views.upload_pdf,name='upload_pdf'),
 ]
