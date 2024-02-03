@@ -5,25 +5,45 @@ body {
     padding: 0;
 }
 
-#toolbar {
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Shadow effect */
-    z-index: 9999;
+
+#text-modification{
+    top: 50%;
+    left: 10px;
+
 }
+
+#font-modification{
+    top: 50%;
+    right:10px;
+}
+
+#text-modification,
+#font-modification {
+    position: fixed;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+#text-modification button,
+#font-modification button,
+#paraphrase {
+    margin-bottom: 5px;
+}
+
+/* #paraphrase {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+} */
+
 
 #toolbar button {
     background-color: #007bff;
     color: white;
     border: none;
     padding: 8px 12px;
-    margin: 0 5px;
+    margin: 20px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -31,7 +51,6 @@ body {
 
 #toolbar button:hover {
     background-color: #0056b3;
-    /* Darker blue on hover */
 }
 
 #external {
@@ -48,21 +67,38 @@ body {
 #editor,
 #modified {
     border: 1px solid #ced4da;
-    /* Light gray border */
     padding: 10px;
-    max-height: 300px;
+    /* max-height: 300px; */
     overflow: auto;
     margin: 20px;
     border-radius: 5px;
 }
 
-#editor {
-    width: calc(50% - 40px);
-}
+ #editor {
+    position: fixed;
+    bottom: 0;
+    width: calc(90% - 40px);
+    /* width: 210mm; 
+    height: 297mm; 
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: auto; */
+} 
 
 #modified {
-    width: calc(50% - 40px);
-}
+    /* width: calc(90% - 40px); */
+    width: 210mm; 
+    height: 297mm; 
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 20px;
+    overflow: auto;
+} 
 
 button#generatePdfBtn1,
 button#generatePdfBtn2 {
