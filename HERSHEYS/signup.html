@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .signup-container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .signup-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 5px;
+        }
+
+        .form-group button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .form-group button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="signup-container">
+    <h2>Sign Up</h2>
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email">
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <div class="error-message" id="password-error"></div>
+    </div>
+    <div class="form-group">
+        <label for="confirm">Confirm Password:</label>
+        <input type="password" id="confirm" placeholder="Confirm password">
+        <div class="error-message" id="confirm-error"></div>
+    </div>
+    <div class="form-group">
+        <button onclick="signup()">Sign Up</button>
+    </div>
+</div>
+
+<script>
+    function signup() {
+        var username = document.getElementById('username').value;
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+        var confirm = document.getElementById('confirm').value;
+
+        // Password validation
+        var passwordError = document.getElementById('password-error');
+        var confirmError = document.getElementById('confirm-error');
+
+        passwordError.innerHTML = '';
+        confirmError.innerHTML = '';
+
+        if (password.length < 8) {
+            passwordError.innerHTML = 'Password must be at least 8 characters long.';
+        }
+
+        if (!/[A-Z]/.test(password)) {
+            passwordError.innerHTML += '<br>Password must contain at least one uppercase letter.';
+        }
+
+        if (!/[!@#$%^&*(),.?":{}|<>_-]/.test(password)) {
+            passwordError.innerHTML += '<br>Password must contain at least one special character.';
+        }
+
+        if (password !== confirm) {
+            confirmError.innerHTML = 'Passwords do not match.';
+        }
+
+        if (passwordError.innerHTML !== '' || confirmError.innerHTML !== '') {
+            return; // Do not proceed with signup if there are errors.
+        }
+
+        // Perform signup logic here (e.g., send data to server, etc.)
+
+        alert('Sign up successful!\nUsername: ' + username + '\nEmail: ' + email);
+    }
+</script>
+
+</body>
+</html>
