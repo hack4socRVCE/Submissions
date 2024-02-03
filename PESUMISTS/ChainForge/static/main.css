@@ -2,13 +2,13 @@
   font-weight: 500;
 }
 
-.content-section {
+/* .content-section {
   background: #ffffff;
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 20px;
-}
+} */
 
 .article-title {
   color: #444444;
@@ -65,7 +65,7 @@ body {
   /* background-color: #343a40; */
   background-color: #161618;
   /* Dark gray background color */
-  color: #ffffff;
+  /* color: #ffffff; */
   margin-top: 60px;
   /* White text color */
 }

@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../static/main.css" />
+  <!-- <link rel="stylesheet" href="../static/main.css" /> -->
   <!-- Custom CSS -->
   <style>
     body {
@@ -16,8 +16,34 @@
       background-color: #161618;
       /* Dark gray background color */
       color: #ffffff;
-      margin-top: 60px;
+      margin-top: 10px;
+      /* margin-bottom: 10px; */
       /* White text color */
+    }
+
+    .rhs img {
+      transition: transform 0.5s ease-in-out;
+      /* Add transition property */
+    }
+
+    .rhs img:hover {
+      transform: scale(1.1);
+      /* Add scale transform on hover */
+    }
+
+    .navbar.scrolled {
+      background-color: rgba(0, 0, 0, 1) !important;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .navbar.scrolled a.nav-link {
+      color: white !important;
+      opacity: 0.7;
+    }
+
+    .navbar.scrolled .navbar-brand {
+      color: white !important;
+      opacity: 0.9;
     }
 
     .card {
@@ -30,6 +56,7 @@
       transition: all .2s ease-in-out;
       border-radius: 10px;
       color: #8D79F3;
+      height: 100%;
       /* White border for cards */
     }
 
@@ -41,14 +68,13 @@
       color: white;
     }
 
-
-
-
-
     .card-body {
       display: flex;
       gap: 10px;
-      justify-content: space-around;
+      /* justify-content: space-around; */
+      flex-direction: column;
+      justify-content: center;
+      height: 100%;
     }
 
     .card-body img {
@@ -59,7 +85,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin: 10em auto 10em auto;
+      margin: auto;
       padding: 5em 0 5em 0;
       width: 90%
         /* Added margin for the Lorem ipsum text */
@@ -85,6 +111,12 @@
       text-align: center;
     }
 
+    .card-title {
+      margin-top: 10px;
+      /* Adjust spacing as needed */
+      margin-bottom: 0;
+      /* Remove default margin */
+    }
 
     .login-btn {
       border-radius: 10px;
@@ -143,7 +175,7 @@
   <header class="site-header">
     <nav class="navbar navbar-expand-md  fixed-top">
       <div class="container">
-        <a class="navbar-brand mr-4" href="/">ChainForge</a>
+        <b><a class="navbar-brand mr-4" href="/" style="font-size: 2rem;">ChainForge</a></b>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
           aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -172,97 +204,106 @@
         </div>
       </div>
     </nav>
-  </header>
 
-  <div class="landing-container">
-    <div class="lhs">
-      <h2>Some title here Some longer title here</h2>
-      <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vitae quo adipisci reprehenderit. Recusandae,
-        amet. Nemo perspiciatis libero dolores in </h5>
+    <div class="landing-container">
+      <div class="lhs">
+        <h2>Team Pesumist</h2>
+        <p>A vibrant platform dedicated to showcasing the creativity and talent of artistic individuals from around the
+          world. Our project serves as a dynamic hub where creators of all kinds come together to share their unique
+          visions and inspire others.</p>
+      </div>
+      <div class="rhs">
+        <img src="../static/rhsimg.avif" width="65%" />
+      </div>
     </div>
-    <div class="rhs">
-      <img src="../static/rhsimg.avif" width="65%" />
-    </div>
-  </div>
 
 
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <img src="../static/chart-histogram.svg" height="20px" />
-                <h5 class="card-title">Visibility of professional opportunities</h5>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="../static/chart-histogram.svg" height="20px" />
+                  <h5 class="card-title">Visibility of professional opportunities</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4 mb-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <img src="../static/chart-histogram.svg" height="20px" />
-                <h5 class="card-title">Upskilling and gaining credibility</h5>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="../static/chart-histogram.svg" height="20px" />
+                  <h5 class="card-title">Upskilling and gaining credibility</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4 mb-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <img src="../static/chart-histogram.svg" height="20px" />
-                <h5 class="card-title">Networking</h5>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="../static/chart-histogram.svg" height="20px" />
+                  <h5 class="card-title">Networking</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4 mb-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <img src="../static/chart-histogram.svg" height="20px" />
-                <h5 class="card-title">Portfolio management</h5>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="../static/chart-histogram.svg" height="20px" />
+                  <h5 class="card-title">Portfolio management</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4 mb-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <img src="../static/chart-histogram.svg" height="20px" />
-                <h5 class="card-title">Copyright infringement</h5>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="../static/chart-histogram.svg" height="20px" />
+                  <h5 class="card-title">Copyright infringement prevention</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4 mb-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <img src="../static/chart-histogram.svg" height="20px" />
-                <h5 class="card-title">Repudiation of Orders</h5>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="../static/chart-histogram.svg" height="20px" />
+                  <h5 class="card-title">Non-Repudiation of Orders</h5>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-md-4 mb-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <img src="../static/chart-histogram.svg" height="20px" />
-                <h5 class="card-title">Payment Fraud</h5>
+            <div class="col-md-4 mb-4">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img src="../static/chart-histogram.svg" height="20px" />
+                  <h5 class="card-title">Avoidance of payment Fraud</h5>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+      // JavaScript to add transparent class to navbar when scrolled
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+          $('.navbar').addClass('scrolled');
+        } else {
+          $('.navbar').removeClass('scrolled');
+        }
+      });
+    </script>
 </body>
 
 </html>

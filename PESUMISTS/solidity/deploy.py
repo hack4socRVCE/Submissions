@@ -1,11 +1,11 @@
 from web3 import Web3
 
-w3 = Web3(Web3.HTTPProvider("http://172.16.64.202:7545"))
+w3 = Web3(Web3.HTTPProvider("HTTP://localhost:7545"))
 assert True is w3.is_connected()
 # Load the contract bytecode and ABI from files
-with open("../Chainforge/cbi.bin", "r") as f:
+with open("../ChainForge/cbi.bin", "r") as f:
     bytecode = f.read()
-with open("../Chainforge/contract.abi", "r") as f:
+with open("../ChainForge/contract.abi", "r") as f:
     abi = f.read()
 
 

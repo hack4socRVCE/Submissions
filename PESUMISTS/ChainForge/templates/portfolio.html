@@ -1,128 +1,119 @@
-{%extends "layout.html" %}
+{% extends "layout.html" %}
 {% block content %}
 <div class="content-section">
-	<h1 class = "border-bottom mb-4">Portfolio</h1>
+    <h1 class="border-bottom mb-4">Portfolio</h1>
 
-	<!-- Button trigger modal -->
-	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-	  Add Project
-	</button>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Add Project
+    </button>
 
-	<!-- Modal -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	  <div class="modal-dialog" role="document">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h5 class="modal-title" id="exampleModalLabel">Add Project</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body">
-	        <form method="POST" action="" enctype="multipart/form-data">
-            {{ form.hidden_tag() }}
-            <fieldset class="form-group">
-                <legend class="border-bottom mb-4">Add Art</legend>
-                <div class="form-group">
-                    {{ form.title.label(class="form-control-label") }}
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Project</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form method="POST" action="" enctype="multipart/form-data">
+                        {{ form.hidden_tag() }}
+                        <fieldset class="form-group">
+                            <legend class="border-bottom mb-4">Add Art</legend>
+                            <div class="form-group">
+                                {{ form.title.label(class="form-control-label") }}
 
-                    {% if form.title.errors %}
-                        {{ form.title(class="form-control form-control-lg is-invalid") }}
-                        <div class="invalid-feedback">
-                            {% for error in form.title.errors %}
-                                <span>{{ error }}</span>
-                            {% endfor %}
+                                {% if form.title.errors %}
+                                {{ form.title(class="form-control form-control-lg is-invalid") }}
+                                <div class="invalid-feedback">
+                                    {% for error in form.title.errors %}
+                                    <span>{{ error }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% else %}
+                                {{ form.title(class="form-control form-control-lg") }}
+                                {% endif %}
+                            </div>
+
+                            <div class="form-group">
+                                {{ form.description.label(class="form-control-label") }}
+                                {% if form.description.errors %}
+                                {{ form.description(class="form-control form-control-lg is-invalid") }}
+                                <div class="invalid-feedback">
+                                    {% for error in form.description.errors %}
+                                    <span>{{ error }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% else %}
+                                {{ form.description(class="form-control form-control-lg") }}
+                                {% endif %}
+                            </div>
+
+                            <div class="form-group">
+                                {{ form.price.label(class="form-control-label") }}
+
+                                {% if form.price.errors %}
+                                {{ form.price(class="form-control form-control-lg is-invalid") }}
+                                <div class="invalid-feedback">
+                                    {% for error in form.price.errors %}
+                                    <span>{{ error }}</span>
+                                    {% endfor %}
+                                </div>
+                                {% else %}
+                                {{ form.price(class="form-control form-control-lg") }}
+                                {% endif %}
+                            </div>
+
+                            <div class="form-group">
+                                {{ form.image.label() }}
+                                {{ form.image(class="form-control-file") }}
+                                {% if form.image.errors %}
+                                {% for error in form.image.errors %}
+                                <span class="text-danger">{{ error }}</span><br>
+                                {% endfor %}
+                                {% endif %}
+                            </div>
+                        </fieldset>
+                        <div class="form-group">
+                            {{ form.submit(class="btn btn-outline-info") }}
                         </div>
-                    {% else %}
-                        {{ form.title(class="form-control form-control-lg") }}
-                    {% endif %}
+                    </form>
                 </div>
-
-                <div class="form-group">
-                    {{ form.description.label(class="form-control-label") }}
-                    {% if form.description.errors %}
-                        {{ form.description(class="form-control form-control-lg is-invalid") }}
-                        <div class="invalid-feedback">
-                            {% for error in form.description.errors %}
-                                <span>{{ error }}</span>
-                            {% endfor %}
-                        </div>
-                    {% else %}
-                        {{ form.description(class="form-control form-control-lg") }}
-                    {% endif %}
-                </div>
-
-         		<div class="form-group">
-                    {{ form.price.label(class="form-control-label") }}
-
-                    {% if form.price.errors %}
-                        {{ form.price(class="form-control form-control-lg is-invalid") }}
-                        <div class="invalid-feedback">
-                            {% for error in form.price.errors %}
-                                <span>{{ error }}</span>
-                            {% endfor %}
-                        </div>
-                    {% else %}
-                        {{ form.price(class="form-control form-control-lg") }}
-                    {% endif %}
-                </div>
-                
-                <div class="form-group">
-                    {{ form.image.label() }}
-                    {{ form.image(class="form-control-file") }}
-                    {% if form.image.errors %}
-                        {% for error in form.image.errors %}
-                            <span class="text-danger">{{ error }}</span></br>
-                        {% endfor %}
-                    {% endif %}
-                </div>
-            </fieldset>
-            <div class="form-group">
-                {{ form.submit(class="btn btn-outline-info") }}
             </div>
-        </form>
-	      </div>
-	    </div>
-	  </div>
-	</div>
+        </div>
+    </div>
+    <!-- End of Modal -->
 
+    <br><br>
 
-	<!-- End of Modal -->
-	<br>
-	<br>
-	<!-- CARD -->
-
-
-		<div class="card-group">
-			{% for i in range(data.count()) %}
-			<div class="card col-md-4" >
-			<img class="card-img-top" src={{url_for("static", filename='profile_pics/' + data[i].image_file)}} alt="Card image cap">
-	    	<div class="card-body">
-	     	<h5 class="card-title">{{data[i].title}}</h5>
-	     	<p class="card-text">{{data[i].description}}</p>
-      		<p class="card-text"><large class="text-muted">Price: {{data[i].price}}</large></p>
-            <p class="card-text">Id:{{data[i].id}}</p>
-      		<form method = "post">
-      					{% if data[i].market == False %}
-      					<button type="submit" class="btn btn-sm btn-primary" name = "Update" value = "Update">Sell</button>
-                        <button type="submit" class="btn btn-sm btn-danger edit_del" name = "delete" value = "delete">Delete</button>
+    <!-- CARD -->
+    <div class="row">
+        {% for i in range(data.count()) %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="{{ url_for('static', filename='profile_pics/' + data[i].image_file) }}"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title text-truncate" title="{{ data[i].title }}">{{ data[i].title }}</h5>
+                    <p class="card-text text-truncate" title="{{ data[i].description }}">{{ data[i].description }}</p>
+                    <p class="card-text">Id: {{ data[i].id }}</p>
+                    <p class="card-text"><large class="text-muted">Price: {{ data[i].price }}</large></p>
+                    <form method="post">
+                        {% if data[i].market == False %}
+                        <button type="submit" class="btn btn-sm btn-primary" name="Update" value="Update">Sell</button>
+                        <button type="submit" class="btn btn-sm btn-danger edit_del" name="delete" value="delete">Delete</button>
                         {% endif %}
-
-
-                        <input type = "text" name = "id" style = "display:none" value = {{data[i].id}}></input>
-                        
-            </form>
-	    	</div>
-	    
-	  		</div>
-	  
-			{% endfor %}
-		</div>
-		<br>
-
-	<!-- card ends -->
-
-
+                        <input type="text" name="id" style="display:none" value="{{ data[i].id }}">
+                    </form>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- card ends -->
 </div>
-
-{% endblock content %} 
+{% endblock content %}

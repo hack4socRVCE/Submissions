@@ -1,12 +1,10 @@
 {%extends "layout.html" %}
 {% block content %}
-<div class="content-section">
-	<h1 class = "border-bottom mb-4">MarketPlace</h1>
+<div class="content-section" style="margin-top: 20px;">
     
     <form method="POST" action="" enctype="multipart/form-data">
         {{ form.hidden_tag() }}
         <fieldset class="form-group">
-            <legend class="border-bottom mb-4">Add Art</legend>
             <div class="form-group">
                 {{ form.your_id.label(class="form-control-label") }}
 
