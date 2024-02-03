@@ -1,0 +1,51 @@
+{% if message %}
+<script>
+    alert('{{ message }}');
+</script>
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url(https://i.postimg.cc/HncjVzCg/istockphoto-1444128859-1024x1024.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="/postsignIn/" method="post">
+            {% csrf_token %}
+            <br />
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="Email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" class="form-control" id="Password" name="pass">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="RememberMe" name="remember" checked>
+                <label class="form-check-label" for="RememberMe">Remember me</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign In</button>
+            <button type="button" class="btn btn-secondary" onclick="location.href='{% url 'signup' %} '">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

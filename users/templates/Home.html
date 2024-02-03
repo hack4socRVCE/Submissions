@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <style>
+        body {
+            background-image: url(https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+        }
+
+        div {
+            position: absolute;
+            right: 10px;
+            top: 5px;
+        }
+
+        p {
+            font-size: 32px;
+        }
+
+        button {
+            background-color: rgba(7, 179, 185, 0.753);
+            color: white;
+            width: 70px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <br><br>
+    <div>
+        <button type="button" onclick="location.href='{% url 'log' %}' ">Logout</button>
+    </div>
+</body>
+
+</html>

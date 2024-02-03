@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -129,3 +130,21 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),)
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Firebase configuration
+# apiKey: "AIzaSyCr5s2hbPkb6drs4gBihDAgAibxHeSEF1U",
+# authDomain: "rvce-hack.firebaseapp.com",
+# projectId: "rvce-hack",
+# storageBucket: "rvce-hack.appspot.com",
+# messagingSenderId: "247944238127",
+# appId: "1:247944238127:web:7dc86a2f49a11a526862da"
+FIREBASE_CONFIG = {
+    'apiKey': "AIzaSyCr5s2hbPkb6drs4gBihDAgAibxHeSEF1U",
+    'authDomain': "rvce-hack.firebaseapp.com",
+    'databaseURL': "https://rvce_hack.firebaseio.com",
+    'projectId': "rvce-hack",
+    'storageBucket': "rvce-hack.appspot.com",
+    'messagingSenderId': "247944238127",
+    'appId': "1:247944238127:web:7dc86a2f49a11a526862da",
+}
