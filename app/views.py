@@ -38,7 +38,7 @@ def forgot_password(request):
 def signtype(request):
     return render(request,'signtype.html')
 
-def upload_pdf(request):
+def upload_pdf_main(request):
     return render(request,'upload_pdf.html')
 
 @csrf_exempt

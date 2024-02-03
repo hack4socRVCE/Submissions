@@ -205,7 +205,7 @@
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="auth-login-basic.html">
+                      <a class="dropdown-item" href="{% url 'login' %}">
                         <i class="bx bx-power-off me-2"></i>
                         <span class="align-middle">Log Out</span>
                       </a>
@@ -239,7 +239,7 @@
                               />
                             </div>
                           </div>
-                          <span class="fw-semibold d-block mb-1">E-Sign</span>
+                          <span class="fw-semibold d-block mb-1"><a href="{% url 'signtype' %}">E-Sign</a></span>
                         </div>
                       </div>
                     </div>
