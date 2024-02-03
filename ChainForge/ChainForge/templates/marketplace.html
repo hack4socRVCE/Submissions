@@ -1,0 +1,37 @@
+{%extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+	<h1 class = "border-bottom mb-4">MarketPlace</h1>
+
+	<!-- CARD -->
+
+
+		<div class="card-group">
+			{% for i in range(data.count()) %}
+			<div class="card col-md-4" >
+			<img class="card-img-top" src={{url_for("static", filename='profile_pics/' + data[i].image_file)}} alt="Card image cap">
+	    	<div class="card-body">
+	     	<h5 class="card-title">{{data[i].title}}</h5>
+	     	<p class="card-text">{{data[i].description}}</p>
+			<p class="card-text">Id:{{data[i].id}}</p>
+      		<p class="card-text"><large class="text-muted">Price: {{data[i].price}}</large></p>
+            <form method = "post">
+                        <button type="submit" class="btn btn-lg btn-primary" name = "Update" value = "Update">Buy</button>
+                        <input type = "text" name = "id" style = "display:none" value = {{data[i].id}}></input>
+                        
+            </form>
+
+	    	</div>
+	    
+	  		</div>
+	  
+			{% endfor %}
+		</div>
+		<br>
+
+	<!-- card ends -->
+
+
+</div>
+
+{% endblock content %} 

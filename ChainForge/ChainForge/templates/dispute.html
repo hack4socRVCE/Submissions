@@ -1,0 +1,47 @@
+{%extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+	<h1 class = "border-bottom mb-4">MarketPlace</h1>
+    
+    <form method="POST" action="" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Add Art</legend>
+            <div class="form-group">
+                {{ form.your_id.label(class="form-control-label") }}
+
+                {% if form.your_id.errors %}
+                    {{ form.your_id(class="form-control form-control-lg is-invalid") }}
+                    <div class="invalid-feedback">
+                        {% for error in form.your_id.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    {{ form.your_id(class="form-control form-control-lg") }}
+                {% endif %}
+            </div>
+
+            <div class="form-group">
+                {{ form.their_id.label(class="form-control-label") }}
+                {% if form.their_id.errors %}
+                    {{ form.their_id(class="form-control form-control-lg is-invalid") }}
+                    <div class="invalid-feedback">
+                        {% for error in form.their_id.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    {{ form.their_id(class="form-control form-control-lg") }}
+                {% endif %}
+            </div>
+
+        </fieldset>
+        <div class="form-group">
+            {{ form.submit(class="btn btn-outline-info") }}
+        </div>
+    </form>
+
+</div>
+
+{% endblock content %} 
