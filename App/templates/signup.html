@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration Form</title>
-  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/signup.css') }}">
+  
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <script defer src="signup.js"></script>
 </head>
@@ -110,7 +111,7 @@
   
       if (isValid) {
           // Redirect to Dashboard.html
-          window.location.href = "Dashboard.html";
+          window.location.href = "templates/Dashboard.html";
       }
   });
   </script>

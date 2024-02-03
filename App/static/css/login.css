@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('images/loginbg2.png') no-repeat center center fixed;
+  background: url('/static/images/loginbg2.png') no-repeat center center fixed;
   background-size: cover;
 }
 .wrapper {

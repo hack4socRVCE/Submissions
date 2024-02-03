@@ -8,6 +8,8 @@ import fetchloans
 import fetchstocks
 
 app = Flask(__name__)
+
+
 #---------financial data-------------
 
 @app.route('/addIncome')
