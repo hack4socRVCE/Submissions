@@ -21,49 +21,36 @@ def generate_pdf(request):
         try:
             json_data = json.loads(request.body.decode('utf-8'))
             html_content = json_data.get('html_content')
-            pdf_data = open('generated.pdf','w+b')
-            pisa.CreatePDF(html_content,dest=pdf_data)
-            pdf_data.close()
-            response=None
-            with open('generated.pdf', 'rb') as pdf:
-                response = make_response(pdf.read())
-                response.headers['Content-Disposition'] = 'inline; filename=output.pdf'
-                response.headers['Content-Type'] = 'application/pdf'
-            os.remove('generated.pdf')
+            pdf_file = BytesIO()
+            pisa.CreatePDF(BytesIO(html_content.encode('utf-8')), dest=pdf_file)
+            pdf_data = pdf_file.getvalue()
+            pdf_file.close()
+            
+            response = HttpResponse(pdf_data, content_type='application/pdf')
+            response['Content-Disposition'] = 'inline; filename=output.pdf'
             return response
         except Exception as e:
             return HttpResponse(str(e), status=500)
     else:
         return HttpResponse("Method not allowed", status=405)
 
-def generate_pdf_from_html(html_content):
-    pdf_file = BytesIO()
-    pisa.CreatePDF(BytesIO(html_content.encode('utf-8')), dest=pdf_file)
-    pdf_data = pdf_file.getvalue()
-    pdf_file.close()
-    return pdf_data
-
 @csrf_exempt
 def upload_pdf(request):
     if request.method == 'POST':
         try:
             pdf_file = request.FILES['pdf']
-            text = extract_text_from_pdf(pdf_file)
+            filename = secure_filename(pdf_file.name)
+            pdf_path = os.path.join('temp', filename)
+            with open(pdf_path, 'wb') as destination:
+                for chunk in pdf_file.chunks():
+                    destination.write(chunk)
+            text = extract_text(pdf_path)
+            os.remove(pdf_path)
             return HttpResponse(text)
         except Exception as e:
             return HttpResponse(str(e), status=500)
     else:
         return HttpResponse("Method not allowed", status=405)
-
-def extract_text_from_pdf(pdf_file):
-    filename = secure_filename(pdf_file.name)
-    pdf_path = os.path.join('temp', filename)
-    with open(pdf_path, 'wb') as destination:
-        for chunk in pdf_file.chunks():
-            destination.write(chunk)
-    text = extract_text(pdf_path)
-    os.remove(pdf_path)
-    return text
 
 @csrf_exempt
 def paraphrase_route(request):
