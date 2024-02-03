@@ -114,10 +114,10 @@ if content_loaded:
                 real_prob = real_prob
                 fake_prob = 1 - real_prob
 
-                real_accuracy = f"This is a Real Human Face ({model_name})"
+                real_accuracy = f"This is a Real Image ({model_name})"
                 real_probability = real_prob
 
-                fake_accuracy = f"This is an AI Generated Face ({model_name})"
+                fake_accuracy = f"This is an AI Generated Image ({model_name})"
                 fake_probability = fake_prob
 
                 if real_probability > 0.73:
