@@ -1,0 +1,88 @@
+body {
+    background-color: #2D3250;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#toolbar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+    z-index: 9999;
+}
+
+#toolbar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#toolbar button:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
+
+#external {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+#external input[type="file"] {
+    margin-right: 10px;
+}
+
+#editor,
+#modified {
+    border: 1px solid #ced4da;
+    /* Light gray border */
+    padding: 10px;
+    max-height: 300px;
+    overflow: auto;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#editor {
+    width: calc(50% - 40px);
+}
+
+#modified {
+    width: calc(50% - 40px);
+}
+
+button#generatePdfBtn1,
+button#generatePdfBtn2 {
+    background-color: #28a745;
+    /* Green button */
+}
+
+button#generatePdfBtn1:hover,
+button#generatePdfBtn2:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: #000;
+    margin: 40px auto;
+}
+
+.modify-pdf {
+    align-content: center;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Editor</title>
+  <link rel="stylesheet" href="static/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- <div id="toolbar">
+    <button onclick="toggleBold()" id="boldButton">Bold</button>
+    <button onclick="toggleItalic()" id="italicButton">Italic</button>
+    <button onclick="toggleUnderline()" id="underlineButton">Underline</button>
+    <button onclick="increaseFontSize()" id="increaseButton">Increase Font Size</button>
+    <button onclick="decreaseFontSize()" id="decreaseButton">Decrease Font Size</button>
+    <button onclick="centerText()" id="centerButton">Center</button>
+    <button id="paraphrase">Paraphrase</button>
+  </div>
+   -->
+  <div id="external" class="row justify-content-center">
+    <div class="col-auto">
+      <div class="input-group mb-3">
+        <input type="file" class="form-control" id="pdfInput">
+        <!-- <label class="input-group-text" for="inputGroupFile02">Upload</label> -->
+        <button id="uploadPdf" class="input-group-text" for="inputGroupFile02">PDF to Text</button><br/>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+      <div id="editor" contenteditable="true"></div>
+  </div>
+  <br/>
+  <div class="container" style="padding-bottom: 20px;">
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <button onclick="toggleBold()" class="btn btn-primary">Bold</button>
+        <button onclick="toggleItalic()" class="btn btn-primary">Italic</button>
+        <button onclick="toggleUnderline()" class="btn btn-primary">Underline</button>
+        <button onclick="increaseFontSize()" class="btn btn-primary">Increase Font Size</button>
+        <button onclick="decreaseFontSize()" class="btn btn-primary">Decrease Font Size</button>
+        <button onclick="centerText()" class="btn btn-primary">Center</button>
+        <button id="paraphrase" class="btn btn-primary">Paraphrase</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <button id="generatePdfBtn1" class="btn btn-primary">Save as PDF</button>
+      <button onclick="copyBelow()" class="btn btn-primary">Copy to Below</button>
+      <button onclick="summarise()" class="btn btn-primary">Summarise the Document</button>
+    </div>
+  </div>
+  <hr size="5" color="black">
+  
+  <div class="row justify-content-center">
+    <div id="modified" contenteditable="true"></div>
+  </div>
+  <br/>
+
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <button class="btn btn-primary" id="generatePdfBtn2">Save as PDF</button>
+    </div>
+  </div>
+  
+  <script src="static/scripts.js"></script>
+</body>
+</html>
