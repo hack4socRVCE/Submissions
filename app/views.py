@@ -38,7 +38,7 @@ def generate_pdf(request):
         return HttpResponse("Method not allowed", status=405)
 
 @csrf_exempt
-def upload_pdf(request):
+def upload_pdf_main(request):
     if request.method == 'POST':
         try:
             pdf_file = request.FILES['pdf']
