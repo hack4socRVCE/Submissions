@@ -2,6 +2,9 @@ import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
+import random
+import time
+import subprocess
 
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 import google.generativeai as genai
@@ -17,18 +20,12 @@ load_dotenv()
 
 genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
 
-'''def get_pdf_text(pdf_docs):
+def get_text():
     text = ""
-    for pdf in pdf_docs:
-        pdf_reader = PdfReader(pdf)
-        for page in pdf_reader.pages:
-            text+=page.extract_text()
-    return text'''
-
-def text_extract(link):
-     transcript_text = link.read().decode("utf-8")
-     return  transcript_text
-        
+    file_path = "Transcript.txt"
+    with open(file_path, 'r') as file:
+        text = file.read()
+    return text
 
 def get_text_chunks(text):
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=1000)
@@ -42,14 +39,15 @@ def get_vector_store(text_chunks):
 
 def get_conversational_chain():
     prompt_template = """
-    Answer the question as detailed as possible from the provided context, make sure to provide all the details, if the answer is not in
-    provided context just say, "answer is not available in the context", don't provide the wrong answer\n\n
+    Analyze the conversation thoroughly, considering each participant's input, and provide a comprehensive response. If specific details are not available, indicate "Information not found in the context." Avoid guessing or providing inaccurate information. If the required details are not in the meeting context, you may search the internet for factual information.\n\n
+
     Context:\n {context}?\n
     Question: \n{question}\n
 
-    Answer:
+    Detailed Answer:
     """
-    model  = ChatGoogleGenerativeAI(model = "gemini-pro", temperature = 0.3)
+
+    model  = ChatGoogleGenerativeAI(model = "gemini-pro", temperature = 0.6)
     prompt = PromptTemplate(template = prompt_template, input_variables = ["context", "question"])
     chain  = load_qa_chain(model, chain_type = "stuff", prompt = prompt)
     return chain
@@ -69,24 +67,50 @@ def user_input(user_question):
     print(response)
     st.write("Reply: ", response["output_text"])
 
-def main():
-    st.set_page_config("PDFCHAT")
-    st.header("Chat with PDF using Gemini💁")
+def get_ques(question):
+    embeddings   = GoogleGenerativeAIEmbeddings(model = "models/embedding-001")
 
-    user_question = st.text_input("Ask a Question from the PDF Files")
+    new_db = FAISS.load_local("faiss_index", embeddings)
+    docs   = new_db.similarity_search(question)
+
+    chain  = get_conversational_chain()
+
+    response = chain(
+        {"input_documents":docs, "question": question}
+        , return_only_outputs=True)
+    
+    print(response)
+    return response
+
+@st.cache_data
+def get_sidebar_text():
+    response = get_ques("what are the top 5 questions that can be asked for the meeting")
+    return response["output_text"]
+
+def gpt_pop_up():
+    subprocess.Popen(["streamlit", "run", "query.py"])
+
+def main():
+    st.set_page_config("MEETBOT")
+    st.header("MeetBot - A Solution to ask your questions regarding a Meeting🤖")
+
+    user_question = st.text_input("Ask a Question from the Transcript Files")
 
     if user_question:
         user_input(user_question)
 
     with st.sidebar:
-        st.title("Menu:")
-        pdf_docs = st.file_uploader("Upload your PDF Files and Click on the Submit & Process Button", accept_multiple_files=True)
+        st.title("Menu : ")
         if st.button("Submit & Process"):
             with st.spinner("Processing..."):
-                raw_text    = text_extract(pdf_docs)
+                raw_text    = get_text()
                 text_chunks = get_text_chunks(raw_text)
                 get_vector_store(text_chunks)
-                st.success("Done")
-
+                sidebar_text = get_sidebar_text()
+                st.sidebar.text(sidebar_text)
+        sidebar_text = get_sidebar_text()
+        st.sidebar.text(sidebar_text)
+        if st.button("Ask your questions here"):
+            gpt_pop_up()
 if __name__ == "__main__":
     main()
