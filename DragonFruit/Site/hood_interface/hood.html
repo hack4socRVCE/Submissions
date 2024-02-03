@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hood_css.css">
+  <title>HoodPhNumandAmount Page</title>
+</head>
+<body>
+  <h1 class="custom-logo">XX App</h1>
+  <div class="custom-container" id="custom-container">
+    <label class="custom-label">
+      Phone Number:
+      <input
+        type="text"
+        placeholder="Phone number"
+        value=""
+        id="phoneNumberInput"
+        class="custom-input"
+      />
+    </label>
+    <label class="custom-label">
+      Amount:
+      <input
+        type="text"
+        placeholder="Amount"
+        value=""
+        id="amountInput"
+        class="custom-input"
+      />
+    </label>
+    <button onclick="handleauth()" class="custom-button">Authenticate</button>
+    
+    <p id="errorMessage" class="custom-error-message"></p>
+  </div>
+  <script src="hood_java.js"></script>
+</body>
+</html>
