@@ -9,7 +9,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<style type="text/css">
+<!-- <style type="text/css">
   .btn-circle.btn-xl {
     width: 50px !important;
     height: 50px !important;
@@ -18,7 +18,7 @@
     font-size: 15px !important;
     text-align: center !important;
   }
-</style>
+</style> -->
 </head>
 <body>
   <nav class="navbar navbar-expand-custom navbar-mainbg">
@@ -30,7 +30,7 @@
         <ul class="navbar-nav ml-auto">
             <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
             <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Profil</a>
+                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Profile</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Edit PDF</a>
@@ -59,7 +59,9 @@
       <div class="input-group mb-3">
         <input type="file" class="form-control" id="pdfInput">
         <!-- <label class="input-group-text" for="inputGroupFile02">Upload</label> -->
-        <button id="uploadPdf" class="input-group-text" for="inputGroupFile02">PDF to Text</button><br/>
+        <button id="uploadPdf" class="input-group-text" for="inputGroupFile02">PDF to Text</button>
+        <a href="{% url 'esign' %}" class="input-group-text" for="inputGroupFile02">Add E-Signature to this PDF</a>
+        <br/>
       </div>
     </div>
   </div>
