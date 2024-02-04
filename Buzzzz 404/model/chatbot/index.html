@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="show-chatbot">
+    <button class="chatbot-toggler">
+      <span class="material-symbols-outlined">mode_comment</span>
+      <span class="material-symbols-outlined">X</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>ChatBot</h2>
+        <span class="material-symbols-outlined">X</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>Hi there <br />How can I help you today?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea
+          id="chat-input-textarea"
+          placeholder="Enter a message..."
+          required
+        ></textarea>
+        <span id="send-btn" class="material-symbols-outlined">Send</span>
+      </div>
+    </div>
+  </body>
+</html>
