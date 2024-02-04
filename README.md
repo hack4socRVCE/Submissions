@@ -57,8 +57,7 @@ streamlit run app_work.py
 
 ## Architecture
 
-![alt text](<WhatsApp Image 2024-02-04 at 03.00.59_112657c9.jpg>)
+
 
 ## Sample Output
 
-![alt text](<WhatsApp Image 2024-02-04 at 10.33.34_3aa0f79c.jpg>)
