@@ -58,25 +58,34 @@
     <div class="logo">PiNACLEdocs</div>
     <div class="profile-picture" style="background-image: url('your-profile-image-url.jpg');"></div>
   </div>
-<div class="container">
+<div class="container" style="margin: 20px; padding: 20px;">
   <h1>Upload Your PDF here .. </h1>
   <div class="card-container">
-    <div class="card">
-      <div class="card-content">
-        <!-- <img src="./doc.svg"/> -->
+    <div class="card" style="margin: 10px; padding: 10px;">
+      <div class="card-content" style="margin: 10px; padding: 10px;">
         <img src="{% static '/images/doc.svg' %}" alt="">
       </div>
       <form id="fileUploadForm" method="post" action="{% url 'file_upload' %}" enctype="multipart/form-data">
         {% csrf_token %}
-        <input type="file" name="file" id="fileInput">
-        <button class="circle-btn btn" type="submit">
+        <div class="form-group" style="margin: 10px; padding: 10px;">
+          <label for="fileInput">Select PDF File</label>
+          <input type="file" name="file" id="fileInput" required>
+        </div>
+        <div class="form-group" style="margin: 10px; padding: 10px;">
+          <label for="clientName">Client Name</label>
+          <input type="text" name="clientName" id="clientName" required>
+        </div>
+        <div class="form-group" style="margin: 10px; padding: 10px;"></div>
+          <label for="clientEmail">Client Email</label>
+          <input type="email" name="clientEmail" id="clientEmail" required>
+        </div>
+        <button class="circle-btn btn" type="submit" style="margin: 10px; padding: 10px;"></button>
           <i class="arrow right"></i>
         </button>
       </form>
     </div>
   </div>
 </div>
-<script>
 
 </script>
 </body>

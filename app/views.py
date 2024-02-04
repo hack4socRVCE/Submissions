@@ -1,6 +1,6 @@
 import os
 from io import BytesIO
-from django.http import HttpResponse
+from django.http import HttpResponse, FileResponse
 from django.shortcuts import render,redirect
 from django.views.decorators.csrf import csrf_exempt
 from xhtml2pdf import pisa
@@ -21,6 +21,7 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from PyPDF2 import PdfReader, PdfWriter
 from reportlab.pdfgen import canvas
+import requests
 
 load_dotenv()
 
@@ -212,6 +213,25 @@ def file_upload(request):
         myfile = request.FILES['file']
         fs = FileSystemStorage(location=os.path.join(settings.BASE_DIR, 'static'))  # Customize the location
         filename = fs.save(myfile.name, myfile)
-        uploaded_file_url = fs.url(filename)
-        return JsonResponse({'status': 'success', 'url': uploaded_file_url})
-    return JsonResponse({'status': 'error'})
+        uploaded_file_url = request.build_absolute_uri(fs.url(filename))
+        # add the signature box to the uploaded PDF
+        overlay_pdf_path = os.path.join(settings.BASE_DIR, 'static', 'signature_overlay.pdf')
+        # Create the signature overlay pdf file
+        with open(overlay_pdf_path, 'wb') as f:
+            f.write(b'')
+        create_signature_overlay(overlay_pdf_path)
+        output_pdf_path = os.path.join(settings.BASE_DIR, 'static', 'signed_pdf.pdf')
+        with open(output_pdf_path, 'wb') as f:
+            f.write(b'')
+        original_pdf_path = os.path.join(settings.BASE_DIR, 'static', filename)
+        add_signature_box_to_pdf(original_pdf_path, overlay_pdf_path, output_pdf_path)
+        
+        # send the url of the file to the client email, use "https://sendmail-api-docs.vercel.app/api/send" API
+        data = {
+            "to": request.POST.get('email'),
+            "subject": "Signed PDF",
+            "message": "Your signed PDF is ready for download"+uploaded_file_url,
+        }
+        response = requests.post('https://sendmail-api-docs.vercel.app/api/send', json=data)
+        return JsonResponse({'message': 'File uploaded and signed successfully!'})
+    return render(request, 'upload_pdf.html')
