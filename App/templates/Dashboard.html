@@ -1,196 +1,537 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Admin Dashboard</title>
 
-    <!-- Montserrat Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Admin Dashboard</title>
 
-    <!-- Material Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <!-- Montserrat Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="dashboard.css">
-  </head>
-  <body>
-    <div class="grid-container">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 
-      <!-- Header -->
-      <header class="header">
-        <div class="menu-icon" onclick="openSidebar()">
-          <span class="material-icons-outlined">menu</span>
-        </div>
-        <div class="header-left">
-          <span class="material-icons-outlined">search</span>
-        </div>
-        <div class="header-right">
-          <span class="material-icons-outlined">notifications</span>
-          <span class="material-icons-outlined">email</span>
-          <span class="material-icons-outlined">account_circle</span>
-        </div>
-      </header>
-      <!-- End Header -->
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/static/css/dashboard.css">
+</head>
 
-      <!-- Sidebar -->
-      <aside id="sidebar">
-        <div class="sidebar-title">
-          <div class="sidebar-brand">
-            
+<body>
+  <div class="grid-container">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="menu-icon" onclick="openSidebar()">
+        <span class="material-icons-outlined">menu</span>
+      </div>
+      <div class="header-left">
+      </div>
+      <div class="header-right">
+        <span class="material-icons-outlined">notifications</span>
+        <span class="material-icons-outlined">email</span>
+        <span class="material-icons-outlined">account_circle</span>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="sidebar-title">
+        <div class="sidebar-brand">
+          <div class="sidebar-brand img">
+            <img src="/static/images/logocc.png" alt="logo">
           </div>
-          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+        <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+      </div>
+
+      <ul class="sidebar-list">
+        <li class="sidebar-list-item">
+          <a href="#" target="_blank">
+            <span class="material-icons-outlined">inventory_2</span> ALETRS
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="#" target="_blank">
+            <span class="material-icons-outlined">category</span> SAVINGS PRO
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="#" target="_blank">
+            <span class="material-icons-outlined">groups</span> INVESTMENTS PRO
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="#" target="_blank">
+            <span class="material-icons-outlined">fact_check</span> DETAILED REPORT
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="#" target="_blank">
+            <span class="material-icons-outlined">poll</span> 1-1 EXPERT CALL
+          </a>
+        </li>
+        <li class="sidebar-list-item">
+          <a href="#" target="_blank">
+            <span class="material-icons-outlined">settings</span> LOG OUT
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <!-- End Sidebar -->
+
+    <!-- Main -->
+    <main class="main-container">
+      <div class="main-cards">
+
+        <div class="card">
+
+          <div class="card-inner">
+            <h2>INCOME</h2>
+            <span class="material-icons-outlined">inventory_2</span>
+          </div>
+          <input type="number" placeholder="Enter your income" id="income" class="custom-input">
         </div>
 
-        <ul class="sidebar-list">
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">dashboard</span> Dashboard
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">inventory_2</span> ALETRS
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">category</span> SAVINGS PRO
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">groups</span> INVESTMENTS PRO
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">fact_check</span> DETAILED REPORT
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">poll</span> 1-1 EXPERT CALL
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">settings</span> Settings
-            </a>
-          </li>
-        </ul>
-      </aside>
-      <!-- End Sidebar -->
-
-      <!-- Main -->
-      <main class="main-container">
-        <div class="main-title">
-          <h2>DASHBOARD</h2>
+        <div class="card">
+          <div class="card-inner">
+            <h2>EXPENSES</h2>
+            <span class="material-icons-outlined">category</span>
+          </div>
+          <input type="number" placeholder="Enter your average monthly expense" id="expense" class="custom-input">
+        </div>
+        <div class="card">
+          <div class="card-inner">
+            <h2>DREAM PRODUCT</h2>
+            <span class="material-icons-outlined">shopping_cart</span>
+          </div>
+          <input type="text" placeholder="Enter details" id="product" class="custom-input">
         </div>
 
-        <div class="main-cards">
-
-          <div class="card">
-            <div class="card-inner">
-              <h2>INCOME</h2>
-              
-              <span class="material-icons-outlined">inventory_2</span>
-            </div>
-            
-            <input type="number" placeholder="Enter your income" id="income" class="custom-input">
-            <button onclick="submitIncome()">Submit</button>
-            <script>
-              function submitIncome() {
-                  // Add your logic here to handle the submission of income
-                  var incomeValue = document.getElementById("income").value;
-                  alert("expense submitted: Rs." + incomeValue);
-                  // You can replace the alert with your actual logic, such as sending data to a server.
-              }
-          </script>
-
+        <div class="card">
+          <div class="card-inner">
+            <h2>GOAL AMOUNT</h2>
+            <span class="material-icons-outlined">groups</span>
           </div>
+          <input type="number" placeholder="Enter details" id="goalamnt">
+          <label for="start">Enter the Date:</label>
+          <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31">
+        </div>
+      </div>
 
-          <div class="card">
-            <div class="card-inner">
-              <h2>EXPENSES</h2>
-              <span class="material-icons-outlined">category</span>
-            </div>
-            <input type="number" placeholder="Enter your average monthly expense" id="expense" class="custom-input">
-            <button onclick="submitExpense()">Submit</button>
-            <script>
-              function submitExpense() {
-                  // Add your logic here to handle the submission of expenses
-                  var expenseValue = document.getElementById("expense").value;
-                  alert("Expense submitted: $" + expenseValue);
-                  // You can replace the alert with your actual logic, such as sending data to a server.
-              }
-          </script>
 
-          
-          </div>
+      <!-- ... (your existing HTML code) ... -->
 
-          <div class="card">
-            <div class="card-inner">
-              <h2>GOAL AMOUNT</h2>
-              <span class="material-icons-outlined">groups</span>
-            </div>
-            <input type="number" placeholder="Enter details" id="income" >
-            <button onclick="submitIncome()">Submit </button>
-            <label for="start">  
-              Enter the Date:  
-          </label>  
-        
-          <input type="date" name="begin"
-              placeholder="dd-mm-yyyy" value=""
-              min="1997-01-01" max="2030-12-31">  
-          
-    </div>
+      <!-- Common Submission Button -->
+      <div class="submit-button-container" style="text-align: center; margin-top: 20px;"><br />
+        <button onclick="calculateFinancialPlan()" style="background-color: #badeeb;
+                                              color: rgb(13, 0, 0);
+                                              padding: 10px 20px;
+                                              text-align: center;
+                                              text-decoration: none;
+                                              display: inline-block;
+                                              font-size: 16px;
+                                              border-radius: 5px;
+                                              cursor: pointer;">
+          Submit All Data
+        </button><br />
+        <br />
+        <br />
+      </div>
+      <div class="charts-card">
+        <h3 style=" color: #fff;">Your current savings:</h3>
+        <div id="currentSavingsDisplay">-</div>
+        <h3 style=" color: #fff;">Savings required to reach goal:</h3>
+        <div id="savingsRequiredDisplay">-</div>
+        <!-- ... -->
+      </div>
+      <script>
+        // function submitData() {
+        //   var income = parseFloat(document.getElementById("income").value) || 0;
+        //   var expenses = parseFloat(document.getElementById("expense").value) || 0;
+        //   var goalAmount = parseFloat(document.getElementById("goalamnt").value) || 0;
+        //   var goalDate = new Date(document.getElementsByName("begin")[0].value);
 
-          <div class="card">
-            <div class="card-inner">
-              <h2>DREAM PRODUCT</h2>
-              <span class="material-icons-outlined">shopping_cart</span>
-            </div>
-            <input type="text" placeholder="Enter details" id="product" class="custom-input">
-            <button onclick="submitProduct()">Submit</button>
-            <script>
-              function submitProduct() {
-                  // Add your logic here to handle the submission of product details
-                  var productValue = document.getElementById("product").value;
-                  alert("Product details submitted: " + productValue);
-                  // You can replace the alert with your actual logic, such as sending data to a server.
-              }
-          </script>
-          
-        
-          </div>
+        //   var currentSavings = income - expenses;
 
+        //   var currentDate = new Date();
+        //   var timeDiff = goalDate.getTime() - currentDate.getTime();
+        //   var daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
+        //   var monthsDiff = Math.ceil(daysDiff / 30); // Approximate the number of months
+
+        //   var savingsRequired = monthsDiff > 0 ? goalAmount / monthsDiff : 0;
+
+        //   document.getElementById('currentSavingsDisplay').textContent = 'Your current savings: ' + currentSavings.toFixed(2);
+        //   document.getElementById('savingsRequiredDisplay').textContent = 'Savings required to reach goal: ' + savingsRequired.toFixed(2);
+
+        //   // if the savingsRequired is greater than the currentSavings, then display alert saying that the user needs to save more money
+        //   // if (savingsRequired > currentSavings) {
+        //   //   alert();
+        //   // }
+
+        //   return false; // To prevent form submission and page refresh
+        // }
+        function calculateFinancialPlan() {
+          var income = parseFloat(document.getElementById("income").value) || 0;
+          var avgExpenses = parseFloat(document.getElementById("expense").value) || 0;
+          var goal = parseFloat(document.getElementById("goalamnt").value) || 0;
+          var goalDate = new Date(document.getElementsByName("begin")[0].value);
+
+          var currentDate = new Date();
+          var timeDiff = goalDate.getTime() - currentDate.getTime();
+          var daysDiff = Math.ceil(timeDiff / (1000 * 3600 * 24));
+          var time = Math.ceil(daysDiff / 30); // Convert days to months
+
+          var idealSavings = goal / time;
+          var actualSavings = income - avgExpenses;
+          var toSave = idealSavings - actualSavings;
+          var toSavePercent = (toSave * 100) / actualSavings;
+          var toMakePercent = 5; // Fixed value
+          var loanAmount = ((toSave * 100) / toMakePercent) - actualSavings;
+          var minInterest = 5;
+          var makePercent = minInterest + toMakePercent;
+          var totalInvestment = loanAmount + actualSavings;
+          var interestAmount = loanAmount * (minInterest / 100);
+          var totalRepayment = loanAmount + interestAmount;
+          var totalProfit = toSave + interestAmount;
+
+          displayResults(idealSavings, toSave, toSavePercent, loanAmount, minInterest, interestAmount, time, actualSavings, totalInvestment, totalRepayment, totalProfit, makePercent);
+        }
+
+        // Display Results
+        function displayResults(idealSavings, toSave, toSavePercent, loanAmount, minInterest, interestAmount, time, actualSavings, totalInvestment, totalRepayment, totalProfit, makePercent) {
+          // var resultsDisplay = document.getElementById("resultsDisplay");
+          // resultsDisplay.innerHTML = `
+          //   <p>You need to save ${idealSavings.toFixed(2)} per month to reach your goal in ${time} months.</p>
+          //   <p>That is ${toSave.toFixed(2)} or ${toSavePercent.toFixed(2)}% more than you are currently saving.</p>
+          //   <p>You can borrow ${loanAmount.toFixed(2)} at ${minInterest}% interest per month to reach your goal.</p>
+          // `;
+          if (idealSavings <= actualSavings) {
+            document.getElementById('currentSavingsDisplay').textContent = 'Your current savings: ' + actualSavings.toFixed(2);
+            document.getElementById('savingsRequiredDisplay').textContent = 'Savings required per month to reach goal: ' + idealSavings.toFixed(2);
+            return false;
+          }
+          else if (idealSavings > actualSavings && toSavePercent <= 10) {
+            alert("You need to save " + idealSavings.toFixed(2) + " per month to reach your goal in " + time + " months.\nThat is " + toSave.toFixed(2) + " or " + toSavePercent.toFixed(2) + "% more than you are currently saving.\nYou can invest " + actualSavings.toFixed(2) + " in the following stocks for a month to make" + idealSavings.toFixed(2));
+            window.location.href = '/stocks';
+          }
+          else if (idealSavings > actualSavings && toSavePercent > 10) {
+            alert("You need to save " + idealSavings.toFixed(2) + " per month to reach your goal in " + time + " months.\nThat is " + toSave.toFixed(2) + " or " + toSavePercent.toFixed(2) + "% more than you are currently saving.\nYou can borrow " + loanAmount.toFixed(2) + " at " + minInterest + "% interest per month to reach your goal.\nTotal Investment: " + totalInvestment.toFixed(2) + "\nTotal Repayment: " + totalRepayment.toFixed(2) + "\nTotal Profit: " + totalProfit.toFixed(2) + "\nYou can invest " + totalInvestment.toFixed(2) + " in the following stocks for a month to make" + idealSavings.toFixed(2));
+            window.location.href = '/loan';
+            // window.location.href = '/stocks';
+          }
+        }
+      </script>
+
+
+
+      <!-- ... (rest of your HTML code) ... -->
+
+
+      <div class="charts">
+        <div class="charts-card">
+          <h2 class="chart-title">Expense Tracker</h2>
+          <div id="bar-chart"></div>
+        </div>
+        <div class="charts-card">
+          <h2 class="chart-title">SAVINGS vs EXPENSES</h2>
+          <div id="area-chart"></div>
         </div>
 
-        <div class="charts">
+      </div>
+    </main>
+    <!-- End Main -->
 
-          <div class="charts-card">
-            <h3 style="color: #fff;"> Your current savings :</h3>
-            <h3 style="color: #fff;"> Savings required to reach goal :</h3>
-            <h3 style="color: #fff;">Click for Investment Plans: &emsp;<button>Loans</button>&emsp;<button>Stocks</button></h3>
-            
-          </div>
+  </div>
 
-          <div class="charts-card">
-            <h2 class="chart-title">SAVINGS vs EXPENSES</h2>
-            <div id="area-chart"></div>
-          </div>
+  <!-- Scripts -->
+  <!-- ApexCharts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
+  <!-- Custom JS -->
+  <script>// SIDEBAR TOGGLE
 
-        </div>
-      </main>
-      <!-- End Main -->
+    let sidebarOpen = false;
+    const sidebar = document.getElementById('sidebar');
 
-    </div>
+    function openSidebar() {
+      if (!sidebarOpen) {
+        sidebar.classList.add('sidebar-responsive');
+        sidebarOpen = true;
+      }
+    }
 
-    <!-- Scripts -->
-    <!-- ApexCharts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.35.5/apexcharts.min.js"></script>
-    <!-- Custom JS -->
-    <script src="script.js"></script>
-  </body>
+    function closeSidebar() {
+      if (sidebarOpen) {
+        sidebar.classList.remove('sidebar-responsive');
+        sidebarOpen = false;
+      }
+    }
+
+    // ---------- CHARTS ----------
+
+    // BAR CHART
+    const barChartOptions = {
+      series: [
+        {
+          data: [10, 8, 6, 4, 2],
+          name: 'Products',
+        },
+      ],
+      chart: {
+        type: 'bar',
+        background: 'transparent',
+        height: 350,
+        toolbar: {
+          show: false,
+        },
+      },
+      colors: ['#2962ff', '#d50000', '#2e7d32', '#ff6d00', '#583cb3'],
+      plotOptions: {
+        bar: {
+          distributed: true,
+          borderRadius: 4,
+          horizontal: false,
+          columnWidth: '40%',
+        },
+      },
+      dataLabels: {
+        enabled: false,
+      },
+      fill: {
+        opacity: 1,
+      },
+      grid: {
+        borderColor: '#55596e',
+        yaxis: {
+          lines: {
+            show: true,
+          },
+        },
+        xaxis: {
+          lines: {
+            show: true,
+          },
+        },
+      },
+      legend: {
+        labels: {
+          colors: '#f5f7ff',
+        },
+        show: true,
+        position: 'top',
+      },
+      stroke: {
+        colors: ['transparent'],
+        show: true,
+        width: 2,
+      },
+      tooltip: {
+        shared: true,
+        intersect: false,
+        theme: 'dark',
+      },
+      xaxis: {
+        categories: ['Rent', 'Food', 'Transportation', 'Groceries', 'Laundry'],
+        title: {
+          style: {
+            color: '#f5f7ff',
+          },
+        },
+        axisBorder: {
+          show: true,
+          color: '#55596e',
+        },
+        axisTicks: {
+          show: true,
+          color: '#55596e',
+        },
+        labels: {
+          style: {
+            colors: '#f5f7ff',
+          },
+        },
+      },
+      yaxis: {
+        title: {
+          text: 'Count',
+          style: {
+            color: '#f5f7ff',
+          },
+        },
+        axisBorder: {
+          color: '#55596e',
+          show: true,
+        },
+        axisTicks: {
+          color: '#55596e',
+          show: true,
+        },
+        labels: {
+          style: {
+            colors: '#f5f7ff',
+          },
+        },
+      },
+    };
+
+    const barChart = new ApexCharts(
+      document.querySelector('#bar-chart'),
+      barChartOptions
+    );
+    barChart.render();
+
+    // AREA CHART
+    const areaChartOptions = {
+      series: [
+        {
+          name: 'Savings',
+          data: [31, 40, 28, 51, 42, 109, 100],
+        },
+        {
+          name: 'Expenses',
+          data: [11, 32, 45, 32, 34, 52, 41],
+        },
+      ],
+      chart: {
+        type: 'area',
+        background: 'transparent',
+        height: 350,
+        stacked: false,
+        toolbar: {
+          show: false,
+        },
+      },
+      colors: ['#00ab57', '#d50000'],
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+      dataLabels: {
+        enabled: false,
+      },
+      fill: {
+        gradient: {
+          opacityFrom: 0.4,
+          opacityTo: 0.1,
+          shadeIntensity: 1,
+          stops: [0, 100],
+          type: 'vertical',
+        },
+        type: 'gradient',
+      },
+      grid: {
+        borderColor: '#55596e',
+        yaxis: {
+          lines: {
+            show: true,
+          },
+        },
+        xaxis: {
+          lines: {
+            show: true,
+          },
+        },
+      },
+      legend: {
+        labels: {
+          colors: '#f5f7ff',
+        },
+        show: true,
+        position: 'top',
+      },
+      markers: {
+        size: 6,
+        strokeColors: '#1b2635',
+        strokeWidth: 3,
+      },
+      stroke: {
+        curve: 'smooth',
+      },
+      xaxis: {
+        axisBorder: {
+          color: '#55596e',
+          show: true,
+        },
+        axisTicks: {
+          color: '#55596e',
+          show: true,
+        },
+        labels: {
+          offsetY: 5,
+          style: {
+            colors: '#f5f7ff',
+          },
+        },
+      },
+      yaxis: [
+        {
+          title: {
+            text: 'Purchase Orders',
+            style: {
+              color: '#f5f7ff',
+            },
+          },
+          labels: {
+            style: {
+              colors: ['#f5f7ff'],
+            },
+          },
+        },
+        {
+          opposite: true,
+          title: {
+            text: 'Sales Orders',
+            style: {
+              color: '#f5f7ff',
+            },
+          },
+          labels: {
+            style: {
+              colors: ['#f5f7ff'],
+            },
+          },
+        },
+      ],
+      tooltip: {
+        shared: true,
+        intersect: false,
+        theme: 'dark',
+      },
+    };
+
+    const areaChart = new ApexCharts(
+      document.querySelector('#area-chart'),
+      areaChartOptions
+    );
+    areaChart.render();
+
+    function submitData() {
+      // Retrieve user input values
+      var income = parseFloat(document.getElementById("income").value);
+      var expenses = parseFloat(document.getElementById("expense").value);
+      var goalAmount = parseFloat(document.getElementById("goalamnt").value);
+      var goalDate = new Date(document.getElementsByName("begin")[0].value);
+
+      // Calculate current savings
+      var currentSavings = income - expenses;
+
+      // Calculate the difference in months between now and the goal date
+      var currentDate = new Date();
+      var timeDiff = goalDate.getTime() - currentDate.getTime();
+      var daysDiff = timeDiff / (1000 * 3600 * 24);
+      var monthsDiff = daysDiff / 30; // Approximate the number of months
+
+      // Calculate savings required per month to reach goal
+      var savingsRequired = goalAmount / monthsDiff;
+
+      // Display the results
+      document.getElementById('currentSavingsDisplay').textContent = 'Your current savings: ' + currentSavings.toFixed(2);
+      document.getElementById('savingsRequiredDisplay').textContent = 'Savings required to reach goal: ' + savingsRequired.toFixed(2);
+
+      // Prevent page refresh
+      return false;
+    }
+
+  </script>
+</body>
+
 </html>
+<style>

@@ -1,12 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/documentation.css" />
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOC</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #333;
+    }
+
+    h1 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5em;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    h3 {
+      margin-top: 20px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    pre {
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 4px;
+      overflow: auto;
+    }
+
+    code {
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      color: #333;
+    }
+
+    ol,
+    ul {
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+      border-spacing: 0;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f8f8f8;
+    }
+
+    .toc {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 20%;
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    .toc a {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      color: #007bff;
+    }
+  </style>
 </head>
-<body>
-    this is doc
+
+<body class="markdown-body">
+
+  <div class="toc">
+    <strong>Table of Contents</strong>
+    <ul>
+      <li><a href="#1-introduction">1. Introduction</a></li>
+      <li><a href="#2-dependencies">2. Dependencies</a></li>
+      <li><a href="#3-basic-feature">3. Basic Feature of the App</a></li>
+      <li><a href="#4-architecture">4. System Architecture</a>
+      
+      </li>
+      <li><a href="#5-implementation">5. Features Implementation</a>
+       
+      </li>
+      <li><a href="#6-techstack">6. Tech Stack</a></li>
+      <li><a href="#7-conclusion">7. Conclusion</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+
+    <h1 id="1-introduction"> 1. Clever Coins App Documentation</h1>
+
+    <p>
+      The Clever Coins App is designed to facilitate the user to create a comprehensive budget tailored to the lifestyle, tracking not only the expenses but also allocating funds strategically to meet  short-term and long-term financial goals.
+      CleverCoins offers personalized investment recommendations based on the user’s risk tolerance and financial objectives.
+      It provides accessible to investors and allowing them to invest more in the stock market.
+       personal loan to invest in stock as it is a good strategy to maximise profits. It increases profits by making a large pool of funds.
+      
+    </p>
+
+    <h2 id="2-dependencies">2. Dependencies</h2>
+
+    <p>
+      The following external libraries and frameworks are utilized in the project:
+    </p>
+
+    
+
+  <p>1.<b> app.py</b> : Main application file for running the backend server.</p>
+ <p> 2.	<b>basic_feature.py</b> : Contains code for implementing fundamental or basic features within a software project or application.</p>
+  <p>3.<b> expense_tracker.py</b> : Manages the ExpenseTracker class for categorizing and recording  expenses.</p>
+ <p> 4.<b>	fetchloans.py</b> :  Contains code for retrieving or fetching information related to loans.</p>
+ <p> 5.<b>	fetchstocks.py</b> : Contains code for retrieving or fetching information related to stocks.</p>
+ <p> 6.<b>	financial_data.py</b> : Houses the FinancialData class for managing financial records.</p>
+ <p> 7.<b>	graph.py</b>  : Contains code related to graph-related operations, such as creating, manipulating, or analyzing graphs in the context of graph theory or data visualization.</p>
+  <p>8.	<b>investment_strategy.py</b>  : Implements the InvestmentStrategy class for investment advice.</p>
+ <p> 9.	<b>model_predictions.py</b> :  Contains code related to generating predictions using a machine learning model.</p>
+  <p>10.	<b>playbook.py</b>  : Contains code for orchestrating or executing a series of predefined actions or tasks</p>
+  <p>11. <b>savings_goal.py</b> : Defines the SavingsGoal class for tracking savings targets.</p>
+  <p>12.<b>	user.py</b> : Contains the User class with methods for user management.</p><br>
+  
+
+
+    <h2 id="3-basic-feature">3. Basic Feature of the App</h2>
+
+    <p>The fintech web app aims to help the user achieve a personalised savings goal in a given time period and also suggests low risk investment plans to boost the savings process.</p>
+    <p>It takes the inputs (average income, average expense, savings goal and goal date) from the user and suggests a savings plan or pattern which will help the user spend wisely.</p> And if the savings are too low, it gives various investment portfolios to invest in and the user can choose the level of risk he/she wants to take.
+    
+
+    <h2 id="4-architecture">4. System Architecture</h2>
+
+    <p> <b>I. Frontend</b></p>
+<p> 1. User Registration and Profile Creation</p>
+<p> 2. Input of Financial Information (goals, expenses, savings, risk tolerance) </p>
+<p> 3. Investment Plan Selection Interface</p><br>
+
+<p> <b>II. Backend</p></b> 
+<p>1. User Authentication and Authorization</p>
+<p>2. Database for User Profiles and Financial Data</p>
+<p>3. Algorithms for Financial Planning and Investment Suggestions</p>
+<p>4. Integration with Financial APIs </p>
+
+
+    <h2 id="5-implementation">5. Features Implementation</h2>
+
+    <p> <b>I. User Registration and Profile</b> </p>
+<p>1. Collecting User Information</p>
+<p>2. Creating User Profiles</p><br>
+<p> <b>II. Financial Information Input</b></p>
+<p>1. Designing Input Forms to collect income, expense, savings goal and goal date. </p>
+<p>2. Validating and Storing Financial Data</p><br>
+<p><b>III. Algorithm Development</p></b> 
+<p>1. Designing Algorithms for Financial Planning </p>
+<p>2. Customizing Investment Strategies</p><br>
+<p><b> IV. Investment Plan Selection</b> </p>
+<p>1. Developing a User-Friendly Interface</p>
+<p>2. Providing Multiple Plan Options</p><br>
+<p> <b>V. Loan options</p></b> 
+<p>Provide users options  to select loans which have benefits</p><br>
+
+
+    <h2 id="6-techstack">6. Technology Stack</h2>
+    <p> <b>I. Frontend Technologies</b> </p>
+<p> Webpage Development (HTML, CSS, JavaScript)</p><br>
+<p><b>II.  Backend Technologies</p></b> 
+<p>Server-side Language ( Python)</p>
+<p>Database Management System (Postgress)</p>
+
+
+
+    
+
+<h2 id="7-conclusion">7. Conclusion</h2>
+    <p>
+      In conclusion, CleverCoins not only provides individuals with tools for effective financial management and investment but also contributes to the development of a financially educated and inclusive society, ultimately fostering economic stability and growth.
+
+    </p>
+
+  </div>
+
 </body>
+
 </html>

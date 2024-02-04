@@ -22,7 +22,7 @@ def switch(risk,limit=3):
     
     elif risk == "Medium":
         params = urllib.parse.urlencode({
-    'api_token': api_token,
+    'api_token': stocks_api_token,
     'countries': 'in',
     'limit': limit,
     'sentiment_lte':0.095
@@ -34,7 +34,7 @@ def switch(risk,limit=3):
 
     elif risk == "Low":
         params = urllib.parse.urlencode({
-    'api_token': api_token,
+    'api_token': stocks_api_token,
     'countries': 'in',
     'limit': limit,
     'sentiment_lte':0.001
@@ -74,4 +74,4 @@ def extract_all_entity_names(json_data):
                         entity_names[name]=score
                         
 
-    return {k: v for k, v in sorted(names.items(), key=lambda item: item[1])}
+    return {k: v for k, v in sorted(entity_names.items(), key=lambda item: item[1])}

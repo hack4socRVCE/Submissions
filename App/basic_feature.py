@@ -15,7 +15,7 @@ def basic_feature(income, avg_expenses, goal, time):
     actual_savings = income - avg_expenses
     to_save = ideal_savings - actual_savings
     to_save_percent = (to_save * 100) / actual_savings # wrt to actual savings, if actual savings is 100, and to_save is 20, then 20% more is needed
-    to_make_percent = 20 # 20 is fixed, i.e, he sure shot need to make this % of his investment, based on this number is all the other calculations are done
+    to_make_percent = 5 # 20 is fixed, i.e, he sure shot need to make this % of his investment, based on this number is all the other calculations are done
     loan_amount = ((to_save * 100) / to_make_percent) - actual_savings
     min_interest = 5
     make_percent = min_interest + to_make_percent

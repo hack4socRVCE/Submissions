@@ -1,11 +1,17 @@
+import ssl
 import psycopg2
-from psycopg2 import sql
+import random
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from flask import Flask, request, jsonify
 
 class User:
-    def __init__(self, username, password, email):
-        self.username = username
-        self.password = password
+    def __init__(self, fullName, password, email, phone):
+        self.fullName = fullName
+        self.password = password  # Make sure to hash the password in production
         self.email = email
+        self.phone = phone
         self.is_authenticated = False
 
         # Establish a connection to the PostgreSQL database
@@ -18,47 +24,76 @@ class User:
         )
         self.cursor = self.connection.cursor()
 
-    def registerUser(self):
-        # Perform user registration logic and insert into the database
-        insert_query = sql.SQL("INSERT INTO users (username, password, email) VALUES ({}, {}, {});").format(
-            sql.Literal(self.username),
-            sql.Literal(self.password),
-            sql.Literal(self.email)
-        )
-        self.cursor.execute(insert_query)
+    def registerUser(self, otp):
+        # Perform user registration logic and insert into the temporary registration table
+        insert_query = """
+        INSERT INTO temp_users (full_name, password, email, phone, otp) 
+        VALUES (%s, %s, %s, %s, %s);
+        """
+        self.cursor.execute(insert_query, (self.fullName, self.password, self.email, self.phone, otp))
         self.connection.commit()
-        print(f"User {self.username} registered successfully.")
 
-    def login(self, entered_password):
-        # Fetch user data from the database and check if the entered password is correct
-        select_query = sql.SQL("SELECT * FROM users WHERE username = {};").format(sql.Literal(self.username))
-        self.cursor.execute(select_query)
-        user_data = self.cursor.fetchone()
+    def send_otp_email(self, otp):
+        # Send OTP to user's email
+        # Set up your SMTP server and replace with your details
+        sender_email = "your_email@example.com"
+        receiver_email = self.email
+        password = "your_password"
 
-        if user_data and entered_password == user_data[2]:  # Assuming password is at index 2 in the database
-            self.is_authenticated = True
-            print(f"User {self.username} logged in successfully.")
-        else:
-            print("Login failed. Incorrect password.")
+        message = MIMEMultipart("alternative")
+        message["Subject"] = "Your OTP"
+        message["From"] = sender_email
+        message["To"] = receiver_email
 
-    def updateProfile(self, new_email):
-        # Update user profile logic and update the database
-        update_query = sql.SQL("UPDATE users SET email = {} WHERE username = {};").format(
-            sql.Literal(new_email),
-            sql.Literal(self.username)
-        )
-        self.cursor.execute(update_query)
-        self.connection.commit()
-        print(f"User {self.username}'s profile updated successfully.")
+        # Create the plain-text and HTML version of your message
+        text = f"Hi {self.fullName},\nHere is your OTP: {otp}"
+        html = f"""\
+        <html>
+          <body>
+            <p>Hi {self.fullName},<br>
+               Here is your OTP: <b>{otp}</b>
+            </p>
+          </body>
+        </html>
+        """
 
-    def deleteUser(self):
-        # Perform user deletion logic and delete from the database
-        delete_query = sql.SQL("DELETE FROM users WHERE username = {};").format(sql.Literal(self.username))
-        self.cursor.execute(delete_query)
-        self.connection.commit()
-        print(f"User {self.username} deleted successfully.")
+        # Turn these into plain/html MIMEText objects
+        part1 = MIMEText(text, "plain")
+        part2 = MIMEText(html, "html")
 
-    def __del__(self):
-        # Close the database connection when the object is deleted
-        self.cursor.close()
-        self.connection.close()  
+        # Add HTML/plain-text parts to MIMEMultipart message
+        # The email client will try to render the last part first
+        message.attach(part1)
+        message.attach(part2)
+
+        # Create secure connection with server and send email
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL("smtp.example.com", 465, context=context) as server:
+            server.login(sender_email, password)
+            server.sendmail(
+                sender_email, receiver_email, message.as_string()
+            )
+
+
+def register_user():
+    data = request.json
+    user = User(data['fullName'], data['password'], data['email'], data['phone'])
+    
+    # Generate a 6-digit OTP
+    otp = random.randint(100000, 999999)
+    
+    # Register the user with OTP
+    user.registerUser(otp)
+    
+    # Send OTP via email
+    user.send_otp_email(otp)
+    
+
+def verify_otp():
+    data = request.json
+    otp = data['otp']
+    email = data['email']
+    
+    # Verify the OTP (implement your logic here)
+    # If OTP is correct, move data to the main user table and complete registration
+    # Respond to frontend

@@ -1,114 +1,37 @@
-from flask import Flask
-import savings_goal
-import expense_tracker
-import financial_data
-import investment_strategy
-import user
-import fetchloans
-import fetchstocks
+from flask import Flask, jsonify, render_template
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-#---------financial data-------------
-
-@app.route('/addIncome')
-def addIncocme():
-
-    return addIncome()
-
-@app.route('/addExpense')
-def addExpense():
-
-    return addExpense()
-
-@app.route('/updateFinancialData')
-def updateFinancialData():
-
-    return updateFinancialData()
-
-@app.route('/getFinancialSummary')
-def getFinancialSummary():
-
-    return generatePlan()
+@app.route('/signup')
+def signup():
+    return render_template('signup.html')
 
 
-# ------------invest---------------------------
-@app.route('/generatePlan')
-def generatePlan():
+@app.route('/dashboard') 
+def dashboard():
+    return render_template('dashboard.html')
 
-    return generatePlan()
-
-@app.route('/updatePlan')
-def updatePlan():
-
-    return updatePlan()
-
-@app.route('/getPlanDetails')
-def getPlanDetails():
-
-    return getPlanDetails()
-
-
-# ------expense----------
-@app.route('/getExpenseReport')
-def getExpenseReport():
-
-    return getExpenseReport()
-
-@app.route('/addSubcategory')
-def addSubcategory():
-
-    return addSubcategory()
-
-
-# --------goal-----------
-@app.route('/setGoal')
-def setGoal():
-
-    return setGoal()
-
-@app.route('/modifyGoal')
-def modifyGoal():
-
-    return modifyGoal()
-
-@app.route('/getGoalStatus')
-def getGoalStatus():
-
-    return addSubcagetGoalStatusegory()
-
-# -------register-----------
-@app.route('/registerUser')
-def registerUser():
-
-    return registerUser()
-
-@app.route('/login')
+@app.route('/login') 
 def login():
-
-    return login()
-
-@app.route('/updateProfile')
-def updateProfile():
-
-    return updateProfile()
-
-@app.route('/deleteUser')
-def deleteUser():
+    return render_template('login.html')
     
-    return deleteUser()
+@app.route('/documentation') 
+def documentation():
+    return render_template('documentation.html')
+
+@app.route('/stocks')
+def stocks():
+    return render_template('stocks.html')
+
+@app.route('/loan')
+def loan():
+    return render_template('loan.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-
-
-
-
-
-
-
-
-
+    

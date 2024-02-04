@@ -2,26 +2,51 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
-    background: url('images/stockspage.png') no-repeat center center fixed;
+    background: url('/App/static/images/stockspage.png') no-repeat center center fixed;
+    background-size: cover;
     background-color: #f4f4f4;
+    color: #333;
+}
+
+.risk-slider-container {
+    margin-top: 20px;
+    width: 30%;
+    height: 50%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Shadow for depth */
+}
+
+#riskSlider {
+    width: 30%; /* Full width of the container */
+    cursor: pointer; /* Cursor changes to indicate slider can be moved */
+}
+
+#riskValue {
+    font-size: 18px; /* Larger font size for visibility */
+    color: #007bff; /* Bright color for visibility */
+    font-weight: bold; /* Bold font for emphasis */
+    margin-top: 10px;
 }
 
 .stock-container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
 }
 
 .stock-container h1 {
-    color: #ffffff; /* Change to white for better contrast */
+    color: #ffffff;
     margin-bottom: 2rem;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
-    background-color: #007bff; /* Semi-transparent black background */
-    display: inline-block; /* Wrap background to text */
-    padding: 0.5rem 1rem; /* Padding around text */
-    border-radius: 5px; /* Rounded corners for background */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 123, 255, 0.8);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
-
 
 .stock-list {
     display: flex;
@@ -87,14 +112,23 @@ body {
         opacity: 0
     }
 }
+
 @media (max-width: 992px) {
     .stock-item {
         width: calc(50% - 20px);
+    }
+
+    .risk-slider-container {
+        width: 90%; /* Wider on smaller screens for better interaction */
     }
 }
 
 @media (max-width: 768px) {
     .stock-item {
         width: 100%;
+    }
+
+    .risk-slider-container {
+        padding: 10px; /* Sufficient padding on very small screens */
     }
 }
