@@ -1,0 +1,45 @@
+#textInput {
+    border: none;
+    border-bottom: 3px solid aqua;
+}
+
+.inp-text {
+    margin-top: 30px;
+    height: 5vh;
+    margin-bottom: 10px;
+}
+
+.border-box {
+    border: 2px solid #778899;
+}
+
+.sub-btn {
+    height: 4vh;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+.userText span {
+    background-color: #330033;
+    padding: 10px;
+    border-radius: 2px;
+}
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+.botText span {
+    width: 100%;
+    background-color: #003300;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
