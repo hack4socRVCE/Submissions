@@ -1,0 +1,3 @@
+-> Need to have mistral model openorca 7b at the same directory as app.py
+-> need to have all the python libraries including CUDA.
+-> Place all the learning materials for LLM in a directory called data/data

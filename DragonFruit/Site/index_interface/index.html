@@ -1,0 +1,32 @@
+<html>
+
+<head>
+
+<link rel = "stylesheet" href = "index_css.css">
+
+</head>
+
+<bdoy>
+
+<div class="top_bar">
+
+	<p class = "Logo">XX App</p>
+	<a href = "#"><p class="top_bar_link_1_Login" onclick="display()">Login</p></a>
+	<a href =  "#"><p class="top_bar_link_1_Signup">SignUp</p></a>
+
+</div>
+
+<div class="login_form">
+
+<input id="login_form_gmail" class="login_form_gmail" name="login_form_gmail" type="text" placeholder="Gmail" required>
+<input id="login_form_passwd" class="login_form_passwd" name="login_form_passwd" type="password" placeholder="Password" required>
+<p class="Invalid_user" id="Invalid_user" style = "position:absolute; font-size:1.2vw; color:red; left:14.4vw; top:14vw; display:none;">Invalid User</p>
+<button id="login_form_btn" class="login_form_btn" type="submit" onclick="validate()">Submit</button>
+
+</div>
+
+<script src="index_java.js"></script>
+
+</body>
+
+</html>
