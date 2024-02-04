@@ -9,7 +9,7 @@ CORS(app)
 speech_file_path = "speech.mp3"
 
 client = OpenAI(
-    api_key="api-key",
+    api_key="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",
 )
 
 # Newely added@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
