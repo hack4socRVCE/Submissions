@@ -1,0 +1,66 @@
+/* BillsCard.css */
+
+.bills-card {
+  background-color: var(--ion-color-primary); /* Use the primary color of the theme */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  transition: box-shadow 0.3s ease-in-out; /* Add a subtle transition effect on hover */
+}
+
+.bills-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly elevate the card on hover */
+}
+
+.bills-card .IonCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.bills-card .IonCardTitle {
+  font-weight: 700; /* Slightly bolder title for emphasis */
+  font-size: 20px;
+  color: var(--ion-color-primary-contrast); /* Use the primary contrast color for better readability */
+}
+
+.bills-card .IonCardSubtitle {
+  font-size: 16px;
+  color: var(--ion-color-light); /* Use the light color for subtitle text */
+}
+
+.bills-card .IonCardContent {
+  font-size: 16px;
+  color: var(--ion-color-light); /* Use the light color for content text */
+  text-align: center;
+}
+
+.bills-card .responsive-buttons-container {
+  margin-top: 10px; /* Adjusted margin for better spacing */
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}
+
+.bills-card .IonButton {
+  height: 40px; /* Adjusted height for better appearance */
+  flex: 1; /* Distribute available space equally among buttons */
+  background-color: var(--ion-color-light); /* Use the light color for button background */
+  color: var(--ion-color-primary); /* Use the primary color for button text */
+  border-radius: 8px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bills-card .IonIcon {
+  margin-right: 8px; /* Adjusted margin for better spacing */
+}
+
+/* Additional styling for smaller screens */
+@media (max-width: 370px) {
+  .bills-card .responsive-buttons-container {
+    flex-direction: column;
+  }
+}

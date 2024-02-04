@@ -1,0 +1,71 @@
+/* SignUpPage.css */
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  /* Header styling */
+  ion-header {
+    background-color: #3498db;
+    color: #cfcfcf;
+  }
+  
+  ion-title {
+    font-size: 1.5em;
+  }
+  
+  /* Card styling */
+  .ExploreContainer-card {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #6f6c6c; /* Set the background color to black */
+    color: #040404; /* Set text color to white */
+    box-shadow: 0 2px 10px rgba(115, 115, 115, 0.911);
+  }
+  
+  .ExploreContainer-card-header {
+    background-color: #3498db;
+    color: #a7a7a7;
+  }
+  
+  .ExploreContainer-card-title,
+  .ExploreContainer-card-subtitle {
+    color: #fffafa;
+  }
+  
+  .ExploreContainer-card-content {
+    padding: 20px;
+  }
+  
+  /* Form styling */
+  .ExploreContainer-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .IonLabel-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .IonLabel-group ion-label {
+    width: 48%;
+  }
+  
+  .IonLabel-group ion-input {
+    width: 48%;
+  }
+  
+  /* Button styling */
+  ion-button {
+    --background: #3498db;
+    --color: #c5c5c5;
+    width: 100%;
+    margin-top: 20px;
+  }
+  

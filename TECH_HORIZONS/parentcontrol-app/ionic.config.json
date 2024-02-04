@@ -1,0 +1,7 @@
+{
+  "name": "fintech-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
