@@ -10,6 +10,7 @@ from ChainForge import app, db, bcrypt, mail
 import ast
 from ChainForge.compare_images import main as compare_images
 from ChainForge.add_watermark import add_watermark
+from ChainForge.send_email import send_email
 
 # forms
 from ChainForge.forms import (
@@ -66,7 +67,7 @@ with open("Chainforge/contract.abi", "r") as f:
 
 # from web3.auto import w3
 contract_mi = w3.eth.contract(
-    abi=abi, bytecode=bytecode, address="0x1C5Fd8e7a2D0adf27074f2f7D7BEDFfb6eaa3564"
+    abi=abi, bytecode=bytecode, address="0xa274F8dA0cA151b96E0BfcA7BeF3FBb35cEf560C"
 )
 
 # # private_keys = {
@@ -83,7 +84,7 @@ private_keys=dict()
 
 Account.enable_unaudited_hdwallet_features()
 
-mnemonic_phrase = "keen inquiry empty impose tourist grit ivory control reunion filter hello nothing"
+mnemonic_phrase = "bomb dune regret youth corn slim gloom way normal special cable achieve"
 
 accounts = w3.eth.accounts
 for i in range(len(accounts)):
@@ -550,8 +551,8 @@ def receive_order():
 
                     # Assuming the event `ProjectCreated` is emitted, let's try to decode it
                     # Th is requires knowing the event signature and data structure
-                    logs = contract_mi.events.SentForApproval().process_receipt(tx_receipt)
-                    print(logs.args)
+                    # logs = contract_mi.events.SentForApproval().process_receipt(tx_receipt)
+                    # print(logs.args)
                 # for log in logs:
                 #     print(f"Project created with ID: {log.args.projectId}")
                 #     print(f"Project Name: {log.args.name}, Description: {log.args.description}, Price: {log.args.price}")
@@ -652,6 +653,10 @@ def dispute():
         )
         signed_txn = account.sign_transaction(transaction)
         try:
+                receiver = None 
+                title = None 
+                id = None
+                
                 tx_hash = w3.eth.send_raw_transaction(signed_txn.rawTransaction)
                 print(f"Transaction sent: {tx_hash.hex()}")
 
@@ -669,11 +674,20 @@ def dispute():
                     db.session.commit()
                     flash(f"Dispute Resolve similarity:{similarity_index}", "success")
                     flash(f"Their post got deleted", "success")
+                    receiver = User.query.filter_by(id=their_art.user_id).first().email
+                    title = their_art.title 
+                    id = their_art.id
                 else:
                     db.session.delete(your_art)
                     db.session.commit()
                     flash(f"Dispute Resolve similarity:{similarity_index}", "success")
                     flash(f"Your post got deleted as if was uploaded later", "danger")
+                    receiver = User.query.filter_by(id=your_art.user_id).first().email
+                    
+                    title = your_art.title 
+                    id = your_art.id
+                    
+                send_email(receiver,title,id)
             # for log in logs:
             #     print(f"Project created with ID: {log.args.projectId}")
             #     print(f"Project Name: {log.args.name}, Description: {log.args.description}, Price: {log.args.price}")
