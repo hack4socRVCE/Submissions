@@ -66,37 +66,18 @@
         <!-- <img src="./doc.svg"/> -->
         <img src="{% static '/images/doc.svg' %}" alt="">
       </div>
-      <input type="file" id="fileInput" style="display: none;">
-      <button class="btn btn-primary" onclick="document.getElementById('fileInput').click();">Upload</button>
-      <button class="circle-btn btn" onclick="uploadFile()">
-        <i class="arrow right"></i>
-      </button>
+      <form id="fileUploadForm" method="post" action="{% url 'file_upload' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="file" id="fileInput">
+        <button class="circle-btn btn" type="submit">
+          <i class="arrow right"></i>
+        </button>
+      </form>
     </div>
   </div>
 </div>
-<script src="script.js"></script>
 <script>
-  function uploadFile() {
-    var fileInput = document.getElementById('fileInput');
-    var file = fileInput.files[0];
-    if (file) {
-      console.log('Uploading file:', file.name);
-      var formData = new FormData();
-      formData.append('file', file);
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'upload.php', true);
-      xhr.onload = function () {
-        if (xhr.status === 200) {
-          console.log('File uploaded successfully!');
-        } else{
-          console.error('Failed to upload file.');
-        }
-      };
-      xhr.send(formData);
-    } else {
-      console.error('No file selected.');
-    }
-  }
+
 </script>
 </body>
 </html>

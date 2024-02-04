@@ -7,15 +7,25 @@ from xhtml2pdf import pisa
 from pdfminer.high_level import extract_text
 from werkzeug.utils import secure_filename
 from . import langchain_gemini_utils as lg
+from django.conf import settings
+from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
+from django.core.files.storage import FileSystemStorage
 from dotenv import load_dotenv
 import json
 # import fitz
 import PyPDF2
+from reportlab.pdfgen import canvas
+from PyPDF2 import PdfReader, PdfWriter
+from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
+from PyPDF2 import PdfReader, PdfWriter
+from reportlab.pdfgen import canvas
 
 load_dotenv()
 
 target_text="signature"
-image_path = "temp\\"
+image_path = "temp/"
 
 def index(request):
     return render(request, 'index.html')
@@ -39,7 +49,19 @@ def signtype(request):
     return render(request,'signtype.html')
 
 def upload_pdf_main(request):
-    return render(request,'upload_pdf.html')
+    if request.method == 'POST' and request.FILES['pdf']:
+        
+        myfile = request.FILES['pdf']
+        fs = FileSystemStorage(location=os.path.join(settings.BASE_DIR, 'static'))  # Customize the location
+        filename = fs.save(myfile.name, myfile)
+        uploaded_file_url = fs.url(filename)
+        original_pdf_path = os.path.join(settings.BASE_DIR, 'static', filename)
+
+        
+        # Pass the pdf_path as a parameter to the template
+        return render(request, 'request_sign.html', {'pdf_path': original_pdf_path})
+    else:
+        return render(request,'upload_pdf.html')
 
 def my_drive(request):
     return render(request,'my_drive.html')
@@ -148,3 +170,48 @@ def add_image_to_pdf(pdf_path, image_path, target_text):
 
         with open('output.pdf', 'wb') as output_file:
             writer.write(output_file)
+
+
+def create_signature_overlay(overlay_path):
+    c = canvas.Canvas(overlay_path, pagesize=(595, 842))  # A4 size
+    # Draw a rectangle as the signature box
+    # Adjust the coordinates (100, 100) and size (300, 100) as needed
+    c.rect(100, 100, 100, 50, stroke=1, fill=0)
+    c.drawString(100, 75, "Sign Here:")  # Label for the signature box
+    c.save()
+
+
+def add_signature_box_to_pdf(original_pdf_path, overlay_pdf_path, output_pdf_path):
+    # Create a PDF reader for the original and overlay PDFs
+    original_pdf = PdfReader(original_pdf_path)
+    overlay_pdf = PdfReader(overlay_pdf_path)
+    
+    # Create a PDF writer for the output PDF
+    writer = PdfWriter()
+
+    # Iterate through each page of the original PDF
+    for page_number in range(len(original_pdf.pages)):
+        # Get the page from the original PDF to which you want to add the signature box
+        page = original_pdf.pages[page_number]
+        
+        # Merge the overlay onto this page
+        page.merge_page(overlay_pdf.pages[0])
+        
+        # Add the modified page to the writer
+        writer.add_page(page)
+    
+    # Write to a new output PDF
+    with open(output_pdf_path, 'wb') as out:
+        writer.write(out)
+
+# Paths for your files
+@csrf_exempt  # For simplicity, you might want to handle CSRF properly in production
+def file_upload(request):
+    if request.method == 'POST' and request.FILES['file']:
+        # Never trust user input!
+        myfile = request.FILES['file']
+        fs = FileSystemStorage(location=os.path.join(settings.BASE_DIR, 'static'))  # Customize the location
+        filename = fs.save(myfile.name, myfile)
+        uploaded_file_url = fs.url(filename)
+        return JsonResponse({'status': 'success', 'url': uploaded_file_url})
+    return JsonResponse({'status': 'error'})
