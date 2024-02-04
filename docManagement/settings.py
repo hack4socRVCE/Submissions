@@ -117,6 +117,13 @@ USE_TZ = True
 
 APPEND_SLASH = True
 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'http://smtp.gmail.com'  # Replace with your SMTP server
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'vishal.p.2304@gmail.com'  # Replace with your email address
+EMAIL_HOST_PASSWORD = 'nksh fftm lqjh yhbf'  # Replace with your email password
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/

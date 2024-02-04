@@ -122,6 +122,15 @@
       <button class="btn btn-secondary" id="generatePdfBtn2">Save as PDF</button>
     </div>
   </div>
+  <form method="POST" action="{% url 'send_pdf_email' %}">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="recipientEmail">Recipient's Email:</label>
+        <input type="email" class="form-control" id="recipientEmail" name="recipient_email" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Send</button>
+</form>
+
 </div>
 <script src="{% static '/js/scripts.js' %}"></script>
 </body>

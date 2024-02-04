@@ -11,6 +11,8 @@ from django.conf import settings
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.core.files.storage import FileSystemStorage
+from reportlab.pdfgen import canvas
+from reportlab.lib.pagesizes import letter
 from dotenv import load_dotenv
 import json
 # import fitz
@@ -22,11 +24,52 @@ from django.views.decorators.csrf import csrf_exempt
 from PyPDF2 import PdfReader, PdfWriter
 from reportlab.pdfgen import canvas
 import requests
+from django.core.mail import EmailMessage
+from django.shortcuts import render
+from django.template.loader import render_to_string
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
+
+smtp_host = 'http://smtp.gmail.com'
+smtp_port = 587
+smtp_user = 'vishal.p.2304@gmail.com'
+smtp_pass = 'nksh fftm lqjh yhbf'
 load_dotenv()
 
+subject="Generated PDF from Pinnacle-Docs"
 target_text="signature"
 image_path = "temp/"
+
+def send_pdf_email(request):
+    if request.method == 'POST':
+        recipient_email = request.POST.get('recipient_email')
+        
+        sender_email = smtp_user
+        pdf_file_path = 'C:\\Users\\Ganeshdarshan Bhat\\Downloads\\test12.pdf'
+        
+        subject = 'PDF Document'
+        message = 'Please find the attached PDF document.'
+        from_email = 'Your Name <{}>'.format(sender_email)
+        recipient_list = [recipient_email]
+        try:
+            # Create an EmailMessage object
+            email = EmailMessage(subject, message, from_email, recipient_list)
+            
+            # Attach the PDF file
+            email.attach_file(pdf_file_path)
+            
+            # Send the email
+            email.send("bhatganeshdarshan10@gmail.com")
+            
+            return HttpResponse('Email sent successfully.')
+        except Exception as e:
+            return HttpResponse('Email sending failed. Error: {}'.format(str(e)))
+    
+    return render(request, 'your_template.html')  # Replace 'your_template.html' with your actual template
+
+
 
 def index(request):
     return render(request, 'index.html')
@@ -49,16 +92,15 @@ def forgot_password(request):
 def signtype(request):
     return render(request,'signtype.html')
 
+
+
 def upload_pdf_main(request):
     if request.method == 'POST' and request.FILES['pdf']:
-        
         myfile = request.FILES['pdf']
         fs = FileSystemStorage(location=os.path.join(settings.BASE_DIR, 'static'))  # Customize the location
         filename = fs.save(myfile.name, myfile)
         uploaded_file_url = fs.url(filename)
         original_pdf_path = os.path.join(settings.BASE_DIR, 'static', filename)
-
-        
         # Pass the pdf_path as a parameter to the template
         return render(request, 'request_sign.html', {'pdf_path': original_pdf_path})
     else:
@@ -66,6 +108,24 @@ def upload_pdf_main(request):
 
 def my_drive(request):
     return render(request,'my_drive.html')
+
+def send_pdf_email(request):
+    if request.method == 'POST':
+        recipient_email = request.POST.get('recipient_email')
+        recipient_email="bhatganeshdarshan10@gmail.com"
+        # Replace these variables with your own values
+        sender_email = 'vishal.p.2304@gmail.com'
+        pdf_file_path = 'C:\\Users\\Ganeshdarshan Bhat\\Downloads\\test12.pdf'
+        
+        subject = 'PDF Document'
+        message = 'Please find the attached PDF document.'
+        from_email = 'Your Name <{}>'.format(sender_email)
+        recipient_list = [recipient_email]
+        email = EmailMessage(subject, message, from_email, recipient_list)
+        # email.attach_file(pdf_file_path)
+        email.send(recipient_list)
+        return HttpResponse('Email sent successfully.')
+    return render(request, 'index')
 
 @csrf_exempt
 def generate_pdf(request):
@@ -97,7 +157,6 @@ def upload_pdf(request):
                 for chunk in pdf_file.chunks():
                     destination.write(chunk)
             text = extract_text(pdf_path)
-            # coordinate_list=find_text_coordinates(pdf_path,target_text) #here 
             add_image_to_pdf(pdf_path,image_path,target_text)
             os.remove(pdf_path)
             return HttpResponse(text)
@@ -172,6 +231,36 @@ def add_image_to_pdf(pdf_path, image_path, target_text):
         with open('output.pdf', 'wb') as output_file:
             writer.write(output_file)
 
+def add_signature_page(pdf_path, signature_image_path):
+    # Open the original PDF file
+    pdf_file = open(pdf_path, 'rb')
+    pdf_reader = PyPDF2.PdfFileReader(pdf_file)
+
+    # Create a new PDF file to save the modified content
+    output_pdf = PyPDF2.PdfFileWriter()
+
+    # Copy all existing pages to the new PDF file
+    for page_num in range(pdf_reader.getNumPages()):
+        page = pdf_reader.getPage(page_num)
+        output_pdf.addPage(page)
+
+    # Add a new blank page to the PDF
+    new_page = PyPDF2.pdf.PageObject.createBlankPage(width=595, height=842)  # A4 page size
+    output_pdf.addPage(new_page)
+
+    # Add the signature image to the new page
+    with open(signature_image_path, 'rb') as signature_image_file:
+        image = PyPDF2.PdfFileReader(signature_image_file)
+        new_page.mergeTranslatedPage(image.getPage(0), 0, 0)
+    # Save the modified PDF to a new file
+    modified_pdf_path = os.path.join(settings.BASE_DIR, 'static', 'modified.pdf')
+    with open(modified_pdf_path, 'wb') as modified_pdf_file:
+        output_pdf.write(modified_pdf_file)
+
+    pdf_file.close()
+
+    return modified_pdf_path
+
 
 def create_signature_overlay(overlay_path):
     c = canvas.Canvas(overlay_path, pagesize=(595, 842))  # A4 size
@@ -206,7 +295,6 @@ def add_signature_box_to_pdf(original_pdf_path, overlay_pdf_path, output_pdf_pat
         writer.write(out)
 
 # Paths for your files
-@csrf_exempt  # For simplicity, you might want to handle CSRF properly in production
 def file_upload(request):
     if request.method == 'POST' and request.FILES['file']:
         # Never trust user input!
