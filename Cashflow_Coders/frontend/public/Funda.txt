@@ -1,0 +1,86 @@
+## Fundamental analysis
+https://zerodha.com/varsity/module/fundamental-analysis/
+
+## Overview:
+Fundamental Analysis is used to make long term investments.
+ Investment in a company with good fundamentals creates wealth 
+ Using Fundamental Analysis one can separate out an investment grade company from a junk company 
+ All investment grade companies exhibit few common traits. Likewise all junk companies exhibit common traits 
+Fundamental analysis helps the analysts identify these traits
+
+## Tools of FA : 
+ 1. Annual report of the company – All the information that you need for FA is available in the annual report. You can download the annual report from the company’s website for free 5 2. Industry related data – You will need industry data to see how the company under consideration is performing with respect to the industry. Basic data is available for free, and is usually published in the industry’s association website
+ 3. Access to news – Daily News helps you stay updated on latest developments happening both in the industry and the company you are interested in. A good business news paper or services such as Google Alert can help you stay abreast of the latest news
+ 4. MS Excel – MS Excel can be extremely helpful in fundamental calculations 
+
+## The compounding effect:
+Compounding in simple terms is the ability of money to grow when the gains of year 1 is reinvested for year 2.
+For example consider you invest Rs.100 which is expected to grow at 20% year on year (recall this is also called the CAGR). At the end of the first year the money is expected to grow to Rs.120. At the end of year 1 you have two options: 1. Let Rs.20 in profits remain invested along with the original principal of Rs.100 or 2. Withdraw the profits of Rs.20. You decide not withdraw Rs.20 profit; instead you decide to reinvest the money for the 2nd year. At the end of 2nd year, Rs.120 grows to Rs.144. At the end of 3rd year Rs.144 grows to Rs.173. So on and so forth. Compare this with withdrawing Rs.20 profits every year. Had you opted to withdraw Rs.20 every year then at the end of 3rd year the profits would have been just Rs. 60. However since you decided to stay invested, the profits at the end of 3 years is Rs.173. A good Rs.13 or 21.7% over Rs.60 is generated just because you opted to do nothing and decided to stay invested. This is called the compounding effect. 
+
+The chart above shows how Rs.100 invested at 20% grows over a 10 year period. If you notice, it took almost 6 years for the money to grow from Rs.100 to Rs.300. However the next Rs.300 was generated in only 4 years i.e from the 6th to 10th year. This is in fact the most interesting property of the compounding effect. The longer you stay invested, the harder (and faster) the money works for you.
+
+Investible grade attributes? What does that mean?
+an investible grade company has a few distinguishable characteristics. These characteristics can be classified under two heads namely the ‘Qualitative aspect’ and the ‘Quantitative aspects’. The process of evaluating a fundamentally strong company includes a study of both these aspects.
+The Qualitative aspect mainly involves understanding the non numeric aspects of the business. This includes many factors such as: 1. Management’s background – Who are they, their background, experience, education, do they have the merit to run the business, any criminal cases against the promoters etc 2. Business ethics – is the management involved in scams, bribery, unfair business practices 3. Corporate governance – Appointment of directors, organization structure, transparency etc 4. Minority shareholders – How does the management treat minority shareholders, do they consider their interest while taking corporate actions 5. Share transactions – Is the management buying/selling shares of the company through clandestine promoter groups 6. Related party transactions – Is the company tendering financial favors to known entities such as promoter’s relatives, friends, vendors etc at the cost of the shareholders funds? 7. Salaries paid to promoters – Is the management paying themselves a hefty salary, usually a percentage of profits 8. Operator activity in stocks – Does the stock price display unusual price behavior especially at a time when the promoter is transacting in the shares
+9. Shareholders – Who are the significant shareholders in the firm, who are the people with above 1% of the outstanding shares of the company 10. Political affiliation – Is the company or its promoters too close to a political party? Does the business require constant political support? 11. Promoter lifestyle – Are the promoters too flamboyant and loud about their lifestyle? Do they like to display their wealth?
+A red flag is raised when any of the factors mentioned above do not fall in the right place. For example, if a company undertakes too many related party transactions then it would send a signal of favoritism and malpractice by the company. This is not good in the long run. So even if the company has great profit margins, malpractice is not acceptable. It would only be a matter of time before the market discovers matters pertaining to ‘related party transactions’ and punishes the company by bringing the stock price lower. Hence an investor would be better off not investing in companies with great margins if such a company scores low on corporate governance.
+Qualitative aspects are not easy to uncover because these are very subtle matters. However a diligent investor can easily figure this out by paying attention to annual report, management interviews, news reports etc. As we proceed through this module we will highlight various qualitative aspects. The quantitative aspects are matters related to financial numbers. Some of the quantitative aspects are straightforward while some of them are not. For example cash held in inventory is straight forward however ‘inventory number of days’ is not. This is a metric that needs to be calculated. The stock markets pay a lot of attention to quantitative aspects. Quantitative aspects include many things, to name few: 1. Profitability and its growth 2. Margins and its growth 3. Earnings and its growth 4. 
+Matters related to expenses 5. Operating efficiency 6. Pricing power 7. Matters related to taxes 8. Dividends payout
+
+## Financial statement:
+The financial statement provides information and conveys the financial position of the company.
+A complete set of financial statements include the Profit & Loss Account, Balance Sheet and Cash Flow Statement.
+A fundamental Analyst is a financial statement user, and he needs to know what the maker of the financial statements states.
+The profit and loss statement gives the profitability of the company for the year under consideration.
+The P&L statement is an estimate, as the company can revise the numbers at a later point. Also, by default, companies publish data for the current year and the previous year, side by side.
+The revenue side of the P&L is also called the top line of the company.
+Revenue from operations is the main source of revenue for the company.
+Other operating income includes revenue incidental to the business.
+The other income includes revenue from non-operating sources.
+The sum of revenue from (operations less of duty) and other operating income gives the “net revenue from operations”.
+The P&L statement’s expense statement contains information on all the expenses incurred by the company during the financial year.
+Each expense can be studied concerning a note which you can explore for further information.
+Depreciation and amortization is a way of spreading the cost of an asset over its useful life.
+The cost of interest and other charges paid when the company borrows money for its capital expenditure.
+PBT = Total Revenue – Total Expense – Exceptional items (if any)
+Net PAT = PBT – applicable taxes
+EPS reflects the earning capacity of a company on a per-share basis. Earnings are profit after tax and preferred dividends.
+EPS = PAT / Total number of outstanding ordinary shares
+
+## Balance sheet:
+A Balance sheet also called the Statement of Financial Position is prepared on a flow basis that depicts the company’s financial position at any given point in time. It is a statement which shows what the company owns ( assets) and what the company owes (liabilities)
+A business will generally need a balance sheet when it seeks investors, applies for loans, submits taxes etc.
+Balance sheet equation is Assets = Liabilities + Shareholders’ Equity.
+Liabilities are obligations or debts of a business from past transactions, and Share capital is the number of shares * face value.
+Reserves are the funds earmarked for a specific purpose, which the company intends to use in future.
+The surplus is where the profits of the company reside. This is one of the points where the balance sheet and the P&L interact. Dividends are paid out of the surplus.
+Shareholders’ equity = Share capital + Reserves + Surplus. Equity is the claim of the owners on the assets of the company. It represents the assets that remain after deducting the liabilities if you rearrange the Balance Sheet equation, Equity = Assets – Liabilities.
+Non-current liabilities or the long-term liabilities are expected to be settled in not less than 365 days or 12 months of the balance sheet date.
+Deferred tax liabilities arise due to the discrepancy in the way the depreciation is treated. Deferred tax liabilities are amounts of income taxes payable in the future concerning taxable differences as per accounting books and tax books.
+Current liabilities are the company’s obligations to settle within 365 days /12 months of the balance sheet date.
+In most cases, both long and short term provisions are liabilities dealing with employee-related matters
+Total Liability = Shareholders’ Funds + Non-Current Liabilities + Current Liabilities. . Thus, total liabilities represent the total amount of money the company owes to others
+
+
+The Assets side of the Balance sheet displays all the assets the company owns
+Assets are expected to give an economic benefit during its useful life.
+Assets are classified as Non-current and Current asset.
+The useful life of Non-current assets is expected to last beyond 365 days or 12 months.
+Current assets are expected to pay off within 365 days or 12 months.
+Assets inclusive of depreciation are called the ‘Gross Block.’
+Net Block = Gross Block – Accumulated Depreciation
+The sum of all assets should equal the sum of all liabilities. Only then the Balance sheet is said to have balanced.
+The Balance sheet and P&L statement are inseparable. They are connected in many ways.
+## Cash flow statement:
+The Cash flow statement gives us a picture of the true cash position of the company.
+A legitimate company has three main activities – operating activities, investing activities and the financing activities.
+Each activity either generates or drains money for the company.
+The company’s net cash flow is the sum of operating activities, investing activities, and financing activities.
+Investors should specifically look at the cash flow from operating activities of the company.
+When the liabilities increase, cash level increases and vice versa
+When the assets increase, cash level decreases and vice versa.
+The net cash flow number for the year is also reflected in the balance sheet.
+The Statement of Cash flow is a useful addition to a company’s financial statements because it indicates the company’s performance.
+
+
+
