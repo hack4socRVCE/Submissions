@@ -1,0 +1,33 @@
+body {
+    margin: 0 !important;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-77xl: 96px;
+    --font-size-29xl: 48px;
+    --font-size-10xl: 29px;
+    --font-size-5xl: 24px;
+  
+    /* Colors */
+    --color-black: #000;
+    --color-white: #fff;
+  
+    /* Gaps */
+    --gap-82xl: 101px;
+    --gap-134xl: 153px;
+    --gap-184xl: 203px;
+    --gap-143xl: 162px;
+    --gap-1950xl: 1969px;
+  
+    /* Paddings */
+    --padding-6xl: 25px;
+    --padding-8xl: 27px;
+  
+    /* Border radiuses */
+    --br-41xl: 60px;
+  }
