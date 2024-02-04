@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  input,
+  button {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  li button {
+    margin-left: 10px;
+  }
+  
+  /* Calendar Styles */
+  .react-calendar {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto;
+  }
+  
+  .react-calendar__tile {
+    text-align: center;
+  }
+  
+  .react-calendar__navigation__label,
+  .react-calendar__month-view__days__day {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+  
+  /* Highlight the reminded dates */
+  .react-calendar__tile--now {
+    background-color: #7FFF00; /* Lime Green */
+  }
