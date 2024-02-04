@@ -190,7 +190,7 @@ const Home = () => {
           paddingRight: "5vw",
           paddingTop: "5vh",
           paddingBottom: "5vh",
-          background: "#4d7aab",
+          background: "#F3F8FF",
         }}
       >
         {/* Sidebar */}

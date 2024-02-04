@@ -95,9 +95,6 @@ const Blogs = () => {
                         Upload Your Story
                     </Button>
                 </div>
-                <h1>Success Stories of :</h1>
-                <h2>{`Addict Type: ${addictType}`}</h2>
-
                 {blogs.map((blog) => (
                     <Paper key={blog._id} elevation={3} style={{ padding: '20px', marginBottom: '20px' }}>
                         <div style={{ marginBottom: '20px' }}>
