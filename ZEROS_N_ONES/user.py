@@ -1,4 +1,3 @@
-import ssl
 import psycopg2
 import random
 import smtplib

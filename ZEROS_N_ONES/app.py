@@ -5,6 +5,13 @@ from user import User
 from user_finances import FinancesDB 
 app = Flask(__name__, template_folder='templates')
 
+import sqlite3
+
+class FinancesDB():
+    def __init__(self):
+        self.conn = sqlite3.connect('my_database.db')
+        self.cur = self.conn.cursor()
+
 @app.route('/')
 def index():
     return render_template('index.html')

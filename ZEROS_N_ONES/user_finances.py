@@ -10,6 +10,16 @@ class FinancesDB():
         "port": "5432"
     }
     @classmethod
+    def open_connection(cls, dbname='postgres'):
+        try:
+            cls.params["dbname"] = dbname
+            cls.conn = psycopg2.connect(**cls.params)
+            cls.conn.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+            cls.cur = cls.conn.cursor()
+            print('Connection Established')
+        except psycopg2.Error as e:
+            print(f"Error opening connection: {e}")
+    @classmethod
     def create_table():
     # Connection parameEters - replace these with your actual database credentials
         conn = psycopg2.connect(
@@ -18,7 +28,7 @@ class FinancesDB():
             password='hack4soc', 
             host='localhost'
         )
-    cur = conn.cursor()
+    # cur = conn.cursor()
 
     # SQL statement to create a table
     create_table_query = '''
