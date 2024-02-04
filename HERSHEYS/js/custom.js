@@ -8,7 +8,7 @@ function getYear() {
 getYear();
 
 
-// client section owl carousel
+
 $(".client_owl-carousel").owlCarousel({
     loop: true,
     margin: 20,
@@ -36,7 +36,7 @@ $(".client_owl-carousel").owlCarousel({
 
 
 
-/** google_map js **/
+
 function myMap() {
     var mapProp = {
         center: new google.maps.LatLng(40.712775, -74.005973),
