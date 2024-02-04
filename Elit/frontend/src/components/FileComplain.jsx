@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import { useState } from "react"
 import { phoneNumberAtom } from "../atoms/Phone";
 import { useRecoilValue } from "recoil";
+=======
+import { useState,useEffect } from "react"
+import { phoneNumberAtom } from "../atoms/Phone";
+import { contractAtom } from "../atoms/Contract";
+import { useRecoilState, useRecoilValue } from "recoil";
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
@@ -14,17 +21,25 @@ import * as React from 'react';
 import { useNavigate } from "react-router-dom";
 import { toast, Toaster } from "react-hot-toast";
 
+<<<<<<< HEAD
 const Particle = React.lazy(()=>import('./Particle'));
+=======
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
 
 export default function FileComplain({state}){
     const navigateTo = useNavigate(); 
 
     const phone = useRecoilValue(phoneNumberAtom);
+<<<<<<< HEAD
+=======
+    const [contract,setContract] = useRecoilState(contractAtom);
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
 
     const[name,setName] = useState('');
     const[complainAddress,setComplainAddress] = useState('');
     const[complain,setComplain] = useState('');
     const[time,setTime] = useState('');
+<<<<<<< HEAD
 
     const[submit,setSubmit] = useState(false);
 
@@ -33,6 +48,46 @@ export default function FileComplain({state}){
         const transaction = await state.contract.addComplains(randomID,name,complainAddress,complain,phone);
         await transaction.wait();
         setSubmit(true);
+=======
+    // const [state,setState] =  useState({
+    //     address : null,
+    //     provider : null,
+    //     signer : null,
+    //     contract : null
+    // });
+
+    const[submit,setSubmit] = useState(false);
+    // console.log(contract);
+
+    // useEffect(() => {
+    //     const connectWallet = async () => {
+    //       const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
+    //       const contractabi = abi.abi;
+    //       try {
+    //         const { ethereum } = window;
+        
+    //         if (ethereum) {
+    //           const account = await ethereum.request({ method: "eth_requestAccounts" });
+    //         }
+    //         const provider = new ethers.providers.Web3Provider(window.ethereum);
+    //         const signer = provider.getSigner();
+    //         const address = await signer.getAddress();
+    //         const contract = new ethers.Contract(contractAddress, contractabi, signer);
+    //         setState({ address, provider, signer, contract });
+    //         // setContract({address, provider, signer, contract});
+    //       } catch (error) {
+    //         console.log(error);
+    //       }
+    //     };
+    //     connectWallet();
+
+    // }, []);
+
+    async function saveData(){
+        setSubmit(true);
+        const transaction = await state.contract.addComplains(name,complainAddress,complain,"123123123");
+        await transaction.wait();
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
         toast.success('Transaction is done');
         console.log(name,complainAddress,complain);
         setTimeout(()=>{
@@ -42,7 +97,10 @@ export default function FileComplain({state}){
 
     return(
       <React.Fragment>
+<<<<<<< HEAD
       <Particle/>
+=======
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
       <CssBaseline />
       <AppBar
         position="absolute"
@@ -53,19 +111,30 @@ export default function FileComplain({state}){
           borderBottom: (t) => `1px solid ${t.palette.divider}`,
         }}
       >
+<<<<<<< HEAD
         <Toolbar sx={{bgcolor:"#e16327"}} >
+=======
+        <Toolbar sx={{bgcolor:"#870815"}} >
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
             <div style={{ display: "flex", justifyContent: "space-between", width: "100%" }}>
             <Typography variant="h6" color="white" noWrap>
             SECURE JURY
             </Typography>
             <Button
                 variant="contained"
+<<<<<<< HEAD
                 sx={{ bgcolor: '#272121',color:'white','&:hover': {
                     bgcolor: '#363333'
                 }}}
                 onClick={()=>{
                     navigateTo('/seecomplain')
                 }}
+=======
+                sx={{ bgcolor: '#870815',color:'white','&:hover': {
+                    bgcolor: '#ad6dd8'
+                }}}
+                onClick={saveData}
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
             > 
                 PREVIOUS COMPLAINTS
             </Button>
@@ -153,12 +222,21 @@ export default function FileComplain({state}){
                 <Grid item  mt={5} xs={12} sm={6} sx={{ display: 'flex', justifyContent: 'flex-end' }}>
                     <Button
                     variant="contained"
+<<<<<<< HEAD
                     sx={{ bgcolor: '#e16327',color:'white','&:hover': {
                         bgcolor: '#363333'
                     }}}
                       onClick={saveData}
                     > 
                     FILE COMPLAINT
+=======
+                    sx={{ bgcolor: '#870815',color:'white','&:hover': {
+                        bgcolor: '#ad6dd8'
+                    }}}
+                      onClick={saveData}
+                    > 
+                    FILE COMPLAINt
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
                     </Button>
                 </Grid>
                 <Toaster toastOptions={{ duration: 4000 }} />
@@ -175,6 +253,11 @@ export default function FileComplain({state}){
                     </Typography>
                 </React.Fragment>
             )}
+<<<<<<< HEAD
+=======
+            
+        {/* <Copyright /> */}
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
         </Paper>
       </Container>
     </React.Fragment>

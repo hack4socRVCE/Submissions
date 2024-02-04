@@ -4,11 +4,17 @@ import { useState,useEffect } from "react";
 import { ethers } from 'ethers';
 import { Container,Col,Row } from "react-bootstrap";
 import {Box} from "@mui/material";
+<<<<<<< HEAD
 import Particle from "./Particle";
 
 export default function SeeComplain({state}){
     const phonenumber = useRecoilValue(phoneNumberAtom);
     console.log(phonenumber);
+=======
+
+export default function SeeComplain({state}){
+    const phonenumber = useRecoilValue(phoneNumberAtom);
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
     const [complaints,setComplain] = useState([]);
     const[address,setAddress] = useState(null);
     useEffect(() => {
@@ -36,16 +42,29 @@ export default function SeeComplain({state}){
     console.log(complaints);
     return(
     <Container fluid className="project-section">
+<<<<<<< HEAD
       <Particle />
+=======
+      {/* <Particle /> */}
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
       <Container>
         <h1 className="project-heading">
           <strong className="purple">COMPLAINTS </strong>
         </h1>
+<<<<<<< HEAD
         <Box sx={{my:8,mx: 20}}>
                 {
                     complaints
                     .filter((item) => item.phone === phonenumber)
                     .map((item,index)=>(
+=======
+        <p style={{ color: "white" }}>
+        COMPLAINTS
+        </p>
+        <Box sx={{my:8,mx: 20}}>
+                {
+                    complaints.map((item,index)=>(
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
                       <Box
                       sx={{
                         display: 'flex',
@@ -70,12 +89,20 @@ export default function SeeComplain({state}){
                         }}
                       >
                         <Box sx={{ display: 'flex', flexDirection: 'column', marginLeft: 2 }}>
+<<<<<<< HEAD
                           {<div>{item.id}</div>}
                           {<div key={item.id}><b>NAME  : </b>{item.name}</div>}
                           {<div key={item.id}><b>ADDRESS : </b>{item.complainAddress}</div>}
                           {<div key={item.id}><b>PHONE NUMBER : </b>{item.phone}</div>}
                           {<div key={item.id}><b>COMPLAIN : </b>{item.complain}</div>}
                           {<div key={item.id}><b>STATUS : </b>To be reviewed</div>}
+=======
+                          {<div key={item.name}><b>NAME  : </b>{item.name}</div>}
+                          {<div key={item.name}><b>ADDRESS : </b>{item.complainAddress}</div>}
+                          {<div key={item.name}><b>PHONE NUMBER : </b>{item.phone}</div>}
+                          {<div key={item.name}><b>COMPLAIN : </b>{item.complain}</div>}
+                          {<div key={item.name}><b>STATUS : </b>To be reviewed</div>}
+>>>>>>> 707300cb5b048bb34c58c47cea78b1991ae102c6
                         </Box>
                       </Box>
                     </Box>
