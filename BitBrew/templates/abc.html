@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/global.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+    <link rel= "stylesheet" href= "global.css">
+    <link rel= "stylesheet" href= "index.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    
+  </head>
+  <body>
+    <div class="footer-white">
+      <img
+        class="b-a-ck-g-r-o-u-n-d"
+        alt=""
+        src="./public/b-a-ck-g-r-o-u-n-d@2x.png"
+      />
+
+      <header class="vector-parent">
+        <img class="frame-child" alt="" src="./public/rectangle-32.svg" />
+
+        <div class="home">
+            <button class="home-btn" onclick="navigateToPage('/abc3.html')">Home</button>
+            </div>
+        <div class="enroll-button-rectangle">
+          <div class="about">
+            <button class="about-btn">About</button>
+          </div>
+          <div class="contact">
+            <button class="contact-btn">Contact</button>
+          </div>
+        </div>
+      </header>
+      <section class="notificationframe">
+        <div class="textbox1">
+          <img
+            class="textbox1-child"
+            loading="eager"
+            alt=""
+            src="./public/rectangle-40.svg"
+          />
+
+          <div class="rectanglevector"></div>
+          <h1 class="the-right-decision">
+            The Right Decision could save Lives.
+          </h1>
+          <div class="action-button"></div>
+          <div class="activatebutton">
+            <div class="frame-parent">
+              <div class="fireemergencytext-parent">
+                <div class="fireemergencytext">
+                  <div class="vectoractivate">
+                    <img
+                      class="vectoractivate-child"
+                      loading="eager"
+                      alt=""
+                      src="assets/abcd-left.png"
+                    />
+
+                    <div class="activate-in-the">
+                      Activate in the event of the fire emergency.
+                    </div>
+                  </div>
+                </div>
+                <div class="receive-notifications-from-the-parent">
+                  <div class="receive-notifications-from">
+                    Receive notifications from the intelligent fire monitoring
+                    system.
+                  </div>
+                  <img
+                    class="frame-item"
+                    loading="eager"
+                    alt=""
+                    src="assets/abcd-left.png"
+                  />
+                </div>
+              </div>
+              <div class="actions-frame">
+                <div class="fire-alert-frame-parent">
+                  <div class="fire-alert-frame">
+                    <div class="actions">
+                      <button class="action" onclick="getLocation()">Emergency</button>
+                    </div>
+                    <div class="actions-wrapper">
+                      <div class="actions1">
+                        <button class="action1" onclick="navigateToPage('/abc3.html')">Upload</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="actions2">
+                    <button class="action2">Alerts</button>
+                  </div>
+                  <div class="actions3">
+                    <button class="action3" onclick="navigateToPage('/abc5.html')">Smoke-Vanish</button>
+                  </div>
+                </div>
+              </div>
+              <div class="receive-notifications-frame">
+                <div class="frame-with-rectangle-provide">
+                  <div class="tap-frame">
+                    <img
+                      class="tap-frame-child"
+                      loading="eager"
+                      alt=""
+                      src="assets/abcd.png"
+                    />
+
+                    <div class="provide-a-blueprint">
+                      Provide a blueprint or Architectural layout of your
+                      building structure.
+                    </div>
+                  </div>
+                  <div class="tap-frame1">
+                    <div class="tap-in-if">
+                      Tap in if you want to de smoke a video footage.
+                    </div>
+                    <img
+                      class="tap-frame-item"
+                      loading="eager"
+                      alt=""
+                      src="assets/abcd.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script>
+    var userLatitude, userLongitude, nearestFireStation, nearestHospital;
+
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+      } else {
+        alert("Geolocation is not supported by this browser.");
+      }
+    }
+
+    function showPosition(position) {
+      console.log("Inside showPosition");
+      userLatitude = position.coords.latitude;
+      userLongitude = position.coords.longitude;
+
+      fetch('/static/json/fire_station.json')
+        .then(response => response.json())
+        .then(fireStationData => {
+          nearestFireStation = findNearestService(userLatitude, userLongitude, fireStationData);
+
+          fetch('/static/json/doctors.json')
+            .then(response => response.json())
+            .then(hospitalData => {
+              nearestHospital = findNearestService(userLatitude, userLongitude, hospitalData);
+              var url = "https://www.bing.com/maps?rtp=pos." + userLatitude + "_" + userLongitude + "~pos.12.9355274831777_77.509924953498";
+
+              alert("Your Location: " + userLatitude + ", " + userLongitude +
+                "\nNearest Fire Station: " + nearestFireStation.Fire_station +
+                "\nNearest Doctor/Ambulance: " + nearestHospital.Doctor +
+                "\nContact Number: " + nearestHospital.Contact_No +
+                "\nClick OK to see the live ambulance location on Bing Maps.");
+
+                var url = "/abc2.html";
+                window.open(url, '_blank');
+            })
+            .catch(error => {
+              console.error('Error loading hospital data:', error);
+            });
+        })
+        .catch(error => {
+          console.error('Error loading fire station data:', error);
+        });
+    }
+
+    function findNearestService(userLat, userLng, data) {
+      var minDistance = Number.MAX_VALUE;
+      var nearestService = null;
+
+      for (var i = 0; i < data.length; i++) {
+        var service = data[i];
+        var serviceCoordinates = service.Coordinates.split(',').map(parseFloat);
+        var serviceLat = serviceCoordinates[1];
+        var serviceLng = serviceCoordinates[0];
+
+        var distance = calculateDistance(userLat, userLng, serviceLat, serviceLng);
+
+        if (distance < minDistance) {
+          minDistance = distance;
+          nearestService = service;
+        }
+      }
+
+      return nearestService;
+    }
+
+    function calculateDistance(lat1, lon1, lat2, lon2) {
+      var R = 6371;
+      var dLat = (lat2 - lat1) * Math.PI / 180;
+      var dLon = (lon2 - lon1) * Math.PI / 180;
+      var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
+      var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      var distance = R * c;
+      return distance;
+    }
+
+    function showError(error) {
+      console.error("Geolocation error:", error);
+
+      switch (error.code) {
+        case error.PERMISSION_DENIED:
+          alert("User denied the request for Geolocation.");
+          break;
+        case error.POSITION_UNAVAILABLE:
+          alert("Location information is unavailable.");
+          break;
+        case error.TIMEOUT:
+          alert("The request to get user location timed out.");
+          break;
+        case error.UNKNOWN_ERROR:
+          alert("An unknown error occurred.");
+          break;
+      }
+    }
+</script>
+
+
+<script>
+  function navigateToPage(page) {
+    window.location.href = page;
+  }
+</script>
+
+
+
+</html>

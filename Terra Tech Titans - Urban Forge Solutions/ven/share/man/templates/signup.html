@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2B2730; /* Dark Purple */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+        }
+
+        form {
+            background-color: #A7D129; /* Darker Purple */
+            padding: 60px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 15px;
+            font-size: 25px;
+            margin-bottom: 30px;
+            border: none;
+            border-radius: 20px;
+            box-sizing: border-box;
+            color: #ffffff;
+            background-color: #2B2730; /* Dark Purple */
+        }
+
+        button {
+            background-color: #4caf50; /* Green */
+            color: #ffffff; /* White */
+            padding: 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 20px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Style for the login button */
+        #loginButton {
+            background-color: #3498db; /* Lime Green */
+        }
+
+        button:hover {
+            background-color: #2B2730; /* Dark Purple */
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <form id="signupForm" onsubmit="redirectToHomepage()">
+        <h1 style="font-weight: bold; margin-bottom: 30px; font-size: 45px; color: #2B2730">Urban Forge Solutions</h1>
+        <h2 style="font-weight: bold; margin-bottom: 30px; font-size: 36px;">Signup</h2>
+
+        <input type="text" id="signupUsername" name="signupUsername" placeholder="Username" required>
+
+        <br>
+
+        <input type="password" id="signupPassword" name="signupPassword" placeholder="Password" required>
+
+        <br>
+
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+
+        <br>
+
+        <button type="submit">Signup</button>
+
+        <!-- Login button -->
+        <button type="button" id="loginButton" onclick="redirectToLogin()">Login</button>
+    </form>
+
+    <script>
+        // JavaScript function to handle signup and redirect to homepage
+        function redirectToHomepage() {
+    // You can add logic here to perform login validation.
+    // If login is successful, redirect to homepage.html
+    fetch('/bypass', {
+        method: 'GET'
+    })
+    .then(response => {
+        if (response.ok) {
+            window.location.href = response.url;
+        } else {
+            console.error('Error:', response.status, response.statusText);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+    return false; // Prevents the form from submitting in case you want to handle login validation using AJAX.
+}
+
+        // JavaScript function to red irect to login page
+
+        function redirectToLogin() {
+    fetch('/login', {
+        method: 'GET'
+    })
+    .then(response => {
+        if (response.ok) {
+            window.location.href = response.url;
+        } else {
+            console.error('Error:', response.status, response.statusText);
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+    </script>
+</body>
+</html>

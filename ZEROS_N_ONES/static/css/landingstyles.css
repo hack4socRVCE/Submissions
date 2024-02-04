@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+:root {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  height: max-content;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  background-color: rgb(11, 11, 11);
+  padding: 1rem 0;
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 800px) {
+  #header {
+    text-align: center;
+    height: auto;
+  }
+}
+.header-content-div {
+    background-color: #080808;
+  max-width: 100rem;
+  width: auto;
+  margin: 0 auto;
+}
+@media (max-width: 991px) {
+  .header-content-div {
+    max-width: 75rem;
+  }
+}
+#header-img {
+  height: 5rem;
+  width: auto;
+  border-radius: 5px;
+}
+@media (max-width: 800px) {
+  #header-img {
+    height: 4rem;
+  }
+}
+nav {
+  position: relative;
+  top: 0.3rem;
+  float: right;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1.5rem 0;
+}
+@media (max-width: 800px) {
+  nav {
+    position: static;
+    float: none;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+  }
+}
+.nav-link {
+  text-decoration: none;
+  color: #72a6e6;
+  margin: 0 0.5rem;
+  padding: 0 0.6rem;
+  transition: border-bottom 0.2s;
+}
+@media (max-width: 475px) {
+  .nav-link {
+    margin: 0 0.2rem;
+    padding: 0 0.2rem;
+    font-size: 1.2rem;
+  }
+}
+.nav-link:hover {
+  color: #e23d3d;
+  border-bottom: 2px solid #e23d3d;
+}
+.nav-link:active {
+  color: #f84848;
+}
+.flexible {
+  display: flex;
+  flex-flow: row nowrap; /* Do not wrap on the same line */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Adjust padding or margins as needed */
+}
+
+.home-sec {
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+  min-height: 60rem;
+  height: auto;
+  margin: 0 auto 5rem auto;
+  justify-content: start;
+  max-width: 95rem;
+  color: #333;
+  display: flex;
+  align-items: center; /* Aligns children vertically in the center */
+  justify-content: space-around; /* Space out children */
+}
+@media (max-width: 800px) {
+  .home-sec {
+    flex-flow: column wrap;
+    max-width: 100%;
+  }
+}
+.eye-grabber {
+  flex: 1;
+  padding: 0 2rem;
+}
+@media (max-width: 800px) {
+  .eye-grabber {
+    max-width: max-content;
+    padding-bottom: 8rem;
+  }
+}
+.eye-grabber h1 {
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.eye-grabber h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #666;
+}
+.eye-grabber, .eye-grabber-img {
+  flex: 1; /* Each child will take up equal space */
+  padding: 2rem; /* Adds padding around the content */
+}
+@media (max-width: 800px) {
+  /* Adjust layout for smaller screens */
+  .flexible, .home-sec {
+    flex-direction: column;
+  }
+}
+
+.eye-grabber-img img {
+  max-width: 100%;
+  float:left;
+}
+.btn {
+  border: none;
+  font-size: 2rem;
+  border-radius: 0.4rem;
+  padding: 2rem;
+  background-color: #70a8cb;
+  color: #fafafa;
+  outline: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: #f84848;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+.section-heading {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+  padding: 5rem 0 5rem 0;
+  text-align: center;
+}
+.sec-content-div {
+  font-size: 2rem;
+  text-align: start;
+  padding: 0 2rem 5rem 2rem;
+  width: auto;
+  justify-content: space-around;
+  max-width: 95rem;
+  margin: 0 auto;
+}
+.sec-padding {
+  padding: 8rem 0 10rem 0;
+}
+#about {
+  background-color: #fafafa;
+}
+#about img {
+  max-width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 6px 31px -2px rgba(0, 0, 0, 0.1);
+}
+#varieties {
+  background-color: #e3e3e3;
+}
+.footer {
+  font-size: 1.4rem;
+  background-color: #1589d0e0;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  color: #fafafa;
+}
+footer a {
+  color: #e3e3e3;
+  text-decoration: none;
+}

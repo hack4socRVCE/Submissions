@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💫 Enigma AI | Dashboard</title>
+    <link rel="stylesheet" href="static/style2.css">
+</head>
+<body>
+    <center>
+        <img class="logo_img" src="static/img/logo.png">
+    </center>
+
+    <nav class="navbar">
+        <a href="{{url_for('nlp')}}" class="nav-link">/text-nlp/</a>
+        <a href="{{url_for('mathsolver')}}" class="nav-link">/math-solver/</a>
+        <a href="{{url_for('logout')}}" class="nav-link">/logout/</a>
+
+    </nav>
+
+    <br>
+    <br>
+
+    <div class="meow">
+<p>
+    <center>
+       Click <a href="{{url_for('nlp')}}">/text-nlp</a> for accessing the NLP features of ENIGMA <br>
+       <br>
+       Click <a href="{{url_for('mathsolver')}}">/math-solver/</a> for uploading an image of a math problem you have
+    </center>
+</p>
+    </div>
+

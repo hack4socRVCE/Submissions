@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('/App/static/images/stockspage.png') no-repeat center center fixed;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.risk-slider-container {
+    margin-top: 20px;
+    width: 30%;
+    height: 50%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Shadow for depth */
+}
+
+#riskSlider {
+    width: 30%; /* Full width of the container */
+    cursor: pointer; /* Cursor changes to indicate slider can be moved */
+}
+
+#riskValue {
+    font-size: 18px; /* Larger font size for visibility */
+    color: #007bff; /* Bright color for visibility */
+    font-weight: bold; /* Bold font for emphasis */
+    margin-top: 10px;
+}
+
+.loan-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.loan-container h1 {
+    color: #0056b3;
+}
+
+.loan-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.loan-item {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px);
+}
+
+.loan-item h2 {
+    color: #007bff;
+}
+
+@media (max-width: 600px) {
+    .loan-item {
+        width: 100%;
+    }
+}

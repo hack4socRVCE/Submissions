@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="static/css/signup.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <div class="left-container">
+      <div class="financial-savings-text">
+        <h2>Start Saving Smartly Today!</h2>
+        <p>Join a community that values financial foresight.</p>
+      </div>
+    </div>
+    <div class="right-container">
+      <div class="wrapper">
+        <form id="signupForm" action="">
+          <h1>SIGN UP</h1>
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" id="fullName" required>
+            <i class='bx bxs-user'></i>
+            <span class="error-message" id="fullNameError"></span>
+          </div>
+          <div class="input-box">
+            <input type="email" placeholder="Email" id="email" required>
+            <i class='bx bxs-envelope'></i>
+            <span class="error-message" id="emailError"></span>
+          </div>
+          <div class="input-box">
+            <input type="text" placeholder="Phone Number" id="phone" required>
+            <i class='bx bxs-phone'></i>
+            <span class="error-message" id="phoneError"></span>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Password" id="password" required>
+            <i class='bx bxs-lock-alt'></i>
+            <span class="error-message" id="passwordError"></span>
+          </div>
+          <div class="input-box">
+            <input type="password" placeholder="Confirm Password" id="confirmPassword" required>
+            <i class='bx bxs-lock'></i>
+            <span class="error-message" id="confirmPasswordError"></span>
+          </div>
+          <div class="terms">
+            <label><input type="checkbox" id="termsCheckbox">I hereby declare that the above information provided is true and correct</label>
+            <span class="error-message" id="termsError"></span>
+          </div>
+          <button type="button" id="registerButton" class="btn">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<script>
+  document.getElementById("registerButton").addEventListener("click", function() {
+      const fullName = document.getElementById("fullName").value;
+      const email = document.getElementById("email").value;
+      const phone = document.getElementById("phone").value;
+      const password = document.getElementById("password").value;
+      const confirmPassword = document.getElementById("confirmPassword").value;
+      const termsCheckbox = document.getElementById("termsCheckbox").checked;
+  
+      let isValid = true; // Flag to track overall form validity
+  
+      // Clear previous error messages
+      document.querySelectorAll(".error-message").forEach(function(msgElement) {
+          msgElement.textContent = '';
+      });
+  
+      // Validate Full Name
+      if (!/^[A-Za-z\s]+$/.test(fullName)) {
+          document.getElementById("fullNameError").textContent = "Name must contain only letters and spaces.";
+          isValid = false;
+      }
+  
+      // Validate Email Format
+      if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+          document.getElementById("emailError").textContent = "Invalid email address format.";
+          isValid = false;
+      }
+  
+      // Validate Phone Number
+      if (!/^\d{10}$/.test(phone)) {
+          document.getElementById("phoneError").textContent = "Phone number must be 10 digits.";
+          isValid = false;
+      }
+  
+      // Validate Password
+      if (!/^(?=.*\d)(?=.*[a-zA-Z])(?=.*\W).{6,}$/.test(password)) {
+          document.getElementById("passwordError").textContent = "Password must include at least one number, one letter, and one special character.";
+          isValid = false;
+      }
+  
+      // Validate Passwords Match
+      if (password !== confirmPassword) {
+          document.getElementById("confirmPasswordError").textContent = "Passwords do not match.";
+          isValid = false;
+      }
+  
+      // Validate Terms Checkbox
+      if (!termsCheckbox) {
+          document.getElementById("termsError").textContent = "You must agree to the terms.";
+          isValid = false;
+      }
+  
+      if (isValid) {
+          // Redirect to Dashboard.html
+          window.location.href = "login";
+      }
+  });
+  </script>
+  
+</body>
+</html>

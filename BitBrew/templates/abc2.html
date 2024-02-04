@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/global.css') }}">
+
+    <link rel= "stylesheet" href= "global.css">
+    <link rel= "stylesheet" href= "index.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="footer-white">
+      <img
+        class="b-a-ck-g-r-o-u-n-d"
+        alt=""
+        src="./public/b-a-ck-g-r-o-u-n-d@2x.png"
+      />
+
+      <header class="vector-parent">
+        <img class="frame-child" alt="" src="./public/rectangle-32.svg" />
+
+        <div class="home">
+          <button class="home-btn" onclick="navigateToPage('/abc1.html')">Home</button>
+        </div>
+        <div class="enroll-button-rectangle">
+          <div class="about">
+            <button class="about-btn">About</button>
+          </div>
+          <div class="contact">
+            <button class="contact-btn">Contact</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="call-wait-frame">
+        <h1 class="we-considered-your">
+          We considered your request! Kindly wait for a callback
+        </h1>
+      </div>
+      <div class="div-iframe">
+        
+          <img class="div-iframe" src="{{ url_for('static', filename='escape_route.png') }}" alt="">
+          
+      </div>
+      <div class="action-text">
+        
+        <div class="actions">
+          
+          <button class="actions-btn" onclick="navigateToPage('/abc1.html')">Home</button>
+        </div>
+      </div>
+      <div class="action-button"></div>
+    </div>
+
+    <script>
+      function navigateToPage(page) {
+        window.location.href = page;
+      }
+    </script>
+    <script>
+        function navigateToPublic() {
+          window.location.href = "/abc.html";
+        }
+      </script>
+      <script>
+        var userLatitude, userLongitude, nearestFireStation, nearestHospital;
+    
+        function getLocation() {
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition, showError);
+          } else {
+            alert("Geolocation is not supported by this browser.");
+          }
+        }
+    
+        function showPosition(position) {
+          console.log("Inside showPosition");
+          userLatitude = position.coords.latitude;
+          userLongitude = position.coords.longitude;
+    
+          fetch('/static/json/fire_station.json')
+            .then(response => response.json())
+            .then(fireStationData => {
+              nearestFireStation = findNearestService(userLatitude, userLongitude, fireStationData);
+    
+              fetch('/static/json/doctors.json')
+                .then(response => response.json())
+                .then(hospitalData => {
+                  nearestHospital = findNearestService(userLatitude, userLongitude, hospitalData);
+                  var url = "https://www.bing.com/maps?rtp=pos." + userLatitude + "_" + userLongitude + "~pos.12.9355274831777_77.509924953498";
+    
+                  var userConfirmation = window.confirm("Your Location: " + userLatitude + ", " + userLongitude +
+                  "\nNearest Fire Station: " + nearestFireStation.Fire_station +
+                  "\nNearest Doctor/Ambulance: " + nearestHospital.Doctor +
+                  "\nContact Number: " + nearestHospital.Contact_No +
+                  "\nDo you want to be redirected to a map with nearby services?");
+
+                  if (userConfirmation) {
+                  var url = "/combined_map.html";
+                  window.open(url, '_blank');
+}
+
+                })
+                .catch(error => {
+                  console.error('Error loading hospital data:', error);
+                });
+            })
+            .catch(error => {
+              console.error('Error loading fire station data:', error);
+            });
+        }
+    
+        function findNearestService(userLat, userLng, data) {
+          var minDistance = Number.MAX_VALUE;
+          var nearestService = null;
+    
+          for (var i = 0; i < data.length; i++) {
+            var service = data[i];
+            var serviceCoordinates = service.Coordinates.split(',').map(parseFloat);
+            var serviceLat = serviceCoordinates[1];
+            var serviceLng = serviceCoordinates[0];
+    
+            var distance = calculateDistance(userLat, userLng, serviceLat, serviceLng);
+    
+            if (distance < minDistance) {
+              minDistance = distance;
+              nearestService = service;
+            }
+          }
+    
+          return nearestService;
+        }
+    
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+          var R = 6371;
+          var dLat = (lat2 - lat1) * Math.PI / 180;
+          var dLon = (lon2 - lon1) * Math.PI / 180;
+          var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+            Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dLon / 2) * Math.sin(dLon / 2);
+          var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+          var distance = R * c;
+          return distance;
+        }
+    
+        function showError(error) {
+          console.error("Geolocation error:", error);
+    
+          switch (error.code) {
+            case error.PERMISSION_DENIED:
+              alert("User denied the request for Geolocation.");
+              break;
+            case error.POSITION_UNAVAILABLE:
+              alert("Location information is unavailable.");
+              break;
+            case error.TIMEOUT:
+              alert("The request to get user location timed out.");
+              break;
+            case error.UNKNOWN_ERROR:
+              alert("An unknown error occurred.");
+              break;
+          }
+        }
+        getLocation()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global5.css" />
+    <link rel="stylesheet" href="./index5.css" />
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/global5.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index5.css') }}">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="footer-white">
+      <img
+        class="b-a-ck-g-r-o-u-n-d"
+        alt=""
+        src="./public/b-a-ck-g-r-o-u-n-d@2x.png"
+      />
+
+      <header class="vector-parent">
+        <img class="frame-child" alt="" src="./public/rectangle-32.svg" />
+
+        <div class="home">Home</div>
+        <div class="info-frame">
+          <div class="about">About</div>
+          <div class="contact">Contact</div>
+        </div>
+      </header>
+      <main class="media-frame">
+        <h1 class="video-footage">VIDEO FOOTAGE</h1>
+        <section class="inner-frames">
+          <img
+            class="inner-frames-child"
+            alt=""
+            src="./public/rectangle-40.svg"
+          />
+
+          <div class="rectangles-stack">
+            <video class="rectangles-stack" controls muted autoplay>
+                <source src="{{ url_for('static', filename='original.mp4') }}" type="video/mp4">
+                
+            </video>
+          </div>
+          <div class="rectangles-stack1">
+            <video id="abcd" class="rectangles-stack" controls muted>
+                <source src="{{ url_for('static', filename='dehazzed.mp4') }}" type="video/mp4">
+               
+            </video>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <script>
+    // Get the video element by its ID
+    var myVideo = document.getElementById("abcd");
+
+    // Set a timeout to play the video after a specified interval (in milliseconds)
+    setTimeout(function() {
+        myVideo.play();
+    }, 17000); // Adjust the time interval as needed (20000 milliseconds = 20 seconds)
+</script>
+</html>

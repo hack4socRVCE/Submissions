@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/global4.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index4.css') }}">
+    <link rel= "stylesheet" href= "global4.css">
+    <link rel= "stylesheet" href= "index4.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Function to check if "block.png" is present
+        function checkImageExists(imageSrc, callback) {
+          fetch(imageSrc)
+            .then((response) => {
+              if (response.status === 200) {
+                callback(true);
+              } else {
+                callback(false);
+              }
+            })
+            .catch(() => {
+              callback(false);
+            });
+        }
+
+        // Update the src attribute if "block.png" is present
+        function updateImageSrc(imageElement, newSrc) {
+          checkImageExists(newSrc, function (exists) {
+            if (exists) {
+              imageElement.src = newSrc;
+            }
+          });
+        }
+
+        // Call updateImageSrc for each frame-item
+        updateImageSrc(document.getElementById("image1"), "block.png");
+        updateImageSrc(document.getElementById("image2"), "block.png");
+      });
+    </script>
+  </head>
+  <body>
+    <div class="footer-white">
+      <header class="vector-parent">
+        <img class="frame-child" alt="alt_image" src="blue.png" />
+
+        <div class="home"><button class="div-button" onclick="navigateToPage('/abc1.html')">Home</button></div>
+        <div class="about-parent">
+          <div class="about">About</div>
+          <div class="contact">Contact</div>
+        </div>
+      </header>
+      <main class="parent-frame">
+        <section class="frame-parent">
+          <div class="frame-group">
+            <div class="frame-container">
+              <div class="rectangle-parent">
+                <img
+                  class="frame-item"
+                  alt=""
+                  src="{{ url_for('static', filename='blue.jpg') }}"
+                />
+
+                <img
+                  class="frame-inner"
+                  loading="eager"
+                  alt=""
+                  src=""
+                  id="image1"
+                />
+              </div>
+              <h1 class="h1">-&gt;</h1>
+            </div>
+            <div class="frame-house-blueprint">
+              <h1 class="house-blue-print">
+                <span>
+                  <p class="house">House</p>
+                  <p class="blue-print">Blue-Print</p>
+                </span>
+              </h1>
+            </div>
+          </div>
+          <div class="frame-group">
+            <div class="frame-container">
+              <div class="rectangle-parent">
+                <img
+                  class="frame-item"
+                  alt="alt_text"
+                  src="{{ url_for('static', filename='block.png') }}"
+                />
+
+                <img
+                  class="frame-inner"
+                  loading="eager"
+                  alt=""
+                  src=""
+                  id="image2"
+                />
+              </div>
+              
+            </div>
+            <div class="frame-house-blueprint">
+              <h1 class="house-blue-print">
+                <span>
+                  <p class="house">Outline</p>
+                  <p class="blue-print">Diagram</p>
+                </span>
+              </h1>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    
+    
+  </body>
+  <script>
+    function navigateToPage(page) {
+      window.location.href = page;
+    }
+  </script>
+</html>

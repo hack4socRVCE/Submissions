@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Investment Suggestions</title>
+    <link rel="stylesheet" href="/static/css/stocks.css" />
+    <style></style>
+</head>
+
+<body>
+    <div class="stock-container">
+        <h1>Investment Opportunities</h1>
+
+        <div class="risk-slider-container">
+            <h3 style="color: blue">Choose level of Risk:</h3>
+            <input type="range" min="0" max="100" value="0" class="slider" id="riskSlider" />
+            <p id="riskValue">Risk Factor: Low</p>
+        </div>
+        <button id="submitBtn">Submit Value</button>
+
+        <div id="stockCards" class="cards-container"></div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const slider = document.getElementById('riskSlider');
+                const valueDisplay = document.getElementById('riskValue');
+                const submitBtn = document.getElementById('submitBtn');
+
+                // Adjust the slider to have a continuous range
+                slider.min = "0";
+                slider.max = "100";
+                slider.step = "1"; // Allow for smooth sliding
+
+                slider.oninput = function () {
+                    // Update display dynamically but don't categorize yet
+                    const value = parseInt(this.value);
+                    let displayValue = 'Medium'; // Default display
+                    if (value <= 33) {
+                        displayValue = 'Low';
+                    } else if (value > 33 && value <= 66) {
+                        displayValue = 'Medium';
+                    } else if (value > 66) {
+                        displayValue = 'High';
+                    }
+                    valueDisplay.textContent = displayValue;
+                }
+
+                submitBtn.onclick = function () {
+                    const value = parseInt(slider.value);
+                    let riskLevel = 'Medium'; // Default risk level
+                    if (value <= 33) {
+                        riskLevel = 'Low';
+                    } else if (value > 33 && value <= 66) {
+                        riskLevel = 'Medium';
+                    } else if (value > 66) {
+                        riskLevel = 'High';
+                    }
+                      alert(`The risk you took is: ${riskLevel}`);
+
+                    const stockCardsContainer = document.getElementById('stockCards');
+                    stockCardsContainer.innerHTML = ''; // Clear previous cards
+                    let stocksToShow = [];
+
+                    if (riskLevel === 'Low') {
+                        stocksToShow = [
+                            { name: 'Stock A', symbol: 'STA', price: '$100', description: 'Stable growth, low risk.' },
+                            { name: 'Stock B', symbol: 'STB', price: '$150', description: 'Consistent dividend, low risk.' }
+                        ];
+                    } else if (riskLevel === 'Medium') {
+                        stocksToShow = [
+                            { name: 'Stock C', symbol: 'STC', price: '$200', description: 'Moderate growth, medium risk.' },
+                            { name: 'Stock D', symbol: 'STD', price: '$250', description: 'Good potential, medium risk.' }
+                        ];
+                    } else if (riskLevel === 'High') {
+                        stocksToShow = [
+                            { name: 'Stock E', symbol: 'STE', price: '$300', description: 'High growth potential, high risk.' },
+                            { name: 'Stock F', symbol: 'STF', price: '$350', description: 'Speculative, high risk.' }
+                        ];
+                    }
+
+
+                    // Dynamically create and add cards
+                    stocksToShow.forEach(stock => {
+                        const card = document.createElement('div');
+                        card.className = 'card';
+
+                        const title = document.createElement('div');
+                        title.className = 'card-title';
+                        title.textContent = `${stock.name} (${stock.symbol})`;
+
+                        const price = document.createElement('div');
+                        price.className = 'card-content';
+                        price.innerHTML = `<span>Price:</span> ${stock.price}`;
+
+                        const description = document.createElement('div');
+                        description.className = 'card-content';
+                        description.textContent = stock.description;
+
+                        card.appendChild(title);
+                        card.appendChild(price);
+                        card.appendChild(description);
+
+                        stockCardsContainer.appendChild(card);
+                    });
+
+                    // Show the container
+                    stockCardsContainer.style.display = 'block';
+                }
+            });
+
+
+        </script>
+        <style>
+            .cards-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap onto the next line if needed */
+  justify-content: start; /* Align cards to the start of the container */
+  gap: 20px; /* Creates space between cards */
+  margin-top: 20px;
+}
+
+.card {
+  flex: 0 1 calc(50% - 20px); /* Each card can grow to fill space, but start out taking up roughly a third of the container width, accounting for gap */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 3%;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  font-size: 14px;
+}
+
+.card-content span {
+  font-weight: bold;
+}
+        </style>
+
+
+        <!-- Scripts for graphs and animations -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            submitBtn.onclick = function () {
+                let value = "Medium"; // Default value
+                switch (slider.value) {
+                    case "1":
+                        value = "Low";
+                        alert("the entered value is " + value + " risk factor");
+                        break;
+                    case "2":
+                        value = "Medium";
+                        alert("the entered value is " + value + " risk factor");
+                        break;
+                    case "3":
+                        value = "High";
+                        alert("the entered value is " + value + " risk factor");
+                        break;
+                }
+            };
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+</body>
+
+</html>

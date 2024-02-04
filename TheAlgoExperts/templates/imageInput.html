@@ -1,0 +1,87 @@
+{% extends "layout.html" %} {% block content %}
+<div style="display: flex; flex-direction: column; align-items: center">
+    <form
+        method="post"
+        enctype="multipart/form-data"
+        style="width: 200px; margin-top: 20px"
+    >
+        <input type="file" name="image" accept="image/*" id="imageInput" />
+        <div
+            class="chosen-image"
+            style="width: 150px; height: 200px; margin: 0 auto"
+        >
+            <img
+                id="previewImage"
+                src="../static/Images/upload.jpg"
+                alt="Selected Image"
+                style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 4px;
+                "
+            />
+        </div>
+        <button class="generateDesc" type="submit">Generate Description</button>
+    </form>
+    <p id="result" style="text-align: center"></p>
+</div>
+
+<audio id="myAudio"></audio>
+<button id="playPauseButton" style="opacity: 0">Play/Pause</button>
+
+<script>
+    const imageInput = document.getElementById("imageInput");
+    const previewImage = document.getElementById("previewImage");
+
+    imageInput.addEventListener("change", (event) => {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                previewImage.src = event.target.result;
+            };
+            reader.readAsDataURL(file);
+        } else {
+            previewImage.src = "";
+        }
+    });
+
+    const form = document.querySelector("form");
+    form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const formData = new FormData(form);
+        const response = await fetch("/generate_description", {
+            method: "POST",
+            body: formData,
+        });
+
+        const data = await response.json();
+        console.log(data);
+        document.getElementById("result").textContent = data.description;
+
+        // Update audio and play button
+        const audio = document.getElementById("myAudio");
+        const playPauseButton = document.getElementById("playPauseButton");
+
+        audio.src = URL.createObjectURL(
+            new Blob([data.audio_data], { type: "audio/wav" })
+        );
+        audio.play();
+        playPauseButton.textContent = "Pause";
+    });
+
+    const audio = document.getElementById("myAudio");
+    const playPauseButton = document.getElementById("playPauseButton");
+
+    playPauseButton.addEventListener("click", () => {
+        if (audio.paused) {
+            audio.play();
+            playPauseButton.textContent = "Pause";
+        } else {
+            audio.pause();
+            playPauseButton.textContent = "Play";
+        }
+    });
+</script>
+{% endblock content %}

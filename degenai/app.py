@@ -7,14 +7,25 @@ import webbrowser
 from model import master
 import pickle
 import speech2text
-st.set_page_config(page_title='wealth.wize', page_icon="")
+st.set_page_config(page_title='stockbuddy📈', page_icon="")
+
+
+
+placeholder = st.empty()
+with placeholder.container():
+    st.title("StockBuddy 📈")
+    uid = st.text_input("Enter User ID")
+    password = st.text_input("Enter Password",type="password")
+    
+    if not password:
+        
+            st.stop()
+
+placeholder.empty()
+#if st.button("Submit"):
+
 
 with st.sidebar:
-    st.subheader("here's a gist of what you can do")
-    st.write("- query about the equities market through text/voice")
-    st.write("- retrieve info from credible sources through text/voice")
-    st.header("")
-    st.header("")
     st.subheader("souces of information")
     url1 = "https://nsdl.co.in/downloadables/pdf/SEBI%20Booklet.pdf"
     if st.button('sebi'):
@@ -33,7 +44,7 @@ with st.sidebar:
     st.write("deGen.ai")
 
 
-st.title('wealth wize')
+st.title('StockBuddy 📈')
 
 st.markdown("""
     <span style="font-size:30px">

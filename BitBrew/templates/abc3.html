@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/global.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+    <link rel= "stylesheet" href= "global.css">
+    <link rel= "stylesheet" href= "index.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="footer-white">
+      <img
+        class="b-a-ck-g-r-o-u-n-d"
+        alt=""
+        src="./public/b-a-ck-g-r-o-u-n-d@2x.png"
+      />
+
+      <header class="vector-parent">
+        <img class="frame-child" alt="" src="./public/rectangle-32.svg" />
+
+        <div class="home">
+            <button class="home-btn" onclick="navigateToPage('/abc1.html')">Home</button>
+            </div>
+        <div class="enroll-button-rectangle">
+          <div class="about">
+            <button class="about-btn">About</button>
+          </div>
+          <div class="contact">
+            <button class="contact-btn">Contact</button>
+          </div>
+        </div>
+      </header>
+      <div class="actions-instance">
+        <div class="inner-frame">
+          <div class="vector-holder">
+            <img
+              class="vector-holder-child"
+              loading="eager"
+              alt=""
+              src="./public/rectangle-40.svg"
+            />
+          </div>
+          <input type="file" id="fileInput" style="display: none;" />
+          <button class="actions" id="actions">
+            <div class="action-join">Upload</div>
+          </button>
+        </div>
+      </div>
+      <div class="action-button"></div>
+    </div>
+
+    <script>
+      var actions = document.getElementById("actions");
+      var fileInput = document.getElementById("fileInput");
+
+      if (actions && fileInput) {
+        actions.addEventListener("click", function (e) {
+          // Trigger file input click
+          fileInput.click();
+        });
+
+        fileInput.addEventListener("change", function (e) {
+          // Handle the selected file
+          var selectedFile = e.target.files[0];
+          if (selectedFile) {
+            console.log("Selected file:", selectedFile);
+            // Simulate a file download
+            downloadFile(selectedFile);
+          }
+        });
+      }
+
+      function downloadFile(file) {
+        var blob = new Blob([file], { type: file.type });
+        var url = window.URL.createObjectURL(blob);
+
+        // Create a download link
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = file.name;
+
+        // Append the link to the document and trigger a click
+        document.body.appendChild(a);
+        a.click();
+
+        // Remove the link from the document
+        document.body.removeChild(a);
+
+        // Revoke the URL to release the resources
+        window.URL.revokeObjectURL(url);
+      }
+    </script>
+    <script>
+      function navigateToPage(page) {
+        window.location.href = page;
+      }
+    </script>
+    <script>
+      var actions = document.getElementById("actions");
+      var fileInput = document.getElementById("fileInput");
+    
+      if (actions && fileInput) {
+        actions.addEventListener("click", function (e) {
+          // Trigger file input click
+          fileInput.click();
+        });
+    
+        fileInput.addEventListener("change", function (e) {
+          // Handle the selected file
+          var selectedFile = e.target.files[0];
+          if (selectedFile) {
+            console.log("Selected file:", selectedFile);
+            // Simulate a file download
+            downloadFile(selectedFile);
+    
+            // Navigate to /abc4.html after file upload
+            navigateToPage("/abc4.html");
+          }
+        });
+      }
+    
+      function downloadFile(file) {
+        var blob = new Blob([file], { type: file.type });
+        var url = window.URL.createObjectURL(blob);
+    
+        // Create a download link
+        var a = document.createElement("a");
+        a.href = url;
+        a.download = file.name;
+    
+        // Append the link to the document and trigger a click
+        document.body.appendChild(a);
+        a.click();
+    
+        // Remove the link from the document
+        document.body.removeChild(a);
+    
+        // Revoke the URL to release the resources
+        window.URL.revokeObjectURL(url);
+      }
+    </script>
+    
+  </body>
+</html>

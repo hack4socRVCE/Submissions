@@ -1,0 +1,373 @@
+.frame-child {
+    height: 120px;
+    width: 2558px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  body {
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbar on zooming */
+  }
+  .div-button{
+    background-color: #131313;
+    color: #e5e4e4;
+    font-size: 30px;
+    border: none;
+
+  }
+
+  .div-button:hover{
+    cursor: pointer;
+  }
+  .footer-white {
+    min-height: 100vh; /* Ensure the footer-white fills the entire viewport height */
+  }
+  
+  .frame-child {
+    width: 100%; /* Make the frame-child responsive */
+  }
+  
+  @media screen and (max-width: 450px) {
+    .parent-frame {
+      padding-left: 10px; /* Adjust padding for smaller screens */
+      padding-right: 10px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  .about,
+  .contact,
+  .home {
+    position: relative;
+    margin-left: 50px;
+    font-size: 30px;
+    z-index: 1;
+  }
+  .contact {
+    height: 39px;
+    display: inline-block;
+  }
+  .about-parent,
+  .vector-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .about-parent {
+    width: 255px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .vector-parent {
+    align-self: stretch;
+    background-color: #131313;
+    justify-content: center;
+    padding: 46px 20px 35px 55px;
+    box-sizing: border-box;
+    gap: var(--gap-1950xl);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .frame-item {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-41xl);
+    max-height: 100%;
+    width: 900px;
+    object-fit: cover;
+  }
+  .frame-inner {
+    position: absolute;
+    top: 342px;
+    left: 673px;
+    width: 454px;
+    height: 0;
+    z-index: 1;
+  }
+  .rectangle-parent {
+    height: 868px;
+    flex: 1;
+    position: relative;
+    min-width: 733px;
+    max-width: 100%;
+  }
+  .frame-container,
+  .h1 {
+    display: flex;
+    align-items: center;
+  }
+/* ... Your existing CSS ... */
+
+.h1 {
+  width: 301px;
+  margin-left: -800px; /* Original margin */
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.38px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: inherit;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 0 0 0 -51px; /* Original margin */
+  margin-left: 400px; /* New rule to move the h1 element to the right */
+}
+
+/* ... Your existing CSS ... */
+
+  .frame-container {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    row-gap: 20px;
+    max-width: 100%;
+  }
+  .house {
+    margin-block-start: 0;
+    margin-block-end: 83px;
+  }
+  .blue-print {
+    margin: 0;
+  }
+  .house-blue-print {
+    margin: 0;
+    height: 223px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.38px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  .frame-group,
+  .frame-house-blueprint {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-house-blueprint {
+    width: 765px;
+    flex-direction: row;
+    padding: 0 54px;
+    box-sizing: border-box;
+  }
+  .frame-group {
+    margin-left: 1450px;
+    margin-top: 150px;
+    margin-right: -550px;
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-143xl);
+    min-width: 895px;
+  }
+  
+  .b-a-ck-g-r-o-u-n-d {
+    align-self: stretch;
+    height: 838px;
+    position: relative;
+    border-radius: var(--br-41xl);
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .shortest-safest {
+    margin-block-start: 0;
+    margin-block-end: 91px;
+  }
+  .evacuation-path {
+    margin: 0;
+  }
+  .shortest-safest-evacuation-pat-container1 {
+    width: 100%;
+  }
+  .shortest-safest-evacuation-pat-container {
+    margin: 0;
+    width: 804px;
+    height: 139px;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 4px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: inherit;
+    display: flex;
+    align-items: flex-end;
+    max-width: 100%;
+  }
+  .background-frame,
+  .rectangle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-button {
+    align-self: stretch;
+    align-items: center;
+    gap: var(--gap-184xl);
+  }
+  .background-frame {
+    width: 848px;
+    align-items: flex-start;
+    padding: 0 0 11px;
+    box-sizing: border-box;
+    min-width: 848px;
+  }
+  .frame-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-134xl);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-77xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .footer-white,
+  .parent-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .parent-frame {
+    width: 2478px;
+    flex-direction: row;
+    padding: 0 50px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .footer-white {
+    width: 100%;
+    position: relative;
+    background-color: #e5e4e4;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 0 128px 2px;
+    gap: var(--gap-82xl);
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1950px) {
+    .background-frame {
+      flex: 1;
+    }
+    .frame-parent {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1500px) {
+    .vector-parent {
+      gap: var(--gap-1950xl);
+      padding-left: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .h1 {
+      margin-left: 0;
+    }
+    .frame-container {
+      flex-wrap: wrap;
+    }
+    .frame-group {
+      gap: var(--gap-143xl);
+      min-width: 100%;
+    }
+    .background-frame {
+      flex: 1;
+      min-width: 100%;
+    }
+    .frame-parent {
+      flex-wrap: wrap;
+      gap: var(--gap-134xl);
+    }
+    .parent-frame {
+      padding-left: var(--padding-6xl);
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 975px) {
+    .vector-parent {
+      gap: var(--gap-1950xl);
+    }
+    .rectangle-parent {
+      min-width: 100%;
+    }
+    .h1,
+    .house-blue-print {
+      font-size: var(--font-size-29xl);
+      line-height: 14px;
+    }
+    .frame-house-blueprint {
+      padding-left: var(--padding-8xl);
+      padding-right: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .frame-group {
+      gap: var(--gap-143xl);
+    }
+    .shortest-safest-evacuation-pat-container {
+      font-size: var(--font-size-29xl);
+      line-height: 14px;
+    }
+    .rectangle-button {
+      gap: var(--gap-184xl);
+    }
+    .background-frame {
+      flex: 1;
+    }
+    .frame-parent {
+      flex-wrap: wrap;
+      gap: var(--gap-134xl);
+    }
+    .footer-white {
+      gap: var(--gap-82xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .vector-parent {
+      gap: var(--gap-1950xl);
+    }
+    .h1,
+    .house-blue-print {
+      font-size: var(--font-size-10xl);
+      line-height: 10px;
+    }
+    .frame-group {
+      gap: var(--gap-143xl);
+    }
+    .shortest-safest-evacuation-pat-container {
+      font-size: var(--font-size-10xl);
+      line-height: 10px;
+    }
+    .rectangle-button {
+      gap: var(--gap-184xl);
+    }
+    .background-frame {
+      flex: 1;
+    }
+    .frame-parent {
+      flex-wrap: wrap;
+      gap: var(--gap-134xl);
+    }
+    .footer-white {
+      gap: var(--gap-82xl);
+    }
+  }
