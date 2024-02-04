@@ -1,0 +1,31 @@
+{
+  "name": "qrfraud",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "deprecated-react-native-prop-types": "^5.0.0",
+    "expo": "~50.0.5",
+    "expo-cli": "^6.3.10",
+    "expo-status-bar": "~1.11.1",
+    "express": "^4.18.2",
+    "mongodb-stitch-react-native-sdk": "^4.8.0",
+    "mongoose": "^8.1.1",
+    "react": "^18.2.0",
+    "react-native": "^0.73.3",
+    "react-native-camera": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
