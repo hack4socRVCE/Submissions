@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "lite-server": "^2.6.1",
-    "web3": "^4.4.0"
-  }
-}
