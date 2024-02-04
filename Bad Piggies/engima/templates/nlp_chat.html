@@ -1,0 +1,141 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💫 Enigma AI | NLP</title>
+    <link rel="stylesheet" href="static/style2.css">
+    <style>
+        @font-face {
+            font-family: rh;
+            src: url(/static/fonts/romans_heading.ttf);
+        }
+
+        @font-face {
+            font-family: us;
+            src: url(/static/fonts/normal.woff) format('woff');
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('static/img/background.jpg');
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .nav-links a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .pdf-box {
+            width: 600px;
+            height: 700px;
+            border: 10px solid #ccc;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            right: 900px;
+        }
+
+        .logo_img {
+            height: 30%;
+            width: 15%;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            font-family: us;
+            font-size: 20px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            padding-left: 25px;
+        }
+
+        .nav-link:hover {
+            color: grey;
+        }
+
+        /* Chat Box Styles */
+        .chat-box {
+            width: 300px;
+            height: 400px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-left: 20px;
+            overflow-y: scroll;
+            background-color: white;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+        }
+
+        .chat-messages {
+            margin-bottom: 10px;
+        }
+
+        .chat-input {
+            width: calc(100% - 20px);
+            margin-top: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo_img" src="static/img/logo.png" alt="">
+
+    <nav class="navbar">
+        <a href="{{url_for('nlp')}}" class="nav-link">/text-nlp/</a>
+        <a href="{{url_for('mathsolver')}}" class="nav-link">/math-solver/</a>
+        <a href="{{url_for('transcript')}}" class="nav-link">/transcript/</a>
+        <a href="{{url_for('logout')}}" class="nav-link">/logout/</a>
+    </nav>
+
+
+
+    <br><br>
+<!-- Update the form tag in nlp_chat.html -->
+<form class="former" method="POST" action="{{ url_for('chat') }}">
+    <label for="userInput">Enter your query:</label>
+    <input type="text" id="userInput" name="userInput" required>
+    <br><br>
+    <button style="position: absolute; right: 730px;padding-left: 20px;padding-right: 20px;" class="submit-button" type="submit">Submit</button>
+</form>
+<br>
+<br>
+<br><br>
+<br>
+<div class="arf">
+   <center><p>ENIGMA AI:{{lmao}}</p></center> 
+
+</div>
+</body>
+<br>
+
+</html>

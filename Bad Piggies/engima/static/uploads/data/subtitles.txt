@@ -1,0 +1,6 @@
+{'text': "he always talks about math he doesn't do", 'start': 0.16, 'duration': 4.0}
+{'text': 'any work all he does is just do math all', 'start': 2.56, 'duration': 2.56}
+{'text': 'day', 'start': 4.16, 'duration': 2.32}
+{'text': "sometimes he cooks us dinner if he's", 'start': 5.12, 'duration': 3.12}
+{'text': 'feeling nice', 'start': 6.48, 'duration': 6.32}
+{'text': 'and he eats a lot', 'start': 8.24, 'duration': 4.56}

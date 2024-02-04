@@ -1,0 +1,91 @@
+@font-face {
+    font-family: rh;
+    src: url(/static/fonts/romans_heading.ttf);
+  }
+@font-face {
+    font-family: us;
+    src: url(/static/fonts/normal.woff) format('woff');
+  }
+
+
+body{
+    background-color:  #0A0B0B;
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.heading{
+    font-family:rh;
+    font-size: 45px;
+  
+}
+
+
+
+
+
+.navbar li {
+    
+    display: inline;
+    float: left;
+    font-family: us;
+    font-size:20px;
+    padding-right: 10px;
+    
+}
+  
+.navbar a {
+    display: block;
+    padding: 8px;
+    color: white;
+    background-color: #0A0B0B;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: yellow; 
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meme{
+    font-family: us;
+    font-size: 20px;
+    text-align: center;
+}
+.memeid{
+    height: 50%;
+    width: 50%;
+}
+
+.para_left{
+    font-family:us;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 25px;
+}
+.rvcemail{
+    font-family: us;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0A0B0B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #1a1b1b; /* Change the color on hover if needed */
+    color: yellow;
+}

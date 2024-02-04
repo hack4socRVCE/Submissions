@@ -1,0 +1,154 @@
+@font-face {
+    font-family: rh;
+    src: url(/static/fonts/romans_heading.ttf);
+}
+
+@font-face {
+    font-family: us;
+    src: url(/static/fonts/normal.woff) format('woff');
+}
+
+html {
+    background-image: url(img/background.jpg);
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the background image */
+    height: 100%; /* Ensure the html element takes the full height of the viewport */
+    margin: 0; /* Remove default margin to prevent unwanted spacing */
+}
+
+body {
+    margin: 0; /* Remove default body margin */
+    padding:10px;
+}
+
+.heading_1 {
+    font-family: us;
+    color: white;
+}
+
+.logo_img {
+    height: 30%;
+    width: 15%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+     /* Add your desired background color */
+    padding: 20px; /* Add padding to space out the links */
+    font-family: us;
+    font-size: 20px;
+}
+.pdf-box {
+    width: 600px;
+    height: 700px;
+    border: 10px solid #ccc; /* Add border to the PDF box */
+    padding: 20px; /* Add space inside the PDF box */
+    background-color: white; /* Set background color to white */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    position: absolute;
+    right: 800px;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px; /* Adjust the margin between links */
+    padding-left: 25px;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+
+.descriptive {
+    /* Add any additional styling for the descriptive section if needed */
+    color:white;
+    font-family: us;
+}
+
+.power {
+    display: flex;
+    justify-content: center;
+}
+
+.power1-logo {
+    width: 300px; /* Adjust the width of the logos as needed */
+    height:200px;
+    margin: 0 10px; /* Adjust the margin between logos */
+}
+
+.power2-logo {
+    width: 250px; /* Adjust the width of the logos as needed */
+    height:200px;
+    margin: 0 10px; /* Adjust the margin between logos */
+}
+
+footer{
+    color:white;
+    font-family: us;
+}
+
+.about-section{
+    color:white;
+    font-family:us;
+    font-size:25px;
+}
+
+.former{
+    color:white;
+    font-family:us;
+   
+}
+
+.headings{
+    font-family:us;
+    color:white;
+}
+
+.submit-button {
+    background-color: transparent;
+    border: 1px solid white; /* Set the border color as needed */
+    padding: 5px 10px; /* Adjust padding as needed */
+    color: white; /* Set the text color as needed */
+    font-family:us;
+    font-size: 15px;
+}
+
+/* Add hover styles if desired */
+.submit-button:hover {
+     /* Set the hover background color as needed */
+    color: grey; /* Set the hover text color as needed */
+    
+}
+
+.meow{
+    font-family: us;
+    color:white;
+
+}
+
+.meow a{
+    color:white;
+
+}
+
+.meow a:hover{
+    color:grey;
+}
+
+.woof{
+    font-size: 20px;
+}
+.arf{
+    font-size: 20px;
+    font-family: us;
+    color:white;
+    border: solid 1px white;
+    position: absolute;
+    top: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
