@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300&family=Rubik:wght@400;500;600;700&display=swap");
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+/* Generate desc button on all pages */
+.generateDesc {
+    background-color: #ff3300;
+    color: #f9faf8;
+    padding: 8px 28px;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+/* INPUT BUTTONS SECTION */
+
+.inputButtonContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputButtonContainer button {
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.inputButtonContainer button:hover {
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.active-btn {
+    background: #000;
+    color: #ccc;
+}
