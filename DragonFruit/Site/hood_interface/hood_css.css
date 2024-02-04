@@ -1,0 +1,70 @@
+ body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-top: 10%;
+}
+
+.custom-container {
+  padding: 16px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  height:8.5vw;
+}
+
+.custom-label {
+  margin-bottom: 8px;
+}
+
+.custom-input {
+  width: 90%;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+.custom-input:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  border: 1px solid #4299e1;
+}
+
+.custom-button {
+  width: 100%;
+  background-color: #3490dc;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  outline: none;
+  transition-property: all;
+  transition-duration: 0.3s;
+  margin-top: 3%;
+}
+
+.custom-button:focus {
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+.custom-error-message {
+  color: #ff0000;
+}
+
+
+
+.custom-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: black;
+  font-size: 24px; 
+  margin: 8px; 
+}

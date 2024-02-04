@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+</head>
+<body>
+    <h1>Image Upload and Question-Answering</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="image">Choose an image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required><br>
+
+        <label for="question">Enter your question:</label>
+        <input type="text" id="question" name="question" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/chatbox.css')}}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/lyfeyaj/swipe/swipe.js" ></script>
+        
+
+    </head>
+    <body>
+        <div class="center">
+                <div class="logo">
+                    <h1>
+                        <i class="fa fa-play-circle"></i>
+                        PitchPulse
+                    </h1>
+                </div>
+                <div class="shorts" id="shorts">
+                    <div class="shorts-wrap">
+                    </div>
+                </div>
+        </div>
+        <div class="container fullchatbox">
+            <div class="row">
+            
+                <div class="col-sm-6 offset-sm-3">
+                    <div id="chatbox" class="border-box">
+                        <p class="botText"><span>Hi! I'm PitchDesk </span></p>
+                    </div>
+                    <div id="userInput">
+                        <input id="textInput" class="form-control inp-text" type="text" name="msg" placeholder="Type Your Message Here">
+                        <input id="buttonInput" class="btn btn-success form-control sub-btn" type="submit" value="Send" style="color: #C1D8C5;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="{{ url_for('static', filename='js/code.js')}}"></script>
+
+    <script>
+
+        document.body.style.overflow = 'hidden';
+
+        function getResponse() {
+            let userText = $("#textInput").val();
+            let userHtml = '<p class="userText"><span>' + userText + '</span></p>';
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+            $.get("/get", { msg: userText }).done(function(data) {
+            var botHtml = '<p class="botText"><span>' + data + '</span></p>';
+            $("#chatbox").append(botHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+    });
+    }
+        $("#textInput").keypress(function(e) {
+        //if enter key is pressed
+            if(e.which == 13) {
+                getResponse();
+            }
+        });
+        $("#buttonInput").click(function() {
+            getResponse();
+        });
+
+        </script>
+ </html>

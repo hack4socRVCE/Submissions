@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        .course-box {
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            padding: 15px;
+            border: 2px solid #333;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            overflow: hidden;
+        }
+
+        h3 {
+            font-weight: bold;
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .course-info {
+            color: #333;
+            margin-bottom: 10px;
+            max-height: 70px;
+            overflow: hidden;
+        }
+
+        .check-course-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 15px;
+        }
+
+        .check-course-button:hover {
+            background-color: #45a049;
+        }
+
+        .course-box:hover {
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+
+<div class="course-box" onclick="openLink('https://www.udemy.com/course/financial-planning-for-indians/?utm_source=adwords&utm_medium=udemyads&utm_campaign=FinanceFundamentals_v.PROF_la.EN_cc.INDIA_ti.5798&utm_content=deal4584&utm_term=_._ag_81684920142_._ad_533220746879_._kw__._de_c_._dm__._pl__._ti_dsa-1403478626350_._li_9062075_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgG187CSzE8E__9Vi0xeXVXiakPZ_DRO-B5ShE1ommAf3S6Tz-Hj2NoaAvVmEALw_wcB')">
+    <h3>Financial Planning For Indians</h3>
+    <div class="course-info">Learn financial planning with this comprehensive course. Understand the fundamentals and strategies for effective financial management.</div>
+    <button class="check-course-button" onclick="openLink('https://www.udemy.com/course/financial-planning-for-indians/?utm_source=adwords&utm_medium=udemyads&utm_campaign=FinanceFundamentals_v.PROF_la.EN_cc.INDIA_ti.5798&utm_content=deal4584&utm_term=_._ag_81684920142_._ad_533220746879_._kw__._de_c_._dm__._pl__._ti_dsa-1403478626350_._li_9062075_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgG187CSzE8E__9Vi0xeXVXiakPZ_DRO-B5ShE1ommAf3S6Tz-Hj2NoaAvVmEALw_wcB')">Check Course</button>
+</div>
+
+<div class="course-box" onclick="openLink('https://www.udemy.com/course/become-your-own-cfo/')">
+    <h3>Be Your Own CFO</h3>
+    <div class="course-info">Empower yourself with financial knowledge. Learn how to manage your own finances and make informed financial decisions.</div>
+    <button class="check-course-button" onclick="openLink('https://www.udemy.com/course/become-your-own-cfo/')">Check Course</button>
+</div>
+
+<div class="course-box" onclick="openLink('https://www.coursera.org/learn/financial-planning')">
+    <h3>Financing For Young Adults</h3>
+    <div class="course-info">Tailored for young adults, this course covers essential financial planning concepts and strategies for a successful financial future.</div>
+    <button class="check-course-button" onclick="openLink('https://www.coursera.org/learn/financial-planning')">Check Course</button>
+</div>
+
+<div class="course-box" onclick="openLink('https://www.udemy.com/course/indian-income-tax-direct-tax-a-comprehensive-crash-study/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Accounting_v.PROF_la.EN_cc.INDIA_ti.4328&utm_content=deal4584&utm_term=_._ag_128704656394_._ad_538294668396_._kw__._de_c_._dm__._pl__._ti_dsa-1396734502448_._li_9062075_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgG8PbIELS15O8FuAbW8N6lolLkKmLOyHDr7V1A-BpjBFh_e_Mv4UUcaAtpLEALw_wcB')">
+    <h3>Income Tax In India</h3>
+    <div class="course-info">A comprehensive crash study on Indian income tax and direct tax. Understand the intricacies of taxation in India.</div>
+    <button class="check-course-button" onclick="openLink('https://www.udemy.com/course/indian-income-tax-direct-tax-a-comprehensive-crash-study/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Accounting_v.PROF_la.EN_cc.INDIA_ti.4328&utm_content=deal4584&utm_term=_._ag_128704656394_._ad_538294668396_._kw__._de_c_._dm__._pl__._ti_dsa-1396734502448_._li_9062075_._pd__._&matchtype=&gad_source=1&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgG8PbIELS15O8FuAbW8N6lolLkKmLOyHDr7V1A-BpjBFh_e_Mv4UUcaAtpLEALw_wcB')">Check Course</button>
+</div>
+
+<div class="course-box" onclick="openLink('https://www.udemy.com/course/stock-market-for-beginners-how-to-start-investing-today/?gad_source=1&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgEdcxJdM7V_GPRQz-SMZoFSIW-bJlecxTOqn5IV4_zvgN1HjvHTr1caAuqrEALw_wcB&matchtype=b&utm_campaign=Investing_v.NONP_la.EN_cc.INDIA_ti.6282&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_89947063651_._ad_670210024496_._kw_investing+basics_._de_c_._dm__._pl__._ti_kwd-414505137754_._li_9062075_._pd__._')">
+    <h3>Stock Marketing For Beginners</h3>
+    <div class="course-info">Start your journey into the stock market. Learn the basics of investing and how to navigate the stock market as a beginner.</div>
+    <button class="check-course-button" onclick="openLink('https://www.udemy.com/course/stock-market-for-beginners-how-to-start-investing-today/?gad_source=1&gclid=Cj0KCQiA5fetBhC9ARIsAP1UMgEdcxJdM7V_GPRQz-SMZoFSIW-bJlecxTOqn5IV4_zvgN1HjvHTr1caAuqrEALw_wcB&matchtype=b&utm_campaign=Investing_v.NONP_la.EN_cc.INDIA_ti.6282&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_89947063651_._ad_670210024496_._kw_investing+basics_._de_c_._dm__._pl__._ti_kwd-414505137754_._li_9062075_._pd__._')">Check Course</button>
+</div>
+
+<script>
+    function openLink(url) {
+        window.open(url, '_blank');
+    }
+</script>
+
+</body>
+</html>
