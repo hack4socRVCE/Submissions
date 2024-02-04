@@ -1,0 +1,13 @@
+LASER is an acronym for Light Amplification by Stimulated
+Emission of Radiation. Laser device produces a beam of coherent,
+monochromatic, intense and directional light. Hence laser light is
+highly organized when compared with the ordinary light. This is
+because the waves of a laser beam move in phase with each other
+travel in a narrow path in one direction. In the case of an ordinary
+light it spreads out, travels in different directions and hence it is
+incoherent. On account of the special properties, lasers are the most
+versatile and exploited tools in different fields such as Engineering,
+Medicine, Defence, Entertainment, Communication etc., Other
+common applications of laser include reading the bar code, cutting and
+welding metals, displays in light shows, playing music, printing
+documents, guiding missile to its target and so on.

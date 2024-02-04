@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💫 Enigma AI | Solver</title>
+    <link rel="stylesheet" href="static/style2.css">
+    
+</head>
+<body>
+    <center>
+        <img class="logo_img" src="static/img/logo.png">
+    </center>
+<center>
+    <nav class="navbar">
+        <a href="{{url_for('nlp')}}" class="nav-link">/text-nlp/</a>
+        <a href="{{url_for('mathsolver')}}" class="nav-link">/math-solver/</a>
+        <a href="{{url_for('transcript')}}" class="nav-link">/transcript/</a>
+        <a href="{{url_for('logout')}}" class="nav-link">/logout/</a>
+    </nav>
+<br>
+<div class="former">
+    <h1>Math Solver Result</h1>
+    <p>OCR Output: {{ ocr_output }}</p>
+
+    <h2>Wolfram Alpha Answer:</h2>
+    <p>{{ wolfram_alpha_answer }}</p>
+
+    {% if wolfram_alpha_answer.states %}
+        <h3>Step-by-step solution (Image):</h3>
+        <p>{{ wolfram_alpha_answer.plaintext }}</p>
+    {% endif %}
+    
+  
+</div>
+</body>
+</html>
