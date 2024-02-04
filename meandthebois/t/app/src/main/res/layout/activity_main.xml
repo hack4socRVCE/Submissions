@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text_view_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/material_dynamic_primary70"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="22dp"
+                    android:paddingBottom="6dp"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    />
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/speak"
+            android:layout_width="72sp"
+            android:layout_height="72sp"
+            android:src="@drawable/img"
+            tools:layout_editor_absoluteX="323dp"
+            tools:layout_editor_absoluteY="643dp" />
+
+        <Button
+            android:id="@+id/gotoURL"
+            android:layout_width="54dp"
+            android:layout_height="65dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="15dp"
+            android:text="C"/>
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
