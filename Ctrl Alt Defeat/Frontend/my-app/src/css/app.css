@@ -1,0 +1,69 @@
+.videoplayer{
+    margin-left: 500px;
+    border-color: rgb(237, 0, 0);
+    border-radius: 4px;
+    margin-bottom: 0px;
+    margin-top: -40px;
+}
+
+.loading {
+    padding: 150px;
+    padding-left: 300px;
+}
+
+.videoheader{
+    margin-left: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#3d3d3d;
+    margin-bottom: 30px;
+}
+
+.inputdiv{
+    position: fixed;
+    bottom: 0;
+}
+
+.Text2{
+    text-align: center;
+    
+}
+
+.textoutput{
+    width: 720px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-left:450px;
+    margin-top: 50px;
+}
+
+.divvv{
+    position: fixed;
+    left: 0;
+    top: 1%; /* Adjust as needed */
+    transform: translateY(-50%);
+    width: 200px; /* Adjust width as needed */
+    height: 2000px;
+    background-color: #000000; /* Background color */
+    padding: 10px; /* Padding around content */
+    border: 1px solid #000000; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: aliceblue;
+}
+
+
+
+.divvvv{
+    width: 200px;
+    height:400px;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    top:10px;
+    
+    margin-top: 15px;
+}
+
+.element{
+    margin-left: -18px;
+}

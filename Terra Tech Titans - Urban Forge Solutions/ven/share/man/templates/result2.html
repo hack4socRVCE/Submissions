@@ -1,0 +1,260 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plot Price Prediction Result</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2B2730;
+        }
+
+        header {
+            background-color: #A7D129; /* Lime Green */
+            padding: 30px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #2B2730; /* Dark Purple */
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 10px; /* Add space between buttons */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #A7D129; /* Lime Green */
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        /* Additional styles specific to index.html */
+        h1 {
+            background-color: #A7D129;
+            color: #fff;
+            padding: 15px;
+            margin: 0;
+            text-align: center;
+        }
+
+        #chatContainer {
+            max-width: 1200px;
+            font-size: 20;
+            margin: 20px auto;
+            background-color: #2B2730;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #chatResponse {
+            padding: 20px;
+            font-size: 20;
+            overflow-y: auto;
+            max-height: 300px;
+            font-size: 20;
+        }
+
+        #chatForm {
+            display: flex;
+            padding: 10px;
+        }
+
+        #userMessage {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        #submitBtn {
+            background-color: #A7D129;
+            color: #fff;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .user {
+            color: #A7D129;
+            font-size: 30px;
+            text-align: right;
+        }
+
+        .urbanai {
+            color: #A7D129;
+            font-size: 30px;
+        }
+        body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #2B2730; /* Dark Purple */
+        color: #ffffff;
+    }
+
+    header {
+        background-color: #A7D129; /* Lime Green */
+        padding: 23px 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        color: #2B2730; /* Dark Purple */
+        margin: 0;
+        font-size: 3em;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav li {
+        margin-left: 10px; /* Add space between buttons */
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #A7D129; /* Lime Green */
+        font-weight: bold;
+        font-size: 18px;
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #ffffff;
+    }
+
+    section {
+        padding: 40px;
+        background-color: #2B2730; /* Dark Purple */
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        margin-bottom: 30px;
+    }
+
+    section h2 {
+        color: #A7D129; /* Lime Green */
+        font-size: 2.5em;
+    }
+
+    footer {
+        background-color: #A7D129; /* Olive Drab */
+        padding: 20px 0;
+        text-align: center;
+        color: #ffffff;
+        font-size: 1em;
+    }
+
+    button {
+        background-color: #A7D129; /* Lime Green */
+        color: #2B2730; /* Dark Purple */
+        padding: 15px 25px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        margin: 10px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #2B2730; /* Dark Purple */
+        color: #ffffff;
+    }
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2B2730;
+        }
+
+        h2 {
+            background-color: #A7D129;
+            color: #fff;
+            padding: 15px;
+            margin: 0;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #A7D129;
+            color: #2B2730;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            margin: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: block;
+            margin: auto;
+        }
+
+        button:hover {
+            background-color: #2B2730;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<header>
+        <h1>Urban Forge Solutions</h1>
+
+        <nav>
+            <ul>
+                <li><button onclick="window.location.href='/chati';">Urban AIBot</button></li>
+                <li><button onclick="window.location.href='/index';">AI Price Generator</button></li>
+                <li><button onclick="window.location.href='/floor';">AI House Planner</button></li>
+                <li><button onclick="redirectToUrbanXTools()">UrbanX Tools</button></li>
+            </ul>
+        </nav>
+    </header>
+    <h3>Plot Price Prediction Result</h3>
+    <p>The Price of the plot with given data at {{area_name}} is approximately {{estimated_price}}</p>
+    <button onclick="window.location.href='/index';">Go Back</button>
+</body>
+</html>

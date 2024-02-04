@@ -1,0 +1,108 @@
+{% extends "layout.html" %} {% block content %}
+
+<h1>Audio and Webcam Recording Example</h1>
+
+<button onclick="startRecording()" id="startRcrd">Start Recording</button>
+<button onclick="stopRecording()">Stop Recording</button>
+
+<script>
+    let webcamStream; // Variable to store the webcam stream
+    let webcamActive = false; // Variable to track whether the webcam is already active
+
+    function startRecording() {
+        fetch("/start_record")
+            .then((response) => response.text())
+            .then((message) => {
+                console.log(message);
+                handleRecordingMessage(message);
+            })
+            .catch((error) => console.error(error));
+    }
+
+    function stopRecording() {
+        fetch("/stop_record")
+            .then((response) => response.text())
+            .then((message) => {
+                console.log(message);
+                handleRecordingMessage(message);
+            })
+            .catch((error) => console.error(error));
+    }
+
+    function handleRecordingMessage(message) {
+        switch (message) {
+            case "0":
+                // Stop the webcam and audio recording
+                stopWebcam();
+                break;
+            case "1":
+                // Start the webcam if not already active
+                if (!webcamActive) {
+                    startWebcam();
+                }
+                break;
+            case "2":
+                // Stop the webcam completely
+                stopWebcam();
+                break;
+            default:
+                console.log("Unknown message:", message);
+        }
+    }
+
+    function startWebcam() {
+        if (!webcamStream) {
+            navigator.mediaDevices
+                .getUserMedia({ video: true })
+                .then((stream) => {
+                    // Display the webcam stream in a video element
+                    const video = document.createElement("video");
+                    video.srcObject = stream;
+                    video.autoplay = true;
+                    document.body.appendChild(video);
+
+                    webcamStream = stream;
+                    webcamActive = true; // Set webcamActive to true
+                })
+                .catch((error) =>
+                    console.error("Error accessing webcam:", error)
+                );
+        } else {
+            // If webcamStream is not null, reuse the existing stream
+            const video = document.querySelector("video");
+            video.srcObject = webcamStream;
+            webcamActive = true; // Set webcamActive to true
+        }
+    }
+
+    function pauseWebcam() {
+        // Pause the webcam stream
+        if (webcamStream) {
+            const tracks = webcamStream.getVideoTracks();
+            tracks.forEach((track) => (track.enabled = false));
+        }
+    }
+
+    function stopWebcam() {
+        // Stop the webcam stream
+        if (webcamStream) {
+            const tracks = webcamStream.getTracks();
+            tracks.forEach((track) => track.stop());
+            document.querySelector("video").remove(); // Remove the video element
+            webcamStream = null;
+            webcamActive = false; // Reset webcamActive to false
+        }
+    }
+
+    // Function to simulate a click
+    function simulateClick() {
+        document.getElementById("startRcrd").click();
+    }
+
+    // Simulate click when the page is loaded
+    window.onload = simulateClick;
+
+    // Set interval to call simulateClick every 4 seconds
+    setInterval(simulateClick, 4000);
+</script>
+{% endblock content %}

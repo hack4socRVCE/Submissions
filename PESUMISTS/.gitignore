@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+
+/.venv/*
+*/__pycache__
+/instance/site.db
+*/__pycache__
+!/ChainForge/static/profile_pics/.gitkeep
+/ChainForge/static/profile_pics/*

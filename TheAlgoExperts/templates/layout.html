@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- <link
+            rel="stylesheet"
+            href="{{url_for('static',filename='css/index.css')}}"
+        /> -->
+
+        <link rel="stylesheet" href="../static/css/styles.css" />
+        <link rel="stylesheet" href="../static/css/header.css" />
+        <link rel="stylesheet" href="../static/css/intro.css" />
+        <link rel="stylesheet" href="../static/css/linkInput.css" />
+        <link rel="stylesheet" href="../static/css/videoInput.css" />
+
+        <title>The Algo Addicts</title>
+    </head>
+    <body>
+        <!-- Header -->
+
+        <div class="header">
+            <div class="logo">
+                <p class="logo-txt">Random Logo</p>
+            </div>
+            <div class="links">
+                <a href="/index">Home</a>
+                <a href="/">About</a>
+            </div>
+        </div>
+
+        <!-- Input Buttons -->
+
+        <div class="inputButtonContainer">
+            <button id="imgInput">Upload Image</button>
+            <!-- <button id="webCamInput">WebCam</button> -->
+        </div>
+
+        {% block content %} {% endblock %}
+
+        <!-- Scripts -->
+
+        <script>
+            // Event listener for the
+            document
+                .getElementById("imgInput")
+                .addEventListener("click", function () {
+                    window.location.href = "/imageInput";
+                });
+
+            // document
+            //     .getElementById("videoInput")
+            //     .addEventListener("click", function () {
+            //         window.location.href = "/videoInput";
+            //     });
+
+            // document
+            //     .getElementById("imgLinkInput")
+            //     .addEventListener("click", function () {
+            //         window.location.href = "/imgLinkInput";
+            //     });
+        </script>
+    </body>
+</html>

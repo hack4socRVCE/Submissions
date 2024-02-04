@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-image: url(https://i.postimg.cc/HncjVzCg/istockphoto-1444128859-1024x1024.jpg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="/postsignUp/" method="post">
+            {% csrf_token %}
+            <br />
+            <h1>Sign Up</h1>
+
+            <p>Please fill in this form</p>
+
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="name" class="form-control" id="Username" name="name" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" id="Email" name="email" placeholder="Your Email Id">
+            </div>
+
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" class="form-control" id="Password" name="pass" placeholder="Password">
+            </div>
+
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" class="form-control" id="confirm_password" name="pass-repeat" placeholder="Repeat Password">
+            </div>
+
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" checked="checked" name="remember">
+                <label class="form-check-label" for="remember">Remember me</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

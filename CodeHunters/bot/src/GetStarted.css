@@ -1,0 +1,65 @@
+/* src/GetStarted.css */
+.get-started-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-left: -1200px;
+  } 
+
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure the chat container takes the full height of the viewport */
+  }
+  
+  .conversation-history {
+    overflow-y: auto;
+    flex-grow: 1; /* Make the conversation history take available space */
+    padding: 10px;
+  }
+  
+  .user-input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .input-field {
+    flex-grow: 1; /* Allow the input field to grow and take available space */
+    margin-right: 10px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 500px;
+    
+  }
+
+  .button-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+  
+  .action-button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5px;
+  }
+  
+  .user-input-container {
+    position: sticky;
+    width: 700px;
+    margin-left: 450px;
+    margin-top: 430px;
+  }
+  
+  
