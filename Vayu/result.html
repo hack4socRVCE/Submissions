@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction Result</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+    <h1 class="text-center mb-4">Disease Prediction Result</h1>
+    <div class="alert alert-success" role="alert">
+        <p class="lead">RF Model Prediction: {{ predictions.rf_model_prediction }}</p>
+        <p class="lead">Naive Bayes Prediction: {{ predictions.naive_bayes_prediction }}</p>
+        <p class="lead">SVM Model Prediction: {{ predictions.svm_model_prediction }}</p>
+        <p class="lead">Final Prediction: {{ predictions.final_prediction }}</p>
+    </div>
+    <a href="/" class="btn btn-primary">Go Back</a>
+</body>
+</html>
