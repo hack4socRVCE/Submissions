@@ -56,8 +56,9 @@ streamlit run app_work.py
 2. The web app will open in your browser where you can ask questions related to the meet:s
 
 ## Architecture
-
+![Alt Text](architecture.jpg)
 
 
 ## Sample Output
+![Alt Text](sample.jpg)
 
