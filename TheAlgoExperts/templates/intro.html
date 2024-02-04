@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../static/css/styles.css" />
+        <link rel="stylesheet" href="../static/css/header.css" />
+        <link rel="stylesheet" href="../static/css/intro.css" />
+        <title>The Algo Addicts</title>
+    </head>
+    <body style="background-color: #1f2937">
+        <div class="header">
+            <div class="logo">
+                <p class="logo-txt">The Algo Addicts</p>
+            </div>
+            <div class="links">
+                <a href="/index">Home</a>
+                <a href="/">About</a>
+            </div>
+        </div>
+
+        <div class="intro">
+            <div class="intro-txt">
+                <h1>Eye Sight</h1>
+                <p>Image to speech description generator</p>
+                <button id="intro-try-now-btn">Try</button>
+            </div>
+            <div class="intro-img">
+                <img
+                    src="../static/Images/intro.png"
+                    alt="intro_image"
+                    class="intro-img-src"
+                />
+            </div>
+        </div>
+
+        <p
+            style="
+                padding: 50px 350px;
+                font-size: 20px;
+                background-color: #1f2937;
+                color: white;
+            "
+        >
+            The main objective of the project is to create a Generative AI model
+            capable of offering verbal descriptions for input frames, while
+            seamlessly converting the generated text into speech. Furthermore,
+            the project aims to advance these functionalities to support
+            real-time descriptions of surroundings. As an additional feature,
+            the model will facilitate text extraction from images.
+        </p>
+
+        <script>
+            document
+                .getElementById("intro-try-now-btn")
+                .addEventListener("click", function () {
+                    window.location.href = "/index"; // Replace with the actual URL
+                });
+        </script>
+    </body>
+</html>
