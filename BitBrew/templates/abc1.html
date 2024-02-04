@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/global1.css') }}">
+    
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index1.css') }}">
+    <link rel= "stylesheet" href= "global1.css">
+    <link rel= "stylesheet" href= "index1.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="footer-white">
+      <img
+        class="b-a-ck-g-r-o-u-n-d"
+        alt=""
+        src="./public/b-a-ck-g-r-o-u-n-d@2x.png"
+      />
+
+      <header class="vector-parent">
+        <img class="frame-child" alt="" src="./public/rectangle-32.svg" />
+
+        <div class="home">
+            <button class="home-btn" onclick="navigateToPage('/abc1.html')">Home</button>
+        </div>
+        <div class="first-frame">
+          <div class="about">
+            <button class="about-btn">About</button>
+          </div>
+          <div class="contact">
+            <button class="contact-btn">Contact</button>
+          </div>
+        </div>
+      </header>
+      <section class="second-frame">
+        <div class="textbox1">
+          <img
+            class="textbox1-child"
+            loading="eager"
+            alt=""
+            src="./public/rectangle-40.svg"
+          />
+
+          <div class="first-rectangle"></div>
+          <div class="register-form-frame">
+            <h1 class="register-as">Register as:</h1>
+          </div>
+          <div class="inner-frames">
+            <button class="actions" id="actions">
+              <div class="action" onclick="navigateToPage('/abc.html')">Public</div>
+            </button>
+            <button class="actions1" id="actions1">
+              <div class="action1"  onclick="navigateToPage('https://www.bing.com/maps?rtp=pos.12.923569391188646_77.4988597471171%7Epos.12.9355274831777_77.509924953498&mode=D&cp=12.930841%7E77.505977&lvl=15.3')">Rescue Team</div>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var actions = document.getElementById("actions");
+      if (actions) {
+        actions.addEventListener("click", function (e) {
+          // Please sync "Footer  white" to the project
+        });
+      }
+      
+      var actions1 = document.getElementById("actions1");
+      if (actions1) {
+        actions1.addEventListener("click", function (e) {
+          // Please sync "Footer  white" to the project
+        });
+      }
+      </script>
+      <script>
+        function navigateToPage(page) {
+          window.location.href = page;
+        }
+      </script>
+  </body>
+</html>

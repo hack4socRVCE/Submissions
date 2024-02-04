@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Nearest Services</title>
+</head>
+<body>
+
+    <script>
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition, showError);
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        }
+    
+        function showPosition(position) {
+            var userLatitude = position.coords.latitude;
+            var userLongitude = position.coords.longitude;
+            
+    
+            // Load fire station data from JSON
+            fetch('fire_station.json')
+                .then(response => response.json())
+                .then(fireStationData => {
+                    // Find the nearest fire station
+                    var nearestFireStation = findNearestService(userLatitude, userLongitude, fireStationData);
+    
+                    // Load hospital data from JSON
+                    fetch('doctors.json')
+                        .then(response => response.json())
+                        .then(hospitalData => {
+                            // Find the nearest hospital
+                            var nearestHospital = findNearestService(userLatitude, userLongitude, hospitalData);
+                            var url = "https://www.bing.com/maps?rtp=pos." + userLatitude + "_" + userLongitude + "~pos.12.9355274831777_77.509924953498";
+    
+                            // Display an alert with information and redirect to the specified URL
+                            alert("Your Location: " + userLatitude + ", " + userLongitude +
+                                  "\nNearest Fire Station: " + nearestFireStation.Fire_station +
+                                  "\nNearest Doctor/Ambulance: " + nearestHospital.Doctor +
+                                  "\nContact Number: " + nearestHospital.Contact_No +
+                                  "\nClick OK to see the live ambulance location on Bing Maps.");
+    
+                            // Redirect to the specified URL
+                            window.location.href = url;
+                        })
+                        .catch(error => {
+                            console.error('Error loading hospital data:', error);
+                        });
+                })
+                .catch(error => {
+                    console.error('Error loading fire station data:', error);
+                });
+        }
+    
+        function findNearestService(userLat, userLng, data) {
+            var minDistance = Number.MAX_VALUE;
+            var nearestService = null;
+    
+            for (var i = 0; i < data.length; i++) {
+                var service = data[i];
+                var serviceCoordinates = service.Coordinates.split(',').map(parseFloat);
+                var serviceLat = serviceCoordinates[1];
+                var serviceLng = serviceCoordinates[0];
+    
+                var distance = calculateDistance(userLat, userLng, serviceLat, serviceLng);
+    
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    nearestService = service;
+                }
+            }
+    
+            return nearestService;
+        }
+    
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            var R = 6371; // Radius of the Earth in kilometers
+            var dLat = (lat2 - lat1) * Math.PI / 180;
+            var dLon = (lon2 - lon1) * Math.PI / 180;
+            var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                    Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                    Math.sin(dLon / 2) * Math.sin(dLon / 2);
+            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            var distance = R * c; // Distance in kilometers
+            return distance;
+        }
+    
+        function showError(error) {
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    alert("User denied the request for Geolocation.");
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    alert("Location information is unavailable.");
+                    break;
+                case error.TIMEOUT:
+                    alert("The request to get user location timed out.");
+                    break;
+                case error.UNKNOWN_ERROR:
+                    alert("An unknown error occurred.");
+                    break;
+            }
+        }
+    
+        // Call the getLocation function when the page loads
+        getLocation();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="uchc_refferalhospital" id="uchc_refferalhospital">
+	<SimpleField name="OBJECTID" type="float"></SimpleField>
+	<SimpleField name="KGISUCHC_RefferalHospitalID" type="float"></SimpleField>
+	<SimpleField name="UCHC_HospitalName" type="string"></SimpleField>
+	<SimpleField name="KGISCode" type="string"></SimpleField>
+	<SimpleField name="KGISVillageID" type="float"></SimpleField>
+	<SimpleField name="KGISWardID" type="float"></SimpleField>
+	<SimpleField name="ZoneCode" type="float"></SimpleField>
+	<SimpleField name="WardCode" type="string"></SimpleField>
+</Schema>
+<Folder><name>uchc_refferalhospital</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#uchc_refferalhospital">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="KGISUCHC_RefferalHospitalID">3</SimpleData>
+		<SimpleData name="UCHC_HospitalName">Srirampura referal hospital</SimpleData>
+		<SimpleData name="KGISCode">29572055428031620000URBMPPUGENURH0001</SimpleData>
+		<SimpleData name="KGISVillageID">15481</SimpleData>
+		<SimpleData name="KGISWardID">5070</SimpleData>
+		<SimpleData name="ZoneCode">20037</SimpleData>
+		<SimpleData name="WardCode">2003097</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5650183998292,12.9909150003976</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#uchc_refferalhospital">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="KGISUCHC_RefferalHospitalID">5</SimpleData>
+		<SimpleData name="UCHC_HospitalName">Sirsi road maternity home &amp; referal hospital</SimpleData>
+		<SimpleData name="KGISCode">29572055428031620000URBMPPUGENURH0002</SimpleData>
+		<SimpleData name="KGISVillageID">15081</SimpleData>
+		<SimpleData name="KGISWardID">5155</SimpleData>
+		<SimpleData name="ZoneCode">20037</SimpleData>
+		<SimpleData name="WardCode">2003140</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5611433002884,12.9610033996565</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#uchc_refferalhospital">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="KGISUCHC_RefferalHospitalID">7</SimpleData>
+		<SimpleData name="UCHC_HospitalName">Govindarajnagar referal hospital</SimpleData>
+		<SimpleData name="KGISCode">29572055428031620000URBMPPUGENURH0003</SimpleData>
+		<SimpleData name="KGISVillageID">15116</SimpleData>
+		<SimpleData name="KGISWardID">5083</SimpleData>
+		<SimpleData name="ZoneCode">20037</SimpleData>
+		<SimpleData name="WardCode">2003104</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5337922996553,12.9781792996895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#uchc_refferalhospital">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="KGISUCHC_RefferalHospitalID">8</SimpleData>
+		<SimpleData name="UCHC_HospitalName">Halsuru reffrel hospital</SimpleData>
+		<SimpleData name="KGISCode">29572055428031620000URBMPPUGENURH0004</SimpleData>
+		<SimpleData name="KGISVillageID">30092</SimpleData>
+		<SimpleData name="KGISWardID">5054</SimpleData>
+		<SimpleData name="ZoneCode">20033</SimpleData>
+		<SimpleData name="WardCode">2003089</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6263457998658,12.9736012995553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#uchc_refferalhospital">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="KGISUCHC_RefferalHospitalID">9</SimpleData>
+		<SimpleData name="UCHC_HospitalName">UCHC Kengeri</SimpleData>
+		<SimpleData name="KGISCode">29572055428031620000URBMPPUGENURH0005</SimpleData>
+		<SimpleData name="KGISVillageID">15582</SimpleData>
+		<SimpleData name="KGISWardID">5271</SimpleData>
+		<SimpleData name="ZoneCode">20035</SimpleData>
+		<SimpleData name="WardCode">2003198</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4839384000628,12.9101563004134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#uchc_refferalhospital">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="KGISUCHC_RefferalHospitalID">10</SimpleData>
+		<SimpleData name="UCHC_HospitalName">Banashankari referral hospital</SimpleData>
+		<SimpleData name="KGISCode">29572055428031620000URBMPPUGENURH0006</SimpleData>
+		<SimpleData name="KGISVillageID">15702</SimpleData>
+		<SimpleData name="KGISWardID">5206</SimpleData>
+		<SimpleData name="ZoneCode">20036</SimpleData>
+		<SimpleData name="WardCode">2003165</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5646392996073,12.9229566003807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#uchc_refferalhospital">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="KGISUCHC_RefferalHospitalID">11</SimpleData>
+		<SimpleData name="UCHC_HospitalName">H siddaiah road referal hospital </SimpleData>
+		<SimpleData name="KGISCode">29572055428031620000URBMPPUGENURH0007</SimpleData>
+		<SimpleData name="KGISVillageID">15089</SimpleData>
+		<SimpleData name="KGISWardID">5111</SimpleData>
+		<SimpleData name="ZoneCode">20036</SimpleData>
+		<SimpleData name="WardCode">2003118</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5822446998974,12.9564243000259</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
