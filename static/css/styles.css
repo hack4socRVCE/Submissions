@@ -64,29 +64,6 @@ body {
     margin-right: 10px;
 }
 
-#editor,
-#modified {
-    border: 1px solid #ced4da;
-    padding: 10px;
-    /* max-height: 300px; */
-    overflow: auto;
-    margin: 20px;
-    border-radius: 5px;
-}
-
- #editor {
-    position: fixed;
-    bottom: 0;
-    width: calc(90% - 40px);
-    /* width: 210mm; 
-    height: 297mm; 
-    background-color: white;
-    border: 1px solid #ced4da;
-    border-radius: 5px;
-    margin: 20px auto;
-    padding: 20px;
-    overflow: auto; */
-} 
 
 #modified {
     /* width: calc(90% - 40px); */

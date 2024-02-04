@@ -3,3 +3,4 @@ function selectSignatureType(type) {
     alert('Selected signature type: ' + type);
     // You might want to redirect the user or update the UI accordingly
   }
+  
