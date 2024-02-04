@@ -1,0 +1,8 @@
+flask
+python-dotenv
+langchain
+xhtml2pdf
+google-generativeai
+pdfminer
+pdfminer.six
+langchain-google-genai
