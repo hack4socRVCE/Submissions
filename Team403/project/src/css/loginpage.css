@@ -1,0 +1,142 @@
+/* Grid */
+
+
+main.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 7rem);
+  padding: 1rem 0;
+}
+
+article {
+  padding: 0;
+  overflow: hidden;
+
+}
+
+article div {
+  padding: 1rem;
+}
+
+@media (min-width: 576px) {
+  body > main {
+    padding: 1.25rem 0;
+  }
+
+  article div {
+    padding: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body > main {
+    padding: 1.5rem 0;
+  }
+
+  article div {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body > main {
+    padding: 1.75rem 0;
+  }
+
+  article div {
+    padding: 1.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body > main {
+    padding: 2rem 0;
+  }
+
+  article div {
+    padding: 1rem;
+  }
+}
+
+/* Nav */
+/* summary[role="link"].secondary:is([aria-current], :hover, :active, :focus) {
+  background-color: transparent;
+  color: var(--secondary-hover);
+} */
+
+/* Hero Image */
+article div:nth-of-type(2) {
+  display: none;
+  background-color: #374956;
+  background-image: url("../img/WhatsApp Image 2023-08-27 at 15.58.29.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .grid > div:nth-of-type(2) {
+    display: block;
+  }
+}
+
+hgroup > button{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  justify-content: center;
+  padding: 0;
+  
+}
+
+/* Footer */
+body > footer {
+  padding: 1rem 0;
+}
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 30%,
+      /* Push the bottom points higher to reduce water drop */ 16% 20%,
+      33% 20%,
+      54% 20%,
+      70% 20%,
+      84% 20%,
+      100% 20%,
+      100% 100%,
+      0% 100%
+    );
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 40%,
+      /* Push the bottom points higher */ 15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+    background-image: none;
+    color: #03a9f4;
+  }
+}
+
+hgroup.animate-character h1 {
+  display: inline-block;
+  animation: animate 4s ease-in-out infinite;
+}

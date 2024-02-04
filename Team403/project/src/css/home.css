@@ -1,0 +1,44 @@
+/* Home.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: start; /* Light background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  }
+  
+  .title {
+    color: #007bff; /* Primary color for the title */
+  }
+  
+  .text {
+    color: lightblue; /* Text color */
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .primary-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .secondary-btn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+ 

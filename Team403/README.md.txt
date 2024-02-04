@@ -1,0 +1,1 @@
+This is a react-firebase app using hadoop distributed storage, run npm i and npm start to run
