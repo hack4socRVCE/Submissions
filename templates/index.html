@@ -4,85 +4,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PDF EDiToR</title>
+  <title>PDF Editor</title>
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Public Sans', sans-serif;
+    }
+    .navbar-custom {
+      background-color: #343a40;
+    }
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav .nav-link {
+      color: #ffffff;
+    }
+    .editor-container {
+      margin-top: 20px;
+    }
+    .editor, .btn-summarize {
+      background-color: #ffffff;
+      border: 1px solid #ced4da;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .btn-summarize {
+      display: inline-block;
+      margin-left: 10px;
+      vertical-align: top; /* Aligns button with the editor */
+    }
+    .btn-custom {
+      background-color: #6c757d;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #5a6268;
+    }
+  </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-custom navbar-mainbg">
-    <a class="navbar-brand navbar-logo" href="#">Document Management - GenAi </a>
-    <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <i class="fas fa-bars text-white"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand" href="#">Document Management - GenAi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-            <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Profile</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Edit PDF</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>About Us</a>
-            </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="javascript:void(0);">Edit PDF <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);">About Us</a>
+          </li>
         </ul>
-    </div>
-</nav>
-  <div id="external" class="row justify-content-center">
-    <div class="col-auto">
-      <div class="input-group mb-3">
-        <input type="file" class="form-control" id="pdfInput">
-        <button id="uploadPdf" class="input-group-text" for="inputGroupFile02">PDF to Text</button>
-        <a href="{% url 'esign' %}" class="input-group-text" for="inputGroupFile02">Add E-Signature to this PDF</a>
-        <br/>
       </div>
     </div>
+  </nav>
+  <div class="container editor-container">
+    <div id="editor" class="editor" contenteditable="true" style="width: calc(100% - 120px); display: inline-block;"></div>
+    <button onclick="summarise()" class="btn btn-custom btn-summarize">Summarize</button>
   </div>
-  <div class="row justify-content-center">
-      <div id="editor" contenteditable="true" style="background-color: #f0f0f0;;"></div>
-  </div>
-  <br/>
-  <div id="toolbar">
-    <div id="text-modification" class="row justify-content-start">
-        <button onclick="toggleBold()" type="button" class="btn btn-dark btn-circle btn-xl">Bold</button>
-        <button onclick="toggleItalic()" class="btn btn-primary">Italic</button>
-        <button onclick="toggleUnderline()" class="btn btn-primary">Underline</button>
-    </div>
-    <div id="font-modification" class="row justify-content-end">
-        <button onclick="increaseFontSize()" class="btn btn-primary">Increase Font Size</button>
-        <button onclick="decreaseFontSize()" class="btn btn-primary">Decrease Font Size</button>
-        <button onclick="centerText()" class="btn btn-primary">Center</button>
-        <button id="paraphrase" class="btn btn-primary">Paraphrase</button>
+  <div class="container text-center my-4">
+    <div id="toolbar">
+        <div id="text-modification" class="btn-group" role="group" aria-label="Text modification">
+            <button onclick="toggleBold()" type="button" class="btn btn-secondary">
+                <i class="fas fa-bold"></i>
+            </button>
+            <button onclick="toggleItalic()" class="btn btn-secondary">
+                <i class="fas fa-italic"></i>
+            </button>
+            <button onclick="toggleUnderline()" class="btn btn-secondary">
+                <i class="fas fa-underline"></i>
+            </button>
+        </div>
+        <div id="font-modification" class="btn-group" role="group" aria-label="Font modification" style="margin-left: 10px;">
+            <button onclick="increaseFontSize()" class="btn btn-secondary">
+                <i class="fas fa-plus"></i>
+            </button>
+            <button onclick="decreaseFontSize()" class="btn btn-secondary">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button onclick="centerText()" class="btn btn-secondary">
+                <i class="fas fa-align-center"></i>
+            </button>
+            <button id="paraphrase" class="btn btn-secondary">
+                <i class="fas fa-sync-alt"></i>
+            </button>
+        </div>
     </div>
 </div>
-
-  <div class="row justify-content-center">
-    <div class="col-auto">
-      <button id="generatePdfBtn1" class="btn btn-primary">Save as PDF</button>
-      <button onclick="copyBelow()" class="btn btn-primary">Copy to Below</button>
-      <button onclick="summarise()" class="btn btn-primary">Summarise the Document</button>
-      <a href="{% url 'esign' %}" class="btn btn-primary">E-Signature</a>
-    </div>
+<div class="container text-center my-4">
+  <div id="additional-actions" class="btn-group" role="group" aria-label="Additional actions">
+      <button id="generatePdfBtn1" class="btn btn-secondary">Save as PDF</button>
+      <button onclick="copyBelow()" class="btn btn-secondary">Copy to Below</button>
   </div>
-  <hr size="5" color="black">
-  
+</div>
+<div class="container my-4">
   <div class="row justify-content-center">
-    <div id="modified" contenteditable="true"></div>
+    <div id="modified" contenteditable="true" class="bg-white shadow-sm" style="width: 210mm; min-height: 297mm; padding: 20mm; margin-bottom: 20px; overflow: hidden; box-sizing: border-box;"></div>
   </div>
   <br/>
-
   <div class="row justify-content-center">
     <div class="col-auto">
-      <button class="btn btn-primary" id="generatePdfBtn2">Save as PDF</button>
+      <button class="btn btn-secondary" id="generatePdfBtn2">Save as PDF</button>
     </div>
   </div>
-  <script src="static/js/scripts.js"></script>
+</div>
+<script src="{% static '/js/scripts.js' %}"></script>
 </body>
 </html>
