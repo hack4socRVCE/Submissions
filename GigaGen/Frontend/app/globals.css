@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.custom-gradient {
-    background: linear-gradient(to bottom, #63b3ed 0%, #e2e8f0 100%);
-    min-height: 100vh; /* Make sure it covers the full height */
-  }

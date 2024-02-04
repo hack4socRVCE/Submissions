@@ -1,7 +1,0 @@
-path: /home/aditya/Desktop/rv_hack/data
-train: images/train
-val: images/train
-
-names:
- 0: Lays_10
-

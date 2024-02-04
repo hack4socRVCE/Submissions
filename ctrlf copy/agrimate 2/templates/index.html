@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat</title>
+    <style>
+         body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #87CEEB; /* Sky Blue */
+}
+
+#chat-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 600px;
+    overflow-y: scroll;
+    background-color: #fff;
+    width: 80%; /* Decreased width */
+    margin: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow effect */
+    transition: box-shadow 0.3s; /* Smooth transition for the hover effect */
+}
+
+#chat-container:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3); /* Hover effect */
+}
+
+#user-input {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow effect */
+    width: 80%; /* Decreased width */
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s; /* Smooth transition for the hover effect */
+}
+
+#user-input:hover {
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3); /* Hover effect */
+}
+
+#user-message {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #45a049;
+}
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <div id="chat-container"></div>
+    <div id="user-input">
+        <input type="text" id="user-message" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var userMessage = document.getElementById("user-message").value;
+            appendMessage("You: " + userMessage);
+            document.getElementById("user-message").value = "";
+
+            // Send the userMessage to the server using AJAX
+            $.post("/get_response", { user_message: userMessage }, function (data) {
+                appendMessage("Bot: " + data);
+            });
+        }
+
+        function appendMessage(message) {
+            var chatContainer = document.getElementById("chat-container");
+            var newMessage = document.createElement("p");
+            newMessage.textContent = message;
+            chatContainer.appendChild(newMessage);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+    </script>
+</body>
+</html>

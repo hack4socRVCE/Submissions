@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/CtrlAltDefeat/Desktop/CtrlAltDelete/Source/frontend/media/videos/1080p60/partial_movie_files/FollowTrajectory/3977891868_1198199989_2476878696.mp4'
-file 'file:C:/Users/CtrlAltDefeat/Desktop/CtrlAltDelete/Source/frontend/media/videos/1080p60/partial_movie_files/FollowTrajectory/2852726489_684599109_866845056.mp4'
-file 'file:C:/Users/CtrlAltDefeat/Desktop/CtrlAltDelete/Source/frontend/media/videos/1080p60/partial_movie_files/FollowTrajectory/2852726489_578050278_1320961272.mp4'
-file 'file:C:/Users/CtrlAltDefeat/Desktop/CtrlAltDelete/Source/frontend/media/videos/1080p60/partial_movie_files/FollowTrajectory/2852726489_1704852926_2934262208.mp4'

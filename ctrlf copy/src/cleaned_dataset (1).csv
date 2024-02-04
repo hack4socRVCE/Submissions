@@ -1,0 +1,2245 @@
+Crop,Season,State,Area,Production,Annual_Rainfall,Fertilizer,Pesticide,Yield
+Bajra,Summer     ,Karnataka,820.0,662,1266.7,78039.4,254.2,0.81
+Black pepper,Kharif     ,Karnataka,3825.0,924,1266.7,364025.25,1185.75,0.4375
+Cardamom,Whole Year ,Karnataka,21230.0,1214,1266.7,2020459.1,6581.3,0.058571429
+Coriander,Whole Year ,Karnataka,17317.0,2853,1266.7,1648058.89,5368.27,0.121333333
+Dry chillies,Rabi       ,Karnataka,4565.0,7895,1266.7,434451.05,1415.15,1.869444444
+Garlic,Whole Year ,Karnataka,5061.0,3799,1266.7,481655.37,1568.91,1.585
+Ginger,Kharif     ,Karnataka,3619.0,4745,1266.7,344420.23,1121.89,1.262307692
+Jowar,Summer     ,Karnataka,6137.0,15135,1266.7,584058.29,1902.47,2.470909091
+Maize,Summer     ,Karnataka,9730.0,20893,1266.7,926004.1,3016.3,2.165714286
+Ragi,Rabi       ,Karnataka,27104.0,33696,1266.7,2579487.68,8402.24,1.312222222
+Ragi,Summer     ,Karnataka,13521.0,25035,1266.7,1286793.57,4191.51,1.847777778
+Turmeric,Whole Year ,Karnataka,4342.0,24108,1266.7,413228.14,1346.02,4.452941176
+Arecanut,Kharif     ,Puducherry,66.0,23,1434.5875,6520.8,19.14,0.35
+Bajra,Kharif     ,Puducherry,149.0,324,1434.5875,14721.2,43.21,2.17
+Black pepper,Kharif     ,Puducherry,12.0,7,1434.5875,1185.6,3.48,0.58
+Coriander,Kharif     ,Puducherry,2.0,1,1434.5875,197.6,0.58,0.5
+Cotton(lint),Summer     ,Puducherry,453.0,372,1434.5875,44756.4,131.37,0.84
+Dry chillies,Kharif     ,Puducherry,8.0,23,1434.5875,790.4,2.32,2.75
+Groundnut,Rabi       ,Puducherry,1046.0,2062,1434.5875,103344.8,303.34,1.54
+Ragi,Kharif     ,Puducherry,112.0,366,1434.5875,11065.6,32.48,3.27
+Rice,Kharif     ,Puducherry,4945.0,11518,1434.5875,488566.0,1434.05,2.46
+Rice,Rabi       ,Puducherry,13961.0,30220,1434.5875,1379346.8,4048.69,2.555
+Rice,Summer     ,Puducherry,5716.0,14863,1434.5875,564740.8,1657.64,2.55
+Sesamum,Kharif     ,Puducherry,147.0,120,1434.5875,14523.6,42.63,0.806666667
+Small millets,Kharif     ,Puducherry,4.0,3,1434.5875,395.2,1.16,0.75
+Bajra,Rabi       ,Karnataka,451.0,536,1260.8,44558.8,130.79,1.19
+Bajra,Summer     ,Karnataka,846.0,498,1260.8,83584.8,245.34,0.59
+Black pepper,Whole Year ,Karnataka,4387.0,10342,1260.8,433435.6,1272.23,2.238
+Cardamom,Whole Year ,Karnataka,20218.0,1153,1260.8,1997538.4,5863.22,0.06
+Castor seed,Kharif     ,Karnataka,27246.0,23245,1260.8,2691904.8,7901.34,0.831818182
+Coriander,Whole Year ,Karnataka,17935.0,2982,1260.8,1771978.0,5201.15,0.118
+Garlic,Whole Year ,Karnataka,3574.0,3034,1260.8,353111.2,1036.46,1.459411765
+Jowar,Summer     ,Karnataka,8897.0,23144,1260.8,879023.6,2580.13,2.461333333
+Linseed,Rabi       ,Karnataka,19806.0,6441,1260.8,1956832.8,5743.74,0.315
+Maize,Summer     ,Karnataka,11974.0,27080,1260.8,1183031.2,3472.46,2.241904762
+Moong(Green Gram),Rabi       ,Karnataka,15627.0,7005,1260.8,1543947.6,4531.83,0.438823529
+Niger seed,Kharif     ,Karnataka,41853.0,8104,1260.8,4135076.4,12137.37,0.214782609
+Ragi,Rabi       ,Karnataka,33833.0,45301,1260.8,3342700.4,9811.57,1.361
+Ragi,Summer     ,Karnataka,10673.0,24008,1260.8,1054492.4,3095.17,2.239230769
+Rapeseed &Mustard,Kharif     ,Karnataka,6673.0,1790,1260.8,659292.4,1935.17,0.210625
+Sunflower,Summer     ,Karnataka,43156.0,24211,1260.8,4263812.8,12515.24,0.595217391
+Turmeric,Whole Year ,Karnataka,5007.0,25386,1260.8,494691.6,1452.03,4.682380952
+Arecanut,Whole Year ,Puducherry,65.0,130,1434.5875,6898.45,17.55,2.0
+Bajra,Kharif     ,Puducherry,170.0,470,1434.5875,18042.1,45.9,2.76
+Black pepper,Whole Year ,Puducherry,12.0,7,1434.5875,1273.56,3.24,0.58
+Cashewnut,Whole Year ,Puducherry,210.0,177,1434.5875,22287.3,56.7,2.69
+Coriander,Whole Year ,Puducherry,3.0,2,1434.5875,318.39,0.81,0.67
+Cotton(lint),Kharif     ,Puducherry,357.0,1835,1434.5875,37888.41,96.39,5.14
+Dry chillies,Whole Year ,Puducherry,11.0,35,1434.5875,1167.43,2.97,3.305
+Ginger,Kharif     ,Puducherry,133.0,94,1434.5875,14115.29,35.91,0.676666667
+Groundnut,Kharif     ,Puducherry,898.0,2511,1434.5875,95304.74,242.46,2.125
+Jowar,Kharif     ,Puducherry,3.0,3,1434.5875,318.39,0.81,1.0
+Moong(Green Gram),Rabi       ,Puducherry,2453.0,1321,1434.5875,260336.89,662.31,0.553333333
+Other  Rabi pulses,Rabi       ,Puducherry,63.0,123,1434.5875,6686.19,17.01,1.333333333
+Ragi,Kharif     ,Puducherry,124.0,452,1434.5875,13160.12,33.48,3.325
+Rapeseed &Mustard,Rabi       ,Puducherry,64.0,483,1434.5875,6792.32,17.28,6.023333333
+Rice,Kharif     ,Puducherry,25444.0,59433,1434.5875,2700371.72,6869.88,2.61
+Urad,Rabi       ,Puducherry,3159.0,2467,1434.5875,335264.67,852.93,0.763333333
+Arecanut,Whole Year ,Andhra Pradesh,262.0,724,935.6,25720.54,68.12,2.78
+Arhar/Tur,Rabi       ,Andhra Pradesh,6098.0,2701,935.6,598640.66,1585.48,0.42375
+Bajra,Rabi       ,Andhra Pradesh,14229.0,12524,935.6,1396860.93,3699.54,0.883125
+Ginger,Whole Year ,Andhra Pradesh,2329.0,6515,935.6,228637.93,605.54,3.14875
+Gram,Kharif     ,Andhra Pradesh,100.0,173,935.6,9817.0,26.0,1.1575
+Horse-gram,Kharif     ,Andhra Pradesh,13824.0,6838,935.6,1357102.08,3594.24,0.5
+Linseed,Rabi       ,Andhra Pradesh,5486.0,1093,935.6,538560.62,1426.36,0.2075
+Niger seed,Kharif     ,Andhra Pradesh,18452.0,6001,935.6,1811432.84,4797.52,0.36
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,14200.0,5471,935.6,1394014.0,3692.0,0.324705882
+Other Kharif pulses,Kharif     ,Andhra Pradesh,19850.0,5000,935.6,1948674.5,5161.0,0.275263158
+Potato,Whole Year ,Andhra Pradesh,2489.0,14618,935.6,244345.13,647.14,6.14375
+Ragi,Rabi       ,Andhra Pradesh,15760.0,27299,935.6,1547159.2,4097.6,1.639285714
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,4482.0,1048,935.6,439997.94,1165.32,0.151538462
+Safflower,Rabi       ,Andhra Pradesh,16198.0,6574,935.6,1590157.66,4211.48,0.34
+Sesamum,Rabi       ,Andhra Pradesh,39066.0,7893,935.6,3835109.22,10157.16,0.204444444
+Small millets,Rabi       ,Andhra Pradesh,1961.0,1449,935.6,192511.37,509.86,0.681666667
+Wheat,Rabi       ,Andhra Pradesh,14261.0,8121,935.6,1400002.37,3707.86,0.581818182
+Bajra,Rabi       ,Karnataka,160.0,129,1213.3,15707.2,41.6,0.81
+Bajra,Summer     ,Karnataka,913.0,998,1213.3,89629.21,237.38,1.11
+Black pepper,Whole Year ,Karnataka,7249.0,17586,1213.3,711634.33,1884.74,2.263636364
+Cardamom,Whole Year ,Karnataka,19881.0,1132,1213.3,1951717.77,5169.06,0.06
+Castor seed,Kharif     ,Karnataka,30366.0,38871,1213.3,2981030.22,7895.16,1.31
+Coriander,Whole Year ,Karnataka,9829.0,1467,1213.3,964912.93,2555.54,0.119047619
+Garlic,Whole Year ,Karnataka,5949.0,4156,1213.3,584013.33,1546.74,1.491333333
+Jowar,Summer     ,Karnataka,5878.0,11916,1213.3,577043.26,1528.28,2.018571429
+Linseed,Rabi       ,Karnataka,17365.0,6404,1213.3,1704722.05,4514.9,0.360714286
+Maize,Summer     ,Karnataka,11165.0,31091,1213.3,1096068.05,2902.9,2.774761905
+Mesta,Kharif     ,Karnataka,4288.0,6666,1213.3,420952.96,1114.88,1.807142857
+Moong(Green Gram),Rabi       ,Karnataka,15474.0,4147,1213.3,1519082.58,4023.24,0.26875
+Niger seed,Kharif     ,Karnataka,43842.0,8382,1213.3,4303969.14,11398.92,0.213043478
+Other  Rabi pulses,Rabi       ,Karnataka,33468.0,3985,1213.3,3285553.56,8701.68,0.117407407
+Ragi,Rabi       ,Karnataka,28464.0,25009,1213.3,2794310.88,7400.64,1.385384615
+Ragi,Summer     ,Karnataka,10781.0,21376,1213.3,1058370.77,2803.06,1.982857143
+Rapeseed &Mustard,Rabi       ,Karnataka,7637.0,2012,1213.3,749724.29,1985.62,0.208888889
+Sannhamp,Whole Year ,Karnataka,1424.0,354,1213.3,139794.08,370.24,0.285
+Sunflower,Summer     ,Karnataka,28499.0,20405,1213.3,2797746.83,7409.74,0.7235
+Sweet potato,Whole Year ,Karnataka,3501.0,25771,1213.3,343693.17,910.26,6.222142857
+Turmeric,Whole Year ,Karnataka,9251.0,41040,1213.3,908170.67,2405.26,4.298095238
+Urad,Rabi       ,Karnataka,11924.0,4171,1213.3,1170579.08,3100.24,0.363125
+Arecanut,Whole Year ,Puducherry,65.0,130,1434.5875,6381.05,16.9,2.0
+Bajra,Kharif     ,Puducherry,186.0,513,1434.5875,18259.62,48.36,2.76
+Black pepper,Whole Year ,Puducherry,12.0,7,1434.5875,1178.04,3.12,0.58
+Cashewnut,Whole Year ,Puducherry,202.0,121,1434.5875,19830.34,52.52,0.603333333
+Coriander,Whole Year ,Puducherry,1.0,1,1434.5875,98.17,0.26,1.0
+Cotton(lint),Kharif     ,Puducherry,452.0,2300,1434.5875,44372.84,117.52,5.11
+Dry chillies,Whole Year ,Puducherry,10.0,33,1434.5875,981.7,2.6,2.6775
+Ginger,Kharif     ,Puducherry,227.0,117,1434.5875,22284.59,59.02,0.54
+Groundnut,Kharif     ,Puducherry,1175.0,2158,1434.5875,115349.75,305.5,1.62
+Jowar,Kharif     ,Puducherry,6.0,6,1434.5875,589.02,1.56,1.0
+Moong(Green Gram),Kharif     ,Puducherry,2480.0,1400,1434.5875,243461.6,644.8,0.586666667
+Moong(Green Gram),Rabi       ,Puducherry,2480.0,1400,1434.5875,243461.6,644.8,0.586666667
+Other  Rabi pulses,Rabi       ,Puducherry,64.0,125,1434.5875,6282.88,16.64,1.18
+Ragi,Kharif     ,Puducherry,125.0,276,1434.5875,12271.25,32.5,2.21
+Rapeseed &Mustard,Rabi       ,Puducherry,63.0,452,1434.5875,6184.71,16.38,6.265
+Rice,Kharif     ,Puducherry,42779.0,103606,1434.5875,4199614.43,11122.54,2.605
+Urad,Kharif     ,Puducherry,3392.0,2123,1434.5875,332992.64,881.92,0.706666667
+Urad,Rabi       ,Puducherry,3392.0,2123,1434.5875,332992.64,881.92,0.706666667
+Arecanut,Whole Year ,Andhra Pradesh,268.0,449,928.4,27370.84,69.68,1.71
+Arhar/Tur,Rabi       ,Andhra Pradesh,5439.0,2706,928.4,555485.07,1414.14,0.46
+Bajra,Rabi       ,Andhra Pradesh,9684.0,7442,928.4,989026.92,2517.84,0.795
+Ginger,Whole Year ,Andhra Pradesh,2547.0,6263,928.4,260125.11,662.22,2.4375
+Gram,Kharif     ,Andhra Pradesh,91.0,101,928.4,9293.83,23.66,1.092857143
+Horse-gram,Kharif     ,Andhra Pradesh,11412.0,4417,928.4,1165507.56,2967.12,0.368888889
+Linseed,Rabi       ,Andhra Pradesh,5872.0,1419,928.4,599707.36,1526.72,0.218333333
+Niger seed,Kharif     ,Andhra Pradesh,19090.0,8017,928.4,1949661.7,4963.4,0.38
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,13750.0,5012,928.4,1404287.5,3575.0,0.510666667
+Other Kharif pulses,Kharif     ,Andhra Pradesh,17331.0,4573,928.4,1770015.03,4506.06,0.314210526
+Potato,Whole Year ,Andhra Pradesh,2348.0,14653,928.4,239801.24,610.48,5.85
+Ragi,Rabi       ,Andhra Pradesh,12994.0,22707,928.4,1327077.22,3378.44,1.738
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,2452.0,790,928.4,250422.76,637.52,0.3275
+Safflower,Rabi       ,Andhra Pradesh,19728.0,5920,928.4,2014820.64,5129.28,0.303
+Sesamum,Rabi       ,Andhra Pradesh,39475.0,10049,928.4,4031581.75,10263.5,0.283684211
+Small millets,Rabi       ,Andhra Pradesh,931.0,760,928.4,95083.03,242.06,0.732
+Wheat,Rabi       ,Andhra Pradesh,13793.0,9486,928.4,1408679.09,3586.18,0.6275
+Bajra,Rabi       ,Karnataka,442.0,221,1002.9,45141.46,114.92,0.5
+Bajra,Summer     ,Karnataka,850.0,929,1002.9,86810.5,221.0,1.09
+Black pepper,Whole Year ,Karnataka,9699.0,22185,1002.9,990558.87,2521.74,2.213846154
+Castor seed,Kharif     ,Karnataka,21799.0,16137,1002.9,2226331.87,5667.74,0.704
+Coriander,Whole Year ,Karnataka,11307.0,1845,1002.9,1154783.91,2939.82,0.116818182
+Jowar,Summer     ,Karnataka,6418.0,12385,1002.9,655470.34,1668.68,1.951538462
+Linseed,Rabi       ,Karnataka,19611.0,6581,1002.9,2002871.43,5098.86,0.329285714
+Maize,Summer     ,Karnataka,9272.0,23960,1002.9,946949.36,2410.72,2.6265
+Mesta,Kharif     ,Karnataka,3668.0,5195,1002.9,374612.84,953.68,1.94375
+Moong(Green Gram),Rabi       ,Karnataka,7111.0,2090,1002.9,726246.43,1848.86,0.282941176
+Niger seed,Kharif     ,Karnataka,36198.0,7034,1002.9,3696901.74,9411.48,0.213043478
+Other  Rabi pulses,Rabi       ,Karnataka,29824.0,3478,1002.9,3045925.12,7754.24,0.12037037
+Peas & beans (Pulses),Whole Year ,Karnataka,6974.0,42197,1002.9,712254.62,1813.24,6.209444444
+Ragi,Rabi       ,Karnataka,40407.0,46560,1002.9,4126766.91,10505.82,1.212307692
+Ragi,Summer     ,Karnataka,9271.0,14154,1002.9,946847.23,2410.46,1.545833333
+Rapeseed &Mustard,Rabi       ,Karnataka,7063.0,1905,1002.9,721344.19,1836.38,0.221764706
+Sannhamp,Whole Year ,Karnataka,2555.0,634,1002.9,260942.15,664.3,0.238333333
+Soyabean,Kharif     ,Karnataka,48444.0,40217,1002.9,4947585.72,12595.44,0.808
+Sunflower,Summer     ,Karnataka,41936.0,34270,1002.9,4282923.68,10903.36,0.820526316
+Turmeric,Whole Year ,Karnataka,7058.0,36369,1002.9,720833.54,1835.08,4.797272727
+Urad,Rabi       ,Karnataka,11853.0,4448,1002.9,1210546.89,3081.78,0.347142857
+Arecanut,Whole Year ,Puducherry,65.0,137,1434.5875,6638.45,16.9,2.11
+Bajra,Kharif     ,Puducherry,162.0,345,1434.5875,16545.06,42.12,2.13
+Black pepper,Whole Year ,Puducherry,12.0,11,1434.5875,1225.56,3.12,0.92
+Cashewnut,Whole Year ,Puducherry,191.0,134,1434.5875,19506.83,49.66,1.063333333
+Coriander,Whole Year ,Puducherry,2.0,1,1434.5875,204.26,0.52,0.5
+Cotton(lint),Kharif     ,Puducherry,575.0,2965,1434.5875,58724.75,149.5,5.23
+Ginger,Kharif     ,Puducherry,171.0,89,1434.5875,17464.23,44.46,0.375
+Groundnut,Kharif     ,Puducherry,1229.0,1915,1434.5875,125517.77,319.54,1.195
+Moong(Green Gram),Rabi       ,Puducherry,544.0,105,1434.5875,55558.72,141.44,0.236666667
+Other  Rabi pulses,Rabi       ,Puducherry,116.0,91,1434.5875,11847.08,30.16,0.68
+Ragi,Kharif     ,Puducherry,138.0,325,1434.5875,14093.94,35.88,2.36
+Rapeseed &Mustard,Rabi       ,Puducherry,71.0,530,1434.5875,7251.23,18.46,6.345
+Rice,Kharif     ,Puducherry,26263.0,66868,1434.5875,2682240.19,6828.38,2.415
+Urad,Rabi       ,Puducherry,811.0,267,1434.5875,82827.43,210.86,0.423333333
+Arecanut,Whole Year ,Andhra Pradesh,296.0,427,648.1,28022.32,74.0,1.4525
+Arhar/Tur,Rabi       ,Andhra Pradesh,8200.0,3004,648.1,776294.0,2050.0,0.299333333
+Bajra,Rabi       ,Andhra Pradesh,7268.0,3953,648.1,688061.56,1817.0,0.594285714
+Coriander,Whole Year ,Andhra Pradesh,45073.0,13721,648.1,4267060.91,11268.25,0.414705882
+Dry chillies,Rabi       ,Andhra Pradesh,47247.0,99444,648.1,4472873.49,11811.75,2.070909091
+Ginger,Whole Year ,Andhra Pradesh,2026.0,3313,648.1,191801.42,506.5,1.635
+Gram,Kharif     ,Andhra Pradesh,37.0,45,648.1,3502.79,9.25,1.0075
+Horse-gram,Kharif     ,Andhra Pradesh,14961.0,6547,648.1,1416357.87,3740.25,0.420833333
+Linseed,Rabi       ,Andhra Pradesh,4070.0,1238,648.1,385306.9,1017.5,0.322857143
+Niger seed,Kharif     ,Andhra Pradesh,14919.0,5743,648.1,1412381.73,3729.75,0.38
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,1873.0,518,648.1,177316.91,468.25,0.27375
+Other Kharif pulses,Kharif     ,Andhra Pradesh,6915.0,1532,648.1,654643.05,1728.75,0.223
+Ragi,Rabi       ,Andhra Pradesh,9610.0,12393,648.1,909778.7,2402.5,1.251428571
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,3369.0,742,648.1,318943.23,842.25,0.302857143
+Safflower,Rabi       ,Andhra Pradesh,19350.0,6776,648.1,1831864.5,4837.5,0.318181818
+Sesamum,Rabi       ,Andhra Pradesh,28050.0,5545,648.1,2655493.5,7012.5,0.209444444
+Small millets,Kharif     ,Andhra Pradesh,46256.0,21891,648.1,4379055.52,11564.0,0.461538462
+Small millets,Rabi       ,Andhra Pradesh,1986.0,720,648.1,188014.62,496.5,0.328333333
+Soyabean,Kharif     ,Andhra Pradesh,41284.0,0,648.1,3908356.28,10321.0,0.0
+Tapioca,Whole Year ,Andhra Pradesh,13138.0,79474,648.1,1243774.46,3284.5,5.034285714
+Wheat,Rabi       ,Andhra Pradesh,11044.0,14898,648.1,1045535.48,2761.0,1.09
+other oilseeds,Rabi       ,Andhra Pradesh,10921.0,13551,648.1,1033891.07,2730.25,1.224666667
+Arecanut,Whole Year ,Tamil Nadu,4956.0,0,315.9,469184.52,1239.0,0.0
+Arhar/Tur,Kharif     ,Tamil Nadu,44127.0,24067,315.9,4177503.09,11031.75,0.535416667
+Castor seed,Kharif     ,Tamil Nadu,17749.0,5600,315.9,1680297.83,4437.25,0.376666667
+Coriander,Whole Year ,Tamil Nadu,25326.0,4707,315.9,2397612.42,6331.5,0.191818182
+Garlic,Whole Year ,Tamil Nadu,565.0,3378,315.9,53488.55,141.25,5.69
+Gram,Rabi       ,Tamil Nadu,6199.0,4172,315.9,586859.33,1549.75,0.581666667
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,585.0,142,315.9,55381.95,146.25,0.206
+Small millets,Kharif     ,Tamil Nadu,7348.0,4137,315.9,695635.16,1837.0,0.575454545
+Sunflower,Kharif     ,Tamil Nadu,7709.0,8908,315.9,729811.03,1927.25,1.075217391
+Tobacco,Whole Year ,Tamil Nadu,8213.0,12630,315.9,777524.71,2053.25,1.435454545
+Turmeric,Whole Year ,Tamil Nadu,17298.0,64536,315.9,1637601.66,4324.5,3.67
+Arecanut,Whole Year ,Andhra Pradesh,311.0,221,826.0,30782.78,74.64,0.704
+Arhar/Tur,Rabi       ,Andhra Pradesh,7492.0,3246,826.0,741558.16,1798.08,0.41625
+Bajra,Rabi       ,Andhra Pradesh,9603.0,6475,826.0,950504.94,2304.72,0.88375
+Coriander,Whole Year ,Andhra Pradesh,48644.0,15999,826.0,4814783.12,11674.56,0.405294118
+Dry chillies,Rabi       ,Andhra Pradesh,50772.0,135462,826.0,5025412.56,12185.28,2.584545455
+Ginger,Whole Year ,Andhra Pradesh,1873.0,5614,826.0,185389.54,449.52,2.995
+Gram,Kharif     ,Andhra Pradesh,52.0,90,826.0,5146.96,12.48,1.656666667
+Horse-gram,Kharif     ,Andhra Pradesh,11304.0,4592,826.0,1118869.92,2712.96,0.35
+Linseed,Rabi       ,Andhra Pradesh,4542.0,1193,826.0,449567.16,1090.08,0.21
+Niger seed,Kharif     ,Andhra Pradesh,17295.0,6792,826.0,1711859.1,4150.8,0.375
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,4333.0,795,826.0,428880.34,1039.92,0.181818182
+Other Kharif pulses,Kharif     ,Andhra Pradesh,8349.0,2056,826.0,826384.02,2003.76,0.240769231
+Ragi,Rabi       ,Andhra Pradesh,10845.0,19018,826.0,1073438.1,2602.8,1.783076923
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,1695.0,432,826.0,167771.1,406.8,0.285714286
+Safflower,Rabi       ,Andhra Pradesh,17250.0,5331,826.0,1707405.0,4140.0,0.297272727
+Sesamum,Rabi       ,Andhra Pradesh,46892.0,9544,826.0,4641370.16,11254.08,0.204210526
+Small millets,Kharif     ,Andhra Pradesh,47510.0,28020,826.0,4702539.8,11402.4,0.518666667
+Small millets,Rabi       ,Andhra Pradesh,3134.0,1748,826.0,310203.32,752.16,0.577142857
+Tapioca,Whole Year ,Andhra Pradesh,19456.0,122145,826.0,1925754.88,4669.44,6.29
+Wheat,Rabi       ,Andhra Pradesh,11928.0,6741,826.0,1180633.44,2862.72,0.481818182
+other oilseeds,Rabi       ,Andhra Pradesh,14609.0,0,826.0,1445998.82,3506.16,0.0
+Bajra,Rabi       ,Karnataka,117.0,105,867.6,11580.66,28.08,0.9
+Bajra,Summer     ,Karnataka,300.0,271,867.6,29694.0,72.0,0.9225
+Black pepper,Whole Year ,Karnataka,10694.0,23561,867.6,1058492.12,2566.56,2.220833333
+Cardamom,Whole Year ,Karnataka,19480.0,1106,867.6,1928130.4,4675.2,0.061428571
+Castor seed,Kharif     ,Karnataka,17214.0,15439,867.6,1703841.72,4131.36,0.906190476
+Coriander,Whole Year ,Karnataka,7797.0,1187,867.6,771747.06,1871.28,0.1195
+Garlic,Whole Year ,Karnataka,3970.0,2902,867.6,392950.6,952.8,1.331764706
+Jowar,Summer     ,Karnataka,7007.0,18783,867.6,693552.86,1681.68,2.634666667
+Linseed,Rabi       ,Karnataka,12909.0,996,867.6,1277732.82,3098.16,0.067142857
+Maize,Summer     ,Karnataka,8428.0,20264,867.6,834203.44,2022.72,2.470909091
+Mesta,Kharif     ,Karnataka,4060.0,6055,867.6,401858.8,974.4,1.72
+Moong(Green Gram),Rabi       ,Karnataka,8380.0,2451,867.6,829452.4,2011.2,0.290666667
+Niger seed,Kharif     ,Karnataka,27485.0,5158,867.6,2720465.3,6596.4,0.213043478
+Other  Rabi pulses,Rabi       ,Karnataka,24803.0,2864,867.6,2455000.94,5952.72,0.114
+Ragi,Summer     ,Karnataka,6565.0,7808,867.6,649803.7,1575.6,1.190833333
+Rapeseed &Mustard,Rabi       ,Karnataka,6048.0,1706,867.6,598631.04,1451.52,0.223529412
+Sannhamp,Whole Year ,Karnataka,466.0,116,867.6,46124.68,111.84,0.144285714
+Sunflower,Summer     ,Karnataka,37795.0,19977,867.6,3740949.1,9070.8,0.567894737
+Sweet potato,Whole Year ,Karnataka,3580.0,28718,867.6,354348.4,859.2,6.229333333
+Turmeric,Whole Year ,Karnataka,5410.0,26381,867.6,535481.8,1298.4,4.343809524
+Urad,Rabi       ,Karnataka,11397.0,6002,867.6,1128075.06,2735.28,0.49
+Arecanut,Whole Year ,Puducherry,64.0,77,1434.5875,6334.72,15.36,1.2
+Bajra,Kharif     ,Puducherry,197.0,383,1434.5875,19499.06,47.28,1.94
+Black pepper,Whole Year ,Puducherry,12.0,8,1434.5875,1187.76,2.88,0.67
+Cashewnut,Whole Year ,Puducherry,217.0,172,1434.5875,21478.66,52.08,1.08
+Coriander,Whole Year ,Puducherry,2.0,1,1434.5875,197.96,0.48,0.5
+Cotton(lint),Kharif     ,Puducherry,453.0,1747,1434.5875,44837.94,108.72,4.095
+Dry chillies,Whole Year ,Puducherry,11.0,30,1434.5875,1088.78,2.64,2.333333333
+Ginger,Kharif     ,Puducherry,187.0,156,1434.5875,18509.26,44.88,0.565
+Moong(Green Gram),Rabi       ,Puducherry,1299.0,388,1434.5875,128575.02,311.76,0.483333333
+Other  Rabi pulses,Rabi       ,Puducherry,141.0,138,1434.5875,13956.18,33.84,0.99
+Ragi,Kharif     ,Puducherry,121.0,266,1434.5875,11976.58,29.04,1.605
+Rice,Kharif     ,Puducherry,25065.0,67003,1434.5875,2480933.7,6015.6,2.993333333
+Urad,Rabi       ,Puducherry,1174.0,437,1434.5875,116202.52,281.76,0.71
+Arecanut,Whole Year ,Tamil Nadu,5219.0,0,345.6,516576.62,1252.56,0.0
+Arhar/Tur,Kharif     ,Tamil Nadu,44914.0,27475,345.6,4445587.72,10779.36,0.6396
+Black pepper,Whole Year ,Tamil Nadu,4179.0,933,345.6,413637.42,1002.96,0.141666667
+Cardamom,Whole Year ,Tamil Nadu,5221.0,478,345.6,516774.58,1253.04,0.079
+Castor seed,Kharif     ,Tamil Nadu,8720.0,2975,345.6,863105.6,2092.8,0.409545455
+Coriander,Whole Year ,Tamil Nadu,27722.0,8052,345.6,2743923.56,6653.28,0.300740741
+Garlic,Whole Year ,Tamil Nadu,595.0,3411,345.6,58893.1,142.8,5.54
+Gram,Rabi       ,Tamil Nadu,6625.0,4349,345.6,655742.5,1590.0,0.586666667
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,376.0,93,345.6,37216.48,90.24,0.386666667
+Sunflower,Kharif     ,Tamil Nadu,10367.0,13408,345.6,1026125.66,2488.08,1.1916
+Turmeric,Whole Year ,Tamil Nadu,16181.0,67250,345.6,1601595.38,3883.44,3.909615385
+Bajra,Rabi       ,Karnataka,222.0,200,1117.7,24051.48,46.62,0.9
+Bajra,Summer     ,Karnataka,2108.0,1705,1117.7,228380.72,442.68,0.873333333
+Black pepper,Whole Year ,Karnataka,12344.0,27517,1117.7,1337348.96,2592.24,2.26
+Cardamom,Whole Year ,Karnataka,19461.0,1105,1117.7,2108404.74,4086.81,0.0575
+Castor seed,Kharif     ,Karnataka,20161.0,17493,1117.7,2184242.74,4233.81,0.908
+Coriander,Whole Year ,Karnataka,9626.0,1491,1117.7,1042880.84,2021.46,0.119
+Garlic,Whole Year ,Karnataka,5202.0,3584,1117.7,563584.68,1092.42,1.360625
+Jowar,Summer     ,Karnataka,15977.0,12690,1117.7,1730948.18,3355.17,0.799230769
+Linseed,Rabi       ,Karnataka,14414.0,3046,1117.7,1561612.76,3026.94,0.206428571
+Maize,Rabi       ,Karnataka,57478.0,171589,1117.7,6227166.52,12070.38,2.84826087
+Maize,Summer     ,Karnataka,9056.0,27678,1117.7,981127.04,1901.76,3.007826087
+Mesta,Kharif     ,Karnataka,2810.0,3983,1117.7,304435.4,590.1,1.714
+Moong(Green Gram),Rabi       ,Karnataka,5792.0,1412,1117.7,627505.28,1216.32,0.239411765
+Niger seed,Kharif     ,Karnataka,32700.0,6169,1117.7,3542718.0,6867.0,0.213913043
+Other  Rabi pulses,Rabi       ,Karnataka,23981.0,2810,1117.7,2598101.54,5036.01,0.120384615
+Ragi,Rabi       ,Karnataka,44613.0,30621,1117.7,4833372.42,9368.73,1.294285714
+Ragi,Summer     ,Karnataka,7447.0,11853,1117.7,806807.98,1563.87,1.556923077
+Rapeseed &Mustard,Rabi       ,Karnataka,5855.0,1627,1117.7,634330.7,1229.55,0.216315789
+Rice,Rabi       ,Karnataka,43861.0,144235,1117.7,4751900.74,9210.81,3.388666667
+Sannhamp,Whole Year ,Karnataka,147.0,37,1117.7,15925.98,30.87,0.25
+Small millets,Kharif     ,Karnataka,58359.0,30584,1117.7,6322614.06,12255.39,0.532105263
+Sunflower,Summer     ,Karnataka,45930.0,29797,1117.7,4976056.2,9645.3,0.684347826
+Sweet potato,Whole Year ,Karnataka,3583.0,29199,1117.7,388182.22,752.43,6.102142857
+Turmeric,Whole Year ,Karnataka,4080.0,19386,1117.7,442027.2,856.8,4.482857143
+Urad,Rabi       ,Karnataka,4505.0,1550,1117.7,488071.7,946.05,0.347857143
+Arecanut,Whole Year ,Tamil Nadu,5077.0,7390,1034.0,550042.18,1066.17,1.55
+Arhar/Tur,Kharif     ,Tamil Nadu,43416.0,28979,1034.0,4703689.44,9117.36,0.6684
+Cardamom,Whole Year ,Tamil Nadu,4936.0,450,1034.0,534766.24,1036.56,0.071818182
+Castor seed,Kharif     ,Tamil Nadu,8269.0,2598,1034.0,895863.46,1736.49,0.3392
+Coriander,Whole Year ,Tamil Nadu,19350.0,8391,1034.0,2096379.0,4063.5,0.4236
+Garlic,Whole Year ,Tamil Nadu,443.0,2632,1034.0,47994.62,93.03,5.854
+Gram,Rabi       ,Tamil Nadu,6420.0,3942,1034.0,695542.8,1348.2,0.545
+Niger seed,Kharif     ,Tamil Nadu,1239.0,0,1034.0,134233.26,260.19,0.0
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,452.0,109,1034.0,48969.68,94.92,0.25
+Small millets,Kharif     ,Tamil Nadu,50576.0,42869,1034.0,5479403.84,10620.96,0.8724
+Sunflower,Kharif     ,Tamil Nadu,18152.0,19303,1034.0,1966587.68,3811.92,1.002962963
+Turmeric,Whole Year ,Tamil Nadu,21616.0,118447,1034.0,2341877.44,4539.36,5.096071429
+Arecanut,Whole Year ,Andhra Pradesh,293.0,234,1075.5,35136.56,61.53,0.8025
+Bajra,Rabi       ,Andhra Pradesh,12107.0,9751,1075.5,1451871.44,2542.47,0.952307692
+Coriander,Whole Year ,Andhra Pradesh,28114.0,12725,1075.5,3371430.88,5903.94,0.503333333
+Dry chillies,Rabi       ,Andhra Pradesh,43815.0,120617,1075.5,5254294.8,9201.15,2.799090909
+Garlic,Whole Year ,Andhra Pradesh,800.0,0,1075.5,95936.0,168.0,0.0
+Ginger,Whole Year ,Andhra Pradesh,2161.0,16456,1075.5,259147.12,453.81,5.812222222
+Horse-gram,Kharif     ,Andhra Pradesh,9919.0,4917,1075.5,1189486.48,2082.99,0.43
+Horse-gram,Rabi       ,Andhra Pradesh,46703.0,16110,1075.5,5600623.76,9807.63,0.32
+Linseed,Rabi       ,Andhra Pradesh,3845.0,1435,1075.5,461092.4,807.45,0.371666667
+Niger seed,Kharif     ,Andhra Pradesh,15748.0,6097,1075.5,1888500.16,3307.08,0.465
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,16032.0,6755,1075.5,1922557.44,3366.72,0.401666667
+Other Kharif pulses,Kharif     ,Andhra Pradesh,14585.0,3836,1075.5,1749033.2,3062.85,0.274666667
+Ragi,Kharif     ,Andhra Pradesh,56576.0,62947,1075.5,6784593.92,11880.96,1.316428571
+Ragi,Rabi       ,Andhra Pradesh,9031.0,16398,1075.5,1082997.52,1896.51,1.785384615
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,5660.0,2568,1075.5,678747.2,1188.6,0.2825
+Safflower,Rabi       ,Andhra Pradesh,17654.0,8094,1075.5,2117067.68,3707.34,0.415454545
+Sesamum,Rabi       ,Andhra Pradesh,37284.0,12802,1075.5,4471097.28,7829.64,0.360526316
+Small millets,Kharif     ,Andhra Pradesh,43674.0,26264,1075.5,5237386.08,9171.54,0.6
+Small millets,Rabi       ,Andhra Pradesh,438.0,314,1075.5,52524.96,91.98,0.855
+Wheat,Rabi       ,Andhra Pradesh,11109.0,8891,1075.5,1332191.28,2332.89,0.774
+Bajra,Rabi       ,Karnataka,78.0,104,1316.2,9353.76,16.38,1.33
+Bajra,Summer     ,Karnataka,917.0,1089,1316.2,109966.64,192.57,1.22
+Black pepper,Whole Year ,Karnataka,14797.0,32414,1316.2,1774456.24,3107.37,2.199230769
+Cardamom,Whole Year ,Karnataka,19814.0,1127,1316.2,2376094.88,4160.94,0.05875
+Castor seed,Kharif     ,Karnataka,24981.0,25989,1316.2,2995721.52,5246.01,1.086666667
+Coriander,Whole Year ,Karnataka,9163.0,1398,1316.2,1098826.96,1924.23,0.125714286
+Dry chillies,Rabi       ,Karnataka,2911.0,4729,1316.2,349087.12,611.31,1.676538462
+Dry chillies,Summer     ,Karnataka,6715.0,17719,1316.2,805262.8,1410.15,2.696923077
+Garlic,Whole Year ,Karnataka,4931.0,3485,1316.2,591325.52,1035.51,1.287333333
+Jowar,Summer     ,Karnataka,5708.0,9669,1316.2,684503.36,1198.68,1.587142857
+Linseed,Rabi       ,Karnataka,13154.0,4384,1316.2,1577427.68,2762.34,0.316666667
+Maize,Summer     ,Karnataka,11990.0,37005,1316.2,1437840.8,2517.9,3.096666667
+Mesta,Whole Year ,Karnataka,2097.0,2662,1316.2,251472.24,440.37,1.568
+Moong(Green Gram),Rabi       ,Karnataka,7658.0,2255,1316.2,918347.36,1608.18,0.29125
+Niger seed,Kharif     ,Karnataka,33184.0,6366,1316.2,3979425.28,6968.64,0.212173913
+Other  Rabi pulses,Rabi       ,Karnataka,29137.0,3475,1316.2,3494109.04,6118.77,0.118888889
+Peas & beans (Pulses),Kharif     ,Karnataka,4174.0,25514,1316.2,500546.08,876.54,5.612105263
+Peas & beans (Pulses),Summer     ,Karnataka,525.0,2655,1316.2,62958.0,110.25,5.036875
+Ragi,Rabi       ,Karnataka,46323.0,86771,1316.2,5555054.16,9727.83,2.493076923
+Ragi,Summer     ,Karnataka,8323.0,18176,1316.2,998094.16,1747.83,2.144285714
+Rapeseed &Mustard,Rabi       ,Karnataka,6739.0,1800,1316.2,808140.88,1415.19,0.227142857
+Rice,Rabi       ,Karnataka,44944.0,97483,1316.2,5389684.48,9438.24,2.2675
+Sannhamp,Whole Year ,Karnataka,205.0,46,1316.2,24583.6,43.05,0.215
+Small millets,Kharif     ,Karnataka,52273.0,26918,1316.2,6268578.16,10977.33,0.5485
+Sunflower,Summer     ,Karnataka,43473.0,33718,1316.2,5213282.16,9129.33,0.829047619
+Sweet potato,Whole Year ,Karnataka,3356.0,27360,1316.2,402451.52,704.76,6.076153846
+Turmeric,Whole Year ,Karnataka,6346.0,33891,1316.2,761012.32,1332.66,5.556363636
+Urad,Rabi       ,Karnataka,10445.0,5001,1316.2,1252564.4,2193.45,0.473333333
+Arecanut,Whole Year ,Tamil Nadu,4773.0,9198,1364.1,572378.16,1002.33,1.212727273
+Arhar/Tur,Kharif     ,Tamil Nadu,37769.0,20400,1364.1,4529258.48,7931.49,0.6375
+Black pepper,Whole Year ,Tamil Nadu,3745.0,851,1364.1,449100.4,786.45,0.173076923
+Cardamom,Whole Year ,Tamil Nadu,4887.0,448,1364.1,586049.04,1026.27,0.072727273
+Castor seed,Kharif     ,Tamil Nadu,8391.0,2777,1364.1,1006248.72,1762.11,0.313333333
+Coriander,Whole Year ,Tamil Nadu,21062.0,6424,1364.1,2525755.04,4423.02,0.296956522
+Dry chillies,Whole Year ,Tamil Nadu,49033.0,31830,1364.1,5880037.36,10296.93,0.797241379
+Garlic,Whole Year ,Tamil Nadu,428.0,2561,1364.1,51325.76,89.88,5.854
+Gram,Rabi       ,Tamil Nadu,5907.0,4007,1364.1,708367.44,1240.47,0.493125
+Horse-gram,Kharif     ,Tamil Nadu,60415.0,22023,1364.1,7244966.8,12687.15,0.3724
+Mesta,Kharif     ,Tamil Nadu,1.0,0,1364.1,119.92,0.21,0.0
+Niger seed,Kharif     ,Tamil Nadu,638.0,0,1364.1,76508.96,133.98,0.0
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,528.0,130,1364.1,63317.76,110.88,0.25
+Sannhamp,Kharif     ,Tamil Nadu,10.0,0,1364.1,1199.2,2.1,0.0
+Small millets,Kharif     ,Tamil Nadu,40366.0,30071,1364.1,4840690.72,8476.86,0.77375
+Soyabean,Kharif     ,Tamil Nadu,630.0,0,1364.1,75549.6,132.3,0.0
+Sunflower,Kharif     ,Tamil Nadu,17056.0,21148,1364.1,2045355.52,3581.76,1.18037037
+Tobacco,Whole Year ,Tamil Nadu,5102.0,7792,1364.1,611831.84,1071.42,1.451
+Turmeric,Whole Year ,Tamil Nadu,25970.0,143358,1364.1,3114322.4,5453.7,5.547037037
+Arecanut,Kharif     ,Puducherry,63.0,82,1434.5875,8045.73,13.86,1.3
+Arecanut,Whole Year ,Puducherry,63.0,82,1434.5875,8045.73,13.86,1.3
+Black pepper,Kharif     ,Puducherry,12.0,7,1434.5875,1532.52,2.64,0.58
+Cotton(lint),Summer     ,Puducherry,57.0,40,1434.5875,7279.47,12.54,0.75
+Dry chillies,Kharif     ,Puducherry,1.0,2,1434.5875,127.71,0.22,2.0
+Dry chillies,Rabi       ,Puducherry,4.0,8,1434.5875,510.84,0.88,2.0
+Dry chillies,Summer     ,Puducherry,4.0,10,1434.5875,510.84,0.88,2.335
+Groundnut,Rabi       ,Puducherry,697.0,1427,1434.5875,89013.87,153.34,1.6
+Jowar,Summer     ,Puducherry,4.0,7,1434.5875,510.84,0.88,1.75
+Onion,Rabi       ,Puducherry,1.0,4,1434.5875,127.71,0.22,4.0
+Onion,Summer     ,Puducherry,2.0,10,1434.5875,255.42,0.44,5.0
+Rice,Kharif     ,Puducherry,5010.0,13285,1434.5875,639827.1,1102.2,2.64
+Rice,Rabi       ,Puducherry,12061.0,33581,1434.5875,1540310.31,2653.42,4.05
+Rice,Summer     ,Puducherry,4574.0,13942,1434.5875,584145.54,1006.28,3.05
+Sesamum,Rabi       ,Puducherry,134.0,88,1434.5875,17113.14,29.48,0.5
+Arecanut,Whole Year ,Andhra Pradesh,255.0,176,845.2,32566.05,56.1,0.685
+Arhar/Tur,Rabi       ,Andhra Pradesh,5606.0,3174,845.2,715942.26,1233.32,0.433333333
+Bajra,Kharif     ,Andhra Pradesh,48995.0,39988,845.2,6257151.45,10778.9,0.7375
+Bajra,Rabi       ,Andhra Pradesh,12081.0,6986,845.2,1542864.51,2657.82,0.824545455
+Coriander,Whole Year ,Andhra Pradesh,25375.0,10061,845.2,3240641.25,5582.5,0.495
+Dry chillies,Rabi       ,Andhra Pradesh,49069.0,155979,845.2,6266601.99,10795.18,3.181363636
+Ginger,Whole Year ,Andhra Pradesh,2439.0,10301,845.2,311484.69,536.58,3.558
+Horse-gram,Kharif     ,Andhra Pradesh,10311.0,4554,845.2,1316817.81,2268.42,0.435
+Horse-gram,Rabi       ,Andhra Pradesh,53703.0,25476,845.2,6858410.13,11814.66,0.4105
+Linseed,Rabi       ,Andhra Pradesh,2830.0,777,845.2,361419.3,622.6,0.266
+Niger seed,Kharif     ,Andhra Pradesh,14547.0,5334,845.2,1857797.37,3200.34,0.4225
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,14792.0,5811,845.2,1889086.32,3254.24,0.443125
+Other Kharif pulses,Kharif     ,Andhra Pradesh,10190.0,3106,845.2,1301364.9,2241.8,0.298666667
+Ragi,Kharif     ,Andhra Pradesh,50702.0,50883,845.2,6475152.42,11154.44,1.205
+Ragi,Rabi       ,Andhra Pradesh,8220.0,13611,845.2,1049776.2,1808.4,1.621818182
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,5387.0,2780,845.2,687973.77,1185.14,0.285
+Safflower,Rabi       ,Andhra Pradesh,14302.0,8994,845.2,1826508.42,3146.44,0.50125
+Sesamum,Rabi       ,Andhra Pradesh,34163.0,10521,845.2,4362956.73,7515.86,0.311
+Small millets,Kharif     ,Andhra Pradesh,33676.0,17007,845.2,4300761.96,7408.72,0.5475
+Small millets,Rabi       ,Andhra Pradesh,360.0,225,845.2,45975.6,79.2,0.6225
+Wheat,Rabi       ,Andhra Pradesh,10016.0,8796,845.2,1279143.36,2203.52,0.68
+Bajra,Rabi       ,Karnataka,44.0,43,1146.3,5619.24,9.68,0.95
+Bajra,Summer     ,Karnataka,1236.0,1415,1146.3,157849.56,271.92,0.81
+Black pepper,Whole Year ,Karnataka,13726.0,29025,1146.3,1752947.46,3019.72,2.216
+Cardamom,Whole Year ,Karnataka,23827.0,1377,1146.3,3042946.17,5241.94,0.0575
+Castor seed,Kharif     ,Karnataka,20230.0,16163,1146.3,2583573.3,4450.6,0.827727273
+Coriander,Whole Year ,Karnataka,5998.0,888,1146.3,766004.58,1319.56,0.113157895
+Garlic,Whole Year ,Karnataka,6615.0,4401,1146.3,844801.65,1455.3,1.276666667
+Jowar,Summer     ,Karnataka,4797.0,7207,1146.3,612624.87,1055.34,1.466666667
+Linseed,Rabi       ,Karnataka,12283.0,3759,1146.3,1568661.93,2702.26,0.325384615
+Maize,Summer     ,Karnataka,15780.0,50467,1146.3,2015263.8,3471.6,3.203333333
+Mesta,Whole Year ,Karnataka,1998.0,2667,1146.3,255164.58,439.56,1.543333333
+Moong(Green Gram),Rabi       ,Karnataka,9041.0,2729,1146.3,1154626.11,1989.02,0.29375
+Niger seed,Kharif     ,Karnataka,27426.0,5197,1146.3,3502574.46,6033.72,0.213043478
+Other  Rabi pulses,Rabi       ,Karnataka,33685.0,8233,1146.3,4301911.35,7410.7,0.269259259
+Ragi,Rabi       ,Karnataka,57571.0,65934,1146.3,7352392.41,12665.62,1.616153846
+Ragi,Summer     ,Karnataka,7007.0,14714,1146.3,894863.97,1541.54,1.996153846
+Rapeseed &Mustard,Kharif     ,Karnataka,3691.0,974,1146.3,471377.61,812.02,0.218235294
+Rice,Rabi       ,Karnataka,44063.0,99796,1146.3,5627285.73,9693.86,2.335333333
+Sannhamp,Whole Year ,Karnataka,25.0,5,1146.3,3192.75,5.5,0.136666667
+Small millets,Kharif     ,Karnataka,39586.0,21403,1146.3,5055528.06,8708.92,0.442105263
+Sunflower,Summer     ,Karnataka,51506.0,40829,1146.3,6577831.26,11331.32,0.877727273
+Sweet potato,Whole Year ,Karnataka,3014.0,25028,1146.3,384917.94,663.08,6.240714286
+Turmeric,Whole Year ,Karnataka,7477.0,37752,1146.3,954887.67,1644.94,4.7735
+Urad,Rabi       ,Karnataka,10986.0,5776,1146.3,1403022.06,2416.92,0.520714286
+Arecanut,Whole Year ,Tamil Nadu,5526.0,11904,927.9,705725.46,1215.72,1.603636364
+Arhar/Tur,Whole Year ,Tamil Nadu,29127.0,21334,927.9,3719809.17,6407.94,0.744
+Black pepper,Whole Year ,Tamil Nadu,3703.0,843,927.9,472910.13,814.66,0.186923077
+Cardamom,Whole Year ,Tamil Nadu,4441.0,404,927.9,567160.11,977.02,0.0675
+Castor seed,Whole Year ,Tamil Nadu,5289.0,1674,927.9,675458.19,1163.58,0.35375
+Coriander,Whole Year ,Tamil Nadu,17425.0,5676,927.9,2225346.75,3833.5,0.321304348
+Garlic,Whole Year ,Tamil Nadu,528.0,3139,927.9,67430.88,116.16,5.304
+Gram,Whole Year ,Tamil Nadu,5933.0,3831,927.9,757703.43,1305.26,0.53
+Horse-gram,Whole Year ,Tamil Nadu,55635.0,32549,927.9,7105145.85,12239.7,0.5884
+Rapeseed &Mustard,Whole Year ,Tamil Nadu,344.0,80,927.9,43932.24,75.68,0.150769231
+Sesamum,Whole Year ,Tamil Nadu,52624.0,27328,927.9,6720611.04,11577.28,0.491111111
+Small millets,Kharif     ,Tamil Nadu,52702.0,61473,927.9,6730572.42,11594.44,1.057826087
+Sunflower,Whole Year ,Tamil Nadu,26194.0,47884,927.9,3345235.74,5762.68,1.726538462
+Tobacco,Whole Year ,Tamil Nadu,5041.0,7724,927.9,643786.11,1109.02,1.443333333
+Turmeric,Whole Year ,Tamil Nadu,30528.0,175388,927.9,3898730.88,6716.16,5.748148148
+Arecanut,Kharif     ,Puducherry,61.0,78,1434.5875,8137.4,9.76,1.28
+Bajra,Kharif     ,Puducherry,64.0,133,1434.5875,8537.6,10.24,2.08
+Black pepper,Kharif     ,Puducherry,12.0,7,1434.5875,1600.8,1.92,0.58
+Coriander,Rabi       ,Puducherry,4.0,2,1434.5875,533.6,0.64,0.5
+Cotton(lint),Summer     ,Puducherry,66.0,38,1434.5875,8804.4,10.56,0.615
+Dry chillies,Kharif     ,Puducherry,1.0,1,1434.5875,133.4,0.16,1.0
+Dry chillies,Rabi       ,Puducherry,1.0,1,1434.5875,133.4,0.16,1.0
+Dry chillies,Summer     ,Puducherry,3.0,3,1434.5875,400.2,0.48,1.0
+Groundnut,Kharif     ,Puducherry,29.0,53,1434.5875,3868.6,4.64,1.83
+Groundnut,Rabi       ,Puducherry,622.0,1255,1434.5875,82974.8,99.52,1.51
+Groundnut,Summer     ,Puducherry,113.0,197,1434.5875,15074.2,18.08,1.45
+Jowar,Kharif     ,Puducherry,3.0,5,1434.5875,400.2,0.48,1.67
+Moong(Green Gram),Summer     ,Puducherry,2183.0,272,1434.5875,291212.2,349.28,0.406666667
+Other  Rabi pulses,Summer     ,Puducherry,36.0,33,1434.5875,4802.4,5.76,0.92
+Ragi,Kharif     ,Puducherry,23.0,48,1434.5875,3068.2,3.68,1.57
+Ragi,Rabi       ,Puducherry,3.0,6,1434.5875,400.2,0.48,2.0
+Ragi,Summer     ,Puducherry,45.0,113,1434.5875,6003.0,7.2,2.51
+Rice,Kharif     ,Puducherry,4379.0,12878,1434.5875,584158.6,700.64,2.986666667
+Rice,Rabi       ,Puducherry,11411.0,28051,1434.5875,1522227.4,1825.76,3.02
+Rice,Summer     ,Puducherry,4647.0,12395,1434.5875,619909.8,743.52,2.21
+Sesamum,Kharif     ,Puducherry,14.0,11,1434.5875,1867.6,2.24,0.79
+Sesamum,Rabi       ,Puducherry,21.0,17,1434.5875,2801.4,3.36,0.81
+Sesamum,Summer     ,Puducherry,97.0,110,1434.5875,12939.8,15.52,0.825
+Small millets,Kharif     ,Puducherry,2.0,1,1434.5875,266.8,0.32,0.5
+Sunflower,Kharif     ,Puducherry,5.0,3,1434.5875,667.0,0.8,0.75
+Sweet potato,Rabi       ,Puducherry,1.0,1,1434.5875,133.4,0.16,1.0
+Turmeric,Rabi       ,Puducherry,4.0,6,1434.5875,533.6,0.64,1.5
+Urad,Kharif     ,Puducherry,57.0,39,1434.5875,7603.8,9.12,0.68
+Urad,Rabi       ,Puducherry,196.0,127,1434.5875,26146.4,31.36,0.61
+Urad,Summer     ,Puducherry,2006.0,135,1434.5875,267600.4,320.96,0.393333333
+Bajra,Rabi       ,Karnataka,439.0,506,1323.3,58562.6,70.24,0.83
+Bajra,Summer     ,Karnataka,1584.0,1579,1323.3,211305.6,253.44,0.963333333
+Black pepper,Whole Year ,Karnataka,16319.0,50867,1323.3,2176954.6,2611.04,3.124166667
+Cardamom,Whole Year ,Karnataka,21187.0,1978,1323.3,2826345.8,3389.92,0.0625
+Castor seed,Kharif     ,Karnataka,23387.0,15682,1323.3,3119825.8,3741.92,0.6725
+Coriander,Whole Year ,Karnataka,6423.0,2242,1323.3,856828.2,1027.68,0.329545455
+Dry chillies,Rabi       ,Karnataka,4273.0,7457,1323.3,570018.2,683.68,1.742307692
+Dry chillies,Summer     ,Karnataka,6059.0,20508,1323.3,808270.6,969.44,3.404
+Garlic,Whole Year ,Karnataka,6135.0,6340,1323.3,818409.0,981.6,1.284285714
+Jowar,Summer     ,Karnataka,6054.0,11874,1323.3,807603.6,968.64,1.999166667
+Linseed,Rabi       ,Karnataka,13766.0,5442,1323.3,1836384.4,2202.56,0.406153846
+Maize,Summer     ,Karnataka,20026.0,64553,1323.3,2671468.4,3204.16,3.179259259
+Mesta,Whole Year ,Karnataka,1861.0,2387,1323.3,248257.4,297.76,1.554
+Moong(Green Gram),Rabi       ,Karnataka,9402.0,3069,1323.3,1254226.8,1504.32,0.344666667
+Niger seed,Kharif     ,Karnataka,31244.0,11750,1323.3,4167949.6,4999.04,0.349166667
+Other  Rabi pulses,Rabi       ,Karnataka,34421.0,9011,1323.3,4591761.4,5507.36,0.269642857
+Potato,Kharif     ,Karnataka,54981.0,181310,1323.3,7334465.4,8796.96,5.07
+Ragi,Rabi       ,Karnataka,37759.0,60891,1323.3,5037050.6,6041.44,1.866
+Ragi,Summer     ,Karnataka,8132.0,16895,1323.3,1084808.8,1301.12,2.034
+Rapeseed &Mustard,Kharif     ,Karnataka,3957.0,1438,1323.3,527863.8,633.12,0.341875
+Rice,Rabi       ,Karnataka,40325.0,86756,1323.3,5379355.0,6452.0,2.255333333
+Safflower,Rabi       ,Karnataka,70218.0,59222,1323.3,9367081.2,11234.88,0.817142857
+Sannhamp,Whole Year ,Karnataka,400.0,99,1323.3,53360.0,64.0,0.243333333
+Small millets,Kharif     ,Karnataka,35680.0,17571,1323.3,4759712.0,5708.8,0.465238095
+Sunflower,Summer     ,Karnataka,48650.0,49675,1323.3,6489910.0,7784.0,1.057142857
+Sweet potato,Whole Year ,Karnataka,2887.0,24141,1323.3,385125.8,461.92,6.37625
+Urad,Rabi       ,Karnataka,10637.0,4124,1323.3,1418975.8,1701.92,0.367692308
+Arecanut,Whole Year ,Tamil Nadu,5553.0,11739,1067.2,740770.2,888.48,2.057391304
+Arhar/Tur,Whole Year ,Tamil Nadu,30057.0,21077,1067.2,4009603.8,4809.12,0.73375
+Bajra,Whole Year ,Tamil Nadu,59798.0,85840,1067.2,7977053.2,9567.68,1.6084
+Black pepper,Whole Year ,Tamil Nadu,3130.0,719,1067.2,417542.0,500.8,0.145333333
+Cardamom,Whole Year ,Tamil Nadu,4404.0,402,1067.2,587493.6,704.64,0.078
+Castor seed,Whole Year ,Tamil Nadu,5184.0,1624,1067.2,691545.6,829.44,0.344782609
+Coriander,Whole Year ,Tamil Nadu,13288.0,5120,1067.2,1772619.2,2126.08,0.385909091
+Dry chillies,Whole Year ,Tamil Nadu,67408.0,34084,1067.2,8992227.2,10785.28,0.627586207
+Garlic,Whole Year ,Tamil Nadu,505.0,2994,1067.2,67367.0,80.8,5.763333333
+Gram,Whole Year ,Tamil Nadu,6800.0,4587,1067.2,907120.0,1088.0,0.5575
+Horse-gram,Whole Year ,Tamil Nadu,48448.0,21339,1067.2,6462963.2,7751.68,0.4488
+Rapeseed &Mustard,Whole Year ,Tamil Nadu,275.0,67,1067.2,36685.0,44.0,0.204545455
+Sesamum,Whole Year ,Tamil Nadu,74376.0,32201,1067.2,9921758.4,11900.16,0.434814815
+Small millets,Kharif     ,Tamil Nadu,38240.0,37084,1067.2,5101216.0,6118.4,0.956956522
+Sunflower,Whole Year ,Tamil Nadu,44177.0,70203,1067.2,5893211.8,7068.32,1.513076923
+Tobacco,Whole Year ,Tamil Nadu,5903.0,9056,1067.2,787460.2,944.48,1.4625
+Turmeric,Whole Year ,Tamil Nadu,27303.0,146008,1067.2,3642220.2,4368.48,5.253846154
+Arecanut,Kharif     ,Puducherry,61.0,79,1434.5875,8725.44,5.49,1.3
+Bajra,Kharif     ,Puducherry,34.0,58,1434.5875,4863.36,3.06,1.71
+Bajra,Summer     ,Puducherry,21.0,42,1434.5875,3003.84,1.89,2.0
+Black pepper,Kharif     ,Puducherry,12.0,8,1434.5875,1716.48,1.08,0.67
+Cashewnut,Kharif     ,Puducherry,174.0,173,1434.5875,24888.96,15.66,0.943333333
+Coriander,Rabi       ,Puducherry,2.0,1,1434.5875,286.08,0.18,0.5
+Cotton(lint),Summer     ,Puducherry,48.0,39,1434.5875,6865.92,4.32,0.81
+Dry chillies,Kharif     ,Puducherry,1.0,1,1434.5875,143.04,0.09,1.0
+Dry chillies,Rabi       ,Puducherry,1.0,1,1434.5875,143.04,0.09,1.0
+Dry chillies,Summer     ,Puducherry,1.0,1,1434.5875,143.04,0.09,1.0
+Groundnut,Kharif     ,Puducherry,87.0,170,1434.5875,12444.48,7.83,1.95
+Groundnut,Rabi       ,Puducherry,572.0,1276,1434.5875,81818.88,51.48,1.675
+Groundnut,Summer     ,Puducherry,55.0,119,1434.5875,7867.2,4.95,1.595
+Jowar,Kharif     ,Puducherry,2.0,3,1434.5875,286.08,0.18,1.5
+Moong(Green Gram),Rabi       ,Puducherry,5.0,3,1434.5875,715.2,0.45,0.6
+Moong(Green Gram),Summer     ,Puducherry,1220.0,233,1434.5875,174508.8,109.8,0.37
+Other  Rabi pulses,Rabi       ,Puducherry,11.0,10,1434.5875,1573.44,0.99,0.91
+Other  Rabi pulses,Summer     ,Puducherry,6.0,6,1434.5875,858.24,0.54,1.0
+Other Kharif pulses,Kharif     ,Puducherry,1.0,1,1434.5875,143.04,0.09,1.0
+Ragi,Kharif     ,Puducherry,21.0,52,1434.5875,3003.84,1.89,1.775
+Ragi,Rabi       ,Puducherry,4.0,9,1434.5875,572.16,0.36,2.25
+Ragi,Summer     ,Puducherry,14.0,42,1434.5875,2002.56,1.26,3.0
+Rice,Kharif     ,Puducherry,4493.0,12290,1434.5875,642678.72,404.37,3.0
+Rice,Rabi       ,Puducherry,11306.0,24163,1434.5875,1617210.24,1017.54,2.82
+Rice,Summer     ,Puducherry,4981.0,14263,1434.5875,712482.24,448.29,2.125
+Sesamum,Kharif     ,Puducherry,11.0,7,1434.5875,1573.44,0.99,0.64
+Sesamum,Rabi       ,Puducherry,25.0,20,1434.5875,3576.0,2.25,0.8
+Sesamum,Summer     ,Puducherry,144.0,153,1434.5875,20597.76,12.96,0.635
+Small millets,Kharif     ,Puducherry,1.0,1,1434.5875,143.04,0.09,1.0
+Sunflower,Kharif     ,Puducherry,3.0,2,1434.5875,429.12,0.27,0.67
+Sweet potato,Rabi       ,Puducherry,1.0,1,1434.5875,143.04,0.09,1.0
+Turmeric,Rabi       ,Puducherry,3.0,5,1434.5875,429.12,0.27,1.67
+Urad,Kharif     ,Puducherry,21.0,16,1434.5875,3003.84,1.89,0.76
+Urad,Rabi       ,Puducherry,124.0,79,1434.5875,17736.96,11.16,0.525
+Urad,Summer     ,Puducherry,1214.0,266,1434.5875,173650.56,109.26,0.53
+Arecanut,Whole Year ,Andhra Pradesh,359.0,265,944.6,51351.36,32.31,0.915
+Arhar/Tur,Rabi       ,Andhra Pradesh,3466.0,1942,944.6,495776.64,311.94,0.56
+Bajra,Kharif     ,Andhra Pradesh,49844.0,51316,944.6,7129685.76,4485.96,1.134375
+Bajra,Rabi       ,Andhra Pradesh,9274.0,8873,944.6,1326552.96,834.66,1.1875
+Coriander,Whole Year ,Andhra Pradesh,33439.0,15616,944.6,4783114.56,3009.51,0.585625
+Dry chillies,Rabi       ,Andhra Pradesh,43347.0,157971,944.6,6200354.88,3901.23,3.225
+Ginger,Whole Year ,Andhra Pradesh,2194.0,11684,944.6,313829.76,197.46,4.525555556
+Horse-gram,Kharif     ,Andhra Pradesh,4963.0,2423,944.6,709907.52,446.67,0.489
+Horse-gram,Rabi       ,Andhra Pradesh,34347.0,14062,944.6,4912994.88,3091.23,0.448095238
+Linseed,Rabi       ,Andhra Pradesh,927.0,347,944.6,132598.08,83.43,0.384
+Niger seed,Kharif     ,Andhra Pradesh,12494.0,5469,944.6,1787141.76,1124.46,0.4625
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,2415.0,3701,944.6,345441.6,217.35,1.066666667
+Other Kharif pulses,Kharif     ,Andhra Pradesh,2634.0,1291,944.6,376767.36,237.06,0.5
+Ragi,Kharif     ,Andhra Pradesh,44783.0,42929,944.6,6405760.32,4030.47,1.146153846
+Ragi,Rabi       ,Andhra Pradesh,5238.0,8949,944.6,749243.52,471.42,1.703636364
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,5885.0,3764,944.6,841790.4,529.65,0.646
+Safflower,Rabi       ,Andhra Pradesh,12780.0,6398,944.6,1828051.2,1150.2,0.5
+Sesamum,Kharif     ,Andhra Pradesh,46041.0,9634,944.6,6585704.64,4143.69,0.2495
+Sesamum,Rabi       ,Andhra Pradesh,34296.0,9168,944.6,4905699.84,3086.64,0.252105263
+Small millets,Kharif     ,Andhra Pradesh,30291.0,16315,944.6,4332824.64,2726.19,0.65
+Small millets,Rabi       ,Andhra Pradesh,232.0,177,944.6,33185.28,20.88,0.763333333
+Urad,Kharif     ,Andhra Pradesh,69015.0,40474,944.6,9871905.6,6211.35,0.460526316
+Wheat,Rabi       ,Andhra Pradesh,13687.0,15421,944.6,1957788.48,1231.83,1.026666667
+Bajra,Rabi       ,Karnataka,354.0,331,1164.1,50636.16,31.86,0.94
+Bajra,Summer     ,Karnataka,1084.0,1249,1164.1,155055.36,97.56,0.955
+Black pepper,Whole Year ,Karnataka,17451.0,73956,1164.1,2496191.04,1570.59,4.133571429
+Cardamom,Whole Year ,Karnataka,19838.0,1992,1164.1,2837627.52,1785.42,0.067777778
+Cashewnut,Whole Year ,Karnataka,62303.0,38311,1164.1,8911821.12,5607.27,0.605
+Castor seed,Kharif     ,Karnataka,19635.0,18618,1164.1,2808590.4,1767.15,0.96826087
+Coriander,Whole Year ,Karnataka,7415.0,4002,1164.1,1060641.6,667.35,0.549545455
+Dry chillies,Rabi       ,Karnataka,5903.0,10002,1164.1,844365.12,531.27,1.681111111
+Dry chillies,Summer     ,Karnataka,7225.0,23701,1164.1,1033464.0,650.25,3.233076923
+Garlic,Whole Year ,Karnataka,5625.0,12378,1164.1,804600.0,506.25,2.644285714
+Jowar,Summer     ,Karnataka,4882.0,11110,1164.1,698321.28,439.38,2.2125
+Linseed,Rabi       ,Karnataka,13549.0,5112,1164.1,1938048.96,1219.41,0.4
+Maize,Summer     ,Karnataka,27868.0,87643,1164.1,3986238.72,2508.12,3.073928571
+Mesta,Whole Year ,Karnataka,1146.0,1617,1164.1,163923.84,103.14,1.636
+Moong(Green Gram),Rabi       ,Karnataka,8293.0,2120,1164.1,1186230.72,746.37,0.267857143
+Niger seed,Kharif     ,Karnataka,25337.0,8678,1164.1,3624204.48,2280.33,0.3416
+Onion,Summer     ,Karnataka,3775.0,20587,1164.1,539976.0,339.75,5.57952381
+Other  Rabi pulses,Rabi       ,Karnataka,30396.0,8896,1164.1,4347843.84,2735.64,0.290714286
+Potato,Kharif     ,Karnataka,67728.0,128436,1164.1,9687813.12,6095.52,2.449411765
+Ragi,Rabi       ,Karnataka,34210.0,47819,1164.1,4893398.4,3078.9,1.6925
+Ragi,Summer     ,Karnataka,8970.0,17809,1164.1,1283068.8,807.3,1.926
+Rapeseed &Mustard,Rabi       ,Karnataka,4573.0,1836,1164.1,654121.92,411.57,0.3875
+Rice,Rabi       ,Karnataka,40982.0,89072,1164.1,5862065.28,3688.38,2.514166667
+Safflower,Rabi       ,Karnataka,73376.0,59954,1164.1,10495703.04,6603.84,0.772857143
+Sannhamp,Whole Year ,Karnataka,266.0,66,1164.1,38048.64,23.94,0.243333333
+Sesamum,Kharif     ,Karnataka,56234.0,28745,1164.1,8043711.36,5061.06,0.50962963
+Sunflower,Summer     ,Karnataka,42201.0,33674,1164.1,6036431.04,3798.09,0.857619048
+Turmeric,Whole Year ,Karnataka,14159.0,67404,1164.1,2025303.36,1274.31,4.191052632
+Urad,Rabi       ,Karnataka,10540.0,4588,1164.1,1507641.6,948.6,0.43
+Arecanut,Whole Year ,Tamil Nadu,5612.0,11061,1201.9,802740.48,505.08,1.708333333
+Arhar/Tur,Whole Year ,Tamil Nadu,27483.0,16703,1201.9,3931168.32,2473.47,0.606923077
+Bajra,Whole Year ,Tamil Nadu,56672.0,84021,1201.9,8106362.88,5100.48,2.5968
+Black pepper,Whole Year ,Tamil Nadu,3122.0,716,1201.9,446570.88,280.98,0.155
+Cardamom,Whole Year ,Tamil Nadu,4051.0,370,1201.9,579455.04,364.59,0.094
+Castor seed,Whole Year ,Tamil Nadu,5523.0,1702,1201.9,790009.92,497.07,0.322222222
+Coriander,Whole Year ,Tamil Nadu,14139.0,4815,1201.9,2022442.56,1272.51,0.357826087
+Dry chillies,Whole Year ,Tamil Nadu,65412.0,32924,1201.9,9356532.48,5887.08,0.651290323
+Garlic,Whole Year ,Tamil Nadu,351.0,2067,1201.9,50207.04,31.59,5.76
+Gram,Whole Year ,Tamil Nadu,6852.0,4355,1201.9,980110.08,616.68,0.534761905
+Horse-gram,Whole Year ,Tamil Nadu,44749.0,21052,1201.9,6400896.96,4027.41,0.459230769
+Rapeseed &Mustard,Whole Year ,Tamil Nadu,257.0,63,1201.9,36761.28,23.13,0.282222222
+Sesamum,Whole Year ,Tamil Nadu,63693.0,32242,1201.9,9110646.72,5732.37,0.467777778
+Small millets,Kharif     ,Tamil Nadu,33512.0,25697,1201.9,4793556.48,3016.08,1.742
+Sunflower,Whole Year ,Tamil Nadu,25755.0,34356,1201.9,3683995.2,2317.95,1.768571429
+Tobacco,Whole Year ,Tamil Nadu,5379.0,8214,1201.9,769412.16,484.11,1.593333333
+Turmeric,Whole Year ,Tamil Nadu,29875.0,172334,1201.9,4273320.0,2688.75,5.326296296
+Arecanut,Kharif     ,Puducherry,61.0,77,1434.5875,9505.02,10.37,1.26
+Bajra,Kharif     ,Puducherry,29.0,49,1434.5875,4518.78,4.93,1.69
+Bajra,Summer     ,Puducherry,31.0,62,1434.5875,4830.42,5.27,2.0
+Black pepper,Kharif     ,Puducherry,12.0,8,1434.5875,1869.84,2.04,0.67
+Cashewnut,Kharif     ,Puducherry,171.0,146,1434.5875,26645.22,29.07,0.903333333
+Coriander,Rabi       ,Puducherry,6.0,3,1434.5875,934.92,1.02,0.5
+Cotton(lint),Summer     ,Puducherry,10.0,8,1434.5875,1558.2,1.7,0.89
+Dry chillies,Kharif     ,Puducherry,1.0,1,1434.5875,155.82,0.17,1.0
+Dry chillies,Rabi       ,Puducherry,1.0,1,1434.5875,155.82,0.17,1.0
+Dry chillies,Summer     ,Puducherry,4.0,4,1434.5875,623.28,0.68,1.0
+Groundnut,Kharif     ,Puducherry,25.0,47,1434.5875,3895.5,4.25,1.88
+Groundnut,Rabi       ,Puducherry,374.0,796,1434.5875,58276.68,63.58,1.575
+Groundnut,Summer     ,Puducherry,39.0,78,1434.5875,6076.98,6.63,1.525
+Jowar,Kharif     ,Puducherry,6.0,9,1434.5875,934.92,1.02,1.5
+Moong(Green Gram),Rabi       ,Puducherry,4.0,2,1434.5875,623.28,0.68,0.5
+Moong(Green Gram),Summer     ,Puducherry,1060.0,92,1434.5875,165169.2,180.2,0.346666667
+Other  Rabi pulses,Rabi       ,Puducherry,2.0,2,1434.5875,311.64,0.34,1.0
+Other  Rabi pulses,Summer     ,Puducherry,1.0,1,1434.5875,155.82,0.17,1.0
+Other Kharif pulses,Kharif     ,Puducherry,3.0,2,1434.5875,467.46,0.51,0.67
+Ragi,Kharif     ,Puducherry,12.0,29,1434.5875,1869.84,2.04,1.775
+Ragi,Rabi       ,Puducherry,5.0,11,1434.5875,779.1,0.85,2.2
+Ragi,Summer     ,Puducherry,17.0,51,1434.5875,2648.94,2.89,3.0
+Rice,Kharif     ,Puducherry,4650.0,13501,1434.5875,724563.0,790.5,2.893333333
+Rice,Rabi       ,Puducherry,11178.0,25378,1434.5875,1741755.96,1900.26,2.903333333
+Rice,Summer     ,Puducherry,5098.0,13451,1434.5875,794370.36,866.66,1.965
+Sesamum,Kharif     ,Puducherry,5.0,3,1434.5875,779.1,0.85,0.6
+Sesamum,Rabi       ,Puducherry,18.0,13,1434.5875,2804.76,3.06,0.72
+Sesamum,Summer     ,Puducherry,224.0,211,1434.5875,34903.68,38.08,0.62
+Small millets,Kharif     ,Puducherry,1.0,1,1434.5875,155.82,0.17,1.0
+Sunflower,Kharif     ,Puducherry,1.0,1,1434.5875,155.82,0.17,1.0
+Sweet potato,Kharif     ,Puducherry,1.0,0,1434.5875,155.82,0.17,0.0
+Turmeric,Kharif     ,Puducherry,3.0,0,1434.5875,467.46,0.51,0.0
+Turmeric,Rabi       ,Puducherry,3.0,5,1434.5875,467.46,0.51,1.67
+Urad,Kharif     ,Puducherry,31.0,10,1434.5875,4830.42,5.27,0.32
+Urad,Rabi       ,Puducherry,93.0,58,1434.5875,14491.26,15.81,0.52
+Urad,Summer     ,Puducherry,874.0,101,1434.5875,136186.68,148.58,0.626666667
+Arecanut,Whole Year ,Andhra Pradesh,386.0,198,711.0,60146.52,65.62,0.855
+Arhar/Tur,Rabi       ,Andhra Pradesh,24895.0,13266,711.0,3879138.9,4232.15,0.52
+Bajra,Kharif     ,Andhra Pradesh,33411.0,43471,711.0,5206102.02,5679.87,1.3
+Bajra,Rabi       ,Andhra Pradesh,11938.0,9884,711.0,1860179.16,2029.46,1.296363636
+Coriander,Whole Year ,Andhra Pradesh,37468.0,20605,711.0,5838263.76,6369.56,0.695625
+Dry chillies,Rabi       ,Andhra Pradesh,50066.0,191016,711.0,7801284.12,8511.22,3.595
+Garlic,Whole Year ,Andhra Pradesh,530.0,1565,711.0,82584.6,90.1,2.556666667
+Ginger,Whole Year ,Andhra Pradesh,2317.0,16674,711.0,361034.94,393.89,5.49625
+Horse-gram,Kharif     ,Andhra Pradesh,20162.0,13170,711.0,3141642.84,3427.54,0.6
+Horse-gram,Rabi       ,Andhra Pradesh,39303.0,23512,711.0,6124193.46,6681.51,0.508571429
+Linseed,Rabi       ,Andhra Pradesh,673.0,100,711.0,104866.86,114.41,0.155
+Niger seed,Kharif     ,Andhra Pradesh,7663.0,2632,711.0,1194048.66,1302.71,0.376666667
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,2666.0,2314,711.0,415416.12,453.22,0.59
+Other Kharif pulses,Kharif     ,Andhra Pradesh,2814.0,1269,711.0,438477.48,478.38,0.438
+Ragi,Kharif     ,Andhra Pradesh,38906.0,41951,711.0,6062332.92,6614.02,1.08
+Ragi,Rabi       ,Andhra Pradesh,6322.0,11751,711.0,985094.04,1074.74,1.824545455
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,4309.0,2576,711.0,671428.38,732.53,0.3125
+Safflower,Rabi       ,Andhra Pradesh,14273.0,6079,711.0,2224018.86,2426.41,0.4325
+Sesamum,Kharif     ,Andhra Pradesh,47184.0,9335,711.0,7352210.88,8021.28,0.200952381
+Sesamum,Rabi       ,Andhra Pradesh,43286.0,11397,711.0,6744824.52,7358.62,0.2655
+Small millets,Kharif     ,Andhra Pradesh,24322.0,8590,711.0,3789854.04,4134.74,0.461818182
+Small millets,Rabi       ,Andhra Pradesh,1114.0,1004,711.0,173583.48,189.38,0.745
+Wheat,Rabi       ,Andhra Pradesh,9872.0,10319,711.0,1538255.04,1678.24,0.95
+Bajra,Rabi       ,Karnataka,124.0,138,1321.0,19321.68,21.08,0.945
+Bajra,Summer     ,Karnataka,754.0,707,1321.0,117488.28,128.18,0.935
+Black pepper,Whole Year ,Karnataka,19706.0,73143,1321.0,3070588.92,3350.02,3.701538462
+Cardamom,Whole Year ,Karnataka,19178.0,1267,1321.0,2988315.96,3260.26,0.085
+Cashewnut,Whole Year ,Karnataka,63314.0,48008,1321.0,9865587.48,10763.38,0.764545455
+Castor seed,Kharif     ,Karnataka,17829.0,11525,1321.0,2778114.78,3030.93,0.645909091
+Coriander,Whole Year ,Karnataka,6580.0,3224,1321.0,1025295.6,1118.6,0.498095238
+Dry chillies,Rabi       ,Karnataka,6354.0,18944,1321.0,990080.28,1080.18,2.896071429
+Dry chillies,Summer     ,Karnataka,6605.0,30415,1321.0,1029191.1,1122.85,4.545416667
+Garlic,Whole Year ,Karnataka,4698.0,6603,1321.0,732042.36,798.66,1.794615385
+Jowar,Summer     ,Karnataka,5973.0,8824,1321.0,930712.86,1015.41,1.498461538
+Linseed,Rabi       ,Karnataka,12456.0,3657,1321.0,1940893.92,2117.52,0.333333333
+Maize,Summer     ,Karnataka,28341.0,77530,1321.0,4416094.62,4817.97,2.839642857
+Mesta,Whole Year ,Karnataka,1300.0,1885,1321.0,202566.0,221.0,1.324
+Moong(Green Gram),Rabi       ,Karnataka,8958.0,2349,1321.0,1395835.56,1522.86,0.28
+Niger seed,Kharif     ,Karnataka,26380.0,9250,1321.0,4110531.6,4484.6,0.33375
+Other  Rabi pulses,Rabi       ,Karnataka,33735.0,9510,1321.0,5256587.7,5734.95,0.293448276
+Potato,Kharif     ,Karnataka,28305.0,175087,1321.0,4410485.1,4811.85,6.492666667
+Ragi,Rabi       ,Karnataka,27562.0,44924,1321.0,4294710.84,4685.54,1.834285714
+Ragi,Summer     ,Karnataka,7984.0,14970,1321.0,1244066.88,1357.28,1.778
+Rapeseed &Mustard,Rabi       ,Karnataka,5116.0,1493,1321.0,797175.12,869.72,0.29
+Rice,Rabi       ,Karnataka,37747.0,84636,1321.0,5881737.54,6416.99,2.416666667
+Safflower,Rabi       ,Karnataka,67924.0,51941,1321.0,10583917.68,11547.08,0.694
+Sannhamp,Whole Year ,Karnataka,282.0,70,1321.0,43941.24,47.94,0.163333333
+Small millets,Kharif     ,Karnataka,26682.0,13089,1321.0,4157589.24,4535.94,0.4905
+Sunflower,Summer     ,Karnataka,28543.0,24563,1321.0,4447570.26,4852.31,0.95952381
+Turmeric,Whole Year ,Karnataka,17873.0,89932,1321.0,2784970.86,3038.41,4.762941176
+Urad,Rabi       ,Karnataka,9092.0,3548,1321.0,1416715.44,1545.64,0.372307692
+Arecanut,Whole Year ,Tamil Nadu,5456.0,10437,928.5,850153.92,927.52,1.605
+Arhar/Tur,Whole Year ,Tamil Nadu,26558.0,20274,928.5,4138267.56,4514.86,0.709615385
+Bajra,Whole Year ,Tamil Nadu,54427.0,82652,928.5,8480815.14,9252.59,1.649615385
+Black pepper,Whole Year ,Tamil Nadu,2790.0,643,928.5,434737.8,474.3,0.153846154
+Cardamom,Whole Year ,Tamil Nadu,3650.0,330,928.5,568743.0,620.5,0.058461538
+Castor seed,Whole Year ,Tamil Nadu,4896.0,1521,928.5,762894.72,832.32,0.313703704
+Coriander,Whole Year ,Tamil Nadu,15977.0,6315,928.5,2489536.14,2716.09,0.355416667
+Dry chillies,Whole Year ,Tamil Nadu,58476.0,31230,928.5,9111730.32,9940.92,0.629032258
+Garlic,Whole Year ,Tamil Nadu,330.0,1954,928.5,51420.6,56.1,4.256
+Gram,Whole Year ,Tamil Nadu,7432.0,4542,928.5,1158054.24,1263.44,0.523
+Horse-gram,Whole Year ,Tamil Nadu,47231.0,21816,928.5,7359534.42,8029.27,0.4292
+Rapeseed &Mustard,Whole Year ,Tamil Nadu,262.0,62,928.5,40824.84,44.54,0.167777778
+Sesamum,Whole Year ,Tamil Nadu,62677.0,29021,928.5,9766330.14,10655.09,0.413448276
+Small millets,Kharif     ,Tamil Nadu,33141.0,31244,928.5,5164030.62,5633.97,0.932173913
+Sunflower,Whole Year ,Tamil Nadu,14268.0,18975,928.5,2223239.76,2425.56,1.448518519
+Tobacco,Whole Year ,Tamil Nadu,7051.0,10741,928.5,1098686.82,1198.67,1.407857143
+Turmeric,Whole Year ,Tamil Nadu,33366.0,169071,928.5,5199090.12,5672.22,5.103076923
+Arecanut,Kharif     ,Puducherry,60.0,78,1434.5875,9966.6,14.4,1.3
+Bajra,Kharif     ,Puducherry,29.0,68,1434.5875,4817.19,6.96,2.34
+Bajra,Summer     ,Puducherry,5.0,11,1434.5875,830.55,1.2,2.2
+Black pepper,Kharif     ,Puducherry,11.0,6,1434.5875,1827.21,2.64,0.55
+Cashewnut,Kharif     ,Puducherry,173.0,131,1434.5875,28737.03,41.52,0.713333333
+Cotton(lint),Summer     ,Puducherry,5.0,5,1434.5875,830.55,1.2,1.0
+Dry chillies,Kharif     ,Puducherry,1.0,1,1434.5875,166.11,0.24,1.0
+Dry chillies,Rabi       ,Puducherry,3.0,4,1434.5875,498.33,0.72,1.33
+Dry chillies,Summer     ,Puducherry,2.0,2,1434.5875,332.22,0.48,1.0
+Groundnut,Kharif     ,Puducherry,25.0,48,1434.5875,4152.75,6.0,1.92
+Groundnut,Rabi       ,Puducherry,312.0,621,1434.5875,51826.32,74.88,1.99
+Groundnut,Summer     ,Puducherry,79.0,147,1434.5875,13122.69,18.96,1.555
+Moong(Green Gram),Kharif     ,Puducherry,1.0,1,1434.5875,166.11,0.24,1.0
+Moong(Green Gram),Rabi       ,Puducherry,15.0,9,1434.5875,2491.65,3.6,0.77
+Moong(Green Gram),Summer     ,Puducherry,1477.0,691,1434.5875,245344.47,354.48,0.613333333
+Other  Rabi pulses,Rabi       ,Puducherry,23.0,19,1434.5875,3820.53,5.52,0.615
+Other  Rabi pulses,Summer     ,Puducherry,2.0,2,1434.5875,332.22,0.48,1.0
+Other Kharif pulses,Kharif     ,Puducherry,1.0,1,1434.5875,166.11,0.24,1.0
+Ragi,Kharif     ,Puducherry,14.0,29,1434.5875,2325.54,3.36,1.575
+Ragi,Rabi       ,Puducherry,1.0,2,1434.5875,166.11,0.24,2.0
+Ragi,Summer     ,Puducherry,8.0,20,1434.5875,1328.88,1.92,2.5
+Rice,Kharif     ,Puducherry,4384.0,12602,1434.5875,728226.24,1052.16,2.673333333
+Rice,Rabi       ,Puducherry,10920.0,26585,1434.5875,1813921.2,2620.8,3.446666667
+Rice,Summer     ,Puducherry,4710.0,12773,1434.5875,782378.1,1130.4,2.7
+Sesamum,Kharif     ,Puducherry,5.0,4,1434.5875,830.55,1.2,0.8
+Sesamum,Rabi       ,Puducherry,15.0,12,1434.5875,2491.65,3.6,0.8
+Sesamum,Summer     ,Puducherry,111.0,89,1434.5875,18438.21,26.64,0.655
+Sunflower,Kharif     ,Puducherry,1.0,1,1434.5875,166.11,0.24,1.0
+Turmeric,Kharif     ,Puducherry,4.0,6,1434.5875,664.44,0.96,1.5
+Urad,Kharif     ,Puducherry,22.0,17,1434.5875,3654.42,5.28,0.77
+Urad,Rabi       ,Puducherry,189.0,206,1434.5875,31394.79,45.36,1.09
+Urad,Summer     ,Puducherry,916.0,374,1434.5875,152156.76,219.84,0.626666667
+Arecanut,Whole Year ,Andhra Pradesh,438.0,195,1297.0,72756.18,105.12,0.443333333
+Arhar/Tur,Rabi       ,Andhra Pradesh,8123.0,4101,1297.0,1349311.53,1949.52,0.483333333
+Bajra,Kharif     ,Andhra Pradesh,51338.0,84908,1297.0,8527755.18,12321.12,1.229444444
+Bajra,Rabi       ,Andhra Pradesh,15988.0,17254,1297.0,2655766.68,3837.12,1.454545455
+Coriander,Whole Year ,Andhra Pradesh,20313.0,13749,1297.0,3374192.43,4875.12,0.671428571
+Dry chillies,Rabi       ,Andhra Pradesh,43460.0,147120,1297.0,7219140.6,10430.4,3.1715
+Garlic,Whole Year ,Andhra Pradesh,464.0,978,1297.0,77075.04,111.36,1.968
+Horse-gram,Kharif     ,Andhra Pradesh,6234.0,2985,1297.0,1035529.74,1496.16,0.4775
+Horse-gram,Rabi       ,Andhra Pradesh,31431.0,13673,1297.0,5221003.41,7543.44,0.44047619
+Linseed,Rabi       ,Andhra Pradesh,1129.0,258,1297.0,187538.19,270.96,0.15
+Niger seed,Kharif     ,Andhra Pradesh,10007.0,3823,1297.0,1662262.77,2401.68,0.335
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,5791.0,5023,1297.0,961943.01,1389.84,0.64
+Other Kharif pulses,Kharif     ,Andhra Pradesh,2581.0,1194,1297.0,428729.91,619.44,0.82
+Ragi,Kharif     ,Andhra Pradesh,37078.0,42556,1297.0,6159026.58,8898.72,1.183333333
+Ragi,Rabi       ,Andhra Pradesh,5244.0,7725,1297.0,871080.84,1258.56,1.465833333
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,6922.0,16777,1297.0,1149813.42,1661.28,2.31
+Safflower,Rabi       ,Andhra Pradesh,13090.0,8897,1297.0,2174379.9,3141.6,0.705
+Sesamum,Rabi       ,Andhra Pradesh,43175.0,12271,1297.0,7171799.25,10362.0,0.290526316
+Small millets,Kharif     ,Andhra Pradesh,28040.0,26648,1297.0,4657724.4,6729.6,0.909090909
+Small millets,Rabi       ,Andhra Pradesh,1263.0,1262,1297.0,209796.93,303.12,0.973333333
+Tapioca,Whole Year ,Andhra Pradesh,12859.0,84686,1297.0,2136008.49,3086.16,6.1075
+Wheat,Rabi       ,Andhra Pradesh,10085.0,13143,1297.0,1675219.35,2420.4,1.311818182
+Bajra,Rabi       ,Karnataka,160.0,136,1317.7,26577.6,38.4,0.84
+Bajra,Summer     ,Karnataka,1090.0,955,1317.7,181059.9,261.6,0.9
+Black pepper,Whole Year ,Karnataka,21061.0,12717,1317.7,3498442.71,5054.64,0.580769231
+Cardamom,Whole Year ,Karnataka,19081.0,1550,1317.7,3169544.91,4579.44,0.068888889
+Castor seed,Kharif     ,Karnataka,19100.0,15991,1317.7,3172701.0,4584.0,0.865652174
+Coriander,Whole Year ,Karnataka,4348.0,1622,1317.7,722246.28,1043.52,0.368
+Cowpea(Lobia),Rabi       ,Karnataka,27130.0,7166,1317.7,4506564.3,6511.2,0.264285714
+Dry chillies,Rabi       ,Karnataka,6608.0,17951,1317.7,1097654.88,1585.92,2.711785714
+Dry chillies,Summer     ,Karnataka,7482.0,22761,1317.7,1242835.02,1795.68,3.1132
+Garlic,Whole Year ,Karnataka,4234.0,5467,1317.7,703309.74,1016.16,1.322857143
+Ginger,Whole Year ,Karnataka,46469.0,168165,1317.7,7718965.59,11152.56,3.717894737
+Jowar,Summer     ,Karnataka,5446.0,11403,1317.7,904635.06,1307.04,2.315555556
+Linseed,Rabi       ,Karnataka,11358.0,3809,1317.7,1886677.38,2725.92,0.335384615
+Maize,Summer     ,Karnataka,30734.0,104275,1317.7,5105224.74,7376.16,3.294137931
+Mesta,Whole Year ,Karnataka,1907.0,2405,1317.7,316771.77,457.68,1.21
+Moong(Green Gram),Rabi       ,Karnataka,10263.0,2702,1317.7,1704786.93,2463.12,0.262
+Niger seed,Kharif     ,Karnataka,23385.0,7041,1317.7,3884482.35,5612.4,0.300769231
+Other  Rabi pulses,Rabi       ,Karnataka,12965.0,4146,1317.7,2153616.15,3111.6,0.363888889
+Ragi,Rabi       ,Karnataka,45898.0,71598,1317.7,7624116.78,11015.52,1.767142857
+Ragi,Summer     ,Karnataka,8675.0,16983,1317.7,1441004.25,2082.0,1.889285714
+Rapeseed &Mustard,Rabi       ,Karnataka,3838.0,1284,1317.7,637530.18,921.12,0.323888889
+Rice,Rabi       ,Karnataka,49700.0,117501,1317.7,8255667.0,11928.0,2.668333333
+Sannhamp,Whole Year ,Karnataka,341.0,85,1317.7,56643.51,81.84,0.245
+Small millets,Kharif     ,Karnataka,24095.0,12082,1317.7,4002420.45,5782.8,0.552857143
+Sunflower,Summer     ,Karnataka,22120.0,22405,1317.7,3674353.2,5308.8,1.032173913
+Turmeric,Whole Year ,Karnataka,14162.0,70158,1317.7,2352449.82,3398.88,4.3825
+Urad,Rabi       ,Karnataka,8727.0,4079,1317.7,1449641.97,2094.48,0.464166667
+Arecanut,Kharif     ,Puducherry,60.0,77,1434.5875,10051.2,19.8,1.28
+Bajra,Kharif     ,Puducherry,11.0,29,1434.5875,1842.72,3.63,2.64
+Bajra,Summer     ,Puducherry,20.0,51,1434.5875,3350.4,6.6,2.55
+Black pepper,Kharif     ,Puducherry,11.0,5,1434.5875,1842.72,3.63,0.45
+Cashewnut,Kharif     ,Puducherry,159.0,50,1434.5875,26635.68,52.47,0.466666667
+Cotton(lint),Summer     ,Puducherry,8.0,8,1434.5875,1340.16,2.64,1.0
+Dry chillies,Kharif     ,Puducherry,1.0,2,1434.5875,167.52,0.33,2.0
+Dry chillies,Summer     ,Puducherry,1.0,2,1434.5875,167.52,0.33,2.0
+Groundnut,Kharif     ,Puducherry,16.0,30,1434.5875,2680.32,5.28,1.88
+Groundnut,Rabi       ,Puducherry,282.0,389,1434.5875,47240.64,93.06,1.195
+Groundnut,Summer     ,Puducherry,21.0,38,1434.5875,3517.92,6.93,1.47
+Jowar,Summer     ,Puducherry,1.0,2,1434.5875,167.52,0.33,2.0
+Moong(Green Gram),Kharif     ,Puducherry,1.0,1,1434.5875,167.52,0.33,1.0
+Moong(Green Gram),Rabi       ,Puducherry,3.0,1,1434.5875,502.56,0.99,0.25
+Moong(Green Gram),Summer     ,Puducherry,1310.0,481,1434.5875,219451.2,432.3,0.495
+Other  Rabi pulses,Rabi       ,Puducherry,20.0,20,1434.5875,3350.4,6.6,1.0
+Other Kharif pulses,Kharif     ,Puducherry,1.0,1,1434.5875,167.52,0.33,1.0
+Other Kharif pulses,Rabi       ,Puducherry,20.0,20,1434.5875,3350.4,6.6,1.0
+Ragi,Kharif     ,Puducherry,12.0,33,1434.5875,2010.24,3.96,2.75
+Ragi,Summer     ,Puducherry,10.0,25,1434.5875,1675.2,3.3,2.5
+Rice,Kharif     ,Puducherry,4237.0,12794,1434.5875,709782.24,1398.21,3.046666667
+Rice,Rabi       ,Puducherry,10324.0,23489,1434.5875,1729476.48,3406.92,2.856666667
+Rice,Summer     ,Puducherry,2015.0,5831,1434.5875,337552.8,664.95,2.49
+Sesamum,Kharif     ,Puducherry,3.0,2,1434.5875,502.56,0.99,0.67
+Sesamum,Rabi       ,Puducherry,6.0,4,1434.5875,1005.12,1.98,0.67
+Sesamum,Summer     ,Puducherry,113.0,92,1434.5875,18929.76,37.29,0.58
+Turmeric,Kharif     ,Puducherry,2.0,3,1434.5875,335.04,0.66,1.5
+Turmeric,Rabi       ,Puducherry,4.0,6,1434.5875,670.08,1.32,1.5
+Urad,Kharif     ,Puducherry,15.0,12,1434.5875,2512.8,4.95,0.8
+Urad,Rabi       ,Puducherry,224.0,242,1434.5875,37524.48,73.92,0.83
+Urad,Summer     ,Puducherry,832.0,317,1434.5875,139376.64,274.56,0.563333333
+Arecanut,Whole Year ,Andhra Pradesh,562.0,275,861.9,94146.24,185.46,0.296666667
+Arhar/Tur,Rabi       ,Andhra Pradesh,2841.0,1409,861.9,475924.32,937.53,0.455294118
+Bajra,Kharif     ,Andhra Pradesh,32415.0,47506,861.9,5430160.8,10696.95,1.221764706
+Bajra,Rabi       ,Andhra Pradesh,10748.0,11138,861.9,1800504.96,3546.84,1.235
+Coriander,Whole Year ,Andhra Pradesh,12821.0,7427,861.9,2147773.92,4230.93,0.6025
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,4718.0,1119,861.9,790359.36,1556.94,0.225
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,15567.0,12408,861.9,2607783.84,5137.11,0.801764706
+Garlic,Whole Year ,Andhra Pradesh,429.0,930,861.9,71866.08,141.57,2.136
+Horse-gram,Kharif     ,Andhra Pradesh,5878.0,2699,861.9,984682.56,1939.74,0.375
+Horse-gram,Rabi       ,Andhra Pradesh,24983.0,10520,861.9,4185152.16,8244.39,0.345
+Linseed,Rabi       ,Andhra Pradesh,744.0,158,861.9,124634.88,245.52,0.2
+Mesta,Kharif     ,Andhra Pradesh,25760.0,199619,861.9,4315315.2,8500.8,5.77625
+Niger seed,Kharif     ,Andhra Pradesh,6880.0,2558,861.9,1152537.6,2270.4,0.28
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,5856.0,4569,861.9,980997.12,1932.48,0.625
+Other Kharif pulses,Kharif     ,Andhra Pradesh,3459.0,1459,861.9,579451.68,1141.47,0.487142857
+Ragi,Kharif     ,Andhra Pradesh,37057.0,31267,861.9,6207788.64,12228.81,0.993846154
+Ragi,Rabi       ,Andhra Pradesh,5379.0,9505,861.9,901090.08,1775.07,1.690909091
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,6617.0,16183,861.9,1108479.84,2183.61,2.444285714
+Safflower,Rabi       ,Andhra Pradesh,10080.0,7508,861.9,1688601.6,3326.4,0.73125
+Sesamum,Kharif     ,Andhra Pradesh,33178.0,7939,861.9,5557978.56,10948.74,0.270526316
+Small millets,Kharif     ,Andhra Pradesh,27150.0,17001,861.9,4548168.0,8959.5,0.723636364
+Small millets,Rabi       ,Andhra Pradesh,1841.0,1519,861.9,308404.32,607.53,0.745
+Wheat,Rabi       ,Andhra Pradesh,8255.0,10914,861.9,1382877.6,2724.15,1.306666667
+other oilseeds,Rabi       ,Andhra Pradesh,6967.0,4422,861.9,1167111.84,2299.11,5.8575
+Bajra,Rabi       ,Karnataka,1350.0,1225,1178.986364,226152.0,445.5,0.98
+Bajra,Summer     ,Karnataka,3193.0,3328,1178.986364,534891.36,1053.69,1.013333333
+Black pepper,Whole Year ,Karnataka,21701.0,6148,1178.986364,3635351.52,7161.33,0.296923077
+Cardamom,Whole Year ,Karnataka,19363.0,1583,1178.986364,3243689.76,6389.79,0.093333333
+Castor seed,Kharif     ,Karnataka,16282.0,13651,1178.986364,2727560.64,5373.06,0.857916667
+Coriander,Whole Year ,Karnataka,3042.0,1236,1178.986364,509595.84,1003.86,0.406
+Cowpea(Lobia),Rabi       ,Karnataka,20294.0,7158,1178.986364,3399650.88,6697.02,0.353571429
+Dry chillies,Rabi       ,Karnataka,6537.0,15414,1178.986364,1095078.24,2157.21,2.375714286
+Dry chillies,Summer     ,Karnataka,5662.0,19828,1178.986364,948498.24,1868.46,3.4856
+Garlic,Whole Year ,Karnataka,5100.0,6365,1178.986364,854352.0,1683.0,1.326666667
+Ginger,Whole Year ,Karnataka,29388.0,93513,1178.986364,4923077.76,9698.04,3.161666667
+Jowar,Summer     ,Karnataka,10517.0,19242,1178.986364,1761807.84,3470.61,1.832307692
+Linseed,Rabi       ,Karnataka,8522.0,2085,1178.986364,1427605.44,2812.26,0.29
+Maize,Summer     ,Karnataka,31494.0,106783,1178.986364,5275874.88,10393.02,3.159655172
+Mesta,Whole Year ,Karnataka,825.0,1028,1178.986364,138204.0,272.25,1.202857143
+Moong(Green Gram),Rabi       ,Karnataka,8723.0,2915,1178.986364,1461276.96,2878.59,0.337647059
+Niger seed,Kharif     ,Karnataka,18547.0,5042,1178.986364,3106993.44,6120.51,0.268846154
+Onion,Summer     ,Karnataka,3572.0,21998,1178.986364,598381.44,1178.76,6.214285714
+Other  Rabi pulses,Rabi       ,Karnataka,9968.0,8479,1178.986364,1669839.36,3289.44,0.808888889
+Ragi,Rabi       ,Karnataka,33850.0,50937,1178.986364,5670552.0,11170.5,1.75125
+Ragi,Summer     ,Karnataka,7608.0,14649,1178.986364,1274492.16,2510.64,1.932142857
+Rapeseed &Mustard,Rabi       ,Karnataka,4209.0,1204,1178.986364,705091.68,1388.97,0.295
+Sannhamp,Whole Year ,Karnataka,42.0,10,1178.986364,7035.84,13.86,0.225
+Small millets,Kharif     ,Karnataka,23174.0,12622,1178.986364,3882108.48,7647.42,0.4965
+Sunflower,Summer     ,Karnataka,18482.0,18869,1178.986364,3096104.64,6099.06,1.035
+Turmeric,Whole Year ,Karnataka,25525.0,128206,1178.986364,4275948.0,8423.25,4.57875
+Urad,Rabi       ,Karnataka,8260.0,4199,1178.986364,1383715.2,2725.8,0.51125
+Arecanut,Whole Year ,Tamil Nadu,6509.0,15948,926.5,1090387.68,2147.97,2.054583333
+Arhar/Tur,Whole Year ,Tamil Nadu,35968.0,31292,926.5,6025359.36,11869.44,0.867037037
+Bajra,Kharif     ,Tamil Nadu,30837.0,68165,926.5,5165814.24,10176.21,2.1
+Bajra,Rabi       ,Tamil Nadu,15827.0,46282,926.5,2651339.04,5222.91,2.827272727
+Black pepper,Whole Year ,Tamil Nadu,3767.0,856,926.5,631047.84,1243.11,0.174285714
+Cardamom,Whole Year ,Tamil Nadu,4321.0,393,926.5,723853.92,1425.93,0.073636364
+Castor seed,Whole Year ,Tamil Nadu,6202.0,1861,926.5,1038959.04,2046.66,0.767407407
+Coriander,Whole Year ,Tamil Nadu,10804.0,5049,926.5,1809886.08,3565.32,0.454583333
+Cotton(lint),Rabi       ,Tamil Nadu,28769.0,79158,926.5,4819382.88,9493.77,2.83
+Garlic,Whole Year ,Tamil Nadu,442.0,2544,926.5,74043.84,145.86,4.335
+Gram,Whole Year ,Tamil Nadu,8592.0,5520,926.5,1439331.84,2835.36,0.590625
+Jute,Kharif     ,Tamil Nadu,3.0,0,926.5,502.56,0.99,0.0
+Ragi,Rabi       ,Tamil Nadu,13970.0,43371,926.5,2340254.4,4610.1,2.879090909
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,344.0,84,926.5,57626.88,113.52,0.226666667
+Small millets,Whole Year ,Tamil Nadu,30150.0,36407,926.5,5050728.0,9949.5,1.311304348
+Sunflower,Whole Year ,Tamil Nadu,13610.0,24622,926.5,2279947.2,4491.3,1.779230769
+Tobacco,Whole Year ,Tamil Nadu,2868.0,8205,926.5,480447.36,946.44,2.648333333
+Arecanut,Kharif     ,Andhra Pradesh,581.0,365,968.7,87614.8,180.11,1.453333333
+Bajra,Rabi       ,Andhra Pradesh,7000.0,11000,968.7,1055600.0,2170.0,1.4
+Coriander,Kharif     ,Andhra Pradesh,1109.0,717,968.7,167237.2,343.79,0.575
+Coriander,Rabi       ,Andhra Pradesh,7528.0,4534,968.7,1135222.4,2333.68,0.723333333
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,5000.0,2000,968.7,754000.0,1550.0,0.4
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,18000.0,17000,968.7,2714400.0,5580.0,1.0425
+Ginger,Kharif     ,Andhra Pradesh,702.0,2587,968.7,105861.6,217.62,6.5525
+Horse-gram,Kharif     ,Andhra Pradesh,5000.0,3000,968.7,754000.0,1550.0,0.556666667
+Horse-gram,Rabi       ,Andhra Pradesh,27000.0,16000,968.7,4071600.0,8370.0,0.566666667
+Linseed,Kharif     ,Andhra Pradesh,422.0,203,968.7,63637.6,130.82,0.455
+Niger seed,Rabi       ,Andhra Pradesh,8273.0,5813,968.7,1247568.4,2564.63,0.63
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,6590.0,4021,968.7,993772.0,2042.9,0.983333333
+Other Kharif pulses,Kharif     ,Andhra Pradesh,2929.0,1923,968.7,441693.2,907.99,0.6075
+Ragi,Kharif     ,Andhra Pradesh,36000.0,38000,968.7,5428800.0,11160.0,1.207142857
+Ragi,Rabi       ,Andhra Pradesh,5000.0,6000,968.7,754000.0,1550.0,1.2
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,3522.0,1530,968.7,531117.6,1091.82,0.4525
+Safflower,Rabi       ,Andhra Pradesh,276.0,172,968.7,41620.8,85.56,1.256666667
+Sesamum,Kharif     ,Andhra Pradesh,25000.0,6000,968.7,3770000.0,7750.0,0.2
+Sesamum,Rabi       ,Andhra Pradesh,41000.0,15000,968.7,6182800.0,12710.0,0.283846154
+Small millets,Kharif     ,Andhra Pradesh,36000.0,35000,968.7,5428800.0,11160.0,1.283333333
+Small millets,Rabi       ,Andhra Pradesh,2000.0,1000,968.7,301600.0,620.0,0.5
+Soyabean,Kharif     ,Andhra Pradesh,1317.0,2393,968.7,198603.6,408.27,1.793333333
+Soyabean,Rabi       ,Andhra Pradesh,81.0,147,968.7,12214.8,25.11,1.816666667
+Sunflower,Kharif     ,Andhra Pradesh,19000.0,14000,968.7,2865200.0,5890.0,0.763333333
+Tobacco,Rabi       ,Andhra Pradesh,56.0,286,968.7,8444.8,17.36,5.255
+Wheat,Rabi       ,Andhra Pradesh,8000.0,9000,968.7,1206400.0,2480.0,1.25
+Black pepper,Whole Year ,Karnataka,26837.0,76040,956.2,4047019.6,8319.47,2.986
+Cardamom,Whole Year ,Karnataka,19286.0,1578,956.2,2908328.8,5978.66,0.093333333
+Castor seed,Kharif     ,Karnataka,11462.0,7142,956.2,1728469.6,3553.22,0.658095238
+Coriander,Whole Year ,Karnataka,4219.0,1667,956.2,636225.2,1307.89,0.401304348
+Cotton(lint),Summer     ,Karnataka,1810.0,5017,956.2,272948.0,561.1,2.77375
+Cowpea(Lobia),Rabi       ,Karnataka,7192.0,2396,956.2,1084553.6,2229.52,0.332272727
+Cowpea(Lobia),Summer     ,Karnataka,6937.0,2498,956.2,1046099.6,2150.47,0.366956522
+Dry chillies,Rabi       ,Karnataka,5430.0,14836,956.2,818844.0,1683.3,2.660769231
+Dry chillies,Summer     ,Karnataka,5057.0,14294,956.2,762595.6,1567.67,2.784
+Garlic,Whole Year ,Karnataka,4238.0,5531,956.2,639090.4,1313.78,1.385625
+Groundnut,Rabi       ,Karnataka,18818.0,31805,956.2,2837754.4,5833.58,1.695
+Jowar,Summer     ,Karnataka,8361.0,13771,956.2,1260838.8,2591.91,1.6
+Linseed,Rabi       ,Karnataka,6882.0,1206,956.2,1037805.6,2133.42,0.207142857
+Maize,Summer     ,Karnataka,32413.0,111382,956.2,4887880.4,10048.03,3.439666667
+Mesta,Whole Year ,Karnataka,713.0,871,956.2,107520.4,221.03,1.242
+Moong(Green Gram),Rabi       ,Karnataka,4868.0,1140,956.2,734094.4,1509.08,0.211818182
+Niger seed,Kharif     ,Karnataka,11639.0,2791,956.2,1755161.2,3608.09,0.2492
+Onion,Summer     ,Karnataka,3543.0,20096,956.2,534284.4,1098.33,5.650952381
+Other  Rabi pulses,Rabi       ,Karnataka,4843.0,2218,956.2,730324.4,1501.33,0.46
+Ragi,Rabi       ,Karnataka,36638.0,52791,956.2,5525010.4,11357.78,1.404375
+Ragi,Summer     ,Karnataka,5239.0,7846,956.2,790041.2,1624.09,1.525
+Rapeseed &Mustard,Kharif     ,Karnataka,2201.0,650,956.2,331910.8,682.31,0.271538462
+Sannhamp,Whole Year ,Karnataka,258.0,64,956.2,38906.4,79.98,0.2375
+Sesamum,Kharif     ,Karnataka,41001.0,13264,956.2,6182950.8,12710.31,0.3072
+Small millets,Kharif     ,Karnataka,21919.0,8426,956.2,3305385.2,6794.89,0.368421053
+Sunflower,Summer     ,Karnataka,20178.0,20173,956.2,3042842.4,6255.18,1.010952381
+Turmeric,Whole Year ,Karnataka,19688.0,92405,956.2,2968950.4,6103.28,4.742173913
+Urad,Rabi       ,Karnataka,5376.0,2791,956.2,810700.8,1666.56,0.609090909
+Arecanut,Kharif     ,Andhra Pradesh,476.0,255,1062.3,68777.24,128.52,1.705
+Arhar/Tur,Rabi       ,Andhra Pradesh,1298.0,1003,1062.3,187548.02,350.46,0.736
+Bajra,Kharif     ,Andhra Pradesh,46930.0,77599,1062.3,6780915.7,12671.1,1.621818182
+Bajra,Rabi       ,Andhra Pradesh,2297.0,4256,1062.3,331893.53,620.19,1.78
+Black pepper,Kharif     ,Andhra Pradesh,4.0,3,1062.3,577.96,1.08,0.75
+Castor seed,Rabi       ,Andhra Pradesh,1291.0,956,1062.3,186536.59,348.57,0.74
+Coriander,Kharif     ,Andhra Pradesh,517.0,333,1062.3,74701.33,139.59,0.62
+Coriander,Rabi       ,Andhra Pradesh,7934.0,4685,1062.3,1146383.66,2142.18,0.668
+Cotton(lint),Rabi       ,Andhra Pradesh,5155.0,12281,1062.3,744845.95,1391.85,2.531666667
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,3720.0,1617,1062.3,537502.8,1004.4,0.45625
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,8403.0,7244,1062.3,1214149.47,2268.81,0.787777778
+Dry chillies,Rabi       ,Andhra Pradesh,18392.0,80405,1062.3,2657460.08,4965.84,3.246153846
+Ginger,Kharif     ,Andhra Pradesh,358.0,1369,1062.3,51727.42,96.66,5.35
+Horse-gram,Kharif     ,Andhra Pradesh,8768.0,5120,1062.3,1266888.32,2367.36,0.58125
+Horse-gram,Rabi       ,Andhra Pradesh,19438.0,9743,1062.3,2808596.62,5248.26,0.4925
+Jowar,Kharif     ,Andhra Pradesh,32732.0,57193,1062.3,4729446.68,8837.64,1.718461538
+Linseed,Kharif     ,Andhra Pradesh,473.0,228,1062.3,68343.77,127.71,0.455
+Moong(Green Gram),Kharif     ,Andhra Pradesh,17490.0,8956,1062.3,2527130.1,4722.3,0.627692308
+Niger seed,Kharif     ,Andhra Pradesh,21.0,11,1062.3,3034.29,5.67,0.52
+Niger seed,Rabi       ,Andhra Pradesh,8789.0,4483,1062.3,1269922.61,2373.03,0.47
+Other Kharif pulses,Kharif     ,Andhra Pradesh,3488.0,2369,1062.3,503981.12,941.76,0.5025
+Ragi,Kharif     ,Andhra Pradesh,37021.0,36385,1062.3,5349164.29,9995.67,1.005454545
+Ragi,Rabi       ,Andhra Pradesh,4538.0,7056,1062.3,655695.62,1225.26,1.534444444
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,3295.0,2121,1062.3,476094.55,889.65,0.57
+Safflower,Rabi       ,Andhra Pradesh,215.0,120,1062.3,31065.35,58.05,0.63
+Sannhamp,Whole Year ,Andhra Pradesh,4734.0,0,1062.3,684015.66,1278.18,0.0
+Sesamum,Kharif     ,Andhra Pradesh,28045.0,12589,1062.3,4052222.05,7572.15,0.409166667
+Sesamum,Rabi       ,Andhra Pradesh,33088.0,8625,1062.3,4780885.12,8933.76,0.245833333
+Small millets,Kharif     ,Andhra Pradesh,26620.0,19547,1062.3,3846323.8,7187.4,0.828888889
+Small millets,Rabi       ,Andhra Pradesh,878.0,934,1062.3,126862.22,237.06,0.9625
+Soyabean,Kharif     ,Andhra Pradesh,3025.0,4872,1062.3,437082.25,816.75,1.62
+Soyabean,Rabi       ,Andhra Pradesh,80.0,129,1062.3,11559.2,21.6,1.626666667
+Sunflower,Kharif     ,Andhra Pradesh,17828.0,14053,1062.3,2575967.72,4813.56,0.764285714
+Tobacco,Kharif     ,Andhra Pradesh,22309.0,164772,1062.3,3223427.41,6023.43,6.22
+Urad,Kharif     ,Andhra Pradesh,14508.0,9901,1062.3,2096260.92,3917.16,0.724615385
+Wheat,Rabi       ,Andhra Pradesh,348.0,249,1062.3,50282.52,93.96,0.68
+Black pepper,Whole Year ,Karnataka,27958.0,69460,1235.6,4039651.42,7548.66,2.561176471
+Cardamom,Whole Year ,Karnataka,18672.0,1516,1235.6,2697917.28,5041.44,0.1
+Castor seed,Kharif     ,Karnataka,12184.0,10900,1235.6,1760466.16,3289.68,0.906956522
+Coriander,Whole Year ,Karnataka,2648.0,822,1235.6,382609.52,714.96,0.319473684
+Cotton(lint),Summer     ,Karnataka,2022.0,7289,1235.6,292158.78,545.94,3.655714286
+Cowpea(Lobia),Rabi       ,Karnataka,9301.0,3930,1235.6,1343901.49,2511.27,0.416818182
+Cowpea(Lobia),Summer     ,Karnataka,8000.0,3145,1235.6,1155920.0,2160.0,0.395238095
+Dry chillies,Rabi       ,Karnataka,6672.0,12646,1235.6,964037.28,1801.44,1.907931034
+Dry chillies,Summer     ,Karnataka,6611.0,17564,1235.6,955223.39,1784.97,2.763076923
+Garlic,Whole Year ,Karnataka,5191.0,5473,1235.6,750047.59,1401.57,1.218571429
+Groundnut,Rabi       ,Karnataka,4041.0,7466,1235.6,583884.09,1091.07,1.855
+Jowar,Summer     ,Karnataka,4461.0,7260,1235.6,644569.89,1204.47,1.63
+Linseed,Rabi       ,Karnataka,5552.0,1654,1235.6,802208.48,1499.04,0.326
+Maize,Summer     ,Karnataka,27180.0,88183,1235.6,3927238.2,7338.6,3.111724138
+Mesta,Whole Year ,Karnataka,349.0,466,1235.6,50427.01,94.23,1.33
+Moong(Green Gram),Rabi       ,Karnataka,6145.0,1551,1235.6,887891.05,1659.15,0.240666667
+Niger seed,Kharif     ,Karnataka,14277.0,3125,1235.6,2062883.73,3854.79,0.2196
+Other  Rabi pulses,Rabi       ,Karnataka,8711.0,6130,1235.6,1258652.39,2351.97,0.707368421
+Ragi,Rabi       ,Karnataka,24916.0,36353,1235.6,3600112.84,6727.32,1.498
+Ragi,Summer     ,Karnataka,7312.0,14363,1235.6,1056510.88,1974.24,1.977857143
+Rapeseed &Mustard,Kharif     ,Karnataka,2700.0,769,1235.6,390123.0,729.0,0.270555556
+Rice,Rabi       ,Karnataka,40896.0,102639,1235.6,5909063.04,11041.92,2.545833333
+Safflower,Rabi       ,Karnataka,43135.0,34167,1235.6,6232576.15,11646.45,0.773333333
+Sannhamp,Whole Year ,Karnataka,341.0,85,1235.6,49271.09,92.07,0.2575
+Sesamum,Kharif     ,Karnataka,40986.0,23494,1235.6,5922067.14,11066.22,0.506923077
+Small millets,Kharif     ,Karnataka,23705.0,12684,1235.6,3425135.45,6400.35,0.525714286
+Sunflower,Summer     ,Karnataka,18620.0,18523,1235.6,2690403.8,5027.4,1.0455
+Turmeric,Whole Year ,Karnataka,13356.0,63617,1235.6,1929808.44,3606.12,4.687
+Urad,Rabi       ,Karnataka,6843.0,3911,1235.6,988745.07,1847.61,0.566923077
+Arecanut,Whole Year ,Tamil Nadu,6695.0,8619,740.9,967360.55,1807.65,1.22
+Bajra,Kharif     ,Tamil Nadu,30322.0,69197,740.9,4381225.78,8186.94,2.3008
+Bajra,Rabi       ,Tamil Nadu,24090.0,48239,740.9,3480764.1,6504.3,2.14
+Black pepper,Whole Year ,Tamil Nadu,3918.0,860,740.9,566111.82,1057.86,0.184166667
+Cardamom,Whole Year ,Tamil Nadu,4044.0,366,740.9,584317.56,1091.88,0.064166667
+Castor seed,Kharif     ,Tamil Nadu,6377.0,1990,740.9,921412.73,1721.79,0.35
+Coriander,Whole Year ,Tamil Nadu,7527.0,2614,740.9,1087576.23,2032.29,0.349166667
+Cotton(lint),Rabi       ,Tamil Nadu,34468.0,82752,740.9,4980281.32,9306.36,2.478888889
+Dry chillies,Whole Year ,Tamil Nadu,41401.0,11294,740.9,5982030.49,11178.27,0.363333333
+Garlic,Whole Year ,Tamil Nadu,506.0,2889,740.9,73111.94,136.62,4.194285714
+Gram,Whole Year ,Tamil Nadu,8908.0,5823,740.9,1287116.92,2405.16,0.6575
+Horse-gram,Kharif     ,Tamil Nadu,13732.0,8570,740.9,1984136.68,3707.64,0.595454545
+Moong(Green Gram),Kharif     ,Tamil Nadu,25034.0,14083,740.9,3617162.66,6759.18,0.572307692
+Ragi,Rabi       ,Tamil Nadu,30533.0,121102,740.9,4411713.17,8243.91,3.823333333
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,576.0,140,740.9,83226.24,155.52,0.18
+Sesamum,Kharif     ,Tamil Nadu,19500.0,10879,740.9,2817555.0,5265.0,0.50962963
+Sesamum,Rabi       ,Tamil Nadu,37091.0,22829,740.9,5359278.59,10014.57,0.571724138
+Small millets,Whole Year ,Tamil Nadu,32404.0,35171,740.9,4682053.96,8749.08,1.009166667
+Sunflower,Kharif     ,Tamil Nadu,2155.0,3893,740.9,311375.95,581.85,1.71875
+Sunflower,Rabi       ,Tamil Nadu,5827.0,5800,740.9,841943.23,1573.29,1.340869565
+Tobacco,Whole Year ,Tamil Nadu,3725.0,5691,740.9,538225.25,1005.75,1.284166667
+Turmeric,Whole Year ,Tamil Nadu,31968.0,117416,740.9,4619056.32,8631.36,3.797777778
+Arecanut,Kharif     ,Andhra Pradesh,483.0,338,687.6,72913.68,159.39,1.775
+Arhar/Tur,Rabi       ,Andhra Pradesh,1564.0,1224,687.6,236101.44,516.12,0.727
+Bajra,Kharif     ,Andhra Pradesh,24755.0,31913,687.6,3737014.8,8169.15,1.560909091
+Bajra,Rabi       ,Andhra Pradesh,3423.0,6586,687.6,516736.08,1129.59,1.624285714
+Castor seed,Rabi       ,Andhra Pradesh,1715.0,838,687.6,258896.4,565.95,0.598333333
+Coriander,Kharif     ,Andhra Pradesh,164.0,85,687.6,24757.44,54.12,0.51
+Cotton(lint),Rabi       ,Andhra Pradesh,6222.0,15914,687.6,939273.12,2053.26,2.897142857
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,4459.0,1865,687.6,673130.64,1471.47,0.4125
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,9576.0,10735,687.6,1445592.96,3160.08,0.874444444
+Dry chillies,Rabi       ,Andhra Pradesh,25643.0,125104,687.6,3871067.28,8462.19,3.715384615
+Ginger,Kharif     ,Andhra Pradesh,391.0,1118,687.6,59025.36,129.03,3.0625
+Ginger,Rabi       ,Andhra Pradesh,36.0,103,687.6,5434.56,11.88,2.86
+Horse-gram,Kharif     ,Andhra Pradesh,10529.0,4728,687.6,1589457.84,3474.57,0.37
+Horse-gram,Rabi       ,Andhra Pradesh,24562.0,10784,687.6,3707879.52,8105.46,0.434166667
+Jowar,Kharif     ,Andhra Pradesh,36926.0,54926,687.6,5574348.96,12185.58,1.390833333
+Linseed,Kharif     ,Andhra Pradesh,361.0,174,687.6,54496.56,119.13,0.48
+Moong(Green Gram),Kharif     ,Andhra Pradesh,11408.0,10461,687.6,1722151.68,3764.64,0.807692308
+Niger seed,Rabi       ,Andhra Pradesh,7378.0,2376,687.6,1113782.88,2434.74,0.41
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,10376.0,11779,687.6,1566360.96,3424.08,1.1525
+Other Kharif pulses,Kharif     ,Andhra Pradesh,3206.0,3270,687.6,483977.76,1057.98,0.442
+Ragi,Kharif     ,Andhra Pradesh,28742.0,27354,687.6,4338892.32,9484.86,1.024444444
+Ragi,Rabi       ,Andhra Pradesh,4698.0,7046,687.6,709210.08,1550.34,1.511
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,5711.0,3203,687.6,862132.56,1884.63,0.418
+Safflower,Kharif     ,Andhra Pradesh,85.0,37,687.6,12831.6,28.05,0.44
+Safflower,Rabi       ,Andhra Pradesh,681.0,211,687.6,102803.76,224.73,0.34
+Sesamum,Kharif     ,Andhra Pradesh,21057.0,5737,687.6,3178764.72,6948.81,0.2475
+Small millets,Kharif     ,Andhra Pradesh,18204.0,12691,687.6,2748075.84,6007.32,0.722222222
+Small millets,Rabi       ,Andhra Pradesh,1883.0,1887,687.6,284257.68,621.39,0.93
+Soyabean,Kharif     ,Andhra Pradesh,730.0,1669,687.6,110200.8,240.9,1.956
+Soyabean,Rabi       ,Andhra Pradesh,190.0,293,687.6,28682.4,62.7,1.615
+Sunflower,Kharif     ,Andhra Pradesh,11028.0,5949,687.6,1664786.88,3639.24,0.811428571
+Tapioca,Rabi       ,Andhra Pradesh,49.0,0,687.6,7397.04,16.17,0.0
+Urad,Kharif     ,Andhra Pradesh,19424.0,20949,687.6,2932247.04,6409.92,1.113076923
+Wheat,Rabi       ,Andhra Pradesh,320.0,256,687.6,48307.2,105.6,1.02
+Black pepper,Whole Year ,Karnataka,32665.0,19188,1238.5,4931108.4,10779.45,0.58375
+Cardamom,Whole Year ,Karnataka,18254.0,1429,1238.5,2755623.84,6023.82,0.07875
+Castor seed,Kharif     ,Karnataka,11913.0,7243,1238.5,1798386.48,3931.29,0.616363636
+Coriander,Whole Year ,Karnataka,4339.0,1469,1238.5,655015.44,1431.87,0.3344
+Cotton(lint),Summer     ,Karnataka,2183.0,4135,1238.5,329545.68,720.39,1.8925
+Cowpea(Lobia),Rabi       ,Karnataka,9632.0,3533,1238.5,1454046.72,3178.56,0.37
+Cowpea(Lobia),Summer     ,Karnataka,7241.0,2646,1238.5,1093101.36,2389.53,0.342272727
+Dry chillies,Rabi       ,Karnataka,7842.0,14712,1238.5,1183828.32,2587.86,1.874137931
+Dry chillies,Summer     ,Karnataka,5820.0,11208,1238.5,878587.2,1920.6,1.929166667
+Garlic,Whole Year ,Karnataka,4725.0,5191,1238.5,713286.0,1559.25,1.254285714
+Groundnut,Rabi       ,Karnataka,3720.0,7426,1238.5,561571.2,1227.6,2.0
+Jowar,Summer     ,Karnataka,3534.0,7469,1238.5,533492.64,1166.22,2.113636364
+Linseed,Rabi       ,Karnataka,5025.0,1568,1238.5,758574.0,1658.25,0.359285714
+Maize,Summer     ,Karnataka,23928.0,78040,1238.5,3612170.88,7896.24,3.19
+Mesta,Whole Year ,Karnataka,261.0,293,1238.5,39400.56,86.13,1.123333333
+Moong(Green Gram),Rabi       ,Karnataka,6230.0,2049,1238.5,940480.8,2055.9,0.336153846
+Niger seed,Kharif     ,Karnataka,10906.0,2885,1238.5,1646369.76,3598.98,0.2636
+Onion,Summer     ,Karnataka,5782.0,28365,1238.5,872850.72,1908.06,5.114090909
+Other  Rabi pulses,Rabi       ,Karnataka,8357.0,5539,1238.5,1261572.72,2757.81,0.722
+Ragi,Rabi       ,Karnataka,33636.0,54573,1238.5,5077690.56,11099.88,1.655333333
+Ragi,Summer     ,Karnataka,7358.0,13115,1238.5,1110763.68,2428.14,1.750769231
+Rapeseed &Mustard,Kharif     ,Karnataka,2034.0,445,1238.5,307052.64,671.22,0.204375
+Safflower,Rabi       ,Karnataka,32626.0,26767,1238.5,4925220.96,10766.58,0.752666667
+Sannhamp,Whole Year ,Karnataka,311.0,76,1238.5,46948.56,102.63,0.236
+Small millets,Kharif     ,Karnataka,22731.0,11918,1238.5,3431471.76,7501.23,0.525
+Sunflower,Summer     ,Karnataka,16449.0,14635,1238.5,2483141.04,5428.17,0.886470588
+Turmeric,Whole Year ,Karnataka,12824.0,76777,1238.5,1935911.04,4231.92,5.373684211
+Urad,Rabi       ,Karnataka,7093.0,3230,1238.5,1070759.28,2340.69,0.423636364
+Arecanut,Whole Year ,Tamil Nadu,6732.0,8837,911.3,1016262.72,2221.56,1.561904762
+Bajra,Kharif     ,Tamil Nadu,33124.0,100137,911.3,5000399.04,10930.92,3.060416667
+Bajra,Rabi       ,Tamil Nadu,24584.0,77433,911.3,3711200.64,8112.72,3.18
+Black pepper,Whole Year ,Tamil Nadu,3997.0,898,911.3,603387.12,1319.01,0.186666667
+Cardamom,Whole Year ,Tamil Nadu,3992.0,361,911.3,602632.32,1317.36,0.07
+Castor seed,Kharif     ,Tamil Nadu,5132.0,1695,911.3,774726.72,1693.56,0.3575
+Coriander,Whole Year ,Tamil Nadu,9230.0,8048,911.3,1393360.8,3045.9,0.855384615
+Garlic,Whole Year ,Tamil Nadu,449.0,2567,911.3,67781.04,148.17,2.711666667
+Ginger,Whole Year ,Tamil Nadu,311.0,1316,911.3,46948.56,102.63,4.132222222
+Gram,Rabi       ,Tamil Nadu,6820.0,4177,911.3,1029547.2,2250.6,0.535789474
+Horse-gram,Kharif     ,Tamil Nadu,13931.0,10597,911.3,2103023.76,4597.23,0.764583333
+Moong(Green Gram),Kharif     ,Tamil Nadu,28296.0,17906,911.3,4271564.16,9337.68,0.633076923
+Ragi,Rabi       ,Tamil Nadu,30117.0,126424,911.3,4546462.32,9938.61,4.1516
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,302.0,72,911.3,45589.92,99.66,0.161428571
+Sesamum,Kharif     ,Tamil Nadu,21289.0,13371,911.3,3213787.44,7025.37,0.559642857
+Small millets,Kharif     ,Tamil Nadu,20444.0,29892,911.3,3086226.24,6746.52,1.504090909
+Small millets,Rabi       ,Tamil Nadu,660.0,1385,911.3,99633.6,217.8,1.928
+Sunflower,Kharif     ,Tamil Nadu,2782.0,4214,911.3,419970.72,918.06,1.645833333
+Sunflower,Rabi       ,Tamil Nadu,6122.0,8327,911.3,924177.12,2020.26,1.4275
+Tobacco,Whole Year ,Tamil Nadu,5478.0,8334,911.3,826958.88,1807.74,1.497
+Turmeric,Whole Year ,Tamil Nadu,26072.0,105002,911.3,3935829.12,8603.76,4.3492
+Arecanut,Kharif     ,Andhra Pradesh,516.0,1795,940.7,81481.56,170.28,3.32
+Arhar/Tur,Rabi       ,Andhra Pradesh,4995.0,3472,940.7,788760.45,1648.35,0.643
+Bajra,Kharif     ,Andhra Pradesh,33319.0,58890,940.7,5261403.29,10995.27,1.908181818
+Bajra,Rabi       ,Andhra Pradesh,3421.0,6133,940.7,540210.11,1128.93,1.978333333
+Castor seed,Rabi       ,Andhra Pradesh,1785.0,1226,940.7,281869.35,589.05,0.836
+Coriander,Kharif     ,Andhra Pradesh,36.0,13,940.7,5684.76,11.88,0.396666667
+Coriander,Rabi       ,Andhra Pradesh,25302.0,10385,940.7,3995438.82,8349.66,0.4425
+Cotton(lint),Rabi       ,Andhra Pradesh,3394.0,6662,940.7,535946.54,1120.02,2.23
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,11043.0,9696,940.7,1743800.13,3644.19,0.77125
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,8003.0,6569,940.7,1263753.73,2640.99,0.513
+Dry chillies,Rabi       ,Andhra Pradesh,24362.0,102073,940.7,3847003.42,8039.46,3.588461538
+Ginger,Kharif     ,Andhra Pradesh,362.0,955,940.7,57163.42,119.46,2.802
+Ginger,Rabi       ,Andhra Pradesh,1.0,3,940.7,157.91,0.33,3.0
+Gram,Kharif     ,Andhra Pradesh,2.0,2,940.7,315.82,0.66,1.0
+Horse-gram,Kharif     ,Andhra Pradesh,35190.0,10511,940.7,5556852.9,11612.7,0.363333333
+Horse-gram,Rabi       ,Andhra Pradesh,22577.0,11421,940.7,3565134.07,7450.41,0.5475
+Linseed,Kharif     ,Andhra Pradesh,259.0,125,940.7,40898.69,85.47,0.64
+Niger seed,Rabi       ,Andhra Pradesh,6685.0,2578,940.7,1055628.35,2206.05,0.445
+Ragi,Kharif     ,Andhra Pradesh,26603.0,25402,940.7,4200879.73,8778.99,1.123333333
+Ragi,Rabi       ,Andhra Pradesh,4569.0,8572,940.7,721490.79,1507.77,1.757777778
+Rapeseed &Mustard,Kharif     ,Andhra Pradesh,10.0,7,940.7,1579.1,3.3,0.7
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,1426.0,764,940.7,225179.66,470.58,0.3975
+Safflower,Rabi       ,Andhra Pradesh,304.0,212,940.7,48004.64,100.32,0.713333333
+Sesamum,Kharif     ,Andhra Pradesh,28065.0,5129,940.7,4431744.15,9261.45,0.2975
+Sesamum,Rabi       ,Andhra Pradesh,25066.0,9114,940.7,3958172.06,8271.78,0.37
+Small millets,Rabi       ,Andhra Pradesh,3930.0,4271,940.7,620586.3,1296.9,0.986
+Soyabean,Kharif     ,Andhra Pradesh,1210.0,1786,940.7,191071.1,399.3,1.45
+Soyabean,Rabi       ,Andhra Pradesh,66.0,107,940.7,10422.06,21.78,1.62
+Sunflower,Kharif     ,Andhra Pradesh,6568.0,5165,940.7,1037152.88,2167.44,0.965
+Sunflower,Rabi       ,Andhra Pradesh,19725.0,18004,940.7,3114774.75,6509.25,0.9525
+Tobacco,Kharif     ,Andhra Pradesh,19100.0,128256,940.7,3016081.0,6303.0,5.955263158
+Wheat,Rabi       ,Andhra Pradesh,164.0,115,940.7,25897.24,54.12,0.696666667
+Arecanut,Kharif     ,Puducherry,55.0,83,1980.6,8685.05,18.15,1.51
+Bajra,Kharif     ,Puducherry,6.0,15,1980.6,947.46,1.98,2.5
+Bajra,Summer     ,Puducherry,1.0,2,1980.6,157.91,0.33,2.0
+Cashewnut,Kharif     ,Puducherry,143.0,44,1980.6,22581.13,47.19,0.433333333
+Cotton(lint),Kharif     ,Puducherry,118.0,271,1980.6,18633.38,38.94,1.795
+Groundnut,Kharif     ,Puducherry,5.0,11,1980.6,789.55,1.65,2.2
+Groundnut,Rabi       ,Puducherry,239.0,717,1980.6,37740.49,78.87,3.0
+Groundnut,Summer     ,Puducherry,55.0,165,1980.6,8685.05,18.15,3.0
+Moong(Green Gram),Rabi       ,Puducherry,9.0,10,1980.6,1421.19,2.97,1.11
+Moong(Green Gram),Summer     ,Puducherry,1039.0,330,1980.6,164068.49,342.87,0.59
+Onion,Summer     ,Puducherry,1.0,6,1980.6,157.91,0.33,6.0
+Other  Rabi pulses,Rabi       ,Puducherry,58.0,72,1980.6,9158.78,19.14,1.24
+Other  Rabi pulses,Summer     ,Puducherry,4.0,4,1980.6,631.64,1.32,1.0
+Ragi,Kharif     ,Puducherry,34.0,81,1980.6,5368.94,11.22,2.195
+Rice,Kharif     ,Puducherry,3817.0,12250,1980.6,602742.47,1259.61,2.273333333
+Rice,Rabi       ,Puducherry,8505.0,19587,1980.6,1343024.55,2806.65,2.47
+Rice,Summer     ,Puducherry,3941.0,12049,1980.6,622323.31,1300.53,2.225
+Sesamum,Kharif     ,Puducherry,3.0,2,1980.6,473.73,0.99,0.67
+Sesamum,Rabi       ,Puducherry,5.0,4,1980.6,789.55,1.65,0.8
+Sesamum,Summer     ,Puducherry,100.0,83,1980.6,15791.0,33.0,0.83
+Small millets,Kharif     ,Puducherry,8.0,13,1980.6,1263.28,2.64,1.63
+Turmeric,Kharif     ,Puducherry,2.0,4,1980.6,315.82,0.66,2.0
+Urad,Kharif     ,Puducherry,72.0,38,1980.6,11369.52,23.76,0.625
+Urad,Rabi       ,Puducherry,206.0,245,1980.6,32529.46,67.98,1.0
+Urad,Summer     ,Puducherry,574.0,227,1980.6,90640.34,189.42,0.443333333
+Bajra,Summer     ,Karnataka,3226.0,3579,1024.9,509417.66,1064.58,1.084
+Black pepper,Whole Year ,Karnataka,34990.0,26773,1024.9,5525270.9,11546.7,0.796
+Cardamom,Whole Year ,Karnataka,17660.0,1528,1024.9,2788690.6,5827.8,0.08
+Castor seed,Kharif     ,Karnataka,9347.0,4911,1024.9,1475984.77,3084.51,0.514
+Coriander,Whole Year ,Karnataka,4494.0,1927,1024.9,709647.54,1483.02,0.388636364
+Cotton(lint),Summer     ,Karnataka,1105.0,2341,1024.9,174490.55,364.65,2.101428571
+Cowpea(Lobia),Rabi       ,Karnataka,10778.0,4779,1024.9,1701953.98,3556.74,0.448571429
+Cowpea(Lobia),Summer     ,Karnataka,8036.0,2412,1024.9,1268964.76,2651.88,0.299166667
+Dry chillies,Rabi       ,Karnataka,7744.0,15656,1024.9,1222855.04,2555.52,2.112592593
+Dry chillies,Summer     ,Karnataka,5747.0,10529,1024.9,907508.77,1896.51,1.8928
+Garlic,Whole Year ,Karnataka,4661.0,6276,1024.9,736018.51,1538.13,1.33875
+Groundnut,Rabi       ,Karnataka,3646.0,6850,1024.9,575739.86,1203.18,1.88
+Jowar,Summer     ,Karnataka,5201.0,10281,1024.9,821289.91,1716.33,1.904166667
+Linseed,Rabi       ,Karnataka,4961.0,600,1024.9,783391.51,1637.13,0.109333333
+Maize,Summer     ,Karnataka,24754.0,69486,1024.9,3908904.14,8168.82,2.877407407
+Mesta,Whole Year ,Karnataka,766.0,1024,1024.9,120959.06,252.78,1.335
+Moong(Green Gram),Rabi       ,Karnataka,4972.0,1504,1024.9,785128.52,1640.76,0.292727273
+Moong(Green Gram),Summer     ,Karnataka,2939.0,929,1024.9,464097.49,969.87,0.285
+Niger seed,Kharif     ,Karnataka,7229.0,1853,1024.9,1141531.39,2385.57,0.260833333
+Onion,Rabi       ,Karnataka,15694.0,88814,1024.9,2478239.54,5179.02,6.207083333
+Onion,Summer     ,Karnataka,6246.0,27006,1024.9,986305.86,2061.18,4.536666667
+Other  Rabi pulses,Rabi       ,Karnataka,11561.0,7316,1024.9,1825597.51,3815.13,0.624444444
+Potato,Kharif     ,Karnataka,31633.0,126990,1024.9,4995167.03,10438.89,4.458333333
+Ragi,Rabi       ,Karnataka,36275.0,61289,1024.9,5728185.25,11970.75,1.665333333
+Ragi,Summer     ,Karnataka,7053.0,12058,1024.9,1113739.23,2327.49,1.741666667
+Rapeseed &Mustard,Kharif     ,Karnataka,1605.0,350,1024.9,253445.55,529.65,0.18875
+Rice,Rabi       ,Karnataka,29329.0,71420,1024.9,4631342.39,9678.57,2.456428571
+Sannhamp,Whole Year ,Karnataka,113.0,27,1024.9,17843.83,37.29,0.233333333
+Small millets,Kharif     ,Karnataka,28488.0,10507,1024.9,4498540.08,9401.04,0.41
+Sunflower,Summer     ,Karnataka,10573.0,8866,1024.9,1669582.43,3489.09,0.896428571
+Turmeric,Whole Year ,Karnataka,14994.0,76490,1024.9,2367702.54,4948.02,4.693888889
+Urad,Rabi       ,Karnataka,5240.0,2036,1024.9,827448.4,1729.2,0.362222222
+Urad,Summer     ,Karnataka,3911.0,1979,1024.9,617586.01,1290.63,0.485
+Arecanut,Whole Year ,Tamil Nadu,6884.0,11829,1201.9,1087052.44,2271.72,1.597142857
+Bajra,Kharif     ,Tamil Nadu,35460.0,95506,1201.9,5599488.6,11701.8,2.82
+Bajra,Rabi       ,Tamil Nadu,16146.0,38825,1201.9,2549614.86,5328.18,2.496
+Black pepper,Whole Year ,Tamil Nadu,4349.0,974,1201.9,686750.59,1435.17,0.173076923
+Cardamom,Whole Year ,Tamil Nadu,3983.0,307,1201.9,628955.53,1314.39,0.653636364
+Castor seed,Kharif     ,Tamil Nadu,5495.0,1763,1201.9,867715.45,1813.35,0.325416667
+Coriander,Whole Year ,Tamil Nadu,11084.0,6569,1201.9,1750274.44,3657.72,0.596956522
+Garlic,Whole Year ,Tamil Nadu,581.0,3334,1201.9,91745.71,191.73,4.412
+Gram,Rabi       ,Tamil Nadu,4876.0,3176,1201.9,769969.16,1609.08,0.6
+Horse-gram,Kharif     ,Tamil Nadu,11492.0,6908,1201.9,1814701.72,3792.36,0.623181818
+Moong(Green Gram),Kharif     ,Tamil Nadu,34470.0,27328,1201.9,5443157.7,11375.1,0.789285714
+Onion,Rabi       ,Tamil Nadu,19796.0,128339,1201.9,3125986.36,6532.68,6.711071429
+Ragi,Rabi       ,Tamil Nadu,21499.0,78112,1201.9,3394907.09,7094.67,3.523333333
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,351.0,83,1201.9,55426.41,115.83,0.186
+Sesamum,Kharif     ,Tamil Nadu,18547.0,12391,1201.9,2928756.77,6120.51,0.625769231
+Sesamum,Rabi       ,Tamil Nadu,27470.0,16978,1201.9,4337787.7,9065.1,0.586551724
+Small millets,Kharif     ,Tamil Nadu,22406.0,31304,1201.9,3538131.46,7393.98,1.206956522
+Small millets,Rabi       ,Tamil Nadu,758.0,1200,1201.9,119695.78,250.14,1.55875
+Sunflower,Kharif     ,Tamil Nadu,1957.0,2768,1201.9,309029.87,645.81,1.38952381
+Sunflower,Rabi       ,Tamil Nadu,6328.0,6014,1201.9,999254.48,2088.24,1.042727273
+Tobacco,Whole Year ,Tamil Nadu,3348.0,5161,1201.9,528682.68,1104.84,1.505
+Turmeric,Whole Year ,Tamil Nadu,29877.0,115351,1201.9,4717877.07,9859.41,3.897777778
+Arecanut,Kharif     ,Andhra Pradesh,564.0,2367,890.0,86433.0,197.4,3.9125
+Arhar/Tur,Rabi       ,Andhra Pradesh,6555.0,3818,890.0,1004553.75,2294.25,0.481818182
+Bajra,Rabi       ,Andhra Pradesh,3124.0,4355,890.0,478753.0,1093.4,1.827142857
+Castor seed,Kharif     ,Andhra Pradesh,32292.0,15195,890.0,4948749.0,11302.2,0.511111111
+Castor seed,Rabi       ,Andhra Pradesh,527.0,274,890.0,80762.75,184.45,0.52
+Coriander,Kharif     ,Andhra Pradesh,8.0,1,890.0,1226.0,2.8,0.13
+Coriander,Rabi       ,Andhra Pradesh,4295.0,2368,890.0,658208.75,1503.25,0.536666667
+Cotton(lint),Rabi       ,Andhra Pradesh,8092.0,19547,890.0,1240099.0,2832.2,2.201428571
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,3780.0,1966,890.0,579285.0,1323.0,0.491428571
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,5039.0,3379,890.0,772226.75,1763.65,0.585
+Ginger,Kharif     ,Andhra Pradesh,285.0,752,890.0,43676.25,99.75,2.288
+Ginger,Rabi       ,Andhra Pradesh,4.0,11,890.0,613.0,1.4,2.75
+Gram,Kharif     ,Andhra Pradesh,5.0,2,890.0,766.25,1.75,0.4
+Guar seed,Rabi       ,Andhra Pradesh,42.0,80,890.0,6436.5,14.7,1.9
+Horse-gram,Kharif     ,Andhra Pradesh,1411.0,182,890.0,216235.75,493.85,0.155
+Horse-gram,Rabi       ,Andhra Pradesh,11425.0,5666,890.0,1750881.25,3998.75,0.461666667
+Jowar,Kharif     ,Andhra Pradesh,14260.0,20475,890.0,2185345.0,4991.0,1.293846154
+Linseed,Kharif     ,Andhra Pradesh,219.0,106,890.0,33561.75,76.65,0.48
+Moong(Green Gram),Kharif     ,Andhra Pradesh,32294.0,16742,890.0,4949055.5,11302.9,0.606923077
+Niger seed,Rabi       ,Andhra Pradesh,5714.0,2230,890.0,875670.5,1999.9,0.445
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,6743.0,8229,890.0,1033364.75,2360.05,0.96
+Other Kharif pulses,Kharif     ,Andhra Pradesh,3721.0,2414,890.0,570243.25,1302.35,0.6775
+Ragi,Kharif     ,Andhra Pradesh,26899.0,25638,890.0,4122271.75,9414.65,1.086
+Ragi,Rabi       ,Andhra Pradesh,5159.0,8895,890.0,790616.75,1805.65,1.78
+Rapeseed &Mustard,Kharif     ,Andhra Pradesh,6.0,3,890.0,919.5,2.1,0.5
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,5060.0,2086,890.0,775445.0,1771.0,0.348333333
+Safflower,Kharif     ,Andhra Pradesh,4.0,3,890.0,613.0,1.4,0.75
+Safflower,Rabi       ,Andhra Pradesh,125.0,79,890.0,19156.25,43.75,0.66
+Sesamum,Kharif     ,Andhra Pradesh,33460.0,7623,890.0,5127745.0,11711.0,0.244166667
+Sesamum,Rabi       ,Andhra Pradesh,30208.0,8761,890.0,4629376.0,10572.8,0.271666667
+Small millets,Kharif     ,Andhra Pradesh,24448.0,16996,890.0,3746656.0,8556.8,0.57
+Small millets,Rabi       ,Andhra Pradesh,6643.0,6934,890.0,1018039.75,2325.05,0.78
+Soyabean,Kharif     ,Andhra Pradesh,1570.0,1448,890.0,240602.5,549.5,1.0175
+Soyabean,Rabi       ,Andhra Pradesh,1.0,1,890.0,153.25,0.35,1.0
+Sunflower,Kharif     ,Andhra Pradesh,8526.0,5950,890.0,1306609.5,2984.1,0.861666667
+Sunflower,Rabi       ,Andhra Pradesh,12602.0,15317,890.0,1931256.5,4410.7,0.910833333
+Tobacco,Kharif     ,Andhra Pradesh,23505.0,91410,890.0,3602141.25,8226.75,3.571111111
+Wheat,Rabi       ,Andhra Pradesh,33.0,76,890.0,5057.25,11.55,2.155
+other oilseeds,Kharif     ,Andhra Pradesh,138.0,153,890.0,21148.5,48.3,1.2275
+Arecanut,Kharif     ,Puducherry,53.0,93,1391.3,8122.25,18.55,1.75
+Bajra,Kharif     ,Puducherry,12.0,16,1391.3,1839.0,4.2,1.33
+Bajra,Summer     ,Puducherry,4.0,5,1391.3,613.0,1.4,1.25
+Black pepper,Kharif     ,Puducherry,10.0,18,1391.3,1532.5,3.5,1.8
+Cashewnut,Kharif     ,Puducherry,148.0,51,1391.3,22681.0,51.8,0.446666667
+Cotton(lint),Kharif     ,Puducherry,296.0,539,1391.3,45362.0,103.6,1.785
+Dry chillies,Rabi       ,Puducherry,4.0,26,1391.3,613.0,1.4,6.5
+Groundnut,Kharif     ,Puducherry,1.0,3,1391.3,153.25,0.35,3.0
+Groundnut,Rabi       ,Puducherry,212.0,636,1391.3,32489.0,74.2,3.0
+Groundnut,Summer     ,Puducherry,40.0,112,1391.3,6130.0,14.0,2.8
+Jowar,Kharif     ,Puducherry,1.0,2,1391.3,153.25,0.35,2.0
+Jowar,Summer     ,Puducherry,3.0,3,1391.3,459.75,1.05,1.0
+Moong(Green Gram),Rabi       ,Puducherry,8.0,5,1391.3,1226.0,2.8,0.75
+Moong(Green Gram),Summer     ,Puducherry,750.0,91,1391.3,114937.5,262.5,0.433333333
+Onion,Summer     ,Puducherry,1.0,5,1391.3,153.25,0.35,5.0
+Other  Rabi pulses,Rabi       ,Puducherry,44.0,42,1391.3,6743.0,15.4,0.95
+Other Kharif pulses,Kharif     ,Puducherry,2.0,3,1391.3,306.5,0.7,1.5
+Other Summer Pulses,Summer     ,Puducherry,10.0,8,1391.3,1532.5,3.5,0.8
+Ragi,Kharif     ,Puducherry,20.0,31,1391.3,3065.0,7.0,1.29
+Ragi,Rabi       ,Puducherry,6.0,10,1391.3,919.5,2.1,1.67
+Ragi,Summer     ,Puducherry,21.0,26,1391.3,3218.25,7.35,1.24
+Rice,Kharif     ,Puducherry,3693.0,13151,1391.3,565952.25,1292.55,3.24
+Rice,Rabi       ,Puducherry,8412.0,23024,1391.3,1289139.0,2944.2,3.436666667
+Rice,Summer     ,Puducherry,4100.0,15989,1391.3,628325.0,1435.0,2.535
+Sesamum,Kharif     ,Puducherry,3.0,4,1391.3,459.75,1.05,1.33
+Sesamum,Rabi       ,Puducherry,1.0,1,1391.3,153.25,0.35,1.0
+Sesamum,Summer     ,Puducherry,72.0,70,1391.3,11034.0,25.2,0.605
+Turmeric,Kharif     ,Puducherry,6.0,18,1391.3,919.5,2.1,3.0
+Urad,Kharif     ,Puducherry,15.0,21,1391.3,2298.75,5.25,1.4
+Urad,Rabi       ,Puducherry,335.0,318,1391.3,51338.75,117.25,0.74
+Urad,Summer     ,Puducherry,402.0,106,1391.3,61606.5,140.7,0.43
+Bajra,Summer     ,Karnataka,1980.0,2145,1147.2,303435.0,693.0,1.076666667
+Cardamom,Whole Year ,Karnataka,16682.0,1757,1147.2,2556516.5,5838.7,0.105714286
+Castor seed,Kharif     ,Karnataka,9527.0,4722,1147.2,1460012.75,3334.45,0.506086957
+Coriander,Whole Year ,Karnataka,1778.0,770,1147.2,272478.5,622.3,0.390625
+Cotton(lint),Rabi       ,Karnataka,24614.0,7868,1147.2,3772095.5,8614.9,0.343
+Cowpea(Lobia),Rabi       ,Karnataka,4191.0,100,1147.2,642270.75,1466.85,0.017647059
+Cowpea(Lobia),Summer     ,Karnataka,5158.0,949,1147.2,790463.5,1805.3,0.182105263
+Dry chillies,Rabi       ,Karnataka,8982.0,19936,1147.2,1376491.5,3143.7,2.156153846
+Dry chillies,Summer     ,Karnataka,4468.0,10308,1147.2,684721.0,1563.8,2.288461538
+Garlic,Whole Year ,Karnataka,6534.0,5420,1147.2,1001335.5,2286.9,1.007058824
+Groundnut,Rabi       ,Karnataka,3309.0,7482,1147.2,507104.25,1158.15,2.26
+Horse-gram,Kharif     ,Karnataka,35541.0,10705,1147.2,5446658.25,12439.35,0.521666667
+Jowar,Summer     ,Karnataka,2838.0,3887,1147.2,434923.5,993.3,1.376363636
+Linseed,Rabi       ,Karnataka,2854.0,155,1147.2,437375.5,998.9,0.079090909
+Maize,Summer     ,Karnataka,20282.0,62889,1147.2,3108216.5,7098.7,3.482222222
+Mesta,Whole Year ,Karnataka,105.0,107,1147.2,16091.25,36.75,1.04
+Moong(Green Gram),Rabi       ,Karnataka,3959.0,354,1147.2,606716.75,1385.65,0.077
+Moong(Green Gram),Summer     ,Karnataka,678.0,188,1147.2,103903.5,237.3,0.267777778
+Niger seed,Kharif     ,Karnataka,5588.0,1045,1147.2,856361.0,1955.8,0.184090909
+Other  Rabi pulses,Rabi       ,Karnataka,2706.0,513,1147.2,414694.5,947.1,0.081176471
+Ragi,Rabi       ,Karnataka,16968.0,17569,1147.2,2600346.0,5938.8,1.114285714
+Ragi,Summer     ,Karnataka,6133.0,11093,1147.2,939882.25,2146.55,1.895333333
+Rapeseed &Mustard,Kharif     ,Karnataka,4573.0,840,1147.2,700812.25,1600.55,0.196
+Rice,Rabi       ,Karnataka,18686.0,49615,1147.2,2863629.5,6540.1,2.525333333
+Safflower,Rabi       ,Karnataka,32118.0,21654,1147.2,4922083.5,11241.3,0.385384615
+Sannhamp,Whole Year ,Karnataka,57.0,13,1147.2,8735.25,19.95,0.071666667
+Sesamum,Kharif     ,Karnataka,35109.0,22329,1147.2,5380454.25,12288.15,0.559230769
+Small millets,Kharif     ,Karnataka,21081.0,6746,1147.2,3230663.25,7378.35,0.392941176
+Sunflower,Summer     ,Karnataka,3775.0,1638,1147.2,578518.75,1321.25,0.712727273
+Tapioca,Whole Year ,Karnataka,687.0,4166,1147.2,105282.75,240.45,6.5375
+Turmeric,Whole Year ,Karnataka,19327.0,114511,1147.2,2961862.75,6764.45,5.775294118
+Urad,Rabi       ,Karnataka,3318.0,1605,1147.2,508483.5,1161.3,0.448
+Urad,Summer     ,Karnataka,2218.0,1205,1147.2,339908.5,776.3,0.526363636
+Arecanut,Whole Year ,Tamil Nadu,7078.0,12708,912.4,1084703.5,2477.3,1.477272727
+Bajra,Kharif     ,Tamil Nadu,31511.0,93045,912.4,4829060.75,11028.85,2.84125
+Bajra,Rabi       ,Tamil Nadu,18162.0,9205,912.4,2783326.5,6356.7,0.6732
+Black pepper,Whole Year ,Tamil Nadu,4908.0,1075,912.4,752151.0,1717.8,0.150625
+Cardamom,Whole Year ,Tamil Nadu,3902.0,353,912.4,597981.5,1365.7,0.063636364
+Castor seed,Kharif     ,Tamil Nadu,4705.0,1470,912.4,721041.25,1646.75,0.29375
+Coriander,Whole Year ,Tamil Nadu,9120.0,1470,912.4,1397640.0,3192.0,0.192857143
+Garlic,Whole Year ,Tamil Nadu,781.0,4545,912.4,119688.25,273.35,5.206666667
+Gram,Rabi       ,Tamil Nadu,5227.0,3393,912.4,801037.75,1829.45,0.58
+Horse-gram,Kharif     ,Tamil Nadu,3751.0,1175,912.4,574840.75,1312.85,0.393636364
+Horse-gram,Rabi       ,Tamil Nadu,34851.0,11186,912.4,5340915.75,12197.85,0.2972
+Moong(Green Gram),Kharif     ,Tamil Nadu,28751.0,23234,912.4,4406090.75,10062.85,0.764230769
+Onion,Rabi       ,Tamil Nadu,17597.0,89105,912.4,2696740.25,6158.95,5.267407407
+Other Cereals,Kharif     ,Tamil Nadu,1547.0,210,912.4,237077.75,541.45,0.1
+Other Cereals,Rabi       ,Tamil Nadu,4060.0,54,912.4,622195.0,1421.0,0.095454545
+Ragi,Rabi       ,Tamil Nadu,9112.0,28459,912.4,1396414.0,3189.2,3.050833333
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,199.0,46,912.4,30496.75,69.65,0.186
+Sesamum,Kharif     ,Tamil Nadu,10593.0,4178,912.4,1623377.25,3707.55,0.389615385
+Sesamum,Rabi       ,Tamil Nadu,17638.0,6659,912.4,2703023.5,6173.3,0.371785714
+Small millets,Kharif     ,Tamil Nadu,17611.0,17792,912.4,2698885.75,6163.85,0.912352941
+Small millets,Rabi       ,Tamil Nadu,350.0,249,912.4,53637.5,122.5,0.752941176
+Sunflower,Kharif     ,Tamil Nadu,1959.0,1675,912.4,300216.75,685.65,0.838947368
+Sunflower,Rabi       ,Tamil Nadu,5488.0,1244,912.4,841036.0,1920.8,0.298823529
+Tobacco,Whole Year ,Tamil Nadu,1799.0,2744,912.4,275696.75,629.65,1.547142857
+Turmeric,Whole Year ,Tamil Nadu,35795.0,129563,912.4,5485583.75,12528.25,3.36037037
+Arecanut,Kharif     ,Andhra Pradesh,697.0,4369,868.2,109735.68,264.86,5.5825
+Arhar/Tur,Rabi       ,Andhra Pradesh,4148.0,3394,868.2,653061.12,1576.24,0.55
+Bajra,Rabi       ,Andhra Pradesh,4990.0,10252,868.2,785625.6,1896.2,1.833333333
+Castor seed,Kharif     ,Andhra Pradesh,30904.0,20126,868.2,4865525.76,11743.52,0.8425
+Castor seed,Rabi       ,Andhra Pradesh,906.0,723,868.2,142640.64,344.28,0.856
+Coriander,Rabi       ,Andhra Pradesh,2584.0,1637,868.2,406824.96,981.92,0.63875
+Cotton(lint),Rabi       ,Andhra Pradesh,2097.0,4116,868.2,330151.68,796.86,2.116
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,4302.0,3081,868.2,677306.88,1634.76,0.691428571
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,9470.0,7053,868.2,1490956.8,3598.6,0.574285714
+Dry chillies,Rabi       ,Andhra Pradesh,17463.0,81884,868.2,2749374.72,6635.94,3.846153846
+Ginger,Kharif     ,Andhra Pradesh,381.0,309,868.2,59984.64,144.78,0.995
+Gram,Kharif     ,Andhra Pradesh,1.0,0,868.2,157.44,0.38,0.0
+Horse-gram,Kharif     ,Andhra Pradesh,16828.0,7066,868.2,2649400.32,6394.64,0.286666667
+Horse-gram,Rabi       ,Andhra Pradesh,21890.0,15129,868.2,3446361.6,8318.2,0.658333333
+Jowar,Kharif     ,Andhra Pradesh,29677.0,30206,868.2,4672346.88,11277.26,1.135384615
+Linseed,Kharif     ,Andhra Pradesh,224.0,108,868.2,35266.56,85.12,0.49
+Moong(Green Gram),Kharif     ,Andhra Pradesh,18008.0,10705,868.2,2835179.52,6843.04,0.625384615
+Niger seed,Rabi       ,Andhra Pradesh,5660.0,2339,868.2,891110.4,2150.8,0.49
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,10004.0,12174,868.2,1575029.76,3801.52,0.94
+Other Kharif pulses,Kharif     ,Andhra Pradesh,2551.0,1642,868.2,401629.44,969.38,0.905
+Ragi,Kharif     ,Andhra Pradesh,26640.0,30128,868.2,4194201.6,10123.2,1.28
+Ragi,Rabi       ,Andhra Pradesh,7810.0,13861,868.2,1229606.4,2967.8,1.896666667
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,3000.0,1373,868.2,472320.0,1140.0,0.414
+Safflower,Rabi       ,Andhra Pradesh,20.0,13,868.2,3148.8,7.6,0.65
+Sesamum,Kharif     ,Andhra Pradesh,13457.0,2960,868.2,2118670.08,5113.66,0.222307692
+Sesamum,Rabi       ,Andhra Pradesh,26281.0,7927,868.2,4137680.64,9986.78,0.325
+Small millets,Kharif     ,Andhra Pradesh,18101.0,14687,868.2,2849821.44,6878.38,0.774
+Small millets,Rabi       ,Andhra Pradesh,3221.0,1382,868.2,507114.24,1223.98,0.73
+Soyabean,Kharif     ,Andhra Pradesh,373.0,705,868.2,58725.12,141.74,1.74
+Soyabean,Rabi       ,Andhra Pradesh,2.0,4,868.2,314.88,0.76,2.0
+Sunflower,Kharif     ,Andhra Pradesh,3045.0,2249,868.2,479404.8,1157.1,0.924285714
+Sunflower,Rabi       ,Andhra Pradesh,6101.0,9421,868.2,960541.44,2318.38,1.082727273
+Wheat,Kharif     ,Andhra Pradesh,11.0,8,868.2,1731.84,4.18,0.85
+Wheat,Rabi       ,Andhra Pradesh,38.0,27,868.2,5982.72,14.44,0.716666667
+Arecanut,Kharif     ,Puducherry,52.0,78,1582.4,8186.88,19.76,1.5
+Bajra,Kharif     ,Puducherry,9.0,25,1582.4,1416.96,3.42,2.78
+Bajra,Rabi       ,Puducherry,2.0,6,1582.4,314.88,0.76,3.0
+Bajra,Summer     ,Puducherry,3.0,8,1582.4,472.32,1.14,2.67
+Black pepper,Kharif     ,Puducherry,10.0,18,1582.4,1574.4,3.8,1.8
+Cashewnut,Kharif     ,Puducherry,147.0,43,1582.4,23143.68,55.86,0.346666667
+Cotton(lint),Kharif     ,Puducherry,154.0,164,1582.4,24245.76,58.52,1.42
+Groundnut,Kharif     ,Puducherry,2.0,6,1582.4,314.88,0.76,3.0
+Groundnut,Rabi       ,Puducherry,246.0,738,1582.4,38730.24,93.48,3.0
+Groundnut,Summer     ,Puducherry,26.0,78,1582.4,4093.44,9.88,3.0
+Jowar,Kharif     ,Puducherry,3.0,9,1582.4,472.32,1.14,3.0
+Jowar,Summer     ,Puducherry,2.0,6,1582.4,314.88,0.76,3.0
+Moong(Green Gram),Rabi       ,Puducherry,3.0,3,1582.4,472.32,1.14,1.0
+Moong(Green Gram),Summer     ,Puducherry,636.0,151,1582.4,100131.84,241.68,0.513333333
+Onion,Kharif     ,Puducherry,2.0,10,1582.4,314.88,0.76,5.0
+Onion,Summer     ,Puducherry,1.0,5,1582.4,157.44,0.38,5.0
+Other  Rabi pulses,Rabi       ,Puducherry,69.0,207,1582.4,10863.36,26.22,3.0
+Other Cereals,Rabi       ,Puducherry,5.0,8,1582.4,787.2,1.9,1.6
+Other Kharif pulses,Kharif     ,Puducherry,5.0,14,1582.4,787.2,1.9,2.8
+Other Summer Pulses,Summer     ,Puducherry,15.0,42,1582.4,2361.6,5.7,2.8
+Ragi,Kharif     ,Puducherry,19.0,57,1582.4,2991.36,7.22,3.0
+Ragi,Rabi       ,Puducherry,3.0,9,1582.4,472.32,1.14,3.0
+Ragi,Summer     ,Puducherry,23.0,64,1582.4,3621.12,8.74,2.78
+Rice,Kharif     ,Puducherry,4325.0,15281,1582.4,680928.0,1643.5,3.256666667
+Rice,Rabi       ,Puducherry,8749.0,25188,1582.4,1377442.56,3324.62,3.27
+Rice,Summer     ,Puducherry,4297.0,15518,1582.4,676519.68,1632.86,2.85
+Sesamum,Kharif     ,Puducherry,4.0,6,1582.4,629.76,1.52,1.5
+Sesamum,Rabi       ,Puducherry,5.0,5,1582.4,787.2,1.9,1.0
+Sesamum,Summer     ,Puducherry,88.0,96,1582.4,13854.72,33.44,0.705
+Small millets,Kharif     ,Puducherry,5.0,8,1582.4,787.2,1.9,1.6
+Sweet potato,Kharif     ,Puducherry,7.0,35,1582.4,1102.08,2.66,5.0
+Turmeric,Kharif     ,Puducherry,8.0,24,1582.4,1259.52,3.04,3.0
+Urad,Kharif     ,Puducherry,10.0,9,1582.4,1574.4,3.8,0.9
+Urad,Rabi       ,Puducherry,259.0,258,1582.4,40776.96,98.42,0.75
+Urad,Summer     ,Puducherry,272.0,106,1582.4,42823.68,103.36,0.55
+Bajra,Summer     ,Karnataka,5161.0,5313,1111.7,812547.84,1961.18,1.113333333
+Cardamom,Whole Year ,Karnataka,14629.0,1766,1111.7,2303189.76,5559.02,0.108571429
+Castor seed,Kharif     ,Karnataka,7125.0,4585,1111.7,1121760.0,2707.5,0.644761905
+Coriander,Whole Year ,Karnataka,1026.0,379,1111.7,161533.44,389.88,0.365
+Cotton(lint),Rabi       ,Karnataka,25572.0,19276,1111.7,4026055.68,9717.36,0.75
+Cowpea(Lobia),Rabi       ,Karnataka,8570.0,3516,1111.7,1349260.8,3256.6,0.413809524
+Cowpea(Lobia),Summer     ,Karnataka,4471.0,1333,1111.7,703914.24,1698.98,0.272857143
+Dry chillies,Rabi       ,Karnataka,10328.0,21421,1111.7,1626040.32,3924.64,2.047692308
+Dry chillies,Summer     ,Karnataka,7164.0,14241,1111.7,1127900.16,2722.32,2.0472
+Garlic,Whole Year ,Karnataka,5584.0,4901,1111.7,879144.96,2121.92,1.068888889
+Groundnut,Rabi       ,Karnataka,3381.0,7601,1111.7,532304.64,1284.78,2.245
+Jowar,Summer     ,Karnataka,2042.0,4238,1111.7,321492.48,775.96,2.093
+Linseed,Rabi       ,Karnataka,2294.0,792,1111.7,361167.36,871.72,0.366666667
+Maize,Summer     ,Karnataka,23518.0,88268,1111.7,3702673.92,8936.84,3.739230769
+Mesta,Whole Year ,Karnataka,9.0,0,1111.7,1416.96,3.42,0.0
+Moong(Green Gram),Rabi       ,Karnataka,4122.0,687,1111.7,648967.68,1566.36,0.18625
+Moong(Green Gram),Summer     ,Karnataka,743.0,205,1111.7,116977.92,282.34,0.283333333
+Niger seed,Kharif     ,Karnataka,4444.0,960,1111.7,699663.36,1688.72,0.207391304
+Other  Rabi pulses,Rabi       ,Karnataka,10383.0,7599,1111.7,1634699.52,3945.54,0.701176471
+Ragi,Summer     ,Karnataka,7902.0,13734,1111.7,1244090.88,3002.76,1.791428571
+Rapeseed &Mustard,Kharif     ,Karnataka,2340.0,390,1111.7,368409.6,889.2,0.152941176
+Rice,Rabi       ,Karnataka,30634.0,81726,1111.7,4823016.96,11640.92,2.773076923
+Sannhamp,Whole Year ,Karnataka,348.0,87,1111.7,54789.12,132.24,0.21
+Sunflower,Summer     ,Karnataka,4014.0,4831,1111.7,631964.16,1525.32,1.3175
+Turmeric,Whole Year ,Karnataka,19339.0,122764,1111.7,3044732.16,7348.82,6.2215
+Urad,Rabi       ,Karnataka,3179.0,1418,1111.7,500501.76,1208.02,0.4825
+Urad,Summer     ,Karnataka,992.0,523,1111.7,156180.48,376.96,0.48875
+Arecanut,Whole Year ,Tamil Nadu,6740.0,14926,970.9,1061145.6,2561.2,2.313043478
+Bajra,Rabi       ,Tamil Nadu,17001.0,35113,970.9,2676637.44,6460.38,2.121851852
+Black pepper,Whole Year ,Tamil Nadu,5265.0,1149,970.9,828921.6,2000.7,0.163125
+Cardamom,Whole Year ,Tamil Nadu,3876.0,351,970.9,610237.44,1472.88,0.081
+Castor seed,Kharif     ,Tamil Nadu,4374.0,1419,970.9,688642.56,1662.12,0.3748
+Coriander,Whole Year ,Tamil Nadu,8056.0,4112,970.9,1268336.64,3061.28,0.565454545
+Cowpea(Lobia),Rabi       ,Tamil Nadu,14233.0,9260,970.9,2240843.52,5408.54,0.6084
+Garlic,Whole Year ,Tamil Nadu,760.0,4338,970.9,119654.4,288.8,4.2975
+Gram,Rabi       ,Tamil Nadu,5205.0,4820,970.9,819475.2,1977.9,0.947333333
+Horse-gram,Kharif     ,Tamil Nadu,8712.0,6273,970.9,1371617.28,3310.56,0.77
+Moong(Green Gram),Kharif     ,Tamil Nadu,29447.0,17926,970.9,4636135.68,11189.86,0.642142857
+Other  Rabi pulses,Rabi       ,Tamil Nadu,10235.0,6758,970.9,1611398.4,3889.3,0.66
+Other Cereals,Kharif     ,Tamil Nadu,3174.0,3861,970.9,499714.56,1206.12,0.741363636
+Other Cereals,Rabi       ,Tamil Nadu,3352.0,4442,970.9,527738.88,1273.76,1.091538462
+Other Kharif pulses,Kharif     ,Tamil Nadu,29294.0,19342,970.9,4612047.36,11131.72,0.671818182
+Ragi,Rabi       ,Tamil Nadu,24140.0,107745,970.9,3800601.6,9173.2,4.336538462
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,292.0,67,970.9,45972.48,110.96,0.08
+Sesamum,Kharif     ,Tamil Nadu,13277.0,5665,970.9,2090330.88,5045.26,0.407586207
+Sesamum,Rabi       ,Tamil Nadu,28305.0,17389,970.9,4456339.2,10755.9,0.600714286
+Small millets,Kharif     ,Tamil Nadu,18166.0,22198,970.9,2860055.04,6903.08,1.445909091
+Small millets,Rabi       ,Tamil Nadu,586.0,723,970.9,92259.84,222.68,1.2335
+Sunflower,Kharif     ,Tamil Nadu,542.0,1057,970.9,85332.48,205.96,1.972777778
+Sunflower,Rabi       ,Tamil Nadu,6207.0,4936,970.9,977230.08,2358.66,0.895555556
+Tobacco,Whole Year ,Tamil Nadu,3788.0,5710,970.9,596382.72,1439.44,1.594545455
+Turmeric,Whole Year ,Tamil Nadu,18080.0,73134,970.9,2846515.2,6870.4,4.338888889
+Arecanut,Kharif     ,Andhra Pradesh,976.0,5317,1220.5,158307.2,341.6,4.153333333
+Arhar/Tur,Rabi       ,Andhra Pradesh,4099.0,1352,1220.5,664857.8,1434.65,0.31
+Bajra,Kharif     ,Andhra Pradesh,20932.0,21212,1220.5,3395170.4,7326.2,1.300909091
+Bajra,Rabi       ,Andhra Pradesh,1182.0,1586,1220.5,191720.4,413.7,1.353333333
+Castor seed,Kharif     ,Andhra Pradesh,34682.0,14535,1220.5,5625420.4,12138.7,0.374285714
+Castor seed,Rabi       ,Andhra Pradesh,1839.0,637,1220.5,298285.8,643.65,0.41
+Coriander,Rabi       ,Andhra Pradesh,1569.0,360,1220.5,254491.8,549.15,0.331428571
+Cotton(lint),Rabi       ,Andhra Pradesh,3404.0,8162,1220.5,552128.8,1191.4,2.251666667
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,13385.0,1381,1220.5,2171047.0,4684.75,0.176666667
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,13621.0,6960,1220.5,2209326.2,4767.35,0.53
+Dry chillies,Rabi       ,Andhra Pradesh,14931.0,50585,1220.5,2421808.2,5225.85,3.401538462
+Ginger,Kharif     ,Andhra Pradesh,296.0,536,1220.5,48011.2,103.6,3.134
+Gram,Kharif     ,Andhra Pradesh,31.0,5,1220.5,5028.2,10.85,0.5
+Jowar,Kharif     ,Andhra Pradesh,15114.0,1957,1220.5,2451490.8,5289.9,0.206363636
+Linseed,Kharif     ,Andhra Pradesh,151.0,0,1220.5,24492.2,52.85,0.0
+Moong(Green Gram),Kharif     ,Andhra Pradesh,17874.0,5247,1220.5,2899162.8,6255.9,0.608461538
+Niger seed,Kharif     ,Andhra Pradesh,23.0,7,1220.5,3730.6,8.05,0.3
+Niger seed,Rabi       ,Andhra Pradesh,5797.0,1843,1220.5,940273.4,2028.95,0.285
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,11259.0,8745,1220.5,1826209.8,3940.65,2.346666667
+Other Kharif pulses,Kharif     ,Andhra Pradesh,2454.0,810,1220.5,398038.8,858.9,0.32
+Ragi,Kharif     ,Andhra Pradesh,23993.0,29467,1220.5,3891664.6,8397.55,1.305555556
+Ragi,Rabi       ,Andhra Pradesh,8149.0,13853,1220.5,1321767.8,2852.15,1.781111111
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,4485.0,1545,1220.5,727467.0,1569.75,0.25
+Safflower,Kharif     ,Andhra Pradesh,40.0,6,1220.5,6488.0,14.0,0.15
+Safflower,Rabi       ,Andhra Pradesh,380.0,60,1220.5,61636.0,133.0,0.1525
+Sesamum,Kharif     ,Andhra Pradesh,16598.0,4489,1220.5,2692195.6,5809.3,0.234166667
+Sesamum,Rabi       ,Andhra Pradesh,31114.0,8326,1220.5,5046690.8,10889.9,0.3
+Small millets,Kharif     ,Andhra Pradesh,10053.0,4483,1220.5,1630596.6,3518.55,0.56
+Small millets,Rabi       ,Andhra Pradesh,2684.0,1291,1220.5,435344.8,939.4,0.557142857
+Soyabean,Kharif     ,Andhra Pradesh,1411.0,2718,1220.5,228864.2,493.85,1.7425
+Soyabean,Rabi       ,Andhra Pradesh,5.0,10,1220.5,811.0,1.75,2.0
+Sunflower,Kharif     ,Andhra Pradesh,3248.0,1810,1220.5,526825.6,1136.8,0.994285714
+Sunflower,Rabi       ,Andhra Pradesh,10081.0,7363,1220.5,1635138.2,3528.35,0.459230769
+Urad,Kharif     ,Andhra Pradesh,22364.0,18119,1220.5,3627440.8,7827.4,0.754615385
+Wheat,Rabi       ,Andhra Pradesh,102.0,19,1220.5,16544.4,35.7,0.095
+Arecanut,Kharif     ,Puducherry,52.0,78,1693.9,8434.4,18.2,1.5
+Bajra,Kharif     ,Puducherry,7.0,17,1693.9,1135.4,2.45,2.43
+Bajra,Rabi       ,Puducherry,1.0,3,1693.9,162.2,0.35,3.0
+Bajra,Summer     ,Puducherry,3.0,8,1693.9,486.6,1.05,2.67
+Black pepper,Kharif     ,Puducherry,11.0,15,1693.9,1784.2,3.85,1.36
+Cashewnut,Kharif     ,Puducherry,145.0,61,1693.9,23519.0,50.75,0.416666667
+Cotton(lint),Kharif     ,Puducherry,283.0,294,1693.9,45902.6,99.05,1.515
+Groundnut,Kharif     ,Puducherry,3.0,9,1693.9,486.6,1.05,3.0
+Groundnut,Rabi       ,Puducherry,271.0,867,1693.9,43956.2,94.85,3.2
+Groundnut,Summer     ,Puducherry,13.0,42,1693.9,2108.6,4.55,3.23
+Jowar,Kharif     ,Puducherry,4.0,10,1693.9,648.8,1.4,2.5
+Jowar,Summer     ,Puducherry,1.0,3,1693.9,162.2,0.35,3.0
+Moong(Green Gram),Rabi       ,Puducherry,5.0,4,1693.9,811.0,1.75,0.835
+Moong(Green Gram),Summer     ,Puducherry,660.0,274,1693.9,107052.0,231.0,0.66
+Onion,Kharif     ,Puducherry,1.0,3,1693.9,162.2,0.35,3.0
+Onion,Summer     ,Puducherry,1.0,6,1693.9,162.2,0.35,6.0
+Other  Rabi pulses,Rabi       ,Puducherry,62.0,62,1693.9,10056.4,21.7,1.0
+Other Kharif pulses,Kharif     ,Puducherry,1.0,1,1693.9,162.2,0.35,1.0
+Other Summer Pulses,Summer     ,Puducherry,10.0,10,1693.9,1622.0,3.5,1.0
+Ragi,Kharif     ,Puducherry,26.0,60,1693.9,4217.2,9.1,2.31
+Ragi,Rabi       ,Puducherry,1.0,3,1693.9,162.2,0.35,3.0
+Ragi,Summer     ,Puducherry,14.0,35,1693.9,2270.8,4.9,2.5
+Rice,Kharif     ,Puducherry,4298.0,16082,1693.9,697135.6,1504.3,3.373333333
+Rice,Rabi       ,Puducherry,9048.0,30635,1693.9,1467585.6,3166.8,3.976666667
+Rice,Summer     ,Puducherry,4515.0,16626,1693.9,732333.0,1580.25,2.885
+Sesamum,Kharif     ,Puducherry,2.0,2,1693.9,324.4,0.7,1.0
+Sesamum,Rabi       ,Puducherry,5.0,4,1693.9,811.0,1.75,0.8
+Sesamum,Summer     ,Puducherry,120.0,103,1693.9,19464.0,42.0,0.52
+Small millets,Kharif     ,Puducherry,9.0,11,1693.9,1459.8,3.15,1.22
+Turmeric,Kharif     ,Puducherry,6.0,15,1693.9,973.2,2.1,2.5
+Urad,Kharif     ,Puducherry,6.0,5,1693.9,973.2,2.1,0.83
+Urad,Rabi       ,Puducherry,155.0,155,1693.9,25141.0,54.25,1.0
+Urad,Summer     ,Puducherry,338.0,152,1693.9,54823.6,118.3,0.753333333
+Bajra,Summer     ,Karnataka,1418.0,1543,1419.1,229999.6,496.3,1.112
+Cardamom,Whole Year ,Karnataka,1800.0,207,1419.1,291960.0,630.0,0.119411765
+Castor seed,Kharif     ,Karnataka,2650.0,1520,1419.1,429830.0,927.5,0.615
+Coriander,Whole Year ,Karnataka,2918.0,2607,1419.1,473299.6,1021.3,0.897333333
+Cotton(lint),Rabi       ,Karnataka,4507.0,2176,1419.1,731035.4,1577.45,0.845714286
+Cowpea(Lobia),Rabi       ,Karnataka,11756.0,3304,1419.1,1906823.2,4114.6,0.267368421
+Cowpea(Lobia),Summer     ,Karnataka,3996.0,520,1419.1,648151.2,1398.6,0.126666667
+Garlic,Whole Year ,Karnataka,4006.0,26551,1419.1,649773.2,1402.1,6.4125
+Groundnut,Rabi       ,Karnataka,2766.0,5770,1419.1,448645.2,968.1,2.115
+Jowar,Summer     ,Karnataka,1859.0,3003,1419.1,301529.8,650.65,1.67375
+Linseed,Rabi       ,Karnataka,1704.0,352,1419.1,276388.8,596.4,0.187857143
+Maize,Summer     ,Karnataka,19621.0,67607,1419.1,3182526.2,6867.35,3.2775
+Mesta,Whole Year ,Karnataka,81.0,116,1419.1,13138.2,28.35,1.334545455
+Moong(Green Gram),Rabi       ,Karnataka,5898.0,1324,1419.1,956655.6,2064.3,0.23
+Moong(Green Gram),Summer     ,Karnataka,246.0,66,1419.1,39901.2,86.1,0.261666667
+Niger seed,Kharif     ,Karnataka,1068.0,211,1419.1,173229.6,373.8,0.139615385
+Other  Rabi pulses,Rabi       ,Karnataka,13989.0,10005,1419.1,2269015.8,4896.15,0.696842105
+Other Kharif pulses,Kharif     ,Karnataka,28375.0,17511,1419.1,4602425.0,9931.25,0.641666667
+Ragi,Rabi       ,Karnataka,36318.0,50426,1419.1,5890779.6,12711.3,1.386470588
+Ragi,Summer     ,Karnataka,4276.0,7667,1419.1,693567.2,1496.6,1.835333333
+Rapeseed &Mustard,Kharif     ,Karnataka,3172.0,628,1419.1,514498.4,1110.2,0.13
+Rice,Rabi       ,Karnataka,11442.0,28334,1419.1,1855892.4,4004.7,2.480833333
+Safflower,Rabi       ,Karnataka,17020.0,9973,1419.1,2760644.0,5957.0,0.588695652
+Sannhamp,Whole Year ,Karnataka,358.0,85,1419.1,58067.6,125.3,0.17
+Sesamum,Kharif     ,Karnataka,24776.0,15640,1419.1,4018667.2,8671.6,0.768571429
+Small millets,Kharif     ,Karnataka,19229.0,16105,1419.1,3118943.8,6730.15,0.852142857
+Sunflower,Summer     ,Karnataka,2734.0,2422,1419.1,443454.8,956.9,1.086363636
+Turmeric,Whole Year ,Karnataka,26579.0,153767,1419.1,4311113.8,9302.65,5.617142857
+Urad,Rabi       ,Karnataka,2787.0,1484,1419.1,452051.4,975.45,0.47125
+Urad,Summer     ,Karnataka,1014.0,521,1419.1,164470.8,354.9,0.514285714
+Arecanut,Whole Year ,Tamil Nadu,6952.0,13543,986.2,1127614.4,2433.2,2.0112
+Bajra,Kharif     ,Tamil Nadu,31109.0,88494,986.2,5045879.8,10888.15,2.8308
+Bajra,Rabi       ,Tamil Nadu,15773.0,29516,986.2,2558380.6,5520.55,2.042692308
+Black pepper,Whole Year ,Tamil Nadu,5571.0,1176,986.2,903616.2,1949.85,0.16
+Cardamom,Whole Year ,Tamil Nadu,3838.0,347,986.2,622523.6,1343.3,0.08
+Castor seed,Kharif     ,Tamil Nadu,4756.0,1526,986.2,771423.2,1664.6,0.333636364
+Coriander,Whole Year ,Tamil Nadu,6427.0,2526,986.2,1042459.4,2249.45,0.428695652
+Cowpea(Lobia),Rabi       ,Tamil Nadu,19985.0,17010,986.2,3241567.0,6994.75,0.8475
+Garlic,Whole Year ,Tamil Nadu,1449.0,8631,986.2,235027.8,507.15,4.375
+Gram,Rabi       ,Tamil Nadu,5851.0,5419,986.2,949032.2,2047.85,0.945
+Horse-gram,Kharif     ,Tamil Nadu,4045.0,2883,986.2,656099.0,1415.75,0.685
+Moong(Green Gram),Kharif     ,Tamil Nadu,26977.0,18186,986.2,4375669.4,9441.95,0.6508
+Onion,Rabi       ,Tamil Nadu,19273.0,109707,986.2,3126080.6,6745.55,5.878518519
+Other  Rabi pulses,Rabi       ,Tamil Nadu,20761.0,16051,986.2,3367434.2,7266.35,0.7015
+Other Cereals,Kharif     ,Tamil Nadu,1685.0,2286,986.2,273307.0,589.75,1.262941176
+Other Cereals,Rabi       ,Tamil Nadu,4262.0,10045,986.2,691296.4,1491.7,2.21
+Other Kharif pulses,Kharif     ,Tamil Nadu,28942.0,20808,986.2,4694392.4,10129.7,0.68952381
+Ragi,Rabi       ,Tamil Nadu,21676.0,76983,986.2,3515847.2,7586.6,3.486153846
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,305.0,71,986.2,49471.0,106.75,0.08
+Sesamum,Kharif     ,Tamil Nadu,9457.0,4494,986.2,1533925.4,3309.95,0.472
+Sesamum,Rabi       ,Tamil Nadu,35153.0,19932,986.2,5701816.6,12303.55,0.516551724
+Small millets,Kharif     ,Tamil Nadu,15961.0,26420,986.2,2588874.2,5586.35,1.340555556
+Small millets,Rabi       ,Tamil Nadu,344.0,511,986.2,55796.8,120.4,1.577692308
+Sunflower,Kharif     ,Tamil Nadu,486.0,843,986.2,78829.2,170.1,1.78
+Sunflower,Rabi       ,Tamil Nadu,4556.0,2630,986.2,738983.2,1594.6,0.556470588
+Tobacco,Whole Year ,Tamil Nadu,2111.0,3238,986.2,342404.2,738.85,1.354545455
+Turmeric,Whole Year ,Tamil Nadu,23351.0,92360,986.2,3787532.2,8172.85,3.892857143
+Arhar/Tur,Rabi       ,Andhra Pradesh,5940.0,3747,899.2,1020254.4,2197.8,0.43
+Bajra,Kharif     ,Andhra Pradesh,20484.0,47045,899.2,3518331.84,7579.08,2.004545455
+Bajra,Rabi       ,Andhra Pradesh,4592.0,11322,899.2,788721.92,1699.04,2.48
+Black pepper,Whole Year ,Andhra Pradesh,17645.0,17645,899.2,3030705.2,6528.65,1.0
+Castor seed,Rabi       ,Andhra Pradesh,1056.0,637,899.2,181378.56,390.72,0.684
+Coriander,Rabi       ,Andhra Pradesh,1119.0,553,899.2,192199.44,414.03,0.50375
+Cotton(lint),Rabi       ,Andhra Pradesh,3474.0,11066,899.2,596694.24,1285.38,3.305
+Cowpea(Lobia),Kharif     ,Andhra Pradesh,5816.0,2612,899.2,998956.16,2151.92,0.503333333
+Cowpea(Lobia),Rabi       ,Andhra Pradesh,6792.0,3532,899.2,1166593.92,2513.04,0.630909091
+Dry chillies,Rabi       ,Andhra Pradesh,16899.0,79638,899.2,2902572.24,6252.63,4.034615385
+Ginger,Kharif     ,Andhra Pradesh,294.0,633,899.2,50497.44,108.78,1.922
+Guar seed,Kharif     ,Andhra Pradesh,1.0,0,899.2,171.76,0.37,0.0
+Guar seed,Rabi       ,Andhra Pradesh,6.0,0,899.2,1030.56,2.22,0.0
+Horse-gram,Rabi       ,Andhra Pradesh,29995.0,16670,899.2,5151941.2,11098.15,0.606923077
+Linseed,Kharif     ,Andhra Pradesh,133.0,0,899.2,22844.08,49.21,0.0
+Moong(Green Gram),Kharif     ,Andhra Pradesh,13444.0,5138,899.2,2309141.44,4974.28,0.625384615
+Niger seed,Rabi       ,Andhra Pradesh,4256.0,1409,899.2,731010.56,1574.72,0.33
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,10770.0,11296,899.2,1849855.2,3984.9,1.23
+Other Kharif pulses,Kharif     ,Andhra Pradesh,1715.0,850,899.2,294568.4,634.55,0.656666667
+Ragi,Kharif     ,Andhra Pradesh,25660.0,31913,899.2,4407361.6,9494.2,1.315
+Ragi,Rabi       ,Andhra Pradesh,7893.0,12385,899.2,1355701.68,2920.41,1.588888889
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,1882.0,912,899.2,323252.32,696.34,0.375
+Safflower,Rabi       ,Andhra Pradesh,710.0,348,899.2,121949.6,262.7,0.475
+Sannhamp,Kharif     ,Andhra Pradesh,3365.0,0,899.2,577972.4,1245.05,0.0
+Sannhamp,Rabi       ,Andhra Pradesh,1133.0,0,899.2,194604.08,419.21,0.0
+Sesamum,Kharif     ,Andhra Pradesh,6197.0,1316,899.2,1064396.72,2292.89,0.286
+Sesamum,Rabi       ,Andhra Pradesh,32989.0,12129,899.2,5666190.64,12205.93,0.333076923
+Small millets,Kharif     ,Andhra Pradesh,19344.0,18085,899.2,3322525.44,7157.28,0.758333333
+Small millets,Rabi       ,Andhra Pradesh,3966.0,3990,899.2,681200.16,1467.42,0.921428571
+Soyabean,Kharif     ,Andhra Pradesh,1354.0,2367,899.2,232563.04,500.98,1.13
+Soyabean,Rabi       ,Andhra Pradesh,24.0,42,899.2,4122.24,8.88,1.39
+Sunflower,Kharif     ,Andhra Pradesh,1869.0,1306,899.2,321019.44,691.53,1.23
+Sunflower,Rabi       ,Andhra Pradesh,6794.0,6877,899.2,1166937.44,2513.78,0.967692308
+Urad,Kharif     ,Andhra Pradesh,15242.0,14254,899.2,2617965.92,5639.54,0.834615385
+Wheat,Rabi       ,Andhra Pradesh,37.0,11,899.2,6355.12,13.69,0.155
+Arecanut,Kharif     ,Puducherry,52.0,78,1317.0,8931.52,19.24,1.5
+Bajra,Kharif     ,Puducherry,14.0,36,1317.0,2404.64,5.18,2.57
+Bajra,Rabi       ,Puducherry,1.0,3,1317.0,171.76,0.37,3.0
+Bajra,Summer     ,Puducherry,7.0,18,1317.0,1202.32,2.59,2.57
+Black pepper,Kharif     ,Puducherry,11.0,15,1317.0,1889.36,4.07,1.36
+Cashewnut,Kharif     ,Puducherry,145.0,65,1317.0,24905.2,53.65,0.426666667
+Cotton(lint),Kharif     ,Puducherry,500.0,1248,1317.0,85880.0,185.0,2.745
+Groundnut,Kharif     ,Puducherry,1.0,3,1317.0,171.76,0.37,3.0
+Groundnut,Rabi       ,Puducherry,231.0,693,1317.0,39676.56,85.47,3.0
+Groundnut,Summer     ,Puducherry,21.0,63,1317.0,3606.96,7.77,3.0
+Moong(Green Gram),Rabi       ,Puducherry,12.0,9,1317.0,2061.12,4.44,0.75
+Moong(Green Gram),Summer     ,Puducherry,629.0,156,1317.0,108037.04,232.73,0.606666667
+Onion,Kharif     ,Puducherry,2.0,10,1317.0,343.52,0.74,5.0
+Onion,Summer     ,Puducherry,1.0,5,1317.0,171.76,0.37,5.0
+Other  Rabi pulses,Rabi       ,Puducherry,53.0,42,1317.0,9103.28,19.61,0.79
+Other Kharif pulses,Kharif     ,Puducherry,5.0,4,1317.0,858.8,1.85,0.8
+Other Summer Pulses,Summer     ,Puducherry,21.0,17,1317.0,3606.96,7.77,0.81
+Ragi,Kharif     ,Puducherry,32.0,77,1317.0,5496.32,11.84,2.41
+Ragi,Rabi       ,Puducherry,4.0,10,1317.0,687.04,1.48,2.5
+Ragi,Summer     ,Puducherry,23.0,55,1317.0,3950.48,8.51,2.39
+Rice,Kharif     ,Puducherry,4323.0,15171,1317.0,742518.48,1599.51,3.216666667
+Rice,Rabi       ,Puducherry,9397.0,28114,1317.0,1614028.72,3476.89,3.883333333
+Rice,Summer     ,Puducherry,4518.0,16060,1317.0,776011.68,1671.66,3.55
+Sesamum,Kharif     ,Puducherry,2.0,2,1317.0,343.52,0.74,1.0
+Sesamum,Rabi       ,Puducherry,10.0,10,1317.0,1717.6,3.7,1.0
+Sesamum,Summer     ,Puducherry,203.0,152,1317.0,34867.28,75.11,0.57
+Small millets,Kharif     ,Puducherry,14.0,17,1317.0,2404.64,5.18,1.21
+Urad,Kharif     ,Puducherry,2.0,2,1317.0,343.52,0.74,1.0
+Urad,Rabi       ,Puducherry,146.0,146,1317.0,25076.96,54.02,1.0
+Urad,Summer     ,Puducherry,321.0,139,1317.0,55134.96,118.77,0.723333333
+Bajra,Summer     ,Karnataka,10904.0,11378,1422.3,1872871.04,4034.48,1.038518519
+Cardamom,Whole Year ,Karnataka,1939.0,301,1422.3,333042.64,717.43,0.105238095
+Castor seed,Kharif     ,Karnataka,4144.0,3818,1422.3,711773.44,1533.28,0.904545455
+Coriander,Whole Year ,Karnataka,608.0,300,1422.3,104430.08,224.96,0.48
+Cotton(lint),Rabi       ,Karnataka,14393.0,10392,1422.3,2472141.68,5325.41,0.721363636
+Cowpea(Lobia),Kharif     ,Karnataka,30586.0,8678,1422.3,5253451.36,11316.82,0.299333333
+Cowpea(Lobia),Rabi       ,Karnataka,11051.0,5396,1422.3,1898119.76,4088.87,0.458928571
+Cowpea(Lobia),Summer     ,Karnataka,4103.0,983,1422.3,704731.28,1518.11,0.197407407
+Garlic,Whole Year ,Karnataka,1706.0,8741,1422.3,293022.56,631.22,5.177727273
+Groundnut,Rabi       ,Karnataka,2809.0,6504,1422.3,482473.84,1039.33,2.31
+Jowar,Summer     ,Karnataka,5069.0,8457,1422.3,870651.44,1875.53,1.702857143
+Linseed,Rabi       ,Karnataka,818.0,399,1422.3,140499.68,302.66,0.381
+Maize,Summer     ,Karnataka,31000.0,122718,1422.3,5324560.0,11470.0,3.905357143
+Mesta,Whole Year ,Karnataka,55.0,0,1422.3,9446.8,20.35,0.0
+Moong(Green Gram),Rabi       ,Karnataka,11109.0,2731,1422.3,1908081.84,4110.33,0.215416667
+Moong(Green Gram),Summer     ,Karnataka,310.0,51,1422.3,53245.6,114.7,0.088571429
+Niger seed,Kharif     ,Karnataka,999.0,245,1422.3,171588.24,369.63,0.207083333
+Other  Rabi pulses,Rabi       ,Karnataka,13219.0,12415,1422.3,2270495.44,4891.03,0.855
+Ragi,Summer     ,Karnataka,6055.0,10797,1422.3,1040006.8,2240.35,1.806666667
+Rapeseed &Mustard,Kharif     ,Karnataka,230.0,54,1422.3,39504.8,85.1,0.166842105
+Rice,Rabi       ,Karnataka,11266.0,31038,1422.3,1935048.16,4168.42,2.881428571
+Safflower,Rabi       ,Karnataka,26593.0,24556,1422.3,4567613.68,9839.41,0.8256
+Sannhamp,Whole Year ,Karnataka,2081.0,1238,1422.3,357432.56,769.97,0.644615385
+Sesamum,Kharif     ,Karnataka,30964.0,26306,1422.3,5318376.64,11456.68,0.818888889
+Sunflower,Rabi       ,Karnataka,25163.0,18299,1422.3,4321996.88,9310.31,0.904210526
+Sunflower,Summer     ,Karnataka,4487.0,4869,1422.3,770687.12,1660.19,1.268181818
+Turmeric,Whole Year ,Karnataka,20740.0,132668,1422.3,3562302.4,7673.8,6.133571429
+Urad,Rabi       ,Karnataka,2875.0,1341,1422.3,493810.0,1063.75,0.3375
+Urad,Summer     ,Karnataka,223.0,105,1422.3,38302.48,82.51,0.437272727
+Arecanut,Whole Year ,Tamil Nadu,6843.0,13543,910.1,1175353.68,2531.91,2.17
+Arhar/Tur,Rabi       ,Tamil Nadu,2894.0,3331,910.1,497073.44,1070.78,1.2344
+Bajra,Rabi       ,Tamil Nadu,17194.0,45024,910.1,2953241.44,6361.78,2.6984
+Black pepper,Whole Year ,Tamil Nadu,6080.0,1306,910.1,1044300.8,2249.6,0.175555556
+Cardamom,Whole Year ,Tamil Nadu,3831.0,348,910.1,658012.56,1417.47,0.093333333
+Castor seed,Kharif     ,Tamil Nadu,5259.0,1646,910.1,903285.84,1945.83,0.306428571
+Coriander,Whole Year ,Tamil Nadu,7397.0,3675,910.1,1270508.72,2736.89,0.470909091
+Cowpea(Lobia),Rabi       ,Tamil Nadu,17959.0,12609,910.1,3084637.84,6644.83,0.6812
+Garlic,Whole Year ,Tamil Nadu,1433.0,8519,910.1,246132.08,530.21,5.5525
+Gram,Rabi       ,Tamil Nadu,5552.0,5138,910.1,953611.52,2054.24,0.871538462
+Horse-gram,Kharif     ,Tamil Nadu,2439.0,1697,910.1,418922.64,902.43,0.725
+Moong(Green Gram),Kharif     ,Tamil Nadu,22747.0,13049,910.1,3907024.72,8416.39,0.587407407
+Other  Rabi pulses,Rabi       ,Tamil Nadu,21610.0,14045,910.1,3711733.6,7995.7,0.776666667
+Other Cereals,Kharif     ,Tamil Nadu,2172.0,3175,910.1,373062.72,803.64,1.121875
+Other Cereals,Rabi       ,Tamil Nadu,5392.0,7193,910.1,926129.92,1995.04,1.282
+Other Kharif pulses,Kharif     ,Tamil Nadu,32430.0,27665,910.1,5570176.8,11999.1,0.746153846
+Ragi,Rabi       ,Tamil Nadu,20895.0,83939,910.1,3588925.2,7731.15,3.879230769
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,137.0,33,910.1,23531.12,50.69,0.19
+Sesamum,Kharif     ,Tamil Nadu,12123.0,6706,910.1,2082246.48,4485.51,0.534642857
+Small millets,Kharif     ,Tamil Nadu,17928.0,26280,910.1,3079313.28,6633.36,1.360769231
+Sunflower,Kharif     ,Tamil Nadu,168.0,168,910.1,28855.68,62.16,1.0
+Sunflower,Rabi       ,Tamil Nadu,4075.0,3663,910.1,699922.0,1507.75,1.099375
+Tobacco,Whole Year ,Tamil Nadu,1658.0,2426,910.1,284778.08,613.46,1.397777778
+Turmeric,Whole Year ,Tamil Nadu,18432.0,96253,910.1,3165880.32,6819.84,5.298148148
+Arhar/Tur,Rabi       ,Andhra Pradesh,3500.0,1400,927.5,333095.0,1085.0,0.474
+Horse-gram,Kharif     ,Andhra Pradesh,19600.0,6900,927.5,1865332.0,6076.0,0.4025
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,3400.0,500,927.5,323578.0,1054.0,0.166666667
+Other Kharif pulses,Kharif     ,Andhra Pradesh,7300.0,1400,927.5,694741.0,2263.0,0.218571429
+Ragi,Rabi       ,Andhra Pradesh,14600.0,21900,927.5,1389482.0,4526.0,1.513636364
+Small millets,Kharif     ,Andhra Pradesh,11500.0,2000,927.5,1094455.0,3565.0,0.17
+Small millets,Rabi       ,Andhra Pradesh,3000.0,200,927.5,285510.0,930.0,0.075
+Wheat,Rabi       ,Andhra Pradesh,11000.0,6000,927.5,1046870.0,3410.0,0.55375
+Arhar/Tur,Rabi       ,Andhra Pradesh,3100.0,1600,1048.3,306280.0,899.0,0.56
+Bajra,Rabi       ,Andhra Pradesh,7300.0,4600,1048.3,721240.0,2117.0,0.905714286
+Gram,Kharif     ,Andhra Pradesh,100.0,100,1048.3,9880.0,29.0,1.0
+Horse-gram,Kharif     ,Andhra Pradesh,19100.0,7900,1048.3,1887080.0,5539.0,0.44
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,3500.0,600,1048.3,345800.0,1015.0,0.145
+Other Kharif pulses,Kharif     ,Andhra Pradesh,9700.0,2100,1048.3,958360.0,2813.0,0.189090909
+Ragi,Rabi       ,Andhra Pradesh,15400.0,31200,1048.3,1521520.0,4466.0,1.966363636
+Small millets,Kharif     ,Andhra Pradesh,3300.0,2200,1048.3,326040.0,957.0,0.71
+Wheat,Rabi       ,Andhra Pradesh,11500.0,6400,1048.3,1136200.0,3335.0,0.468888889
+Black pepper,Whole Year ,Tamil Nadu,2633.0,520,1077.1,260140.4,763.57,0.212222222
+Cardamom,Whole Year ,Tamil Nadu,4197.0,311,1077.1,414663.6,1217.13,0.07875
+Castor seed,Whole Year ,Tamil Nadu,42634.0,14626,1077.1,4212239.2,12363.86,0.347647059
+Garlic,Whole Year ,Tamil Nadu,2015.0,10629,1077.1,199082.0,584.35,5.474285714
+Gram,Rabi       ,Tamil Nadu,7620.0,6348,1077.1,752856.0,2209.8,0.843333333
+Mesta,Kharif     ,Tamil Nadu,383.0,1790,1077.1,37840.4,111.07,4.675
+Rapeseed &Mustard,Whole Year ,Tamil Nadu,555.0,136,1077.1,54834.0,160.95,0.26
+Sannhamp,Whole Year ,Tamil Nadu,2558.0,1865,1077.1,252730.4,741.82,0.755
+Sunflower,Kharif     ,Tamil Nadu,25114.0,24686,1077.1,2481263.2,7283.06,1.02875
+Tobacco,Whole Year ,Tamil Nadu,5775.0,8678,1077.1,570570.0,1674.75,1.409090909
+Turmeric,Whole Year ,Tamil Nadu,21657.0,126569,1077.1,2139711.6,6280.53,6.06
+Black pepper,Whole Year ,Karnataka,6633.0,16012,1203.8,703960.29,1790.91,2.285833333
+Cardamom,Whole Year ,Karnataka,20049.0,1141,1203.8,2127800.37,5413.23,0.06
+Castor seed,Kharif     ,Karnataka,25544.0,19710,1203.8,2710984.72,6896.88,0.768181818
+Coriander,Whole Year ,Karnataka,12091.0,1871,1203.8,1283217.83,3264.57,0.136190476
+Garlic,Whole Year ,Karnataka,4991.0,3702,1203.8,529694.83,1347.57,1.442941176
+Jowar,Summer     ,Karnataka,8514.0,19161,1203.8,903590.82,2298.78,2.122666667
+Linseed,Rabi       ,Karnataka,20710.0,6985,1203.8,2197952.3,5591.7,0.323571429
+Maize,Summer     ,Karnataka,13197.0,23878,1203.8,1400597.61,3563.19,1.786666667
+Mesta,Kharif     ,Karnataka,3179.0,4391,1203.8,337387.27,858.33,2.045714286
+Moong(Green Gram),Rabi       ,Karnataka,15414.0,3835,1203.8,1635887.82,4161.78,0.294117647
+Niger seed,Kharif     ,Karnataka,44000.0,8040,1203.8,4669720.0,11880.0,0.213478261
+Ragi,Summer     ,Karnataka,15784.0,31533,1203.8,1675155.92,4261.68,1.857692308
+Rapeseed &Mustard,Rabi       ,Karnataka,6409.0,1756,1203.8,680187.17,1730.43,0.262941176
+Sannhamp,Whole Year ,Karnataka,346.0,87,1203.8,36720.98,93.42,0.398333333
+Sunflower,Summer     ,Karnataka,30245.0,17032,1203.8,3209901.85,8166.15,0.592857143
+Sweet potato,Whole Year ,Karnataka,2833.0,21648,1203.8,300666.29,764.91,6.267857143
+Turmeric,Whole Year ,Karnataka,6704.0,29203,1203.8,711495.52,1810.08,4.19
+Urad,Rabi       ,Karnataka,5468.0,2035,1203.8,580318.84,1476.36,0.37625
+Black pepper,Whole Year ,Tamil Nadu,563.0,122,922.8,59751.19,152.01,0.167142857
+Cardamom,Whole Year ,Tamil Nadu,1213.0,112,922.8,128735.69,327.51,0.094
+Castor seed,Kharif     ,Tamil Nadu,36034.0,11843,922.8,3824288.42,9729.18,0.351666667
+Coriander,Whole Year ,Tamil Nadu,24030.0,5500,922.8,2550303.9,6488.1,0.234090909
+Garlic,Whole Year ,Tamil Nadu,543.0,3145,922.8,57628.59,146.61,5.8
+Gram,Rabi       ,Tamil Nadu,8283.0,5374,922.8,879074.79,2236.41,0.514615385
+Mesta,Kharif     ,Tamil Nadu,59.0,273,922.8,6261.67,15.93,4.526
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,631.0,152,922.8,66968.03,170.37,0.206666667
+Sannhamp,Whole Year ,Tamil Nadu,7263.0,5298,922.8,770822.19,1961.01,0.73375
+Sunflower,Kharif     ,Tamil Nadu,22994.0,21913,922.8,2440353.22,6208.38,0.999583333
+Tobacco,Whole Year ,Tamil Nadu,5992.0,9369,922.8,635930.96,1617.84,1.476363636
+Turmeric,Whole Year ,Tamil Nadu,28325.0,149977,922.8,3006132.25,7647.75,5.419130435
+Black pepper,Whole Year ,Tamil Nadu,1640.0,449,971.1,160998.8,426.4,0.184285714
+Cardamom,Whole Year ,Tamil Nadu,2144.0,204,971.1,210476.48,557.44,0.078
+Castor seed,Kharif     ,Tamil Nadu,38930.0,12658,971.1,3821758.1,10121.8,0.334736842
+Coriander,Whole Year ,Tamil Nadu,19170.0,4132,971.1,1881918.9,4984.2,0.2365
+Garlic,Whole Year ,Tamil Nadu,601.0,3516,971.1,59000.17,156.26,5.74
+Gram,Rabi       ,Tamil Nadu,5688.0,3514,971.1,558390.96,1478.88,0.546153846
+Mesta,Kharif     ,Tamil Nadu,134.0,594,971.1,13154.78,34.84,3.683333333
+Rapeseed &Mustard,Rabi       ,Tamil Nadu,753.0,185,971.1,73922.01,195.78,0.228
+Sannhamp,Whole Year ,Tamil Nadu,10538.0,7681,971.1,1034515.46,2739.88,0.725625
+Sunflower,Kharif     ,Tamil Nadu,13345.0,14389,971.1,1310078.65,3469.7,1.040434783
+Tobacco,Whole Year ,Tamil Nadu,5926.0,9225,971.1,581755.42,1540.76,1.527
+Turmeric,Whole Year ,Tamil Nadu,28675.0,149252,971.1,2815024.75,7455.5,5.306086957
+Sunflower,Kharif     ,Tamil Nadu,6607.0,8530,481.3,674772.91,1717.82,1.323
+Bajra,Rabi       ,Karnataka,271.0,215,860.8,25655.57,67.75,0.79
+Bajra,Summer     ,Karnataka,442.0,381,860.8,41844.14,110.5,0.88
+Black pepper,Whole Year ,Karnataka,10414.0,23178,860.8,985893.38,2603.5,2.213076923
+Cardamom,Whole Year ,Karnataka,19405.0,1103,860.8,1837071.35,4851.25,0.062857143
+Castor seed,Kharif     ,Karnataka,16991.0,15693,860.8,1608537.97,4247.75,0.893333333
+Coriander,Whole Year ,Karnataka,7685.0,1114,860.8,727538.95,1921.25,0.1235
+Garlic,Whole Year ,Karnataka,5344.0,3983,860.8,505916.48,1336.0,1.382
+Jowar,Summer     ,Karnataka,9316.0,15398,860.8,881945.72,2329.0,1.619375
+Linseed,Rabi       ,Karnataka,17401.0,6118,860.8,1647352.67,4350.25,0.342857143
+Maize,Summer     ,Karnataka,11330.0,28584,860.8,1072611.1,2832.5,2.472173913
+Mesta,Kharif     ,Karnataka,3119.0,4182,860.8,295275.73,779.75,2.035714286
+Moong(Green Gram),Rabi       ,Karnataka,10484.0,1831,860.8,992520.28,2621.0,0.171764706
+Niger seed,Kharif     ,Karnataka,29281.0,5602,860.8,2772032.27,7320.25,0.213913043
+Other  Rabi pulses,Rabi       ,Karnataka,40653.0,4715,860.8,3848619.51,10163.25,0.120384615
+Potato,Whole Year ,Karnataka,50645.0,149282,860.8,4794562.15,12661.25,5.757142857
+Ragi,Summer     ,Karnataka,6929.0,7952,860.8,655968.43,1732.25,1.149166667
+Rapeseed &Mustard,Rabi       ,Karnataka,4270.0,1134,860.8,404240.9,1067.5,0.215789474
+Rice,Rabi       ,Karnataka,50456.0,102312,860.8,4776669.52,12614.0,2.000666667
+Sannhamp,Whole Year ,Karnataka,404.0,100,860.8,38246.68,101.0,0.235
+Sunflower,Summer     ,Karnataka,35073.0,21327,860.8,3320360.91,8768.25,0.637727273
+Sweet potato,Whole Year ,Karnataka,3390.0,26917,860.8,320931.3,847.5,6.286
+Turmeric,Whole Year ,Karnataka,6596.0,28603,860.8,624443.32,1649.0,4.04952381
+Urad,Rabi       ,Karnataka,16084.0,1895,860.8,1522672.28,4021.0,0.118571429
+Arhar/Tur,Rabi       ,Andhra Pradesh,8452.0,3792,781.8,915689.68,1774.92,0.485
+Bajra,Rabi       ,Andhra Pradesh,10128.0,6712,781.8,1097267.52,2126.88,0.661818182
+Coriander,Whole Year ,Andhra Pradesh,23981.0,9314,781.8,2598101.54,5036.01,0.516470588
+Dry chillies,Rabi       ,Andhra Pradesh,50419.0,148939,781.8,5462394.46,10587.99,3.148636364
+Garlic,Whole Year ,Andhra Pradesh,552.0,0,781.8,59803.68,115.92,0.0
+Ginger,Whole Year ,Andhra Pradesh,1873.0,10906,781.8,202920.82,393.33,5.2775
+Gram,Kharif     ,Andhra Pradesh,111.0,98,781.8,12025.74,23.31,0.885
+Horse-gram,Kharif     ,Andhra Pradesh,10077.0,4552,781.8,1091742.18,2116.17,0.433
+Horse-gram,Rabi       ,Andhra Pradesh,56470.0,21003,781.8,6117959.8,11858.7,0.338571429
+Linseed,Rabi       ,Andhra Pradesh,4181.0,467,781.8,452969.54,878.01,0.126666667
+Niger seed,Kharif     ,Andhra Pradesh,15640.0,6101,781.8,1694437.6,3284.4,0.425
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,17609.0,4724,781.8,1907759.06,3697.89,0.256470588
+Other Kharif pulses,Kharif     ,Andhra Pradesh,16234.0,4193,781.8,1758791.56,3409.14,0.268
+Ragi,Rabi       ,Andhra Pradesh,7924.0,14276,781.8,858486.16,1664.04,1.823076923
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,3623.0,904,781.8,392515.82,760.83,0.201666667
+Safflower,Rabi       ,Andhra Pradesh,19007.0,8288,781.8,2059218.38,3991.47,0.353636364
+Sesamum,Rabi       ,Andhra Pradesh,39827.0,13803,781.8,4314857.18,8363.67,0.3595
+Small millets,Kharif     ,Andhra Pradesh,47209.0,23108,781.8,5114623.06,9913.89,0.503636364
+Small millets,Rabi       ,Andhra Pradesh,515.0,257,781.8,55795.1,108.15,0.502
+Wheat,Rabi       ,Andhra Pradesh,9174.0,4605,781.8,993911.16,1926.54,0.387272727
+Bajra,Kharif     ,Andhra Pradesh,60000.0,81000,1004.2,8004000.0,9600.0,1.391538462
+Bajra,Rabi       ,Andhra Pradesh,14000.0,11000,1004.2,1867600.0,2240.0,0.9175
+Dry chillies,Rabi       ,Andhra Pradesh,49000.0,133000,1004.2,6536600.0,7840.0,2.566111111
+Horse-gram,Kharif     ,Andhra Pradesh,7000.0,4000,1004.2,933800.0,1120.0,0.585
+Horse-gram,Rabi       ,Andhra Pradesh,43000.0,21000,1004.2,5736200.0,6880.0,0.486363636
+Other  Rabi pulses,Rabi       ,Andhra Pradesh,3000.0,4000,1004.2,400200.0,480.0,1.25
+Other Kharif pulses,Kharif     ,Andhra Pradesh,6000.0,3000,1004.2,800400.0,960.0,0.5
+Ragi,Kharif     ,Andhra Pradesh,48000.0,59000,1004.2,6403200.0,7680.0,1.445714286
+Ragi,Rabi       ,Andhra Pradesh,7000.0,8000,1004.2,933800.0,1120.0,1.1
+Sesamum,Rabi       ,Andhra Pradesh,31000.0,8000,1004.2,4135400.0,4960.0,0.244545455
+Small millets,Kharif     ,Andhra Pradesh,35000.0,22000,1004.2,4669000.0,5600.0,0.727142857
+Wheat,Rabi       ,Andhra Pradesh,8000.0,8000,1004.2,1067200.0,1280.0,1.0
+Arhar/Tur,Kharif     ,Tamil Nadu,35751.0,23669,1095.2,5938598.61,8580.24,0.688928571
+Castor seed,Kharif     ,Tamil Nadu,5972.0,1711,1095.2,992008.92,1433.28,0.5676
+Gram,Rabi       ,Tamil Nadu,7296.0,4936,1095.2,1211938.56,1751.04,0.538181818
+Horse-gram,Kharif     ,Tamil Nadu,47320.0,21729,1095.2,7860325.2,11356.8,0.444615385
+Sesamum,Whole Year ,Tamil Nadu,48189.0,25387,1095.2,8004674.79,11565.36,0.499310345
+Sunflower,Kharif     ,Tamil Nadu,8718.0,10036,1095.2,1448146.98,2092.32,1.258518519
+Castor seed,Kharif     ,Tamil Nadu,12174.0,1750,706.8,1835839.2,3773.94,0.153333333
+Gram,Rabi       ,Tamil Nadu,7036.0,4531,706.8,1061028.8,2181.16,0.48
+Sesamum,Whole Year ,Tamil Nadu,33181.0,17179,706.8,5003694.8,10286.11,0.477241379
+Sunflower,Kharif     ,Tamil Nadu,10782.0,11374,706.8,1625925.6,3342.42,1.1364
+Arhar/Tur,Rabi       ,Telangana,1398.0,922,1348.7,201997.02,377.46,0.61
+Bajra,Kharif     ,Telangana,4281.0,4033,1348.7,618561.69,1155.87,0.964
+Bajra,Rabi       ,Telangana,8937.0,8419,1348.7,1291307.13,2412.99,0.97
+Cashewnut,Kharif     ,Telangana,4235.0,2710,1348.7,611915.15,1143.45,0.635
+Castor seed,Rabi       ,Telangana,1358.0,964,1348.7,196217.42,366.66,0.713333333
+Coriander,Whole Year ,Telangana,1378.0,978,1348.7,199107.22,372.06,0.701428571
+Cowpea(Lobia),Kharif     ,Telangana,2162.0,1209,1348.7,312387.38,583.74,0.515
+Cowpea(Lobia),Rabi       ,Telangana,8572.0,6669,1348.7,1238568.28,2314.44,0.75
+Dry chillies,Rabi       ,Telangana,24557.0,107792,1348.7,3548240.93,6630.39,4.40625
+Ginger,Rabi       ,Telangana,4.0,26,1348.7,577.96,1.08,6.5
+Gram,Kharif     ,Telangana,54.0,73,1348.7,7802.46,14.58,1.35
+Groundnut,Kharif     ,Telangana,21394.0,32071,1348.7,3091219.06,5776.38,1.25875
+Horse-gram,Kharif     ,Telangana,507.0,315,1348.7,73256.43,136.89,0.61
+Horse-gram,Rabi       ,Telangana,2437.0,1165,1348.7,352122.13,657.99,0.481428571
+Jowar,Rabi       ,Telangana,36331.0,32017,1348.7,5249466.19,9809.37,0.906666667
+Linseed,Rabi       ,Telangana,229.0,112,1348.7,33088.21,61.83,0.49
+Masoor,Rabi       ,Telangana,382.0,196,1348.7,55195.18,103.14,0.51
+Moong(Green Gram),Rabi       ,Telangana,12516.0,11549,1348.7,1808436.84,3379.32,0.9325
+Other  Rabi pulses,Rabi       ,Telangana,467.0,660,1348.7,67476.83,126.09,1.315
+Other Kharif pulses,Kharif     ,Telangana,346.0,109,1348.7,49993.54,93.42,0.37
+Ragi,Kharif     ,Telangana,1204.0,1727,1348.7,173965.96,325.08,1.593333333
+Ragi,Rabi       ,Telangana,511.0,794,1348.7,73834.39,137.97,1.55
+Rapeseed &Mustard,Rabi       ,Telangana,843.0,644,1348.7,121805.07,227.61,0.834
+Safflower,Rabi       ,Telangana,7867.0,5573,1348.7,1136702.83,2124.09,0.75
+Sesamum,Kharif     ,Telangana,5713.0,1300,1348.7,825471.37,1542.51,0.242857143
+Sesamum,Rabi       ,Telangana,18484.0,7410,1348.7,2670753.16,4990.68,0.392857143
+Small millets,Kharif     ,Telangana,882.0,665,1348.7,127440.18,238.14,0.75
+Soyabean,Rabi       ,Telangana,14.0,23,1348.7,2022.86,3.78,1.65
+Sunflower,Kharif     ,Telangana,2040.0,1750,1348.7,294759.6,550.8,0.846666667
+Sunflower,Rabi       ,Telangana,17580.0,16867,1348.7,2540134.2,4746.6,1.084444444
+Tobacco,Kharif     ,Telangana,2218.0,3889,1348.7,320478.82,598.86,3.106666667
+Tobacco,Rabi       ,Telangana,3839.0,9718,1348.7,554697.11,1036.53,2.968333333
+Urad,Kharif     ,Telangana,32090.0,26377,1348.7,4636684.1,8664.3,0.83125
+Urad,Rabi       ,Telangana,9473.0,9028,1348.7,1368753.77,2557.71,0.912857143
+Wheat,Rabi       ,Telangana,7039.0,4366,1348.7,1017065.11,1900.53,0.74
+Arhar/Tur,Rabi       ,Telangana,878.0,614,746.4,132542.88,289.74,0.528571429
+Bajra,Kharif     ,Telangana,1975.0,1851,746.4,298146.0,651.75,0.848
+Bajra,Rabi       ,Telangana,9243.0,8659,746.4,1395323.28,3050.19,0.923333333
+Cashewnut,Kharif     ,Telangana,4089.0,2290,746.4,617275.44,1349.37,0.57
+Castor seed,Rabi       ,Telangana,1000.0,576,746.4,150960.0,330.0,0.5025
+Coriander,Whole Year ,Telangana,1597.0,382,746.4,241083.12,527.01,0.241428571
+Cowpea(Lobia),Kharif     ,Telangana,1642.0,1511,746.4,247876.32,541.86,0.94
+Cowpea(Lobia),Rabi       ,Telangana,8538.0,8385,746.4,1288896.48,2817.54,0.97
+Dry chillies,Rabi       ,Telangana,17789.0,72937,746.4,2685427.44,5870.37,4.2025
+Groundnut,Kharif     ,Telangana,12402.0,21533,746.4,1872205.92,4092.66,1.36125
+Horse-gram,Kharif     ,Telangana,529.0,274,746.4,79857.84,174.57,0.51
+Horse-gram,Rabi       ,Telangana,1778.0,679,746.4,268406.88,586.74,0.39375
+Jowar,Rabi       ,Telangana,36385.0,36271,746.4,5492679.6,12007.05,0.974444444
+Linseed,Rabi       ,Telangana,45.0,18,746.4,6793.2,14.85,0.4
+Masoor,Rabi       ,Telangana,54.0,21,746.4,8151.84,17.82,0.39
+Moong(Green Gram),Rabi       ,Telangana,17504.0,10306,746.4,2642403.84,5776.32,0.59625
+Other  Rabi pulses,Rabi       ,Telangana,107.0,141,746.4,16152.72,35.31,1.11
+Other Kharif pulses,Kharif     ,Telangana,146.0,75,746.4,22040.16,48.18,0.603333333
+Ragi,Kharif     ,Telangana,1196.0,1333,746.4,180548.16,394.68,1.38
+Ragi,Rabi       ,Telangana,331.0,415,746.4,49967.76,109.23,1.2675
+Rapeseed &Mustard,Rabi       ,Telangana,2254.0,3962,746.4,340263.84,743.82,1.62
+Safflower,Rabi       ,Telangana,4155.0,3100,746.4,627238.8,1371.15,0.752
+Sesamum,Kharif     ,Telangana,5480.0,1087,746.4,827260.8,1808.4,0.20125
+Sesamum,Rabi       ,Telangana,18324.0,8565,746.4,2766191.04,6046.92,0.421428571
+Small millets,Kharif     ,Telangana,134.0,85,746.4,20228.64,44.22,0.63
+Soyabean,Rabi       ,Telangana,122.0,165,746.4,18417.12,40.26,1.185
+Sunflower,Kharif     ,Telangana,1369.0,1395,746.4,206664.24,451.77,1.013333333
+Sunflower,Rabi       ,Telangana,17002.0,24272,746.4,2566621.92,5610.66,1.321111111
+Tobacco,Kharif     ,Telangana,1534.0,3466,746.4,231572.64,506.22,3.016666667
+Tobacco,Rabi       ,Telangana,4551.0,12509,746.4,687018.96,1501.83,2.82125
+Urad,Kharif     ,Telangana,19851.0,13022,746.4,2996706.96,6550.83,0.66875
+Urad,Rabi       ,Telangana,8164.0,3316,746.4,1232437.44,2694.12,0.41
+Wheat,Rabi       ,Telangana,5828.0,6929,746.4,879794.88,1923.24,1.156
+Arhar/Tur,Rabi       ,Telangana,1415.0,937,747.9,223442.65,466.95,0.5225
+Bajra,Kharif     ,Telangana,1632.0,1531,747.9,257709.12,538.56,0.882
+Bajra,Rabi       ,Telangana,4268.0,4003,747.9,673959.88,1408.44,0.864
+Cashewnut,Kharif     ,Telangana,3036.0,2146,747.9,479414.76,1001.88,0.71
+Castor seed,Rabi       ,Telangana,601.0,213,747.9,94903.91,198.33,0.338
+Coriander,Kharif     ,Telangana,11.0,8,747.9,1737.01,3.63,0.73
+Coriander,Rabi       ,Telangana,998.0,382,747.9,157594.18,329.34,0.402857143
+Cowpea(Lobia),Kharif     ,Telangana,2167.0,1135,747.9,342190.97,715.11,0.511666667
+Cowpea(Lobia),Rabi       ,Telangana,6021.0,16132,747.9,950776.11,1986.93,2.523333333
+Dry chillies,Rabi       ,Telangana,16409.0,44857,747.9,2591145.19,5414.97,2.717777778
+Garlic,Rabi       ,Telangana,285.0,1009,747.9,45004.35,94.05,3.5225
+Ginger,Kharif     ,Telangana,1822.0,11862,747.9,287712.02,601.26,5.5225
+Ginger,Rabi       ,Telangana,6.0,39,747.9,947.46,1.98,6.5
+Groundnut,Kharif     ,Telangana,13470.0,21503,747.9,2127047.7,4445.1,1.348333333
+Horse-gram,Kharif     ,Telangana,510.0,110,747.9,80534.1,168.3,0.22
+Horse-gram,Rabi       ,Telangana,1530.0,684,747.9,241602.3,504.9,0.418888889
+Jowar,Rabi       ,Telangana,31197.0,25176,747.9,4926318.27,10295.01,0.867777778
+Linseed,Rabi       ,Telangana,7.0,3,747.9,1105.37,2.31,0.43
+Masoor,Rabi       ,Telangana,46.0,16,747.9,7263.86,15.18,0.35
+Other  Rabi pulses,Rabi       ,Telangana,54.0,21,747.9,8527.14,17.82,0.305
+Other Kharif pulses,Kharif     ,Telangana,100.0,37,747.9,15791.0,33.0,0.343333333
+Ragi,Kharif     ,Telangana,742.0,404,747.9,117169.22,244.86,0.666666667
+Ragi,Rabi       ,Telangana,178.0,110,747.9,28107.98,58.74,0.663333333
+Rapeseed &Mustard,Rabi       ,Telangana,1365.0,1665,747.9,215547.15,450.45,1.023333333
+Safflower,Rabi       ,Telangana,3855.0,2581,747.9,608743.05,1272.15,0.806
+Sesamum,Kharif     ,Telangana,4012.0,148,747.9,633534.92,1323.96,0.068571429
+Sesamum,Rabi       ,Telangana,9865.0,2770,747.9,1557782.15,3255.45,0.242857143
+Small millets,Kharif     ,Telangana,1246.0,993,747.9,196755.86,411.18,0.8
+Small millets,Rabi       ,Telangana,64.0,51,747.9,10106.24,21.12,0.8
+Soyabean,Rabi       ,Telangana,394.0,420,747.9,62216.54,130.02,1.055
+Sunflower,Kharif     ,Telangana,910.0,828,747.9,143698.1,300.3,0.91
+Sunflower,Rabi       ,Telangana,10637.0,12502,747.9,1679688.67,3510.21,1.076666667
+Tobacco,Kharif     ,Telangana,1512.0,3702,747.9,238759.92,498.96,3.676666667
+Tobacco,Rabi       ,Telangana,4279.0,11455,747.9,675696.89,1412.07,3.42625
+Urad,Kharif     ,Telangana,23955.0,11111,747.9,3782734.05,7905.15,0.485
+Urad,Rabi       ,Telangana,8126.0,6400,747.9,1283176.66,2681.58,0.77
+Wheat,Rabi       ,Telangana,4952.0,16902,747.9,781970.32,1634.16,2.9475
+Arhar/Tur,Rabi       ,Telangana,1289.0,1118,942.6,197539.25,451.15,0.728235294
+Bajra,Kharif     ,Telangana,3134.0,2723,942.6,480285.5,1096.9,0.89
+Bajra,Rabi       ,Telangana,13563.0,11791,942.6,2078529.75,4747.05,0.87875
+Cashewnut,Kharif     ,Telangana,1841.0,773,942.6,282133.25,644.35,0.395
+Castor seed,Rabi       ,Telangana,466.0,272,942.6,71414.5,163.1,0.521666667
+Coriander,Kharif     ,Telangana,46.0,20,942.6,7049.5,16.1,0.575
+Coriander,Rabi       ,Telangana,1899.0,1212,942.6,291021.75,664.65,0.627
+Cowpea(Lobia),Kharif     ,Telangana,1058.0,647,942.6,162138.5,370.3,0.55
+Cowpea(Lobia),Rabi       ,Telangana,4900.0,5230,942.6,750925.0,1715.0,1.1
+Dry chillies,Rabi       ,Telangana,14653.0,81224,942.6,2245572.25,5128.55,5.504347826
+Garlic,Rabi       ,Telangana,191.0,451,942.6,29270.75,66.85,2.74
+Groundnut,Kharif     ,Telangana,26674.0,51597,942.6,4087790.5,9335.9,2.272380952
+Horse-gram,Kharif     ,Telangana,353.0,135,942.6,54097.25,123.55,0.395714286
+Horse-gram,Rabi       ,Telangana,1310.0,500,942.6,200757.5,458.5,0.360625
+Jowar,Rabi       ,Telangana,27810.0,33101,942.6,4261882.5,9733.5,1.1768
+Moong(Green Gram),Rabi       ,Telangana,11023.0,9955,942.6,1689274.75,3858.05,0.90962963
+Ragi,Kharif     ,Telangana,838.0,971,942.6,128423.5,293.3,1.094285714
+Ragi,Rabi       ,Telangana,296.0,341,942.6,45362.0,103.6,1.1075
+Safflower,Kharif     ,Telangana,5.0,5,942.6,766.25,1.75,1.0
+Safflower,Rabi       ,Telangana,4364.0,2892,942.6,668783.0,1527.4,0.731111111
+Sesamum,Kharif     ,Telangana,3268.0,438,942.6,500821.0,1143.8,0.150555556
+Sesamum,Rabi       ,Telangana,17626.0,14161,942.6,2701184.5,6169.1,0.807272727
+Small millets,Kharif     ,Telangana,851.0,799,942.6,130415.75,297.85,0.943333333
+Small millets,Rabi       ,Telangana,1.0,1,942.6,153.25,0.35,1.0
+Soyabean,Rabi       ,Telangana,33.0,32,942.6,5057.25,11.55,0.985
+Sunflower,Kharif     ,Telangana,951.0,719,942.6,145740.75,332.85,0.862
+Sunflower,Rabi       ,Telangana,4941.0,8865,942.6,757208.25,1729.35,1.781428571
+Tobacco,Kharif     ,Telangana,2599.0,7080,942.6,398296.75,909.65,3.134
+Tobacco,Rabi       ,Telangana,4005.0,11833,942.6,613766.25,1401.75,3.896923077
+Turmeric,Rabi       ,Telangana,9.0,54,942.6,1379.25,3.15,6.0
+Urad,Rabi       ,Telangana,10903.0,9010,942.6,1670884.75,3816.05,0.820416667
+Wheat,Rabi       ,Telangana,5409.0,7413,942.6,828929.25,1893.15,1.223571429
+Arhar/Tur,Rabi       ,Telangana,338.0,244,815.7,53214.72,128.44,0.793636364
+Bajra,Kharif     ,Telangana,944.0,998,815.7,148623.36,358.72,1.01
+Bajra,Rabi       ,Telangana,7818.0,8261,815.7,1230865.92,2970.84,0.99
+Cashewnut,Kharif     ,Telangana,1578.0,478,815.7,248440.32,599.64,0.2925
+Castor seed,Kharif     ,Telangana,27876.0,26131,815.7,4388797.44,10592.88,0.93
+Castor seed,Rabi       ,Telangana,294.0,281,815.7,46287.36,111.72,0.92375
+Coriander,Kharif     ,Telangana,16.0,5,815.7,2519.04,6.08,0.6
+Coriander,Rabi       ,Telangana,1204.0,997,815.7,189557.76,457.52,0.85625
+Cowpea(Lobia),Kharif     ,Telangana,1524.0,1545,815.7,239938.56,579.12,0.985625
+Cowpea(Lobia),Rabi       ,Telangana,3985.0,5192,815.7,627398.4,1514.3,1.31173913
+Dry chillies,Rabi       ,Telangana,10660.0,61858,815.7,1678310.4,4050.8,5.780625
+Garlic,Rabi       ,Telangana,189.0,265,815.7,29756.16,71.82,1.391666667
+Ginger,Kharif     ,Telangana,1840.0,12982,815.7,289689.6,699.2,5.628
+Gram,Kharif     ,Telangana,1.0,1,815.7,157.44,0.38,1.0
+Groundnut,Kharif     ,Telangana,21006.0,45965,815.7,3307184.64,7982.28,2.104
+Horse-gram,Kharif     ,Telangana,237.0,0,815.7,37313.28,90.06,0.0
+Horse-gram,Rabi       ,Telangana,963.0,0,815.7,151614.72,365.94,0.0
+Jowar,Rabi       ,Telangana,24174.0,32672,815.7,3805954.56,9186.12,1.34625
+Moong(Green Gram),Rabi       ,Telangana,6880.0,5723,815.7,1083187.2,2614.4,0.835416667
+Ragi,Kharif     ,Telangana,1181.0,1355,815.7,185936.64,448.78,1.18
+Ragi,Rabi       ,Telangana,274.0,300,815.7,43138.56,104.12,1.185
+Safflower,Rabi       ,Telangana,3862.0,2189,815.7,608033.28,1467.56,0.60625
+Sesamum,Kharif     ,Telangana,1072.0,252,815.7,168775.68,407.36,0.217857143
+Sesamum,Rabi       ,Telangana,15236.0,8672,815.7,2398755.84,5789.68,0.576086957
+Small millets,Kharif     ,Telangana,288.0,382,815.7,45342.72,109.44,1.33
+Sunflower,Kharif     ,Telangana,411.0,871,815.7,64707.84,156.18,1.98
+Sunflower,Rabi       ,Telangana,3242.0,6924,815.7,510420.48,1231.96,2.028888889
+Tobacco,Kharif     ,Telangana,651.0,1871,815.7,102493.44,247.38,3.32
+Tobacco,Rabi       ,Telangana,3460.0,10646,815.7,544742.4,1314.8,3.88
+Urad,Kharif     ,Telangana,32181.0,25976,815.7,5066576.64,12228.78,0.813333333
+Urad,Rabi       ,Telangana,6298.0,5537,815.7,991557.12,2393.24,0.899130435
+Wheat,Kharif     ,Telangana,2.0,2,815.7,314.88,0.76,1.0
+Wheat,Rabi       ,Telangana,4156.0,5771,815.7,654320.64,1579.28,1.429
+Arhar/Tur,Rabi       ,Telangana,360.0,221,1350.3,58392.0,126.0,0.675384615
+Bajra,Kharif     ,Telangana,519.0,258,1350.3,84181.8,181.65,0.455714286
+Bajra,Rabi       ,Telangana,7459.0,3706,1350.3,1209849.8,2610.65,0.25
+Cashewnut,Kharif     ,Telangana,1509.0,371,1350.3,244759.8,528.15,0.246666667
+Castor seed,Kharif     ,Telangana,19489.0,14853,1350.3,3161115.8,6821.15,0.724
+Castor seed,Rabi       ,Telangana,463.0,304,1350.3,75098.6,162.05,0.785555556
+Coriander,Kharif     ,Telangana,7.0,7,1350.3,1135.4,2.45,1.0
+Coriander,Rabi       ,Telangana,1005.0,1004,1350.3,163011.0,351.75,0.992727273
+Cowpea(Lobia),Kharif     ,Telangana,1310.0,1045,1350.3,212482.0,458.5,0.81
+Cowpea(Lobia),Rabi       ,Telangana,3925.0,4411,1350.3,636635.0,1373.75,1.134090909
+Dry chillies,Rabi       ,Telangana,7962.0,48929,1350.3,1291436.4,2786.7,6.026666667
+Garlic,Rabi       ,Telangana,86.0,220,1350.3,13949.2,30.1,2.463333333
+Groundnut,Kharif     ,Telangana,13157.0,32947,1350.3,2134065.4,4604.95,2.439565217
+Horse-gram,Kharif     ,Telangana,144.0,92,1350.3,23356.8,50.4,0.654
+Horse-gram,Rabi       ,Telangana,736.0,467,1350.3,119379.2,257.6,0.668571429
+Jowar,Kharif     ,Telangana,34894.0,32485,1350.3,5659806.8,12212.9,0.941904762
+Jowar,Rabi       ,Telangana,21185.0,35026,1350.3,3436207.0,7414.75,1.624230769
+Moong(Green Gram),Rabi       ,Telangana,6648.0,6301,1350.3,1078305.6,2326.8,0.961923077
+Potato,Kharif     ,Telangana,8.0,24,1350.3,1297.6,2.8,3.0
+Ragi,Kharif     ,Telangana,1034.0,1011,1350.3,167714.8,361.9,0.974285714
+Ragi,Rabi       ,Telangana,176.0,173,1350.3,28547.2,61.6,0.994285714
+Safflower,Rabi       ,Telangana,2552.0,1543,1350.3,413934.4,893.2,0.749
+Sesamum,Kharif     ,Telangana,770.0,132,1350.3,124894.0,269.5,0.167857143
+Sesamum,Rabi       ,Telangana,16893.0,11831,1350.3,2740044.6,5912.55,0.687727273
+Small millets,Kharif     ,Telangana,96.0,97,1350.3,15571.2,33.6,0.986666667
+Small millets,Rabi       ,Telangana,24.0,24,1350.3,3892.8,8.4,1.0
+Sunflower,Kharif     ,Telangana,124.0,243,1350.3,20112.8,43.4,1.98
+Sunflower,Rabi       ,Telangana,2414.0,4733,1350.3,391550.8,844.9,1.984
+Sweet potato,Kharif     ,Telangana,6.0,38,1350.3,973.2,2.1,6.33
+Sweet potato,Rabi       ,Telangana,83.0,527,1350.3,13462.6,29.05,6.35
+Tobacco,Kharif     ,Telangana,1150.0,3423,1350.3,186530.0,402.5,4.306666667
+Tobacco,Rabi       ,Telangana,2891.0,9132,1350.3,468920.2,1011.85,4.26
+Urad,Kharif     ,Telangana,26783.0,22628,1350.3,4344202.6,9374.05,0.862307692
+Urad,Rabi       ,Telangana,5289.0,7828,1350.3,857875.8,1851.15,1.3956
+Wheat,Rabi       ,Telangana,4844.0,9093,1350.3,785696.8,1695.4,1.807
+Arhar/Tur,Rabi       ,Telangana,333.0,230,1031.7,57196.08,123.21,0.775833333
+Bajra,Kharif     ,Telangana,829.0,1007,1031.7,142389.04,306.73,1.1275
+Bajra,Rabi       ,Telangana,8250.0,9509,1031.7,1417020.0,3052.5,1.005833333
+Cashewnut,Kharif     ,Telangana,1521.0,465,1031.7,261246.96,562.77,0.306666667
+Castor seed,Kharif     ,Telangana,25921.0,33945,1031.7,4452190.96,9590.77,1.277222222
+Castor seed,Rabi       ,Telangana,2046.0,3313,1031.7,351420.96,757.02,1.235714286
+Coriander,Kharif     ,Telangana,48.0,45,1031.7,8244.48,17.76,0.97875
+Coriander,Rabi       ,Telangana,585.0,542,1031.7,100479.6,216.45,1.016
+Cowpea(Lobia),Kharif     ,Telangana,781.0,552,1031.7,134144.56,288.97,0.7692
+Cowpea(Lobia),Rabi       ,Telangana,2378.0,2311,1031.7,408445.28,879.86,0.965172414
+Dry chillies,Rabi       ,Telangana,8499.0,50064,1031.7,1459788.24,3144.63,5.682608696
+Garlic,Rabi       ,Telangana,23.0,108,1031.7,3950.48,8.51,4.578333333
+Ginger,Kharif     ,Telangana,2409.0,15903,1031.7,413769.84,891.33,6.696
+Groundnut,Kharif     ,Telangana,12363.0,33907,1031.7,2123468.88,4574.31,2.6504
+Horse-gram,Kharif     ,Telangana,431.0,371,1031.7,74028.56,159.47,0.818333333
+Horse-gram,Rabi       ,Telangana,619.0,539,1031.7,106319.44,229.03,0.870526316
+Jowar,Rabi       ,Telangana,31090.0,66128,1031.7,5340018.4,11503.3,1.984814815
+Moong(Green Gram),Rabi       ,Telangana,5904.0,5598,1031.7,1014071.04,2184.48,0.953214286
+Potato,Kharif     ,Telangana,3.0,0,1031.7,515.28,1.11,0.0
+Ragi,Kharif     ,Telangana,1488.0,2355,1031.7,255578.88,550.56,1.644285714
+Ragi,Rabi       ,Telangana,262.0,417,1031.7,45001.12,96.94,1.572857143
+Safflower,Kharif     ,Telangana,1.0,0,1031.7,171.76,0.37,0.0
+Safflower,Rabi       ,Telangana,1584.0,1750,1031.7,272067.84,586.08,1.106363636
+Sesamum,Kharif     ,Telangana,495.0,72,1031.7,85021.2,183.15,0.095
+Sesamum,Rabi       ,Telangana,19765.0,12579,1031.7,3394836.4,7313.05,0.653
+Small millets,Kharif     ,Telangana,924.0,1579,1031.7,158706.24,341.88,1.692
+Small millets,Rabi       ,Telangana,69.0,106,1031.7,11851.44,25.53,1.825
+Sunflower,Kharif     ,Telangana,63.0,141,1031.7,10820.88,23.31,2.268
+Sunflower,Rabi       ,Telangana,4469.0,9969,1031.7,767595.44,1653.53,2.166153846
+Tobacco,Kharif     ,Telangana,1358.0,4173,1031.7,233250.08,502.46,3.01
+Tobacco,Rabi       ,Telangana,1595.0,4962,1031.7,273957.2,590.15,3.037777778
+Urad,Kharif     ,Telangana,14723.0,13805,1031.7,2528822.48,5447.51,0.931481481
+Urad,Rabi       ,Telangana,6816.0,12269,1031.7,1170716.16,2521.92,1.787692308
+Wheat,Kharif     ,Telangana,1.0,0,1031.7,171.76,0.37,0.0
+Wheat,Rabi       ,Telangana,4471.0,8237,1031.7,767938.96,1654.27,1.798461538
+Bajra,Rabi       ,Andhra Pradesh,10039.0,6886,650.4,1065439.07,2710.53,0.860909091
+Horse-gram,Kharif     ,Andhra Pradesh,17595.0,5969,650.4,1867357.35,4750.65,0.387857143
+Linseed,Rabi       ,Andhra Pradesh,5864.0,506,650.4,622346.32,1583.28,0.1175
+Masoor,Rabi       ,Andhra Pradesh,4942.0,1872,650.4,524494.46,1334.34,0.346153846
+Niger seed,Kharif     ,Andhra Pradesh,18602.0,7164,650.4,1974230.26,5022.54,0.3725
+Ragi,Rabi       ,Andhra Pradesh,14472.0,24853,650.4,1535913.36,3907.44,1.79
+Rapeseed &Mustard,Rabi       ,Andhra Pradesh,2942.0,646,650.4,312234.46,794.34,0.214
+Safflower,Rabi       ,Andhra Pradesh,16896.0,7742,650.4,1793172.48,4561.92,0.39
+Wheat,Rabi       ,Andhra Pradesh,13515.0,9056,650.4,1434346.95,3649.05,0.658181818
+Bajra,Kharif     ,Puducherry,207.0,397,1434.5875,19596.69,51.75,1.92
+Black pepper,Whole Year ,Puducherry,12.0,8,1434.5875,1136.04,3.0,0.67
+Cashewnut,Whole Year ,Puducherry,184.0,140,1434.5875,17419.28,46.0,1.056666667
+Coriander,Whole Year ,Puducherry,5.0,4,1434.5875,473.35,1.25,0.8
+Cotton(lint),Kharif     ,Puducherry,314.0,1635,1434.5875,29726.38,78.5,5.225
+Dry chillies,Whole Year ,Puducherry,14.0,36,1434.5875,1325.38,3.5,2.57
+Moong(Green Gram),Rabi       ,Puducherry,1017.0,201,1434.5875,96279.39,254.25,0.403333333
+Ragi,Kharif     ,Puducherry,114.0,251,1434.5875,10792.38,28.5,1.61
+Rice,Kharif     ,Puducherry,24142.0,57514,1434.5875,2285523.14,6035.5,2.56
+Urad,Rabi       ,Puducherry,812.0,330,1434.5875,76872.04,203.0,0.446666667
+Bajra,Kharif     ,Puducherry,9.0,27,1098.3,1357.2,2.79,3.0
+Bajra,Summer     ,Puducherry,12.0,36,1098.3,1809.6,3.72,3.0
+Cashewnut,Kharif     ,Puducherry,144.0,52,1098.3,21715.2,44.64,0.395
+Coriander,Rabi       ,Puducherry,1.0,1,1098.3,150.8,0.31,1.0
+Cotton(lint),Summer     ,Puducherry,12.0,9,1098.3,1809.6,3.72,0.75
+Dry chillies,Kharif     ,Puducherry,1.0,2,1098.3,150.8,0.31,2.0
+Dry chillies,Rabi       ,Puducherry,2.0,4,1098.3,301.6,0.62,2.0
+Dry chillies,Summer     ,Puducherry,1.0,2,1098.3,150.8,0.31,2.0
+Groundnut,Kharif     ,Puducherry,6.0,17,1098.3,904.8,1.86,2.83
+Groundnut,Rabi       ,Puducherry,323.0,678,1098.3,48708.4,100.13,2.1
+Groundnut,Summer     ,Puducherry,37.0,92,1098.3,5579.6,11.47,1.55
+Jowar,Kharif     ,Puducherry,2.0,4,1098.3,301.6,0.62,2.0
+Jowar,Summer     ,Puducherry,1.0,2,1098.3,150.8,0.31,2.0
+Moong(Green Gram),Rabi       ,Puducherry,37.0,22,1098.3,5579.6,11.47,0.79
+Moong(Green Gram),Summer     ,Puducherry,865.0,247,1098.3,130442.0,268.15,0.643333333
+Other  Rabi pulses,Rabi       ,Puducherry,28.0,29,1098.3,4222.4,8.68,1.04
+Other Kharif pulses,Rabi       ,Puducherry,13.0,16,1098.3,1960.4,4.03,1.23
+Ragi,Kharif     ,Puducherry,16.0,37,1098.3,2412.8,4.96,2.31
+Ragi,Summer     ,Puducherry,17.0,31,1098.3,2563.6,5.27,1.82
+Rice,Kharif     ,Puducherry,3559.0,11637,1098.3,536697.2,1103.29,3.076666667
+Rice,Rabi       ,Puducherry,8979.0,23373,1098.3,1354033.2,2783.49,3.233333333
+Rice,Summer     ,Puducherry,3743.0,11509,1098.3,564444.4,1160.33,2.54
+Sesamum,Kharif     ,Puducherry,4.0,3,1098.3,603.2,1.24,0.75
+Sesamum,Rabi       ,Puducherry,7.0,5,1098.3,1055.6,2.17,0.71
+Sesamum,Summer     ,Puducherry,103.0,112,1098.3,15532.4,31.93,0.72
+Turmeric,Rabi       ,Puducherry,5.0,9,1098.3,754.0,1.55,1.8
+Urad,Kharif     ,Puducherry,4.0,4,1098.3,603.2,1.24,1.0
+Urad,Rabi       ,Puducherry,227.0,310,1098.3,34231.6,70.37,0.995
+Urad,Summer     ,Puducherry,410.0,151,1098.3,61828.0,127.1,0.72
+Bajra,Kharif     ,Puducherry,12.0,31,1083.2,1733.88,3.24,2.58
+Cashewnut,Kharif     ,Puducherry,147.0,53,1083.2,21240.03,39.69,0.425
+Cotton(lint),Summer     ,Puducherry,67.0,50,1083.2,9680.83,18.09,0.87
+Dry chillies,Kharif     ,Puducherry,1.0,4,1083.2,144.49,0.27,4.0
+Dry chillies,Rabi       ,Puducherry,2.0,12,1083.2,288.98,0.54,6.0
+Groundnut,Kharif     ,Puducherry,5.0,15,1083.2,722.45,1.35,3.0
+Groundnut,Rabi       ,Puducherry,320.0,800,1083.2,46236.8,86.4,2.5
+Groundnut,Summer     ,Puducherry,29.0,54,1083.2,4190.21,7.83,1.48
+Jowar,Kharif     ,Puducherry,1.0,2,1083.2,144.49,0.27,2.0
+Jowar,Summer     ,Puducherry,1.0,2,1083.2,144.49,0.27,2.0
+Moong(Green Gram),Rabi       ,Puducherry,37.0,19,1083.2,5346.13,9.99,0.51
+Moong(Green Gram),Summer     ,Puducherry,590.0,236,1083.2,85249.1,159.3,0.55
+Other  Rabi pulses,Rabi       ,Puducherry,50.0,46,1083.2,7224.5,13.5,0.92
+Other  Rabi pulses,Summer     ,Puducherry,1.0,1,1083.2,144.49,0.27,1.0
+Other Kharif pulses,Rabi       ,Puducherry,3.0,3,1083.2,433.47,0.81,1.0
+Ragi,Kharif     ,Puducherry,19.0,36,1083.2,2745.31,5.13,1.89
+Ragi,Rabi       ,Puducherry,1.0,2,1083.2,144.49,0.27,2.0
+Ragi,Summer     ,Puducherry,21.0,39,1083.2,3034.29,5.67,1.86
+Rice,Kharif     ,Puducherry,3671.0,12091,1083.2,530422.79,991.17,2.696666667
+Rice,Rabi       ,Puducherry,8382.0,24736,1083.2,1211115.18,2263.14,3.78
+Rice,Summer     ,Puducherry,3769.0,12965,1083.2,544582.81,1017.63,3.41
+Sesamum,Kharif     ,Puducherry,11.0,8,1083.2,1589.39,2.97,0.73
+Sesamum,Rabi       ,Puducherry,4.0,3,1083.2,577.96,1.08,0.75
+Sesamum,Summer     ,Puducherry,177.0,146,1083.2,25574.73,47.79,0.82
+Small millets,Kharif     ,Puducherry,3.0,3,1083.2,433.47,0.81,1.0
+Turmeric,Rabi       ,Puducherry,2.0,5,1083.2,288.98,0.54,2.5
+Urad,Kharif     ,Puducherry,3.0,2,1083.2,433.47,0.81,0.67
+Urad,Rabi       ,Puducherry,132.0,138,1083.2,19072.68,35.64,0.82
+Urad,Summer     ,Puducherry,476.0,128,1083.2,68777.24,128.52,0.615
+Bajra,Kharif     ,Puducherry,6.0,11,1330.0,905.76,1.98,1.83
+Cashewnut,Kharif     ,Puducherry,144.0,44,1330.0,21738.24,47.52,0.4
+Coriander,Rabi       ,Puducherry,1.0,1,1330.0,150.96,0.33,1.0
+Cotton(lint),Summer     ,Puducherry,94.0,180,1330.0,14190.24,31.02,1.725
+Dry chillies,Kharif     ,Puducherry,20.0,18,1330.0,3019.2,6.6,0.9
+Groundnut,Kharif     ,Puducherry,8.0,24,1330.0,1207.68,2.64,3.0
+Groundnut,Rabi       ,Puducherry,335.0,1005,1330.0,50571.6,110.55,3.0
+Groundnut,Summer     ,Puducherry,16.0,30,1330.0,2415.36,5.28,1.715
+Jowar,Kharif     ,Puducherry,2.0,3,1330.0,301.92,0.66,1.5
+Moong(Green Gram),Rabi       ,Puducherry,56.0,42,1330.0,8453.76,18.48,0.75
+Moong(Green Gram),Summer     ,Puducherry,1023.0,395,1330.0,154432.08,337.59,0.566666667
+Other  Rabi pulses,Rabi       ,Puducherry,64.0,52,1330.0,9661.44,21.12,0.81
+Other Kharif pulses,Rabi       ,Puducherry,2.0,3,1330.0,301.92,0.66,1.5
+Ragi,Kharif     ,Puducherry,12.0,28,1330.0,1811.52,3.96,2.18
+Ragi,Summer     ,Puducherry,32.0,58,1330.0,4830.72,10.56,1.81
+Rice,Kharif     ,Puducherry,3643.0,11821,1330.0,549947.28,1202.19,2.936666667
+Rice,Rabi       ,Puducherry,9006.0,26378,1330.0,1359545.76,2971.98,3.506666667
+Rice,Summer     ,Puducherry,4005.0,14518,1330.0,604594.8,1321.65,3.62
+Sesamum,Kharif     ,Puducherry,3.0,2,1330.0,452.88,0.99,0.67
+Sesamum,Rabi       ,Puducherry,12.0,9,1330.0,1811.52,3.96,0.75
+Sesamum,Summer     ,Puducherry,125.0,103,1330.0,18870.0,41.25,0.82
+Turmeric,Rabi       ,Puducherry,1.0,2,1330.0,150.96,0.33,2.0
+Urad,Kharif     ,Puducherry,9.0,7,1330.0,1358.64,2.97,0.78
+Urad,Rabi       ,Puducherry,171.0,174,1330.0,25814.16,56.43,1.01
+Urad,Summer     ,Puducherry,592.0,211,1330.0,89368.32,195.36,0.66
+Black pepper,Whole Year ,Puducherry,12.0,7,1434.5875,1300.08,2.52,0.58
+Cashewnut,Whole Year ,Puducherry,218.0,141,1434.5875,23618.12,45.78,0.63
+Cotton(lint),Kharif     ,Puducherry,731.0,526,1434.5875,79196.54,153.51,0.725
+Dry chillies,Whole Year ,Puducherry,14.0,35,1434.5875,1516.76,2.94,2.076666667
+Groundnut,Kharif     ,Puducherry,1632.0,3157,1434.5875,176810.88,342.72,1.135
+Moong(Green Gram),Rabi       ,Puducherry,1862.0,568,1434.5875,201729.08,391.02,0.45
+Onion,Whole Year ,Puducherry,7.0,21,1434.5875,758.38,1.47,2.165
+Other Cereals,Kharif     ,Puducherry,219.0,563,1434.5875,23726.46,45.99,2.57
+Other Kharif pulses,Kharif     ,Puducherry,55.0,51,1434.5875,5958.7,11.55,0.93
+Ragi,Kharif     ,Puducherry,104.0,166,1434.5875,11267.36,21.84,1.3
+Rice,Autumn     ,Puducherry,6237.0,17257,1434.5875,675716.58,1309.77,2.76
+Rice,Summer     ,Puducherry,5689.0,15537,1434.5875,616346.26,1194.69,2.73
+Rice,Winter     ,Puducherry,12896.0,28242,1434.5875,1397152.64,2708.16,2.803333333
+Sesamum,Kharif     ,Puducherry,142.0,105,1434.5875,15384.28,29.82,0.445
+Small millets,Kharif     ,Puducherry,6.0,7,1434.5875,650.04,1.26,1.17
+Urad,Rabi       ,Puducherry,1704.0,515,1434.5875,184611.36,357.84,0.543333333
+Black pepper,Whole Year ,Puducherry,12.0,7,1434.5875,1439.04,2.52,0.58
+Cotton(lint),Kharif     ,Puducherry,183.0,133,1434.5875,21945.36,38.43,0.755
+Dry chillies,Whole Year ,Puducherry,8.0,17,1434.5875,959.36,1.68,2.07
+Groundnut,Kharif     ,Puducherry,1175.0,2302,1434.5875,140906.0,246.75,1.84
+Moong(Green Gram),Rabi       ,Puducherry,1971.0,617,1434.5875,236362.32,413.91,0.426666667
+Onion,Whole Year ,Puducherry,9.0,29,1434.5875,1079.28,1.89,3.22
+Other Cereals,Kharif     ,Puducherry,86.0,166,1434.5875,10313.12,18.06,1.93
+Other Kharif pulses,Kharif     ,Puducherry,22.0,19,1434.5875,2638.24,4.62,0.7
+Ragi,Kharif     ,Puducherry,56.0,101,1434.5875,6715.52,11.76,1.8
+Rice,Autumn     ,Puducherry,5348.0,15278,1434.5875,641332.16,1123.08,2.57
+Rice,Summer     ,Puducherry,5167.0,13013,1434.5875,619626.64,1085.07,1.845
+Rice,Winter     ,Puducherry,12410.0,25326,1434.5875,1488207.2,2606.1,2.89
+Sesamum,Kharif     ,Puducherry,132.0,85,1434.5875,15829.44,27.72,0.356666667
+Small millets,Kharif     ,Puducherry,1.0,1,1434.5875,119.92,0.21,1.0
+Urad,Rabi       ,Puducherry,1638.0,626,1434.5875,196428.96,343.98,0.633333333
