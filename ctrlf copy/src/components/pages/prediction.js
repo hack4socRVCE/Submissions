@@ -28,7 +28,6 @@ function Prediction(e) {
     const [fertilizer, setFertilizer] = useState('');
     const [pesticide, setPesticide] = useState('');
     const makePrediction = () => {
-    const randomPrediction = Math.random() * 2;
     setPrediction(randomPrediction.toFixed(2));
     };
 
