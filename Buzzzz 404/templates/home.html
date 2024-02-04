@@ -1,0 +1,188 @@
+{% extends 'base.html' %}
+{% block pagetitle %}
+Plant Disease Detection
+{% endblock pagetitle %}
+{% block body %}
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    z-index: 1;
+  }
+  .home-content {
+    text-align: left;
+    z-index: 2;
+    padding: 20px;
+    color: white;
+    margin-left: 0px;
+    position: relative;
+  }
+  .home-content h1 {
+    font-weight: bold;
+    font-size: 4em;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+  .home-content p {
+    margin-bottom: 20px;
+    font-size: larger;
+    font-size: 1.5em;
+  }
+  #home .read-more {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.2em;
+    border-radius: 30px;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  #home .read-more:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  #home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#333, #000);
+    overflow: hidden;
+    display: flex;
+    z-index: 3;
+    padding: 100px 20px 20px 30px;
+  }
+  #home h1 {
+    color: white;
+    font-size: 3em;
+  }
+  #home .set {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  #home .set div {
+    position: absolute;
+    display: block;
+  }
+  #home .set div:nth-child(1) {
+    left: 20%;
+    animation: animate 15s linear infinite;
+    animation-delay: -7s;
+  }
+  #home .set div:nth-child(2) {
+    left: 50%;
+    animation: animate 20s linear infinite;
+    animation-delay: -5s;
+  }
+  #home .set div:nth-child(3) {
+    left: 70%;
+    animation: animate 20s linear infinite;
+    animation-delay: 0s;
+  }
+  #home .set div:nth-child(4) {
+    left: 0%;
+    animation: animate 15s linear infinite;
+    animation-delay: -5s;
+  }
+  #home .set div:nth-child(5) {
+    left: 85%;
+    animation: animate 19s linear infinite;
+    animation-delay: -10s;
+  }
+  #home .set div:nth-child(6) {
+    left: 0%;
+    animation: animate 12s linear infinite;
+    animation-delay: -17s;
+  }
+  #home .set div:nth-child(7) {
+    left: 15%;
+    animation: animate 14s linear infinite;
+    animation-delay: -20s;
+  }
+  #home .set div:nth-child(8) {
+    left: 60%;
+    animation: animate 15s linear infinite;
+  }
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      top: -10%;
+      transform: translateX(20px) rotate(0deg);
+    }
+    10% {
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(-20px) rotate(45deg);
+    }
+    40% {
+      transform: translateX(-20px) rotate(90deg);
+    }
+    60% {
+      transform: translateX(20px) rotate(180deg);
+    }
+    80% {
+      transform: translateX(-20px) rotate(270deg);
+    }
+    100% {
+      top: 110%;
+      transform: translateX(20px) rotate(0deg);
+    }
+  }
+  
+      </style>
+  </head>
+  <body>
+      <section id="home">
+          <div class="set">
+              <div><img src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png" alt="leaf"></div>
+              <div><img src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png" alt="leaf"></div>
+              <div><img src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png" alt="leaf"></div>
+              <div><img src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png" alt="leaf"></div>
+              <div><img src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png" alt="leaf"></div>
+              <div><img src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png" alt="leaf"></div>
+              <div><img src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png" alt="leaf"></div>
+              <div><img src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png" alt="leaf"></div>
+          </div>
+          <div class="home-content">
+              <h1>Welcome to <br>Floral PathoScan</h1>
+              <p>
+                  Our website primarily focuses on employing cutting-edge<br>technologies
+                  and methodologies to identify and diagnose<br>diseases affecting plants.
+                  It utilizes diverse tools, including<br>sensors, imaging systems, and
+                  data analysis, to discern subtle<br>signs of diseases such as visual
+                  symptoms, molecular changes,<br> or alterations in plant physiology.
+                  This proactive approach<br>facilitates early intervention and targeted
+                  management strategies,<br>contributing to enhanced floral health,
+                  preserved yields, and<br>sustainable agricultural practices.
+                </p>
+                
+              <a href="#" class="read-more">Read More</a>
+            </div>
+      </section>
+  </body>
+  </html>
+  
+  {% endblock body %}

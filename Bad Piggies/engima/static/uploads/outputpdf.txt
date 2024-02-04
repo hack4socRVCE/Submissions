@@ -1,0 +1,1681 @@
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   1 
+ Content  
+Lasers : Characteristics of LASER, Interaction of radiation with matter, 
+requisites of a Laser system. Construction and working of semiconductor 
+laser. Application of Lasers in  Defence and Laser Printing.  
+ 
+Optical Fibers: Propagation mechanism, Nume rical aperture derivation, 
+Modes of propagation. Attenuation in fiber,  Discussion of block diagram of 
+Point -to-Point communication, Optical fiber sensor. Numerical problems.  
+ 
+Introduction:  
+ 
+LASER is an acronym for  Light Amplification by Stimulated 
+Emission  of Radiation. Laser device produces a beam of coherent, 
+monochromatic, intense and directional light. Hence laser light is 
+highly organized when compared with the ordinary light. This is 
+because the waves of a laser beam move in phase with each other 
+travel in a narrow path in one direction.  In the case of an ordinary 
+light it spreads out, travels in different directions and hence it is 
+incoherent. On account of the special properties, lasers are the most 
+versatile and exploited tools in different fields such as Engineering, 
+Medicine, Defence, Entertainment, Communication etc., Other  
+common applications of laser include reading the bar code, cutting and 
+welding metals, displays in light shows, playing music, printing 
+documents, guiding  missile to its targ et and so on.  
+ 
+Characteristics of Laser beam  
+ Directionality:  The design of the resonant cavity, especially the 
+orientation of the mirrors to the cavity axis ensures that laser 
+output is limited to only a specific direction. Since laser emits 
+photons in a particular direction, the divergence is less when 
+compared the other ordinary sources.  
+ 
+ Monochromacity:  The laser beam is characterized by a high 
+degree of mono -chromaticity (single wavelength or frequency) 
+than any other conventional monochromatic sources  of light. 
+Ordinary light spreads over a wide range of frequencies, whereas 
+laser contains only one frequency. The spectral bandwidth is UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   2 
+ comparatively very less when compared to ordinary light. Hence 
+the degree of mono chromaticity is very high in lasers.  
+ 
+ Coherence : The degree of coherence of a laser beam is very high 
+than the other sources. The light from laser source consists of 
+wave trains that are in identical in phase. Laser radiation has high 
+degree of special (with respect to Space) and temporal (wi th 
+respective to time) coherence.  
+ 
+ High Intensity : The laser beam is highly intense. Since wave 
+trains are added in phase and hence amplitudes are added. Laser 
+light emits as a narrow beam and its energy is concentrated in a 
+small region. Since all the ene rgy is concentrated in the particular 
+focus point, it is highly intense and bright. When laser beam is 
+focused on a surface, the energy incident is of the order of 
+millions of joules.  
+ 
+ Focus ability : Since laser is highly monochromatic, it can be 
+focused v ery well by a lens. It is so sharp the diameter of the spot 
+will be close to the wavelength of the focused light. It can be 
+focused to a very small area 0.7 m2. Since even laser is not 
+ideally monochromatic the spot diameter in actual cases will be 
+100 to 150 times larger than the wavelength.  
+ 
+Basic principles:  Interaction of Radiation with Matter  
+ 
+Production of laser light is a consequence of interaction of 
+radiation with matter under appropriate conditions. The interaction of 
+radiation with matter leads to transition of the quantum system such as 
+an atom or a molecule of the matter from one quantum energy state to 
+another quantum state.  
+ 
+A material medium is composed of identical atoms or 
+molecules each of which is characterized by a set of discrete allo wed 
+energy levels.  An atom can move from one energy state to another 
+when it receives or releases an amount of energy equal to the energy UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   3 
+ difference between those two states, which is termed as a quantum 
+jump or transition.   
+ 
+Consider a two energy level system with energies E 1 and E 2 of 
+an atom. E 1 is the energy of lower energy state and E 2 is the energy of 
+excited state.  The energy levels E 1 and E 2 are identical to all the atoms 
+in the medium.   The radiation (either absorbed or emitted) may be 
+viewed a s a stream of photons of energy (E 2-E1)=hν, interacting with 
+the material.  These interactions lead to any one of the following  
+ 
+ Induced Absorption of radiation  
+ Spontaneous emission of radiation  
+ Stimulated emission of radiation  
+ 
+Induced Absorption:  
+Excitat ion of atoms by the absorption of photons is called induced 
+absorption.  
+ 
+ 
+ 
+An atom in the lower energy state E 1absorbs the incident photon of 
+energy (E 1-E2) and goes to the excited state E 2.  This transition is 
+known as absorption.  For each transition ma de by an atom one photon 
+disappears from the incident beam.  
+ 
+For an atom A , stimulated absorption transition can be expressed as  
+                A   +    hν                          A*   (excited state)  
+ 
+The number of absorption transitions per second per unit volume 
+occurring in the material at any instant of time will be proportional to  
+                           (i) The n umber of  atoms in the ground state N 1 
+                          (ii) Energy density of the incident radiation (Uν)  
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   4 
+ Rate of induced absorption  = B 12UνN 1 
+ 
+Where  B12 is proportionality constant which gives the probability of 
+absorptions and it is called Einstein co -efficient of absorption . Since 
+the number of atoms in the lower energy state is greater, the material 
+absorbs more number of the  incident photons.  
+ 
+Spontaneous Emission:  
+An atom which is at higher energy state E 2 is unstable, 
+spontaneously returns to the l ower energy state E 1 on its own during 
+which a single photon of energy (E 2-E1) = hυ is emitted, the process is 
+known as spontaneous emission.  
+ 
+Spontaneous transition can be expressed as  
+                          A *                       A + hυ 
+ 
+ 
+The number of spontaneous transitions per second, per unit volume 
+depends on the num ber of atoms N 2 in the excited state.  
+ 
+Therefore, the rate of spontaneous emission  = A 21N2 
+ 
+Where A 21 is proportionality constant which gives the 
+probability of spontaneous emission and it is called Einstein co -
+efficient of spontaneous emission of radiatio n. 
+ 
+The process has no control from outside.  The instant of 
+transition, directions of emission of photons, phases of the photons and 
+their polarization states are random quantities.  There will not be any 
+correlation among the parameters of the innumerabl e photons emitted 
+spontaneously by the assembly of atoms in the medium.  Therefore the 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   5 
+ light generated by the source will be incoherent  (ex: light emitted from 
+conventional sources).   
+ 
+Stimulated Emission:   
+   
+Emission of photons by an atomic system with  an external 
+influence is called stimulated emission.  A mechanism of forced 
+emission was first predicted by Einstein in 1916 in which an atom in 
+the excited state need not wait for the spontaneous emission to take 
+place.  A photon of energy hυ = (E 2-E1), can induce the excited atom to 
+make downward transition and emit light. Thus, the interaction of a 
+photon with an excited atom triggers it to drop down to the ground 
+state (lower energy) by emitting  a photon.   The process is known as 
+induced or stimulated emission of radiation.  
+ 
+Stimulated emission transition can be expressed as  
+ A* +  hυ                   A + 2 hυ  
+ 
+ 
+ 
+The number of stimulated transitions per sec per unit volume in the 
+material is proportional to  
+ (i) The number of atoms in the excited state N 2 
+ (ii) Energy density of the incident radiation (Uν)  
+ 
+Rate of stimulated emission= B 21UνN 2 
+ 
+Where B 21 is proportionality constant which gives the 
+probability of stimulated emissions and it is called Einstein co -efficient 
+of induced (stimulated) emission.  
+ 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   6 
+ The process of stimulated emission has the following properties.  
+ 
+I. The emitted photon is identical to the incident photon in all 
+respects.  (It has the same frequency; it will be in phase an d will 
+travel in the same direction and will be in the same state of 
+polarization).  
+II. The process can be controlled externally.  
+III. Stimulated emission is responsible for laser.  
+ 
+Some basic definitions  
+1. Atomic system : 
+      It is a system of atoms or molecules ha ving discrete energy levels.  
+  
+2. Active medium  
+It is the medium  in which light ampli fication  takes place.  The 
+medium may be solid, liquid or a gas.  Out of the different atoms 
+in the medium a small fraction of atoms are responsible for 
+stimulated emission and consequent light amplification . They are 
+called active centres  
+ 
+3. Energy density  
+The energy density U ν refers to the tota l energy in the radiation 
+field per unit volume per unit frequency due to photons. It is given 
+by the Plank‟s distribution law  
+𝑈𝜈=8𝜋ℎ𝜈3
+𝑐3 1
+𝑒ℎ𝜈
+𝑘𝑇−1  
+4. Population  
+It is the number density (the number of atoms per unit volume) of 
+atoms in a given energy state.  
+ 
+5. Boltzmann factor  
+It is t he ratio between the population  of atoms in the higher energy 
+state to the lower energy state under thermal equilibrium. If N 2 is 
+the number density of atoms in the energy state E 2 and N 1 is the 
+numbe r density of atoms in the ground state then  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   7 
+ According to Boltzmann condition N 1> N 2 and    N2
+N1=e− hν
+ kT 
+6. Population inversion  
+It is the condition such that the number of atoms in the higher 
+energy (N 2) state is greater than the number of atoms in the 
+ground state (N 1). i.e, N 2> N 1 
+ 
+If N 2> N 1, it is non -equilibrium condition and it is called popula tion 
+inversion.  
+ 
+Expression for energy density of incident radiation in terms of 
+Einstein coefficients:  
+ 
+Consider an atomic system interacting with radiation field of 
+energy density Uγ. Let E 1 and E 2, be the two energy states of atomic 
+system (E 2> E 1). Let  us consider atoms are to be in thermal 
+equilibrium with radiation field, which means that the energy density 
+Uγ is constant in spite of the interaction that is taking place between 
+itself and the incident radiation. This is possible only if the number of 
+photons absorbed by the system per second is equal to the number of 
+photons it emits per second by both the stimulated and spontaneous 
+emission processes.  
+ 
+We know that  
+The rate of induced absorption  = B12UνN 1, 
+The rate of spontaneous emission  = A 21N2 
+The rate of stimulated emission  = B 21UνN 2 
+ 
+N1 and N 2 are the number of atoms in the energy state E 1 and E 2 
+respectively, B 12, A 21 and B 21 are the Einstein coefficients for induced 
+absorption, spontaneous emission and stimulated emission 
+respectively.  
+ 
+  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   8 
+ At ther mal equilibrium,  
+Rate of induced absorption = Rate of spontaneous emission + Rate 
+of stimulated emission  
+B12N1Uγ  = A 21N2  + B 21N2Uγ 
+ 
+or         
+           Uγ (B12N1  – B21N2)  = A 21N2 
+2 21 1 122 21
+NB NBNAU
+ 
+By rearranging the above equation, we get  
+
+
+
+
+
+11
+2 211 12 2121
+NBNB BAU
+     ---------    (1) 
+In a state of thermal equilibrium, the populations of energy levels E 2 
+and E 1 are fixed by the Boltzmann factor.  The population ratio is 
+given by,  
+     
+ 2121()
+2 1 1
+1
+2212
+1
+         EE
+kT
+EE h
+kT kT
+h
+kTNeN
+N N e N e
+Since E E h
+NeN
+
+ 
+ 
+
+Equation (1) bec omes,  
+
+
+
+
+
+1
+2112 2121 1
+kTh
+eBB BAU
+          ------  (2)  
+According to Planck's law of black body radiation, the equation for U
+  
+is, 
+Uν=8πhν3
+c3 1
+ehν
+kT−1 ------- (3)    
+ UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   9 
+ Now comparing the equation (2) and (3) term by term on the basis of 
+positional identity we have  
+ 
+33
+21218
+ch
+BA
+and 
+1
+2112BB                or      
+21 12B B 
+ 
+This implies that the probability of induced absorption is equal to the 
+probability of stimulated emission. Due to this identity the subscripts 
+could be dropped, and A 21 and B 21 can be simply represented as A and 
+B and equation (3) can be rewritten.  
+ 
+
+ At thermal equilibrium the equation for energy density is  
+1] [e1
+BAUγ
+kThγ
+
+ 
+ 
+(Think: Even though the probability of induced absorption is equal to 
+the probability of stimulated emission, the rate of induced absorption is 
+not equal to rate of stimul ated emission. Why?)  
+ 
+Conditions for light amplification: - 
+Conditions for laser emission can be studied by taking the ratios of rate 
+of stimulated emission to spontaneous emission and rate of stimulated 
+emission to absorption.  
+At thermal equilibrium,  
+ 
+21 2 21
+21 2 21Rate of Stimulated Emission
+Rate of SpontaneousEmissionB N U B U
+A N A
+ 
+ 
+Since, B 21/A21 = C3 /8πhν3 = constant,  
+ 
+This suggests that in order to enhance the number of stimulated 
+transitions the radiation density Uν should be made high.  
+ UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   10 
+ 
+21 2 21 2
+12 1 12 1Rate of StimulatedEmission
+Rate of Induced absorptionB N U BN
+B N U B N
+ 
+(B21/B12 = 1) 
+The stimulated emission will be larger than the absorption only when 
+N2>N1.  If N 2>N 1 the stimulated emission dominates the absorption 
+otherwise the medium will absorb the energy.  This condition of 
+N2>N 1 is known as inverted population state or population inversion.  
+ 
+Requisites of a laser system:  
+The essential components of a  laser are  
+ An active medium  to support population inversion.  
+ Pumping mechanism  to excite the atoms to higher energy levels.  
+ Population inversion  
+ Metastable state  
+ An optical cavity or optical resonator.  
+ 
+Active medium:  
+It is the material medium composed of atoms or ions or 
+molecules in which the laser action is made to take place, which can be 
+a solid or liquid or even a gas. In this, only a few atoms of the medium 
+(of particular species) are responsible for stimulated emission.  They 
+are called active cente rs and the remaining medium simply supports 
+the active centers.   
+ 
+Pumping Mechanism:  
+To achieve the population inversion in the active medium, the 
+atoms are to be raised to the excited state.  It requires energy to be 
+supplied to the system.  The process of supplying energy to the 
+medium with a view to transfer the atoms to higher energy state is 
+called pumping.  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   11 
+ Important   pumping mechanisms are  
+a) Optical pumping : It employs  a suitable light source for excitation 
+of desired atoms.  This method is adopted  in solid state lasers (ex: 
+Ruby laser and Nd:YAG laser).  
+b) Electric discharge : In this process an electric field causes 
+ionization in the medium and raises it to the excited state. This 
+technique is used in gas lasers (ex: Ar+ laser).  
+c) Inelastic atom -atom collision  :In this method a combination of 
+two types of gases are used, say A and B. During electric discharge A 
+atoms get excited and they now collide with B atoms so that B goes to 
+excited state. This technique is used in gas lasers (ex: He -Ne laser).  
+d) Direct conversion  : In this process electrical energy is directly 
+converted into light energy. This technique is used in semiconductor 
+lasers (ex: GaAs laser).  
+  
+Population Inversion and Meta stable state:  
+ 
+In order to increase stimulated emission it is es sential that 
+N2>N 1 i.e., the number of atoms in the excited state must be greater 
+than the number of atoms in the ground state. Even if the population is 
+more in the excited state, there will be a competition between 
+stimulated and spontaneous emission.  T he possibility of spontaneous 
+emission can be reduced by using intermediate state where the life 
+time of atom will be little longer (10-6 to 10-3s ) compared to excited 
+state (10-9 s). This intermediate state is called metastable state  and it 
+depends upon the nature of atomic species used in the active medium.  
+ 
+  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   12 
+ Principle of pumping scheme:  
+ 
+Consider three energy levels E 1, E2 and E 3 of a quantum system 
+of which the level E 2 is metastable state. Let the atoms be excited from 
+E1 to E 3 state by supply of appr opriate energy. Then the atom from the 
+E3 state undergoes downward transition to either E 1or E 2 states rapidly. 
+Once the atoms undergo downward transitions to level E 2 they tend to 
+stay, for a long interval of time, because of which the population of E 2 
+increases rapidly. Transition from E 2 to E 1 being very slow, in a short 
+period of time the number of atoms in the level E 2 is far greater than 
+the level E 1. Thus Population inversion has been achieved betweenE 1 
+and E 2  . The transition from meta stable state  to ground state is the 
+lasing transition. It occurs in between upper lasing E 2 and lower lasing 
+level E 1. 
+ 
+ 
+ 
+Optical resonator:  
+ 
+ An optical resonator generally consists of two plane mirrors, with 
+the active material placed in between them. One of the mir rors is 
+semi -transparent while the other one is 100% reflecting. The 
+mirrors are set normal to the axis of the active medium and parallel 
+to each other.  
+ 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   13 
+  The optical resonant cavity provides the selectivity of photon states 
+by confining the possible direc tion of photon propagation, as a 
+result lasing action occurs in this direction.   
+ 
+ The distance between the mirrors is an important parameter as it 
+chooses the wavelength of the photons. Suppose a photon is 
+travelling  between two reflectors, it undergoes re flection at the 
+mirror kept at the other end .the reflected wave superposes on the 
+incident wave and forms stationary wave such that the length L of 
+the cavity is given by     𝐿=𝑛 λ
+2        
+Hence λ= 2L
+𝑛 
+Where,  L is t he distance between the mirrors,  λ is the wavelength of 
+the photon, n is the integral multiple of half wavelength  
+ 
+The wavelengths satisfying the above condition are only amplified. 
+Hence the cavity is also called resonant cavity.  
+ 
+The main Role of the optical resonator is to  
+ Provide pos itive feedback of photons into the active medium to 
+sustain stimulated emission and hence laser acts as a generator of 
+light.  
+ 
+ Select the direction of stimulated photons which are travelling 
+parallel to the axis of optical resonator and normal to the plane  of 
+mirrors are to be amplified. Hence laser light is highly directional.  
+ 
+ Builds up the photon density (U ν) to a very high value through 
+repeated reflections of photons by mirrors and confines them within 
+the active medium.  
+ 
+ Selects and amplifies only certain frequencies of stimulated photons 
+which are to be highly monochromatic and gives out the laser light 
+through the partial reflector after satisfying threshold condition.  
+ 
+  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   14 
+ Semiconductor diode Laser  
+A semiconductor diode laser is a specially fabricated p -n 
+junction device that emits coherent light when it is forward biased.  The 
+first semiconductor lasers wer e made by R.N. Hall and his co -workers 
+in 1962 using gallium arsenide  (GaAs), which is a direct band gap 
+semiconductor. Diode lasers are portable and used in optical 
+communications, CD players, CD -ROM drives, optical reading, high 
+speed laser printing etc.  
+ 
+Principle:  The semiconductor laser is based on the principle of the 
+emission of the recombination energy in the form of light. In normal 
+state of a semiconductor the conduction band is sparsely occupied by 
+electrons and valence band is occupied by large number of electrons 
+and small number of holes.  The electron -hole recombination is the 
+basic mechanism involved in the emission of light in semiconductor 
+lasers.  They are made using direct band gap semiconductors such as 
+GaAs, CdSe, GaAlAs  etc .By heavily doping the p -n junction and by 
+applying a high current density, the stimulated emission of light is 
+produced and hence the laser operation is made possible in the 
+semiconductor laser.  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Construction:  A schematic diagram of semiconductor laser is as  
+shown in the diagram.  The semiconductor laser consists of heavily 
+doped n - GaAs and p  - GaAs.  The diode chip is 500 𝜇𝑚 long and 
+about 100 𝜇𝑚 wide and thick. The junction (active region) lies in a 
+horizontal plane through the centre. The top and bottom faces are 
+metallized and ohmic contacts are provided to pass the current through 
+the diode.  The front and rear faces polished, parallel to each other and 
+perpendicular to the plane of the junction. The polished faces 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   15 
+ constitute the Fabry - perot resonator. The other two sides of the diode 
+are roughened to prevent lasing action in that direction. The diode is 
+forward biased,  with a voltage nearly equal to the bad gap voltage of 
+the material.  
+ 
+Working:   
+ The energy band diagram of a heavily doped p -n junction is shown 
+in figure (a). Due to heavy doping on the n -side, the donor levels are 
+broadened and extend into the conduct ion band and the Fermi level 
+EF is pushed in to the conduction band. The electrons occupy the 
+portion of the conduction band below the Fermi level between EF 
+and EC.  
+ 
+ Similarly on the heavily doped p -side, Fermi level EF lies within the 
+valence band. The  holes occupy the portion of the valence band above 
+EF and EV. At the condition of thermal equilibrium Fermi level is 
+uniform across the junction as shown in the figure  (a). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Figure (a) and (b): E nergy band diagram of a heavily doped p -n 
+junction 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   16 
+  When the junction is forward biased , electrons from the n region and 
+holes from the p region are injected into the junction region. This is 
+how pumping action takes place in a p -n junction semiconductor 
+laser.  
+ 
+ For small values of forward bias curre nt, the electron holes 
+recombine and the recombination brings about spontaneous, non -
+coherent emission of photons in all directions. At this stage the 
+junction acts as a light emitting diode (LED).  
+ 
+ As the forward bias current is increased the intensity of  light 
+increases but when the forward bias reaches the threshold values  the 
+carrier concentration in the junction region rises to a very  high value. 
+In the junction region  attains a very high concentration of electrons 
+in the conduction band and at the sam e time a very high 
+concentration of holes in the valence band  as shown in figure (b) . 
+ 
+ As a result the upper energy level in the narrow junction region has a 
+high electron population whereas  the lower energy levels in this 
+region are vacant, thereby giving  rise to the condition of population 
+inversion. This narrow region in which population inversion takes 
+place is known as ‘Inversion region’  or „Active region’ . 
+ 
+ Initially, when a recombination of electron -hole pair takes place 
+between the conduction and va lence band leads to spontaneous 
+emission of photons.  The spontaneous photons moving in the 
+junction plane stimulate the conduction electrons to jump to the 
+vacant states of the valence band and produces coherent radiation 
+giving rise to laser action. GaAs l aser emits at a wavelength of 
+9000Ao in infrared region.  
+ 
+ Semiconductor lasers are very compact, efficient and can be easily 
+fabricated. But their spectral purity is low and emission pattern is 
+broad. Hence, monochromatic property, coherence and directiona l UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   17 
+ characteristic properties are not good as that of the other types of 
+lasers.  
+ 
+Characteristics  
+TITLE  Description  
+Type  Solid State Semiconductor laser.  
+Active  Medium  The active medium of a semiconductor laser is a p -n junction.  
+Pumping  Method  Direct con version method.  
+Power  output  The power output from this laser is 1mW.  
+Nature  of output  Continuous -wave or pulsed output.  
+Wavelength  of output  8300 to 900 0Å. 
+  
+Advantages : 
+1. It is very small  in dimension . The arrangement  is simple  and 
+compact.  
+2. It exhibi ts high efficiency.  
+3. The laser  output  can be easily  increased  by controlling  the junction  
+current . 
+4. It is operated  with lesser  power  than ruby and CO 2 laser.  
+5. It requires  very little auxiliary  equipment  
+6. It can have  a continuous  wave  output  or pulsed  outpu t. 
+ 
+Disadvantages:  
+ 1.  It is difficult  to control  the mode  pattern  and structure  of laser.  
+ 2. The output  is usually  from  5 to 15o i.e., laser  beam  has large      
+divergence.  
+ 3. The purity and mono -chroma ticity are poorer  than other  types  of 
+laser  
+ 4.  Threshold  current  density  is very large  (400A/mm2).  
+ 5.  It has poor coherence  and poor stability.  
+  
+ UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   18 
+ Application s: 
+ 1.     It is widely  used in fiber  optic  communication . 
+ 2.     It is used to heal the wounds  by infrared  radiation . 
+ 3.     It is used in laser printers  and CD writing  and reading.  
+ 
+Application of Lasers in Defence:  
+Lasers can concentrate extremely high powers in either pulses or 
+continuous beams. Ma jor applications for these high  power levels are 
+fusion research, nuclear weapons testing  and mis sile defence .  
+ 
+High -energy lasers offer a way to deliver destructive energy to tar -
+gets at the speed of light, which is very attractive for fast -moving 
+targets such as nuclear missiles. In 1970, military laser range finders 
+were developed to measure the d istance to battlefield targets 
+accurately.  
+ 
+ Laser range finder : 
+ 
+The position of a distant object can be determined with the help of a 
+range finder, in which a signal from a laser switches on a counting 
+circuit and the signal returned from the target ter minates the count. The 
+result is a digital count that can be calibrated directly in distance.  
+ 
+Optical range finders not only afford accurate ranging, but also 
+possible to determine the size and shape of the object and its 
+orientation. The velocity of a mo ving object can be measured by 
+comparing the frequency of the reflected signal with the emitted 
+frequency.  
+ 
+The frequency shift is given by the formula  
+ 
+   
+Where u is the radial velocity of the target and ν is the frequency of the 
+signal.  
+ 
+  
+2u
+cUNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   19 
+ Measurement of  pollutant in atmosphere:  
+ 
+Atmospheric optics uses lasers for the remote probing of the 
+atmosphere, including the measurement of traces of pollutant gases, 
+temperature, water vapour concentration.  
+ 
+There are various types of pollutants in the atmosphere, t hey are oxides 
+of nitrogen, carbon monoxide, sulphur dioxide etc.. In conventional 
+technique the type and the concentration of pollutants in the 
+atmosphere are determined by the chemical analysis. However this is 
+not a real time data. This limitation can b e overcome by using laser 
+which yields a real time data.  
+ 
+In the measurement of pollutant, laser is made use of the way 
+RADAR system is used. Hence it is often referred to as LIDAR which 
+means Light Detection And Ranging . A LIDAR can be employed to 
+measur e distance, altitude & angular coordinates of the object.  
+In LIDAR  
+ 
+ Ruby laser is used as transmitting source which sends the laser 
+beam through the desired region of the atmosphere.  
+ The transmitted light is reflected by the mirrors and reaches a 
+receiver . 
+ The receiving part consists of concave mirror collects scattered 
+light. The mirror focuses the light on to a photo -detector which 
+converts the light energy into electrical energy. A narrow band 
+filter is used to cuts off extraneous light and background n oise. 
+Then the electrical signal is fed to a computer a data processor, 
+which gives information regarding distance, dimensions of the 
+object etc.  
+ 
+Two methods can be employed to know the composition of the 
+pollutants  
+(i) Absorption technique (ii) Raman back sc attering  
+ 
+  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   20 
+ Absorption technique:  
+     When laser beam is made to pass through the atmosphere then 
+molecules can either absorb light of certain frequencies or scatter light 
+of certain frequencies. Depending upon the characteristic absorption 
+pattern, the co mposition of the pollutant molecules can be determined.  
+ 
+Raman back scattering:  
+     In this method laser light is passed through the sample, and the 
+spectrum of the transmitted light is obtained. Since laser is highly 
+monochromatic we expect to see only one line in the spectrum but due 
+to Raman scattering, in the spectrum not one but several other lines of 
+weak frequencies can be seen symmetrically. Additional spectral lines 
+are called side bands and they are formed when the oscillating 
+frequencies of the  molecules of the gas are added to or subtracted from 
+the incident's light's frequency. Different gases produce different side 
+bands, the shift in frequencies are termed as Raman shifts. Thus by 
+observing Raman spectra of the back -scattered light in the ga s sample 
+one can get the information about the composition of the pollutants.  
+ 
+Laser Printing:  
+From last few years, there has been tremendous increase in the 
+use of computers as an aid to the management, processing and 
+dissemination of information. The per ipheral device required by the 
+computer for all these applications is the printer. Today, use of 
+computers in large data processing installations places very high 
+demand on printers as regards its speed, character flexibility, and print 
+quality. The conven tional impact printers can no longer meet these 
+demands because of their limited speed and character flexibility. In the 
+new generation printers, printing method is based on the principle of 
+electrophotography.  
+ 
+A laser printer makes use of a beam of light  for printing. The  
+light of the laser changes the electrical charg e on the drum, wherever it 
+hits, as the p aper passes through the printer.  The laser beam strikes at 
+the surface of the drum and this is known as a photo receptor. By 
+changing the charge on t he drum, the laser beam can print patterns UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   21 
+ onto the photo receptor. Once the design created on the drum, it coated 
+with toner from a toner cartridge. In most of the cartridges, the toner is 
+black, but the laser printers are also colo ured. 
+ 
+Laser printers w ork by laying down an array of tiny, evenly 
+spaced dots of “ink” on the paper. The dots are so small, and they 
+blend so seamlessly that text looks very nearly as clean as what you 
+get from a traditional typesetting machine. The quality you get from 
+your la ser printer depends mostly on the resolution, the fineness of the 
+dots it uses to print the images. Resolution measured  in dots per inch 
+(dpi), which is how many dots it can write a long with a line, either 
+vertically or horizontally. Most laser printers h ave had 300 dpi 
+resolutions, but 600 dpi is just now becoming the new standard.  
+  
+OPTICAL  FIBRE S 
+ 
+Optical fibre s are the light guides used in optical 
+communications as wave -guides. They are thin, cylindrical, transparent 
+flexible dielectric fibre s. They are  able to guide visible and infrared 
+light over long distances. The working structure of optical fibre  
+consists of three layers. Core - is the inner cylindrical layer which is 
+made of glass or plastic.  Cladding - which envelops the inner core. It is 
+made of t he same material of the core but of lesser refractive index 
+than core. The core and the cladding layers are enclosed in a 
+polyurethane jacket called sheath which safeguards the working 
+structure of fibre  against chemical reactions, mechanical abrasion and 
+crushing etc.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   22 
+ Propagation mechanism in Optical fibre : 
+In optical fibre s light waves can be guided through it, hence are 
+called light guides. The cladding in an optical fibre  always has a lower 
+refractive index (RI) than that of the core. The light  signal which 
+enters into the core can strike the interface of the core and the cladding 
+at angles greater than critical angle of incidence because of the ray 
+geometry. The light signal undergoes multiple total internal reflections 
+within the fibre  core. S ince each reflection is a total internal reflection, 
+the signal sustains its strength and also confines itself completely 
+within the core during propagation. Thus, the optical fibre  functions as 
+a wave guide.  
+ 
+Numerical Aperture and Ray Propagation in the Fibre : 
+Consider an optical fibre  consists of core and cladding material 
+placed in air medium. Let n 0, n1 and n 2 be the refractive indices of 
+surrounding air medium, core and cladding material respectively. The 
+RI of cladding is always lesser than that of c ore material (n 2< n 1) so 
+that the light rays propagate through the fibre . Let us consider the 
+special case of ray which suffers critical incident at the core cladding 
+interface. The ray travels along AO entering into the core at an angle 
+of 0 with respect  to the fibre  axis. Let it be refracted along OB at an 
+angle 1 in the core and further proceed to fall at critical angle of 
+incidence (= 90 -1) at B on the interface of core and cladding. Since it 
+is critical angle of incidence, the refracted ray grazes a long core and 
+cladding interface.  
+ 
+ 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   23 
+  It is clear from the figure that a ray that enters at an angle of 
+incidence less than 0 at O, will have to be incident at an angle greater 
+than the critical angle at the core -cladding interface, and gets total 
+internal  reflection in the core material. When OA is rotated around the 
+fibre  axis keeping 0 same, it describes a conical surface, those rays 
+which are funneled into the fibre  within this cone will only be totally 
+internally reflected and propagate through the fibre. The cone is called 
+acceptance cone.  
+ 
+The angle 0 is called the wave guide acceptance angle or the 
+acceptance cone half -angle which is the maximum angle from the axis 
+of optical fibre  at which light ray may enter the fibre  so that it will 
+propagate in  core by total internal reflection.  
+ 
+ Sin 0 is called the numerical aperture (N.A.)  of the fibre . It 
+determines the light gathering ability of the fibre  and purely depends 
+on the refractive indices of core, cladding and surrounding medium.  
+ 
+ Let n 0, n 1 and n2 be the refractive indices of surrounding 
+medium, core and cladding respectively for the given optical fibre . 
+By applying the Snell‟s law at O,  
+ 𝑛0𝑠𝑖𝑛𝜃0=𝑛1𝑠𝑖𝑛𝜃1 
+ 𝑠𝑖𝑛𝜃0=𝑛1
+𝑛0𝑠𝑖𝑛𝜃1------------ (1) 
+ 
+At the point B on the core and cladding interface, the angle of 
+incidence = 90 -θ1 
+Applying Snell‟s law at B  
+ 𝑛1sin 90−𝜃1 =    𝑛2𝑠𝑖𝑛90  
+or 𝑛1𝑐𝑜𝑠𝜃1=𝑛2 
+ 𝑐𝑜𝑠𝜃1=𝑛2
+𝑛1------------------- (2) 
+From equation (1)  
+ 𝑠𝑖𝑛𝜃0=𝑛1
+𝑛0𝑠𝑖𝑛𝜃1=𝑛1
+𝑛0( 1−𝑐𝑜𝑠2𝜃1) 
+ 𝑠𝑖𝑛𝜃0=𝑛1
+𝑛0 1−𝑛22
+𝑛12= 𝑛1
+𝑛0𝑥 𝑛12−𝑛22
+𝑛12=  𝑛12−𝑛22
+𝑛0 UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   24 
+ If the medium surrounding the fibre  is air, then n 0 = 1, 
+Therefore,  𝑠𝑖𝑛𝜃0= 𝑛12−𝑛22 
+  sinθ 0 = Numerical aperture: NA  
+ 
+Therefore,  𝑁𝐴=𝑠𝑖𝑛𝜃0= 𝑛12−𝑛22 
+ 
+If θi is the angle of incidence of an incident ray, then the ray will be 
+able to propagate,  
+  If   i<0  
+ 
+or  if sin i< sin 0 
+ 
+or  sin i< NA  
+ 
+Fraction Index Change ( ): 
+The fractional index change  is the ratio of the difference in the 
+refractive indices between the core and the cladding to the refractive 
+index of core of an optical fibre . It is also known as relative core cla d 
+index difference, denoted by . 
+If n 1 and n 2are the refractive indices of core and cladding, then,   
+  = 
+12 1 ) (
+nnn  
+ 
+Relation between NA and  
+We have RI change  Δ=n1−n2
+n1 
+Or Δn1=(n1−n2)----------- (1) 
+We know that,  
+ 
+
+1 2 12 1 2 12
+22
+1
+) () )( (..
+nnnnnnnnn AN  
+Since   n1~ n 2 , (n 1+ n 2) = 2n 1 
+ UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   25 
+ Therefore,  
+
+2 ..2 ..
+12
+1
+nANn AN  
+ 
+ We can see that, the value of NA can be increased by increasing  the 
+value of ∆, so as to r eceive maximum light into the fibre. However, 
+fibres with large ∆ will not be useful for optical communication due to 
+the occurrence of a phenomenon inside the fibre called multipath 
+dispersion or intermodal dispersion. This phenomenon introduces a 
+time de lay factor, in the travel length and may cause distortion of the 
+transmitted optical signal. This leads to pulse broadening, which in 
+turn limits the communication distance.  
+ 
+Modes of Propagation:  
+The possible number of paths of light in an optical fibre  determines the 
+number of modes available in it.  It also determines the number of 
+independent paths for light that a fibre  can support for its propagation 
+without interference and mixing.  
+ 
+ We may have a single mode fibre  supporting only one signal at 
+a time or multimode fibre  supporting many rays at a time.  
+ 
+ Such number of modes supported for propagation in the fibre  is 
+determined by a parameter called V -number. If the surrounding 
+medium is air then the V - number is given by  
+   𝑉=𝜋𝑑
+𝜆 (𝑛12−𝑛22) 
+or  
+()dV NA
+
+ 
+ 
+where d is the core diameter,  n 1 is the refractive index of core,  n 2 is 
+the refractive index of the cladding and λ is the wavelength of the light 
+propagating through the fibre . 
+ 𝑉=𝜋  2𝑟
+𝜆 𝑛12−𝑛22=  𝑟 2𝜋
+𝜆 𝑛12−𝑛22=𝑟.𝑘  𝑛12−𝑛22 .  
+ 
+Where k is the propagation  constant (k= 2π/λ)  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   26 
+ If fibre  is surrounded by a medium of refractive index n 0, then  
+   
+22
+12
+0) nndVn
+  
+For step index fibre , the number of modes ≈
+2
+2V
+ 
+For graded index fibre , the number of modes ≈ V2/4 
+ 
+Types of Optical fibre s: 
+ 
+The optical fibre s are classified under 3 categories. They are  
+ 
+a) Step index Single mode fibre  (SMF)  
+b) Step index multi mode fibre (MMF)  
+c) Graded index Mul ti Mode Fibre  (GRIN)  
+ 
+This classification is done depending on the refractive index profile 
+and the number of modes that the fibre  can guide.  
+ 
+Refractive Index Profile (RI):  
+Generally in any types of optical fibre , the refractive index of cladding 
+material  is always constant and it has uniform value throughout the 
+fibre . But in case of core material, the refractive index may either 
+remain constant or subjected to variation in a particular way.  
+ 
+ This variation of RI of core and cladding materials with resp ect 
+to the radial distance from the axis of the fibre  is called refractive 
+index profile. This can be represented as follows,  
+ 
+ 
+ 
+ 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   27 
+ Step index Single mode fibre  (SMF):  
+ 
+A single mode fibre  has a core material of uniform refractive index 
+(RI) value. Similarly  cladding also has a material of uniform RI but of 
+lesser value. This results in a sudden increase in the value of RI from 
+cladding to core. Thus its RI profile takes the shape of a step. The 
+diameter value of the core is about 8 to 10 m and external diam eter of 
+cladding is 60 to 70 m. Because of its narrow core, it can guide just a 
+single mode as shown in Figure. Hence it is called single mode fibre . 
+Single mode fibre s are most extensively used ones and they constitute 
+80% of all the fibre s that are manu factured in the world today. They 
+need lasers as the source of light. Though less expensive, it is very 
+difficult to splice them (joining of optical fibre s). Since single mode is 
+propagating through the fibre , intermodal dispersion is zero in this 
+fibre . They find particular application in submarine cable system.  
+ 
+ 
+ 
+  
+ UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   28 
+ Step index multimode fibre  (MMF):  
+ 
+The geometry of a step -index multimode fibre  is as shown in below 
+figure. It‟s construction is similar to that of a single mode fibre  but for 
+the difference t hat, its core has a much larger diameter by the virtue of 
+which it will be able to support propagation of large number of modes 
+as shown in the figure. Its refractive index profile is also similar to that 
+of a single mode fibre  but with larger plane region s for the core.  
+ 
+ The step -index multimode fibre  can accept either diode laser or 
+LED (light emitting diode) as source of light. It is the least expensive 
+of all. Since multi modes are propagating through this fibre  with 
+different paths, intermodal dispers ion is maximum in this fibre . Its 
+typical application is in data links which has lower bandwidth 
+requirements.  
+ 
+ 
+  
+Input and output pulse  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   29 
+ Graded index multimode fibre  (GRIN)  
+ 
+The construction of Graded index fibre is similar to that of multimode 
+step-index fibre, except for the refractive index of the core. The 
+refractive index of the core varies across the core diameter (radially 
+graded) as shown in figure, while the refractive index of the cladding 
+is fixed. In this fibre, a number of modes can be transmitted. The rays 
+move in a sinusoidal path through the core. Light travels at lower 
+speed in the high -index region . Since the fastest components of the ray 
+take the longer path and the slower components take the shorter path in 
+the core, the travel time of the different modes will  be almost same. 
+This reduces the effect of intermodal dispersion and hence losses are 
+minimum with little pulse broadening. These fibres are most suitable 
+for large bandwidth, medium distance and medium bit rate 
+communication systems.  For such cables, ei ther a laser or LED source 
+can be used to couple the signal into the core.  
+ 
+  
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   30 
+ Differences between single and multimode fibre s: 
+Single mode fibre  Multi mode fibre 
+ Only one mode can be 
+propagated  
+ Smaller core diameter  
+ Low dispersion of signal  
+ Can carry informa tion to longer 
+distances  
+ Launching of light and 
+connecting two fibre s are 
+difficult   Allows large number of modes 
+for light to pass through it  
+ Larger core diameter  
+ More dispersion of signal  
+ Information can be carried to 
+shorter distances only  
+ Launching of l ight and 
+connecting of fibre s is easy  
+ 
+Differences between step and graded index fibre s: 
+Step index fibre  Graded index fibre 
+ Refractive index of core is 
+uniform  
+ Propagation of light is in  the 
+form of meridional rays  
+ Step index fibre s has lower 
+bandwidt h 
+ Distortion is more (in 
+multimode)  
+ No. of modes for propagation  
+Nstep = V2/2  Refractive index of core is not 
+uniform  
+ Propagation of light is in the form 
+of skew rays  
+ Graded index fibre s has higher 
+bandwidth  
+ Distortion is less  
+ No. of modes for propagation  
+Ngrad = V2/4 
+ 
+Attenuation in optical fibre s: 
+The total energy loss suffered by the signal due to the transmission of 
+light in the fibre  is called attenuation.  
+ 
+The important factors contributing to the attenuation in optical fibre  
+are       i) Absorption l oss  ii) Scattering loss  iii) Bending loss  
+iv) Intermodal dispersion loss and v) coupling loss.  
+ 
+Attenuation is measured in terms of attenuation co -efficient and it is 
+the loss per unit length. It is denoted by symbol . Mathematically 
+attenuation of the fibre  is given by,  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   31 
+  
+LInPoutP
+10log10
+α
+
+
+
+
+ dB/km  
+Where P out and P in are the power output and power input respectively, 
+and L is the length of the fibre  in km.  
+Therefore, Loss in the optical fibre  = α x L  
+ 
+1. Absorption loss:  
+ 
+      There are two types of absorp tion;  
+(a) Absorption by impurities.  
+(b) Intrinsic absorption.  
+ 
+ In the case absorption by impurities , the type of impurities is 
+generally transition metal ions such as iron, chromium, cobalt and 
+copper. During signal propagation when photons interact with these 
+impurities, the electron absorbs the photons and get excited to higher 
+energy level. Later these electrons give up their absorbed energy 
+either as heat energy or light energy. The re -emission of light energy 
+is of no use since it will usually be in a differ ent wavelength or at 
+least in different phase with respect to the signal. The other impurity 
+which would cause significant absorption loss is the OH- (Hydroxyl) 
+ion, which enters into the fibre  constitution at the time of fibre 
+fabrication.  In Intrinsic a bsorption  it is the absorption by the fibre  
+itself, or it is the absorption that takes place in the material assuming 
+that there are no impurities and the material is free of all in 
+homogeneities and this sets the lowest limit on absorption for a given 
+material.  
+ 
+2. Scattering loss:  
+ The signal power loss occurs due to the scattering of light 
+energy due to the obstructions caused  by imperfections and defects, 
+which are of molecular size, present in the body of the fibre  itself. The 
+scattering of light by the ob structions is inversely proportional to the 
+fourth power of the wavelength of the light transmitted through the UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   32 
+ fibre . Such a scattering is called Rayleigh scattering. The loss due to 
+the scattering can be minimized by using the optical source of large 
+wavelength.  
+ 
+ 
+3. Bending losses (radiation losses):  
+There are two types of bending losses in optical fibre  a) macroscopic 
+and b) microscopic bending loss.  
+a) Macroscopic bends:  
+Macroscopic bends occurs due the wrapping of fibre  on a spool or 
+turning it around a corner. The loss will be negligible for small bends 
+but increases rapidly until the bending reaches a certain critical radius 
+of curvature. If the fibre  is too bent, then there is possibility of 
+escaping the light ray through cladding material without unde rgoing 
+any total internal reflection at core -cladding interface.  
+ 
+b) Microscopic bends:  
+This type of bends occurs due to repetitive small -scale fluctuations in 
+the linearity of the fibre  axis. Due to non -uniformities in the 
+manufacturing of the fibre  or by no n-uniform lateral pressures created 
+during the cabling of the fibre . The microscopic bends cause irregular 
+reflections at core -cladding interface and some of them reflects back or 
+leak through the fibre . This loss could be minimized by extruding a 
+compress ible sheath over the fibre  which can withstand the stresses 
+while keeping the fibre  relatively straight.  
+ 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   33 
+ 2 Coupling losses:  
+Coupling losses occur when the ends of the fibre s are connected. At 
+the junction of coupling, air film may exist or joint may be in clined or 
+may be mismatched and they can be minimized by following the 
+technique called splicing.  
+ 
+Applications of Optical Fibre s: 
+Point -to-point Communication  
+The use of optical fibre s in the field of communication has 
+revolutionized the modern world. An optical fibre  acts as the channel 
+of communication (like electrical wires), but transmits the information 
+in the form of optical waves. A simple p to p communication system 
+using optical fibre s is illustrated in the figure.  
+ 
+The main components of p to p c ommunication is  
+1) An optical transmitter, i.e., the light source to transmit the 
+signals/pulses  
+2) The communication medium (channel) i.e., optical fibre  
+3) An optical receiver, usually a photo cell or a light detector, to 
+convert light pulses back into electrical  signal.  
+ 
+ The information in the form of voice or video to be transmitted 
+will be in an analog electric signal format. This analog signal at first 
+converted into digital electric (binary) signals in the form of electrical 
+pulses using a Coder or converter  and fed into the optical transmitter 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   34 
+ which converts digital electric signals into optic signals. An optical 
+fibre  can receive and transmit signals only in the form of optical 
+pulses. The function of the light source is to work as an efficient 
+transducer t o convert the input electrical signals into suitable light 
+pulses. An LED or laser is used as the light source for this purpose. 
+Laser is more efficient because of its monochromatic and coherent 
+nature. Hence semiconductor lasers are used for their compact  size and 
+higher efficiency.  
+ 
+ The electrical signal is fed to the semiconductor laser system, 
+and gets modulated to generate an equivalent digital sequence of 
+pulses, which turn the laser on and off. This forms a series of optical 
+pulses representing the i nput information, which is coupled into the 
+optical fibre  cable at an incidence angle less than that of acceptance 
+cone half angle of the fibre . 
+ 
+Next the light pulses inside the fibre  undergo total internal 
+reflection and reach the other end of the cable. Good quality optical  
+fibre s with less attenuation to be chosen to receive good signals at the 
+receiver end.  
+ 
+The final step in the communication system is to receive the 
+optical signals at the end of the optical fibre  and convert them into 
+equivalent electr ical signals. Semiconductor photodiodes are used as 
+optical receivers.  A typical optical receiver is made of a reverse biased 
+junction, in which the received light pulses create electron -hole charge 
+carriers. These carriers, in turn, create an electric fi eld and induce a 
+photocurrent in the external circuit in the form of electrical digital 
+pulses. These digital pulses are amplified and re -gain their original 
+form using suitable amplifier and shaper. The electrical digital pulses 
+are further decoded into a n analogues electrical signal and converted 
+into the usable form like audio or video etc.,  
+ 
+As the signal propagates through the fibre  it is subjected to two 
+types of degradation. Namely attenuation and delay distortion.  
+Attenuation is the reduction in the  strength of the signal because power UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   35 
+ loss due to absorption and scattering of photons.  Delay distortion is 
+the reduction in the quality of the signal because of the spreading of 
+pulses with time. These effects cause continuous degradation of the 
+signal a s the light propagates and may reach a limiting stage beyond 
+which it may not be retrieve information from the light signal.  At this 
+stage repeater is needed in the transmission path.   
+ 
+ 
+ 
+ 
+ 
+An optical repeater consists of a receiver and a transmitter arr anged 
+adjacently.  The receiver section converts the optical signal into 
+corresponding electrical signal. Further the electrical signal is 
+amplified and recast in the original form and it is sent into an optical 
+transmitter section where the electrical sig nal is again converted back 
+to optical signal and then fed into an optical fibre . 
+ 
+   Finally at the receiving end the  optical signal from the fibre  is 
+fed into a photo detector where the signal is converted to pulses of 
+electric current which is then fed  to decoder which converts the 
+sequence of binary data stream into an analog signal which will be the 
+same information which was there at the transmitting end.  
+ 
+ 
+Optical fiber  sensors and phase modulators : 
+ 
+Optical fibers can be used as sensors. They are t ransducers, 
+which generally consists of a light source coupled with an optical  
+fibre and a light detector held at the receiver end. Optical fibre may be 
+single mode or multimode. Fibre optic sensor can be used to measure 
+physical parameters like pressure, temperature, strain, the acoustic 
+field, magnetic field etc., by knowing variation in the intensity or 
+phase modulation of an optic wave propagating through the fibre. The 
+advantages of these sensors are that they are lighter, occupy lesser 
+volume and are cheaper.  Reciever  Amplifier  Transmitter  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   36 
+ 1. Temperature Sensors  
+There are two techniques to measure temperature using optic fibre. 
+One is intensity modulated and the other one is the phase modulated 
+sensor.  
+ 
+   a) Intensity modulated sensor.  
+Principle:  In this technique, temperature is measured by the 
+modulation of intensity of the reflected light from a target. Silicon 
+layer is used as target in this technique. The operation of the 
+temperature sensor is based on the 1 micrometer wavelength light -
+absorption characteristics of silicon as a function of temperature. The 
+amount of light absorbed by the silicon layer (target) varies 
+depending on the temperature. The change in the intensity of the 
+reflected light (from target) is proportional to the change in 
+temperature detected by photo detec tor. 
+ 
+Construction: Schematic diagram of intensity modulated fibre optic 
+temperature sensor is shown. The fibre is coated at one end with a 
+thin silicon layer. The silicon layer is in turn coated with a reflective 
+coating at the back. The silicon layer act s as the sensing element.  
+ 
+ 
+Working:  The light from a laser source is launched into the fibre 
+from one of the ends of one of its branches. It passes first through the 
+fibre and then through the silicon layer. The mirror coating at the 
+other end of the sil icon layer reflects the light back which again 
+travels through the silicon layer. The reflected light emerges out 
+through another branch of multimode fibre and is collected by a 
+photo detector. The amount of light by the silicon layer varies with 
+temperatu re and the variation modulates the intensity of the light 
+received at the detector. Temperature measurements can be made 
+with a sensitivity of 0.0010 C. 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   37 
+ b) Phase modulated temperature sensor.  
+Principle:  This sensor is based on phase variation resulting du e to 
+the variation of refractive index of the optical fibre under the 
+influence of temperature.  
+ 
+Construction:  The construction of phase modulated temperature 
+sensor is pictorially shown below. It can be used as pressure sensors 
+also. 
+ 
+ 
+The above diagram represents a single mode fibre sensor and the 
+arrangement is known as the Mach -Zehnder arrangement. Laser light 
+from a laser source is made to fall on a beam splitter which divides 
+the light into two parts and sends light through the sensing fibre and 
+the reference fibre. Light passing out of the two fibre elements is fed 
+to a detector, which measures the difference in phase of the two light 
+waves. Accurate measurements of the temperature may be obtained 
+from these patterns.  
+ 
+Working:   Light from the source  is divided into two parts by the 
+beam splitter. One part is allowed through sensors fibre, and the other 
+part is passed through the reference fibre. Light rays entering the 
+fibres are coherent and have the same phase. Prior to heating or 
+applying pressure , the optical path length of the two fibre ele ments is 
+same and hence both the outputs will be in phase. When the sensor 
+fibre is subjected to heating or under pressure, the temperature or 
+pressure causes a change in the refractive index of the optical fibre. 
+Therefore, the light coming out of the two  fibres at the other end will 
+Reference Fibre  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   38 
+ have phase difference due to difference in optical path difference 
+caused by the heating or applying pressure. When the rays are 
+superposed, they interfere and interference pattern will be observed. 
+As temperature or pressure increases, the phase difference between 
+the two outputs increases and is observed as a displacement of the 
+fringe pattern. By determining the fringe displacement, we can 
+determine the magnitude of temperature or pressure.  
+ 
+Further reading: Displacement sens or, Force sensors and Liquid 
+Level Detector.  
+ 
+Advantages  over conventional communication:  
+1) Large Bandwidth: Optical fibre s have a wider bandwidth (when 
+compared to conventional copper cables). This helps in 
+transmitting voice, video and data on a single lin e and at very fast 
+rates (1014 bps as compared to about 104 bps in ordinary 
+communication line)  
+2) Electromagnetic Interference (EMI): EMI and disturbance in the 
+transmission is a very common phenomenon in ordinary copper 
+cables. However, the optical fibre  cables are free from EMI, since 
+Electromagnetic radiation has no effect on the optical wave. 
+Hence, there is no need to provide specially shielded conditions 
+for the optical fibre . 
+3) Low attenuation: Compared to metallic cables, optical fibre s have 
+a low atten uation level (as they are relatively independent of 
+frequency). The loss in optical fibre s is very low, of the order of 
+0.1 to 0.5 dB/km of transmission.  
+4) Electrical Hazards: Since, optical fibre s carry only the light 
+signals, there are no problems of short -circuiting and shock 
+hazards.  
+5) Security:  Unlike electrical transmission lines, there is no signal 
+radiation around the optical fibre , hence the transmission is secure. 
+The tapping of the light waves, if done, leads to a loss of signal 
+and can be easily det ected.  
+6) Optical fibre  cables are small in size, light weight and have a long 
+life. UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   39 
+ Disadvantages : 
+ Fibre  loss is more at the joints if the joints do not match (the 
+joining of the two ends of the separate fibre s are called splicing)  
+ Attenuation loss is large as the length of the fibre  increases.  
+ Repeaters are required at regular interval of lengths to amplify the 
+weak signal in long distance communication.  
+ Sever bends will increase the loss of the fibre . Hence, the fibre  
+should be laid straight as far as possi ble and avoid severe bends.  
+ 
+Note:  
+ Point to Point haul communication system is employed in 
+telephone trunk lines. This system of communication covers the 
+distances 10 km and more. Long -haul communication has been 
+employed in telephone connection in the lar ge cities of New York 
+and Los Angeles. The use of single mode optical fibre s has reduced 
+the cost of installation of telephone lines and maintenance, and 
+increased the data rate.  
+ Local Area Network (LAN) Communication system uses optical 
+fibre s to link the  computer -oriented communication within a range 
+of 1 or 2 km.  
+ Community Antenna Television (CATV) makes use of optical 
+fibre s for distribution of signal to the local users by receiving a 
+multichannel signal from a common antenna.  
+  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   40 
+  
+Sl.No Laser : short ans wer questions  CO‟s  
+1.  Define the terms:  
+a. Spontaneous emission.  
+b. Stimulated Emission.  
+c. Active medium.  
+d. Population inversion.  1 
+2.  Explain use of laser range finder in defence . 2 
+3.  Give any two differences between the laser light and 
+ordinary light.  2 
+   
+Sl.No Laser : Long  answer questions   
+4.  Explain the requisites of a laser system.  2 
+5.  With energy level diagram of semiconductor diode 
+laser, explain the working of diode laser.  3 
+6.  Discuss the conditions required for laser action.  2 
+7.  Write a note on measurement of pollutants in 
+atmosphere using laser.  2 
+8.  Explain the three processes which take place when 
+radiation interacts with matter.  2 
+9.  Explain the terms stimulated emission and population 
+inversion. Obtain an expression for        energy density 
+of photons in  terms of Einstein‟s co -efficient.  2&3 
+10.  Explain the characteristics of a laser beam.   
+11.  Explain the working principle of a semiconductor laser 
+using band diagram and discuss its advantages.   
+ 
+SI. 
+No Optical Fiber – short answer q uestions  CO 
+1 Give reas on  
+ Optical fibre s are immune to electromagnetic 
+interference.                                
+ Intermodal dispersion is minimum in GRIN 
+compared to MMSI fibre .  
+ Repeaters are used in the path of optical fibre s in 
+point to point communication system.  1 UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   41 
+ 2  Explain the terms  
+a. Acceptance angle  
+b. Cone of acceptance  
+c. Numerical aperture  
+d. Modes of propagation  
+e. Attenuation.  1 
+3 Explain attenuation losses in optical fibre s. 2 
+4 Write any two advantages of optical fibre 
+communication over normal communication.  2 
+5 Explai n propagation mechanism in optical fibre s. 2 
+6 Distinguish between step and graded index fibre s. 2 
+S. No  Optical Fiber : Long answer q uestions  CO’s  
+1 With the help of ray diagram, explain the working 
+principle of optical fibre s. 1&2 
+2 Derive an express ion for acceptance angle of an optical 
+fibre  in terms of refractive indices.  1&2 
+3 What is numerical aperture? Obtain an expression for 
+numerical aperture in terms of refractiv e indices of core 
+and cladding and  arrive at the condition for 
+propagation.       
+4 Explain the terms 1) modes of propagation and 2) types 
+of optical fibre s 1 
+5 What is attenuation? Explain the different losses in 
+optical fibre s. 2 
+6 With the help of a block diagram explain point to point 
+communication.  2 
+7 Discuss the advantag es and disadvantages of an optical 
+communication system.  1 
+ 
+  UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   42 
+ Sample Problems : 
+1. Calculate the ratio of  
+i) Einstein Coefficients,  ii) Stimulated to spontaneous emissions, 
+for a system at 300K in which radiations of wavelength 1.39 µm 
+are emitted.  
+15
+3 33
+2121102.68 8 xh
+ch
+BA
+
+ 
+Since B 12 = B 21 we can write 
+15
+2121102.6 xBA  
+We have    
+Rate of stimulated emission/Rate of spontaneous emission  
+=
+UAB
+NAUNB
+2121
+2 212 12  
+But  
+3
+21
+3218 1 1
+11hh
+kT kTA hUB c
+ee    
+      
+      
+  
+Therefore rate of stimulated emission/rate of spontaneous emission  
+=
+
+
+
+
+11
+2121
+2121
+kTh
+eBAxAB
+
+        =   
+
+
+
+
+11
+kTh
+e =10-15 
+ 
+2. Calculate on the basis of Einstein‟s theory, the number of photons 
+emitted per second by a He -Ne laser source emitting light of 
+wavelength 6328Ao with an optical power of 10mW.  
+tnhc
+tEn
+tEP
+ 
+Hence   
+hcP
+tn  
+                = 3.182x1016 UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   43 
+ 3. Calculate the numerical aperture, relative RI difference, V - number 
+and number of modes in an optical fibre of core diameter 50 µm.  
+Core and cladding Refractive indices 1.41 and 1.40 at λ= 820nm.  
+(NA)2 = (n 12- n22)              NA = 0.1676                
+12
+10.007nn
+n   
+ ) (2
+22
+1n n dV
+         
+    =32 
+Hence no of modes=  V2/2       =  512.  
+ 
+4. An optical fibre has cla d of RI 1.50 and NA 0.39.   Find the RI of 
+core and the acceptance angle.  
+(NA)2 = n 12- n22  θo= sin-1 0.39 
+(0.39)2= n 12 - (1.50)2                  = 22.96o 
+n1 =  1.54   
+ 
+5. The NA of an OF is 0.2 when surrounded by air. Determine the RI 
+of its core.  Given The  RI of cladding as 1.59.  Also find the 
+acceptance angle when it is in a medium of RI 1.33.  
+(NA)2 = (n 12 – n22)        θ o = 8.64o 
+             n1= 1.60  
+ 
+6. A glass clad fibre is made with core glass of RI 1.5 and cladding is 
+doped to give a fractional index d ifference of 0.0005.  Determine  
+a) The cladding index.  
+b) The critical internal reflection angle.  
+c) The external critical acceptance angle  
+d) The numerical aperture  
+ 
+7. The attenuation of light in an optical fibre is estimated at 
+2.2dB/km.  What fractional initial inten sity remains after 2km & 
+6km? L = 2 : P out/Pin = 36.3%    |     L=6 : P out/Pin  = 4.79%  
+ 
+UNIT 3 LASERS AND OPTICAL FIBER                                                                                             
+CONDENSED MATTER PHYSICS FOR ENGINEERS                                                        
+Electrical& Electronics Engineering Stream - (EC, EE, EI and ET)  
+R V College of Engineering   44 
+ 8. Find the attenuation in an optical fibre of length 500m , when a 
+light signal of power 100mW emerges out of the fibre with a 
+power 90mW.  
+ α = 
+LPp
+inout) ( log1010    = 0.915dB/km  
+ 
+9. A semiconductor laser emits green light of 551 nm. Find out the 
+value of its band gap.  Eg = hc/𝜆  = 2.25 eV  
+ 
+10. The probability of spontane ous transition is given as 0.08  in a 
+laser action which  results with the ra diation of 632.8 nm 
+wavelength. Calculate the probability of stimulated  emission.  
+(Ans. 1.22x1013) 
+11. Calculate the critical angle if the refractive indices of optical 
+fibre  are 1.5 & 1.48.  (Ans. θ c = 80.63o) 
+ 
+12. The optical fibre  power after propagating through  a fibre  of 1.5 
+km length is reduced to 25% of its original value. Compute the 
+fibre  loss in dB/km.  (Ans. 4 dB/km)  
+ 
+13. The ratio of population of two energy levels out of which one 
+corresponds to metastable state is 1.059x10-30. Find the 
+wavelength of light e mitted at 330K.  
+ 
+30
+1210 059.1 xNN
+,   T=330K,     λ=?  
+Constants       h=6.63x10-34Js,           K= 1.38x10-23J/K,       
+C= 3x108m/s 
+Using the relation for Boltzmann‟s factor  
+kThcekTheNN
+
+12
+ 
+λ = 632.8nm.  

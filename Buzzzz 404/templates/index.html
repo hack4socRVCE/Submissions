@@ -1,0 +1,216 @@
+<html>
+{% extends 'base.html' %}
+{% block pagetitle %}
+AI Engine
+{% endblock pagetitle %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        body {
+            background: radial-gradient(#333, #000);
+        }
+.heading {
+        text-align: center;
+        width: 100%;
+    }
+        .content {
+            color: white;
+        }
+        .display-4{
+            color: #fff;
+            font-size: 3em;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .lead{
+            color: #fff;
+            font-size: 1.8em;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .container {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .content h1,p{
+        font-family:
+         'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .row 
+        {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    font-size: medium;
+}
+.card1,.card2, .card3{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    object-fit: contain;
+    border-radius: 40px;
+    margin-top: 20px;
+    
+}
+
+.card1-content, .card3-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+.card2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.row .card1 .card1-content h5{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+.row .card1 .card1-content p{
+    color: #fff;
+    font-size: 1.2em;
+}
+.row .card2 .card2-content h6{
+    color: #fff;
+    font-size: 1em;
+
+}
+.row .card3 .card3-content h5{
+    color: #fff;
+    font-size: 1.6em;
+    margin-top: 20px;
+}
+.actual-btn, #file-chosen{
+    color: white;
+}
+.text-center{
+    color: white;
+    font-size: small;
+}
+ol {
+    color: #fff;
+    font-size: 1.3em;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <div class="container">
+            <!-- For demo purpose -->
+            <div class="heading">
+                <div class="content">
+                    <h1 class="display-4" style="padding-top: 2%;font-weight: 400;color: #fff"><b>Detection</b></h1>
+                    <p class="lead" style="font-weight: 500;color: #fff;"> Our Model Will Help You To Detect Disease</p>
+                </div>
+            </div>
+            <!-- End -->
+            <div class="row ">
+                <div class="card1">
+                    <div class="card1-content">    
+                        <h5><b>Why is it necessary to detect disease in plant ?</b></h5>
+                        <p>Plant diseases affect the growth of their respective species. In addition, some research gaps are
+                            identified from which to obtain greater transparency for detecting diseases in plants, even
+                            before their symptoms appear clearly.
+                            diagnosis is one of the most important aspects of a plant pathologist's training. Without proper
+                            identification of the disease and the disease-causing agent, disease control measures can be a
+                            waste of time and money and can lead to further plant losses. Proper disease diagnosis is
+                            necessary.
+                        </p>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="card2-content">
+                        <img
+                            src="https://png.pngtree.com/png-clipart/20230428/ourmid/pngtree-free-vector-big-green-leaf-of-tropical-monstera-plant-isolated-on-png-image_6743001.png "
+                            height="250" alt="" width="200" class="d-block mx-auto mb-4 rounded-pill">
+    
+                        <!-- Default bootstrap file upload-->
+    
+                        <form action="/submit" method="POST" enctype="multipart/form-data">
+                            <div class="custom-file overflow-hidden mb-4">
+                                <input type="file" id="actual-btn" hidden name="image" />
+                                <label for="actual-btn">Choose File</label>
+                                <span id="file-chosen">No file chosen</span>
+                            </div>
+    
+                            <!-- End -->
+    
+                            <h6 class="text-center">
+                                Simply upload your plant's leaf image and then see the magic of AI.
+                            </h6>
+    
+                            <!-- Custom bootstrap upload file-->
+                            <center>
+                                <a class="button"><button type="submit" class="btn btn-outline-success">Submit</button></a>
+                            </center>
+                        </form>
+                        <!-- End -->
+                    </div>
+                </div>
+                <div class="card3">
+                    <div class="card3-content">
+                        <h5><b>Prevent Plant Disease follow below steps:</b></h5>
+                        <ol>
+                            <li>Follow Good Sanitation Practices.</li>
+                            <li>Fertilize to Keep Your Plants Healthy.</li>
+                            <li>Inspect Plants for Diseases Before You Bring Them Home.</li>
+                            <li>Allow the Soil to Warm Before Planting.</li>
+                            <li>Ensure a Healthy Vegetable Garden By Rotating Crops.</li>
+                            <li>Provide Good Air Circulation</li>
+                            <li>Remove Diseased Stems and Foliage</li>
+                        </ol>
+                        <a target="_blank" href="https://www.thespruce.com/prevent-plant-diseases-in-your-garden-2539511"
+                            class="mx-2"><button type="button" class="btn btn-outline-success">More info</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const actualBtn = document.getElementById('actual-btn');
+    
+        const fileChosen = document.getElementById('file-chosen');
+    
+        actualBtn.addEventListener('change', function () {
+            fileChosen.textContent = this.files[0].name
+        })
+    </script>
+    
+    {% endblock body %}
+</body>
+</html>

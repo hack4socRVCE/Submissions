@@ -1,0 +1,12 @@
+Consider three energy levels E1, E2 and E3 of a quantum system
+of which the level E2 is metastable state. Let the atoms be excited from
+E1 to E3 state by supply of appropriate energy. Then the atom from the
+E3 state undergoes downward transition to either E1or E2 states rapidly.
+Once the atoms undergo downward transitions to level E2 they tend to
+stay, for a long interval of time, because of which the population of E2
+increases rapidly. Transition from E2 to E1 being very slow, in a short
+period of time the number of atoms in the level E2 is far greater than
+the level E1. Thus Population inversion has been achieved betweenE1
+and E2 . The transition from meta stable state to ground state is the
+lasing transition. It occurs in between upper lasing E2 and lower lasing
+level E1
