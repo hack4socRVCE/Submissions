@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body, html {
+  background: url('/static/images/signupbg.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 40px; /* Slightly reduced padding */
+}
+
+.financial-savings-text h2 {
+  font-size: 2rem; /* Reduced from 2.5rem */
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.financial-savings-text p {
+  font-size: 1.2rem; /* Reduced from 1.5rem */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 70%;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px; /* Slightly reduced padding */
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 336px; /* 420px * 0.8 = 336px */
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  padding: 24px; /* 30px * 0.8 = 24px */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h1 {
+  font-size: 28.8px; /* 36px * 0.8 = 28.8px */
+  text-align: center;
+  color: #1f16a8;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  margin-bottom: 24px; /* Adjusted margin */
+}
+
+.input-box input {
+  width: 100%;
+  border: 2px solid #e0e0e0;
+  border-radius: 40px;
+  font-size: 12.8px; /* 16px * 0.8 = 12.8px */
+  padding: 12px 16px; /* Adjusted padding */
+}
+
+.input-box input::placeholder {
+  color: #888;
+}
+
+.input-box i {
+  position: absolute;
+  right: 16px; /* Adjusted for reduced size */
+  top: 35%;
+  transform: translateY(-50%);
+  font-size: 16px; /* Adjusted from 20px */
+  color: #333;
+}
+
+.wrapper .terms {
+  font-size: 11.6px; /* 14.5px * 0.8 = 11.6px */
+  margin: 16px 0; /* Adjusted margin */
+}
+
+.terms label {
+  display: flex;
+  align-items: center;
+}
+
+.terms label input[type="checkbox"] {
+  margin-right: 8px; /* Adjusted margin */
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 32px; /* 40px * 0.8 = 32px */
+  background: #0056b3;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 12.8px; /* 16px * 0.8 = 12.8px */
+  color: #fff;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.wrapper .btn:hover {
+  background-color: #003d82;
+}
+
+.error-message {
+  color: red;
+  font-size: 11.2px; /* Adjusted font size for error messages */
+  height: 18px; /* Adjusted height */
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-container, .right-container {
+    width: 100%;
+    padding: 15px; /* Adjusted padding for responsiveness */
+  }
+
+  .financial-savings-text h2 {
+    font-size: 1.6rem; /* Adjusted font size for smaller screens */
+  }
+
+  .financial-savings-text p {
+    font-size: 0.96rem; /* Adjusted font size for smaller screens */
+  }
+
+  .wrapper {
+    padding: 15px; /* Adjusted padding for smaller containers */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .financial-savings-text h2 {
+    font-size: 1.2rem; /* Further reduced for very small screens */
+  }
+
+  .financial-savings-text p {
+    font-size: 0.8rem; /* Further reduced for very small screens */
+  }
+
+  .wrapper {
+    padding: 12px; /* Further reduced padding for very small screens */
+  }
+}
