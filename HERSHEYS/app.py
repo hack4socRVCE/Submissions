@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 host = "localhost"
 user = "root"
-password = "Home@5095"
+password = "your_passwd"
 database = "information"
 
 @app.route("/")
