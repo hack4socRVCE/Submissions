@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Donation Tracker</title>
+</head>
+<body>
+    <h1>Donation Tracker</h1>
+    <div>
+        <label for="donationAmount">Enter Donation Amount:</label>
+        <input type="number" id="donationAmount" placeholder="Amount in wei">
+        <button id="donateButton">Donate</button>
+    </div>
+    <div>
+        <h2>Your Donation History:</h2>
+        <ul id="donationHistory"></ul>
+    </div>
+    <div>
+        <h2>Contract Balance:</h2>
+        <p id="contractBalance"></p>
+    </div>
+    <button id="withdrawButton">Withdraw Funds</button>
+    <!-- Include web3 library as a script -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.0/dist/web3.min.js"></script>
+    <!-- Use type="module" to treat app.js as an ES module -->
+    <script type="module" src="app.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        input, button {
+            display: block;
+            margin: 10px auto;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</body>
+</html>
